@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "fdma-reconciliation-monthly",
+      "title": "消防庁月刊2026年6月：4月21日交付決定概要",
+      "url": "https://www.fdma.go.jp/publication/ugoki/items/rei_0806_11.pdf",
+      "kind": "交付決定概要・財源差の照合",
+      "accessed": "2026-10-09",
+      "published": null,
+      "document_date": "2026-06",
+      "document_date_precision": "month",
+      "locator": "PDF1頁・印刷11頁の交付決定額と対象施設",
+      "retrieved_via": "公式PDF原本・layout/raw抽出と画像独立確認、繰越罫線セルとPoppler座標抽出照合",
+      "excerpt": "消防の動き2026年6月号・印刷11頁。令和8年度における交付決定の状況、4月21日付け。\n消防防災施設整備費補助金11億5,648万6千円（1,156,486千円）。\n耐震性貯水槽151件、防火水槽（林野分）2件、活動火山対策避難施設1件、高機能消防指令センター2件。\n別制度の緊急消防援助隊設備整備費補助金を混ぜない。月刊の本文は当初財源限定とは記載しない。",
+      "sha256_extracted_text": "3c7c9b15330fac03b64c7253d936927f76dfefd651033cf98c5acec518168162"
+    },
+    {
+      "id": "fdma-reconciliation-carryover",
+      "title": "消防庁：2025年度当初本省繰越・2026年4月21日交付決定",
+      "url": "https://www.fdma.go.jp/pressrelease/info/items/R7sisetuv2.pdf",
+      "kind": "交付決定概要・財源差の照合",
+      "accessed": "2026-10-09",
+      "published": null,
+      "document_date": "2026-04-21",
+      "document_date_precision": "day",
+      "locator": "PDF1頁・4団体と合計",
+      "retrieved_via": "公式PDF原本・layout/raw抽出と画像独立確認、繰越罫線セルとPoppler座標抽出照合",
+      "excerpt": "2026年4月21日決定。令和7年度当初予算（本省繰越）に係る消防防災施設整備費補助金。単位：件、千円。\n山形県 尾花沢市 耐震性貯水槽（40㎥型） 数量2 補助金額8,536\n富山県 立山町 活動火山対策避難施設（退避舎） 数量1 補助金額19,296\n徳島県 美馬市 耐震性貯水槽（40㎥型） 数量3 補助金額12,264\n大分県 宇佐市 耐震性貯水槽（40㎥型） 数量2 補助金額8,176\n合計数量8、補助金額48,272、団体計48,272。財源は2025年度当初本省繰越、決定日は2026年度。既存2026当初行へ加算しない。",
+      "sha256_extracted_text": "d5fad81685c7f8e570c5ba6f194602fbe2991680aff0f4049e2baf1858f1a47f"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.fdma.go.jp/publication/ugoki/items/rei_0806_11.pdf",
+      "final_url": "https://www.fdma.go.jp/publication/ugoki/items/rei_0806_11.pdf",
+      "retrieved_at_utc": "2026-10-08T17:38:41Z",
+      "bytes": 565838,
+      "sha256_original": "e87cf05d99791d23059aa85dfcff6a5e1fd727b927346d41e22e5021053d7a73",
+      "content_type": "application/pdf",
+      "source_ids": [
+        "fdma-reconciliation-monthly"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "決定日・総額・施設件数・団体内訳を照合。既存年度比較の金額更新ではない。",
+        "locator": "PDF1頁・印刷11頁の交付決定額と対象施設",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.fdma.go.jp/pressrelease/info/items/R7sisetuv2.pdf",
+      "final_url": "https://www.fdma.go.jp/pressrelease/info/items/R7sisetuv2.pdf",
+      "retrieved_at_utc": "2026-10-08T17:39:26Z",
+      "bytes": 65225,
+      "sha256_original": "80260f715d3bee1edc395301e4615700ba960230b7d7ed500c2958290eda92d7",
+      "content_type": "application/pdf",
+      "source_ids": [
+        "fdma-reconciliation-carryover"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "決定日・総額・施設件数・団体内訳を照合。既存年度比較の金額更新ではない。",
+        "locator": "PDF1頁・4団体と合計",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "rows": [],
+  "historical_original_rechecks": [
+    {
+      "url": "https://www.fdma.go.jp/pressrelease/info/items/R8sisetu.pdf",
+      "final_url": "https://www.fdma.go.jp/pressrelease/info/items/R8sisetu.pdf",
+      "retrieved_at_utc": "2026-10-08T17:38:43Z",
+      "bytes": 175637,
+      "sha256_original": "c326a1e1725b07d02ab11462f4b6d57414a60367e750e97edba30ae4d772d274",
+      "content_type": "application/pdf",
+      "status": "先行原本SHA・サイズ・最終URL・種別一致",
+      "historical_retrieved_at_utc": "2026-10-08T17:09:35.710464+00:00",
+      "historical_evidence_preserved": true
+    },
+    {
+      "url": "https://www.fdma.go.jp/pressrelease/info/",
+      "final_url": "https://www.fdma.go.jp/pressrelease/info/",
+      "retrieved_at_utc": "2026-10-08T17:38:42Z",
+      "bytes": 27457,
+      "sha256_original": "5758ca6bb95f10362f7e667574b4fabe0f4bc59c1c898750a46af56d0e1e1549",
+      "content_type": "text/html",
+      "status": "先行原本SHA・サイズ・最終URL・種別一致",
+      "historical_retrieved_at_utc": "2026-10-08T17:09:36.713918+00:00",
+      "historical_evidence_preserved": true
+    }
+  ],
+  "carryover_observations": [
+    {
+      "funding_fiscal_year": 2025,
+      "funding_basis": "当初予算・本省繰越",
+      "decision_fiscal_year": 2026,
+      "decision_date": "2026-04-21",
+      "prefecture": "山形県",
+      "recipient": "尾花沢市",
+      "amount_thousand_yen": 8536,
+      "facilities": [
+        {
+          "prefecture": "山形県",
+          "recipient": "尾花沢市",
+          "facility": "耐震性貯水槽（40㎥型）",
+          "quantity": 2,
+          "amount_thousand_yen": 8536,
+          "page": 1
+        }
+      ],
+      "is_cash_spending": false,
+      "excluded_from_initial_budget_comparison": true,
+      "source_ids": [
+        "fdma-reconciliation-carryover"
+      ]
+    },
+    {
+      "funding_fiscal_year": 2025,
+      "funding_basis": "当初予算・本省繰越",
+      "decision_fiscal_year": 2026,
+      "decision_date": "2026-04-21",
+      "prefecture": "富山県",
+      "recipient": "立山町",
+      "amount_thousand_yen": 19296,
+      "facilities": [
+        {
+          "prefecture": "富山県",
+          "recipient": "立山町",
+          "facility": "活動火山対策避難施設（退避舎）",
+          "quantity": 1,
+          "amount_thousand_yen": 19296,
+          "page": 1
+        }
+      ],
+      "is_cash_spending": false,
+      "excluded_from_initial_budget_comparison": true,
+      "source_ids": [
+        "fdma-reconciliation-carryover"
+      ]
+    },
+    {
+      "funding_fiscal_year": 2025,
+      "funding_basis": "当初予算・本省繰越",
+      "decision_fiscal_year": 2026,
+      "decision_date": "2026-04-21",
+      "prefecture": "徳島県",
+      "recipient": "美馬市",
+      "amount_thousand_yen": 12264,
+      "facilities": [
+        {
+          "prefecture": "徳島県",
+          "recipient": "美馬市",
+          "facility": "耐震性貯水槽（40㎥型）",
+          "quantity": 3,
+          "amount_thousand_yen": 12264,
+          "page": 1
+        }
+      ],
+      "is_cash_spending": false,
+      "excluded_from_initial_budget_comparison": true,
+      "source_ids": [
+        "fdma-reconciliation-carryover"
+      ]
+    },
+    {
+      "funding_fiscal_year": 2025,
+      "funding_basis": "当初予算・本省繰越",
+      "decision_fiscal_year": 2026,
+      "decision_date": "2026-04-21",
+      "prefecture": "大分県",
+      "recipient": "宇佐市",
+      "amount_thousand_yen": 8176,
+      "facilities": [
+        {
+          "prefecture": "大分県",
+          "recipient": "宇佐市",
+          "facility": "耐震性貯水槽（40㎥型）",
+          "quantity": 2,
+          "amount_thousand_yen": 8176,
+          "page": 1
+        }
+      ],
+      "is_cash_spending": false,
+      "excluded_from_initial_budget_comparison": true,
+      "source_ids": [
+        "fdma-reconciliation-carryover"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "status": "金額と施設件数の範囲差一致",
+    "initial_budget_total": {
+      "quantity": 148,
+      "amount_thousand_yen": 1108214,
+      "recipient_sum_thousand_yen": 1108214
+    },
+    "carryover_total": {
+      "quantity": 8,
+      "amount_thousand_yen": 48272,
+      "recipient_sum_thousand_yen": 48272
+    },
+    "decision_summary_amount_thousand_yen": 1156486,
+    "decision_summary_quantity": 156,
+    "difference_thousand_yen": 48272,
+    "initial_category_quantities": {
+      "耐震性貯水槽": 144,
+      "防火水槽": 2,
+      "活動火山対策避難施設": 0,
+      "高機能消防指令センター": 2
+    },
+    "carryover_category_quantities": {
+      "耐震性貯水槽": 7,
+      "防火水槽": 0,
+      "活動火山対策避難施設": 1,
+      "高機能消防指令センター": 0
+    },
+    "summary_category_quantities": {
+      "耐震性貯水槽": 151,
+      "防火水槽": 2,
+      "活動火山対策避難施設": 1,
+      "高機能消防指令センター": 2
+    },
+    "independent_recipient_and_total_extraction_equal": true,
+    "monthly_layout_raw_equal": true,
+    "existing_comparison_modified": false
+  },
+  "research_notes": [
+    {
+      "ministry": "総務省",
+      "agency": "消防庁",
+      "status": "決定概要と当初・繰越の範囲差を金額・件数で照合",
+      "note": "月刊6月号の4月21日概要1,156,486千円・156件は、既存2026当初1,108,214千円・148件と2025当初本省繰越48,272千円・8件の和に一致。繰越は尾花沢市8,536千円・2件、立山町19,296千円・1件、美馬市12,264千円・3件、宇佐市8,176千円・2件。耐震性貯水槽144+7=151、防火水槽2+0=2、火山避難施設0+1=1、指令センター2+0=2も一致。財源年度と決定年度の範囲差を確認。月刊本文は財源別内訳を明記しないため照合結果として表示し、当初額の訂正・欠落や政治的影響を認定しない。現行索引とR8初回原本は先行SHA・byte数・最終URL・種別に一致。既存124比較行と当初予算総額を保持し、繰越を2026当初額へ加算せず、交付決定を支出済額へ読み替えない。",
+      "source_ids": [
+        "fdma-reconciliation-monthly",
+        "fdma-reconciliation-carryover",
+        "fdma-facilities-first-2026",
+        "fdma-facilities-index-2026"
+      ]
+    }
+  ],
+  "data_quality_findings": [
+    {
+      "ministry": "総務省",
+      "recipient": "消防庁・施設補助金",
+      "status": "当初と繰越の範囲差を照合",
+      "difference_million_yen": 48.272,
+      "inference_limit": "月刊6月号の4月21日概要1,156,486千円・156件は、既存2026当初1,108,214千円・148件と2025当初本省繰越48,272千円・8件の和に一致。繰越は尾花沢市8,536千円・2件、立山町19,296千円・1件、美馬市12,264千円・3件、宇佐市8,176千円・2件。耐震性貯水槽144+7=151、防火水槽2+0=2、火山避難施設0+1=1、指令センター2+0=2も一致。財源年度と決定年度の範囲差を確認。月刊本文は財源別内訳を明記しないため照合結果として表示し、当初額の訂正・欠落や政治的影響を認定しない。現行索引とR8初回原本は先行SHA・byte数・最終URL・種別に一致。既存124比較行と当初予算総額を保持し、繰越を2026当初額へ加算せず、交付決定を支出済額へ読み替えない。",
+      "source_ids": [
+        "fdma-reconciliation-monthly",
+        "fdma-reconciliation-carryover",
+        "fdma-facilities-first-2026",
+        "fdma-facilities-index-2026"
+      ]
+    }
+  ],
+  "limitations": [
+    "月刊の本文に財源別内訳はない。公式の別表を金額・施設件数・決定日・現行索引で突合した照合結果。",
+    "2025財源の繰越を2026当初配分や同期間支出額へ読み替えない。各決定額は実支出ではない。"
+  ]
+}

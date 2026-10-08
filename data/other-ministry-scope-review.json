@@ -1,0 +1,288 @@
+{
+  "review_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "mext-initial-projects-scope-2025",
+      "url": "https://www.mext.go.jp/content/20250424-mxt_keikaku-000041738_1.pdf",
+      "title": "2025年度国立大学法人等施設整備実施事業・当初予算の掲載範囲",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "locator": "表紙及び冒頭の表見出し（個別金額を掲載範囲外へ外挿しない）",
+      "retrieved_via": "Poppler本文の表紙とPDF2頁表見出しを確認",
+      "excerpt": "2025年度国立大学法人等施設整備実施事業＜当初予算＞。原本表紙日：2025年4月24日。計140事業。PDF2頁表の列：法人名、団地等名、事業名、予算区分、構造階、面積（㎡）、備考欄。面積は金額ではない。予算区分は単年度・国庫債務負担行為の事業期間で、地域別金額の列ではない。\n",
+      "sha256_extracted_text": "204e7fdd6743e5dab87e43dc96a06ffb9800ac953c02671e7b753c2af488891f"
+    },
+    {
+      "id": "mext-initial-projects-scope-2026",
+      "url": "https://www.mext.go.jp/content/20260421-mxt_keikaku-000049084_01.pdf",
+      "title": "2026年度国立大学法人等施設整備実施事業・当初予算の掲載範囲",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "locator": "表紙及び冒頭の表見出し（個別金額を掲載範囲外へ外挿しない）",
+      "retrieved_via": "原本PDFをPopplerで画像化し表紙とPDF2頁の表見出しを目視確認（文字化け本文による数値推定なし）",
+      "excerpt": "2026年度国立大学法人等施設整備実施事業＜当初予算＞。原本表紙日：2026年4月10日（公式掲載頁の日付2026年4月21日とは区別）。計158事業。PDF2頁表の列：法人名、団地等名、事業名、予算区分、構造階、面積（㎡）、備考欄。面積は金額ではない。PDF文字マップ異常によりPoppler本文は文字化けするため表紙・2頁の画像を目視確認。金額の抽出・照合はしていない。\n",
+      "sha256_extracted_text": "290a0dea62e272a47a9f9e44063c549adc441389119732d9df96860c01b031e7"
+    },
+    {
+      "id": "digital-subsidies-firsthalf-scope-2025",
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f4f6b57f-7779-4950-bbb5-07a265cb1d8f/79e48869/20251114_policies_budget_subsidies_01.xlsx",
+      "title": "2025年度上半期デジタル庁補助金交付決定の受領者範囲",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "locator": "表紙及び冒頭の表見出し（個別金額を掲載範囲外へ外挿しない）",
+      "retrieved_via": "公式XLSXの全受領者セルと列見出しをXMLから読み、phonetic rPhを除外",
+      "excerpt": "補助金等の交付決定に係る情報（令和7年度上半期分）。シート令和7年度上半期。補助金交付先名C5：内閣共済組合、C8：地方公共団体情報システム機構。上半期表の受領者欄はこの2法人で、都道府県・市町村別の受領額欄はない。交付決定額（円）を全国の地域別支出として扱わず、法人所在地を受益地域として割り当てない。\n",
+      "sha256_extracted_text": "aeddb36c6a4ccd83343e2e713925a43514ca63f7cb973bff9c10e54162fd2b81"
+    },
+    {
+      "id": "caa-application-scope-2026",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/plan_2026/assets/local_cooperation_cms203_260615_01.pdf",
+      "title": "2026年度地方消費者行政強化交付金申請の段階・財源範囲",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "locator": "表紙及び冒頭の表見出し（個別金額を掲載範囲外へ外挿しない）",
+      "retrieved_via": "公式PDF冒頭の申請様式・列見出しをPoppler本文で確認",
+      "excerpt": "令和8年度地方消費者行政強化交付金（申請）。様式1-1地方消費者行政強化交付金申請額調。列：交付申請額A、既交付決定額B、差引A-B、差引の財源（令和7年度補正予算、令和8年度当初予算）。都道府県直接交付分と市町村間接交付分を区別。申請額を交付決定額や事業実績と比較しない。2025年度事業実績の2024補正/2025本予算財源とは年度・段階・区分が異なる。\n",
+      "sha256_extracted_text": "890411d483905e1735c238f13a01e726e9a0cf7d79813aa160a57c57323d61c9"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/1420711_00004.html",
+      "final_url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/1420711_00004.html",
+      "retrieved_at_utc": "2026-10-08T17:37:32.201472+00:00",
+      "bytes": 7381,
+      "sha256_original": "5589de06273db3b5db5f5a0a4358588c5693af2ac62a35a99a3c396ef8625e63",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/yosan/1415294_00035.htm",
+      "final_url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/yosan/1415294_00035.htm",
+      "retrieved_at_utc": "2026-10-08T17:37:46.305034+00:00",
+      "bytes": 7456,
+      "sha256_original": "a451357163e6c2764c8226957e6cca121f5b8d790ed4d1444e4ee87b5d101df4",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/content/20250424-mxt_keikaku-000041738_1.pdf",
+      "final_url": "https://www.mext.go.jp/content/20250424-mxt_keikaku-000041738_1.pdf",
+      "retrieved_at_utc": "2026-10-08T17:37:53.155853+00:00",
+      "bytes": 302943,
+      "sha256_original": "6a83a629aa665cad03c81950c4aa57a63b914d1113c7e82cdd2257b17095e36b",
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-initial-projects-scope-2025"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/1420711_00007.html",
+      "final_url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/1420711_00007.html",
+      "retrieved_at_utc": "2026-10-08T17:37:30.884918+00:00",
+      "bytes": 5563,
+      "sha256_original": "4a49bab897aab2107ab1bc0f16d541c2103046876f528a6d88daebaa138ba05c",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/yosan/1415294_00037.htm",
+      "final_url": "https://www.mext.go.jp/a_menu/shisetu/kokuritu/yosan/1415294_00037.htm",
+      "retrieved_at_utc": "2026-10-08T17:37:44.915612+00:00",
+      "bytes": 7255,
+      "sha256_original": "15ce41698e2ba2afe9ae374307eefe0296995fd6f2c299a6d8acda052c448374",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/content/20260421-mxt_keikaku-000049084_01.pdf",
+      "final_url": "https://www.mext.go.jp/content/20260421-mxt_keikaku-000049084_01.pdf",
+      "retrieved_at_utc": "2026-10-08T17:37:52.142172+00:00",
+      "bytes": 167143,
+      "sha256_original": "175cba4e92f995b9bd52de8a3e33a34ac7c0b3d51d4aa72f8ba5afcc377d42a2",
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-initial-projects-scope-2026"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.digital.go.jp/budget",
+      "final_url": "https://www.digital.go.jp/budget",
+      "retrieved_at_utc": "2026-10-08T17:38:34.341996+00:00",
+      "bytes": 76039,
+      "sha256_original": "d632cc968a961e591f9a795a32f27cc7d438530c78f658c80a5244679abbe8e0",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f4f6b57f-7779-4950-bbb5-07a265cb1d8f/79e48869/20251114_policies_budget_subsidies_01.xlsx",
+      "final_url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/f4f6b57f-7779-4950-bbb5-07a265cb1d8f/79e48869/20251114_policies_budget_subsidies_01.xlsx",
+      "retrieved_at_utc": "2026-10-08T17:38:43.022648+00:00",
+      "bytes": 20098,
+      "sha256_original": "84a60348ba5831922bf8f9c82ef64f4450927fc6efcaa2d1982bf8b718505c0a",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "source_ids": [
+        "digital-subsidies-firsthalf-scope-2025"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/plan_2026",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/plan_2026",
+      "retrieved_at_utc": "2026-10-08T17:39:09.214832+00:00",
+      "bytes": 42460,
+      "sha256_original": "8a262fdda12f6b84b9ffb3b79a1544a4659ad567641589782863e85f263460c8",
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/plan_2026/assets/local_cooperation_cms203_260615_01.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/plan_2026/assets/local_cooperation_cms203_260615_01.pdf",
+      "retrieved_at_utc": "2026-10-08T17:39:20.504880+00:00",
+      "bytes": 744297,
+      "sha256_original": "ba5dcb2a3fed5ef67725cde9340fd4297566dfb208395b55b36baf75c8b3d8a4",
+      "content_type": "application/pdf",
+      "source_ids": [
+        "caa-application-scope-2026"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "掲載範囲・段階・見出しを確認。金額照合は未実施。",
+        "locator": "取得原本の表紙・冒頭表又は掲載頁",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    }
+  ],
+  "rows": [],
+  "findings": [
+    {
+      "ministry": "文部科学省",
+      "status": "地域金額未収載",
+      "source_ids": [
+        "mext-initial-projects-scope-2025",
+        "mext-initial-projects-scope-2026"
+      ],
+      "scope": "取得した国立大学法人等の当初予算実施事業一覧の表紙とPDF2頁表",
+      "note": "所在地・事業名の確認候補。面積㎡、階数、期間を金額へ変換しない。この確認は文科省サイト全体や公立学校交付決定資料の不存在を意味しない。"
+    },
+    {
+      "ministry": "デジタル庁",
+      "status": "地域受領額非掲載",
+      "source_ids": [
+        "digital-subsidies-firsthalf-scope-2025"
+      ],
+      "scope": "取得した2025年度上半期補助金交付決定XLSXの全受領者欄",
+      "note": "全国法人2件への交付決定であり、地域別配分・執行に転用しない。2025年度下半期XLSX、2026年度委託契約表、他の交付記録はこの範囲に含まない。"
+    },
+    {
+      "ministry": "消費者庁",
+      "status": "申請原本取得済み・金額照合未実施",
+      "source_ids": [
+        "caa-application-scope-2026"
+      ],
+      "scope": "取得した2026年度申請PDFの冒頭の様式と列見出し",
+      "note": "2025年度実績と比較不可。2026同範囲事業実績は未収載/nullのまま。"
+    },
+    {
+      "ministry": "法務省",
+      "status": "取得試行メモ・原本未取得",
+      "source_ids": [],
+      "scope": "2026年度予算概要PDF（001460445.pdf）",
+      "requested_url": "https://www.moj.go.jp/content/001460445.pdf",
+      "note": "2026年10月9日の調査で1回の取得を試し、コンソール上でHTTPError 403を観測した。機械形式の取得receiptと正確なUTC時刻は保存されていない。再試行せず、原本未取得のため内容・金額は未照合。通信制限の原因や原本非掲載とは断定しない。"
+    }
+  ]
+}

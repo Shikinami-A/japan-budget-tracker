@@ -1,0 +1,1 @@
+{"chamber": "衆議院", "district": "愛知1", "name": "河村たかし", "original_location": "党公式トップの現職メンバーカード・本人プロフィールリンク", "party": "減税日本", "profile_url": "https://genzeinippon.com/member/kawamura", "role": "代表"}

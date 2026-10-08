@@ -1,0 +1,828 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "note": "現在党籍の新規照合は2人のみ。旧711人の氏名・ID・院・当選区・資料日・URL・党籍証跡を保持。現在の所属党確認と予算配分決定時点の確認は別。異体字や読みだけでは同一人物と確定しない。",
+  "sources": [
+    {
+      "id": "party-fourth-genzei-kawamura",
+      "url": "https://genzeinippon.com/member/kawamura",
+      "filename": "party-fourth-genzei-kawamura.txt",
+      "title": "減税日本公式：河村たかし現職議員と代表",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "ba386122139231c5e36a968798fc164f6bfc2806723f9f484bf0088e9b96cd3d",
+      "original": {
+        "source_id": "genzei-kawamura",
+        "url": "https://genzeinippon.com/member/kawamura",
+        "final_url": "https://genzeinippon.com/member/kawamura/",
+        "download_status": "downloaded",
+        "bytes": 205645,
+        "sha256_original": "6984c5f7e17a6a8351365b7519845f9ea14df499c13772998ac85ab25dcc6c13",
+        "retrieved_at_utc": "2026-10-08T17:43:24.228314+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-genzei-home",
+      "url": "https://genzeinippon.com/",
+      "filename": "party-fourth-genzei-home.txt",
+      "title": "減税日本公式：現職メンバー・代表の独立確認",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "4e258bacdd5b132e3ac699fdad638da2de86e4feaff2eaf506a5f0e4709c3837",
+      "original": {
+        "source_id": "genzei-home",
+        "url": "https://genzeinippon.com/",
+        "final_url": "https://genzeinippon.com/",
+        "download_status": "downloaded",
+        "bytes": 273974,
+        "sha256_original": "be46dc2807090ccd0b38e5462e9ed17380a11990768c757f17adf566742b60dc",
+        "retrieved_at_utc": "2026-10-08T17:42:05.952481+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-genzei-message",
+      "url": "https://genzeinippon.com/about/message/",
+      "filename": "party-fourth-genzei-message.txt",
+      "title": "減税日本公式：現職メンバー・代表の独立確認",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "0ef5f441935305304ceb38a278fccceb741858d8551e3dc71bf6bc32ce0f856b",
+      "original": {
+        "source_id": "genzei-message",
+        "url": "https://genzeinippon.com/about/message/",
+        "final_url": "https://genzeinippon.com/about/message/",
+        "download_status": "downloaded",
+        "bytes": 188702,
+        "sha256_original": "7544acc5241df6d5ec4796693a515f5a46cc13966bcc1e4fb1f93df555304ed0",
+        "retrieved_at_utc": "2026-10-08T17:42:08.941531+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-house-kawamura",
+      "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/135.html",
+      "filename": "party-fourth-house-kawamura.txt",
+      "title": "衆議院公式：河村たかし氏名と愛知1区",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "f5d26a306d14dc6c1c34a042436d7a95bdc3ba68ac3feafde4b21b7af85e8b06",
+      "original": {
+        "source_id": "house-kawamura",
+        "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/135.html",
+        "final_url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/135.html",
+        "download_status": "downloaded",
+        "bytes": 6895,
+        "sha256_original": "89e7e2ae6f1d4be417e4667d8ea3434e7195370691c5e368dfe2f6ea6c6a490d",
+        "retrieved_at_utc": "2026-10-08T17:43:27.708141+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "議員名簿",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-sakurai",
+      "url": "https://www.jimin.jp/member/203489.html",
+      "filename": "party-fourth-ldp-sakurai.txt",
+      "title": "自民党公式：櫻井充正式名と桜井充本人プロフィール",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "3228d8c18f1bbecc3f4a7853f31d11f6c5b7e5dcec9efb4b84c61231808811c1",
+      "original": {
+        "source_id": "ldp-sakurai",
+        "url": "https://www.jimin.jp/member/203489.html",
+        "final_url": "https://www.jimin.jp/member/203489.html",
+        "download_status": "downloaded",
+        "bytes": 69587,
+        "sha256_original": "9ec1f68f9a90c6dbc6c7623be8224f30e8b210ab4c7407cee697288e47aab154",
+        "retrieved_at_utc": "2026-10-08T17:43:38.344160+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-senate-sakurai",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/5998030.htm",
+      "filename": "party-fourth-senate-sakurai.txt",
+      "title": "参議院公式：櫻井充正式名と宮城選挙区",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "cd05c3aef074ae2aba841b270fb997a26d8636485bc3af0055308edb3bc3b124",
+      "original": {
+        "source_id": "senate-sakurai",
+        "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/5998030.htm",
+        "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/5998030.htm",
+        "download_status": "downloaded",
+        "bytes": 9674,
+        "sha256_original": "4c625cb590d0dcd5b4f93f28e0f6c6dfae3afabb6d0bf9ac1b59fe9e5cd7d66d",
+        "retrieved_at_utc": "2026-10-08T17:43:32.765098+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "議員名簿",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-cand-uchiyama",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/uchiyama-ko.html",
+      "filename": "party-fourth-ldp-cand-uchiyama.txt",
+      "title": "自民党公式：2026衆院選の公認候補者（現在党籍と別）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "9463f0ee1829dc0c7bddf5bd54696612ceb94115c49c2c0a56f580baae8ef3fa",
+      "original": {
+        "source_id": "ldp-cand-uchiyama",
+        "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/uchiyama-ko.html",
+        "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/uchiyama-ko.html",
+        "download_status": "downloaded",
+        "bytes": 25760,
+        "sha256_original": "a15cb59438a7350d05dacedc185d600ce30882bb7efb284fe3e4c5c265fb216e",
+        "retrieved_at_utc": "2026-10-08T17:42:00.277686+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-cand-nakagawa",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/nakagawa-koichi.html",
+      "filename": "party-fourth-ldp-cand-nakagawa.txt",
+      "title": "自民党公式：2026衆院選の公認候補者（現在党籍と別）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "dd95b546061191a426ecb91a506f8265d48eb60c8dfa23d2d6ad467fe8e74aae",
+      "original": {
+        "source_id": "ldp-cand-nakagawa",
+        "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/nakagawa-koichi.html",
+        "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/nakagawa-koichi.html",
+        "download_status": "downloaded",
+        "bytes": 25750,
+        "sha256_original": "ab769a0f8dbab181ecbb51a9af58c78c8e7eab4f5c32b713cdd8f44652eaab9d",
+        "retrieved_at_utc": "2026-10-08T17:42:01.689743+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-cand-korai",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/korai-keiichiro.html",
+      "filename": "party-fourth-ldp-cand-korai.txt",
+      "title": "自民党公式：2026衆院選の公認候補者（現在党籍と別）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "a9f38ef3714c7fc8b72741471bdc49a6778933de50eeacc8b2af9311475d3b78",
+      "original": {
+        "source_id": "ldp-cand-korai",
+        "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/korai-keiichiro.html",
+        "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/korai-keiichiro.html",
+        "download_status": "downloaded",
+        "bytes": 25586,
+        "sha256_original": "921e43b368a6251e4398258b71d2524f8c68e7ba8219fd55874b0554f49e893c",
+        "retrieved_at_utc": "2026-10-08T17:42:02.690130+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-cand-maruo",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/maruo-natsuko.html",
+      "filename": "party-fourth-ldp-cand-maruo.txt",
+      "title": "自民党公式：2026衆院選の公認候補者（現在党籍と別）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "a3f58acccf113ee7def849102874e9cc3541a0090a8339c5f6ce9cd72b1c4005",
+      "original": {
+        "source_id": "ldp-cand-maruo",
+        "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/maruo-natsuko.html",
+        "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/maruo-natsuko.html",
+        "download_status": "downloaded",
+        "bytes": 26632,
+        "sha256_original": "da6fbc7d0f95fa26536040fd85e07f714985fddc07a08d5a32cbbff0f1eaffe0",
+        "retrieved_at_utc": "2026-10-08T17:42:03.905318+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-komei-miyazaki",
+      "url": "https://www.komei.or.jp/member/detail/11025120",
+      "filename": "party-fourth-komei-miyazaki.txt",
+      "title": "党公式：正式氏名対応保留の現職プロフィール",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "20d3ff1d15fa8a76f9618bad588bc38171a056ebb3a69a9d44e6b13b3f8d176a",
+      "original": {
+        "source_id": "komei-miyazaki",
+        "url": "https://www.komei.or.jp/member/detail/11025120",
+        "final_url": "https://www.komei.or.jp/member/detail/11025120",
+        "download_status": "downloaded",
+        "bytes": 25094,
+        "sha256_original": "a2f0bb29428b76f9286711d812d4a0a3f589d5adcc80c42cb8cad8f517cb1676",
+        "retrieved_at_utc": "2026-10-08T17:42:04.830982+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-senate-miyazaki",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7016037.htm",
+      "filename": "party-fourth-senate-miyazaki.txt",
+      "title": "参議院公式：正式氏名・当選区を独立確認（党籍保留）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "a3a1922d3b08da659c61b10193ee8cf04084c564eecf14a3487571f6cb29543b",
+      "original": {
+        "source_id": "senate-miyazaki",
+        "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7016037.htm",
+        "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7016037.htm",
+        "download_status": "downloaded",
+        "bytes": 9578,
+        "sha256_original": "8b8616e71d51dbdd613dd366f356ad5de40b499166d0767f4ce9f6ad636ddaf3",
+        "retrieved_at_utc": "2026-10-08T17:43:29.929816+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "議員名簿",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-ldp-isozaki",
+      "url": "https://www.jimin.jp/member/100557.html",
+      "filename": "party-fourth-ldp-isozaki.txt",
+      "title": "党公式：正式氏名対応保留の現職プロフィール",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "c04d2ac3df3135daf521c09e58bc82774b0a2dd7086864e3e29495520b0bcfbc",
+      "original": {
+        "source_id": "ldp-isozaki",
+        "url": "https://www.jimin.jp/member/100557.html",
+        "final_url": "https://www.jimin.jp/member/100557.html",
+        "download_status": "downloaded",
+        "bytes": 75182,
+        "sha256_original": "3154267c7509b2d3b0b45ed6173a5e36bca27ea2aab9a9714bf5db454ce6ef2c",
+        "retrieved_at_utc": "2026-10-08T17:43:39.329104+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "所属党",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    },
+    {
+      "id": "party-fourth-senate-isozaki",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7010008.htm",
+      "filename": "party-fourth-senate-isozaki.txt",
+      "title": "参議院公式：正式氏名・当選区を独立確認（党籍保留）",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "973efeb85c27df7e0218f86117dfdfef636881603c307a1fe4e715b1d84b3f78",
+      "original": {
+        "source_id": "senate-isozaki",
+        "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7010008.htm",
+        "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7010008.htm",
+        "download_status": "downloaded",
+        "bytes": 9223,
+        "sha256_original": "282632f87ef543e97795f32c3036074f2440bf64c6bda16a994ed4de0bfbde26",
+        "retrieved_at_utc": "2026-10-08T17:43:35.165484+00:00",
+        "content_type": "text/html"
+      },
+      "kind": "議員名簿",
+      "method": "氏名・院・当選した選挙区を独立原本で確認。会派・選挙時公認・資料日不明を現在党籍に読み替えない。"
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "genzei-kawamura",
+      "url": "https://genzeinippon.com/member/kawamura",
+      "final_url": "https://genzeinippon.com/member/kawamura/",
+      "download_status": "downloaded",
+      "bytes": 205645,
+      "sha256_original": "6984c5f7e17a6a8351365b7519845f9ea14df499c13772998ac85ab25dcc6c13",
+      "retrieved_at_utc": "2026-10-08T17:43:24.228314+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "genzei-home",
+      "url": "https://genzeinippon.com/",
+      "final_url": "https://genzeinippon.com/",
+      "download_status": "downloaded",
+      "bytes": 273974,
+      "sha256_original": "be46dc2807090ccd0b38e5462e9ed17380a11990768c757f17adf566742b60dc",
+      "retrieved_at_utc": "2026-10-08T17:42:05.952481+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "genzei-message",
+      "url": "https://genzeinippon.com/about/message/",
+      "final_url": "https://genzeinippon.com/about/message/",
+      "download_status": "downloaded",
+      "bytes": 188702,
+      "sha256_original": "7544acc5241df6d5ec4796693a515f5a46cc13966bcc1e4fb1f93df555304ed0",
+      "retrieved_at_utc": "2026-10-08T17:42:08.941531+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "house-kawamura",
+      "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/135.html",
+      "final_url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/135.html",
+      "download_status": "downloaded",
+      "bytes": 6895,
+      "sha256_original": "89e7e2ae6f1d4be417e4667d8ea3434e7195370691c5e368dfe2f6ea6c6a490d",
+      "retrieved_at_utc": "2026-10-08T17:43:27.708141+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-sakurai",
+      "url": "https://www.jimin.jp/member/203489.html",
+      "final_url": "https://www.jimin.jp/member/203489.html",
+      "download_status": "downloaded",
+      "bytes": 69587,
+      "sha256_original": "9ec1f68f9a90c6dbc6c7623be8224f30e8b210ab4c7407cee697288e47aab154",
+      "retrieved_at_utc": "2026-10-08T17:43:38.344160+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "senate-sakurai",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/5998030.htm",
+      "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/5998030.htm",
+      "download_status": "downloaded",
+      "bytes": 9674,
+      "sha256_original": "4c625cb590d0dcd5b4f93f28e0f6c6dfae3afabb6d0bf9ac1b59fe9e5cd7d66d",
+      "retrieved_at_utc": "2026-10-08T17:43:32.765098+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-cand-uchiyama",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/uchiyama-ko.html",
+      "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/uchiyama-ko.html",
+      "download_status": "downloaded",
+      "bytes": 25760,
+      "sha256_original": "a15cb59438a7350d05dacedc185d600ce30882bb7efb284fe3e4c5c265fb216e",
+      "retrieved_at_utc": "2026-10-08T17:42:00.277686+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-cand-nakagawa",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/nakagawa-koichi.html",
+      "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/nakagawa-koichi.html",
+      "download_status": "downloaded",
+      "bytes": 25750,
+      "sha256_original": "ab769a0f8dbab181ecbb51a9af58c78c8e7eab4f5c32b713cdd8f44652eaab9d",
+      "retrieved_at_utc": "2026-10-08T17:42:01.689743+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-cand-korai",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/korai-keiichiro.html",
+      "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/korai-keiichiro.html",
+      "download_status": "downloaded",
+      "bytes": 25586,
+      "sha256_original": "921e43b368a6251e4398258b71d2524f8c68e7ba8219fd55874b0554f49e893c",
+      "retrieved_at_utc": "2026-10-08T17:42:02.690130+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-cand-maruo",
+      "url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/maruo-natsuko.html",
+      "final_url": "https://www.jimin.jp/election/results/sen_shu51/candidate/detail/maruo-natsuko.html",
+      "download_status": "downloaded",
+      "bytes": 26632,
+      "sha256_original": "da6fbc7d0f95fa26536040fd85e07f714985fddc07a08d5a32cbbff0f1eaffe0",
+      "retrieved_at_utc": "2026-10-08T17:42:03.905318+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "komei-miyazaki",
+      "url": "https://www.komei.or.jp/member/detail/11025120",
+      "final_url": "https://www.komei.or.jp/member/detail/11025120",
+      "download_status": "downloaded",
+      "bytes": 25094,
+      "sha256_original": "a2f0bb29428b76f9286711d812d4a0a3f589d5adcc80c42cb8cad8f517cb1676",
+      "retrieved_at_utc": "2026-10-08T17:42:04.830982+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "senate-miyazaki",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7016037.htm",
+      "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7016037.htm",
+      "download_status": "downloaded",
+      "bytes": 9578,
+      "sha256_original": "8b8616e71d51dbdd613dd366f356ad5de40b499166d0767f4ce9f6ad636ddaf3",
+      "retrieved_at_utc": "2026-10-08T17:43:29.929816+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ldp-isozaki",
+      "url": "https://www.jimin.jp/member/100557.html",
+      "final_url": "https://www.jimin.jp/member/100557.html",
+      "download_status": "downloaded",
+      "bytes": 75182,
+      "sha256_original": "3154267c7509b2d3b0b45ed6173a5e36bca27ea2aab9a9714bf5db454ce6ef2c",
+      "retrieved_at_utc": "2026-10-08T17:43:39.329104+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "senate-isozaki",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7010008.htm",
+      "final_url": "https://www.sangiin.go.jp/japanese/joho1/kousei/giin/profile/7010008.htm",
+      "download_status": "downloaded",
+      "bytes": 9223,
+      "sha256_original": "282632f87ef543e97795f32c3036074f2440bf64c6bda16a994ed4de0bfbde26",
+      "retrieved_at_utc": "2026-10-08T17:43:35.165484+00:00",
+      "content_type": "text/html"
+    }
+  ],
+  "entries": [
+    {
+      "member_id": "house-河村たかし",
+      "member_name": "河村たかし",
+      "chamber": "衆議院",
+      "district": "愛知1",
+      "party": "減税日本",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-fourth-genzei-kawamura",
+      "excerpt_line": 1,
+      "roster_name": "河村たかし",
+      "original_location": "HTML .name ruby（rt除外）/.position/主な役職/党代表表示",
+      "supporting_party_evidence": [
+        {
+          "source_id": "party-fourth-genzei-home",
+          "excerpt_line": 1
+        },
+        {
+          "source_id": "party-fourth-genzei-message",
+          "excerpt_line": 1
+        }
+      ],
+      "parliamentary_roster_evidence": {
+        "source_id": "party-fourth-house-kawamura",
+        "excerpt_line": 1,
+        "date_fields": {
+          "biography_as_of_month": "2026-04",
+          "precise_biography_date": null
+        }
+      },
+      "party_scope": "地域政党・政治団体",
+      "scope_note": "減税日本の代表所属を確認。国政政党の所属、減税日本・ゆうこく連合との関係、配分時点の党籍は別途未照合。",
+      "method": "地域政党・政治団体の減税日本公式現職メンバーと代表本人あいさつの正式名・院・愛知1区＋独立した衆議院本人原本の一意一致。国政政党所属とは別確認。"
+    },
+    {
+      "member_id": "senate-櫻井充",
+      "member_name": "櫻井充",
+      "chamber": "参議院",
+      "district": "宮城県",
+      "party": "自由民主党",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-fourth-ldp-sakurai",
+      "excerpt_line": 1,
+      "roster_name": "桜井充",
+      "original_location": "党本人プロフィール h1・選挙区表・本人関連記事 h3正式名/参議院議員",
+      "supporting_party_evidence": [],
+      "parliamentary_roster_evidence": {
+        "source_id": "party-fourth-senate-sakurai",
+        "excerpt_line": 1,
+        "date_fields": {
+          "role_as_of": "2026-10-07",
+          "biography_as_of": "2025-12-18"
+        }
+      },
+      "method": "党本人プロフィールに掲載された櫻井充参議院議員の正式名・宮城県を独立した参議院本人原本で照合。読みだけの異体字推定をしない。"
+    }
+  ],
+  "historical_nominations": [
+    {
+      "member_id": "house-内山こう",
+      "source_id": "party-fourth-ldp-cand-uchiyama",
+      "excerpt_line": 1,
+      "name": "内山こう",
+      "chamber": "衆議院",
+      "party": "自由民主党",
+      "status_label": "公認候補者",
+      "election_frame": "2026年第51回衆議院選挙",
+      "candidacy_district": "新潟県第1区",
+      "party_membership_as_of": null,
+      "current_membership_confirmed": false,
+      "original_location": "選挙特設原本 .heading1-hero/選挙区 h2/氏名 ruby（rt除外）",
+      "note": "選挙時点の公認の観測。原本の掲載日・現在党籍の基準日は未確認。立候補予定区を当選区へ使わず、現在党籍へ昇格しない。"
+    },
+    {
+      "member_id": "house-中川こういち",
+      "source_id": "party-fourth-ldp-cand-nakagawa",
+      "excerpt_line": 1,
+      "name": "中川こういち",
+      "chamber": "衆議院",
+      "party": "自由民主党",
+      "status_label": "公認候補者",
+      "election_frame": "2026年第51回衆議院選挙",
+      "candidacy_district": "北海道第11区",
+      "party_membership_as_of": null,
+      "current_membership_confirmed": false,
+      "original_location": "選挙特設原本 .heading1-hero/選挙区 h2/氏名 ruby（rt除外）",
+      "note": "選挙時点の公認の観測。原本の掲載日・現在党籍の基準日は未確認。立候補予定区を当選区へ使わず、現在党籍へ昇格しない。"
+    },
+    {
+      "member_id": "house-こうらい啓一郎",
+      "source_id": "party-fourth-ldp-cand-korai",
+      "excerpt_line": 1,
+      "name": "こうらい啓一郎",
+      "chamber": "衆議院",
+      "party": "自由民主党",
+      "status_label": "公認候補者",
+      "election_frame": "2026年第51回衆議院選挙",
+      "candidacy_district": "大阪府第8区",
+      "party_membership_as_of": null,
+      "current_membership_confirmed": false,
+      "original_location": "選挙特設原本 .heading1-hero/選挙区 h2/氏名 ruby（rt除外）",
+      "note": "選挙時点の公認の観測。原本の掲載日・現在党籍の基準日は未確認。立候補予定区を当選区へ使わず、現在党籍へ昇格しない。"
+    },
+    {
+      "member_id": "house-丸尾なつ子",
+      "source_id": "party-fourth-ldp-cand-maruo",
+      "excerpt_line": 1,
+      "name": "丸尾なつ子",
+      "chamber": "衆議院",
+      "party": "自由民主党",
+      "status_label": "公認候補者",
+      "election_frame": "2026年第51回衆議院選挙",
+      "candidacy_district": "神奈川県第1区",
+      "party_membership_as_of": null,
+      "current_membership_confirmed": false,
+      "original_location": "選挙特設原本 .heading1-hero/選挙区 h2/氏名 ruby（rt除外）",
+      "note": "選挙時点の公認の観測。原本の掲載日・現在党籍の基準日は未確認。立候補予定区を当選区へ使わず、現在党籍へ昇格しない。"
+    }
+  ],
+  "held_records": [
+    {
+      "member_id": "senate-宮崎勝",
+      "member_name": "宮崎勝",
+      "possible_party": "公明党",
+      "status": "氏名対応保留",
+      "source_id": "party-fourth-komei-miyazaki",
+      "excerpt_line": 1,
+      "parliamentary_roster_evidence": {
+        "source_id": "party-fourth-senate-miyazaki",
+        "excerpt_line": 1
+      },
+      "reason": "党の氏名表記と国会正式名が完全一致せず、今回の原本に両表記を直接結ぶ証跡を確認できない。院・区・読み一致だけでは党籍を確定しない。"
+    },
+    {
+      "member_id": "senate-磯崎仁彦",
+      "member_name": "磯崎仁彦",
+      "possible_party": "自由民主党",
+      "status": "氏名対応保留",
+      "source_id": "party-fourth-ldp-isozaki",
+      "excerpt_line": 1,
+      "parliamentary_roster_evidence": {
+        "source_id": "party-fourth-senate-isozaki",
+        "excerpt_line": 1
+      },
+      "reason": "党の氏名表記と国会正式名が完全一致せず、今回の原本に両表記を直接結ぶ証跡を確認できない。院・区・読み一致だけでは党籍を確定しない。"
+    }
+  ],
+  "issues": [
+    {
+      "member_id": "house-上野賢一郎",
+      "member_name": "上野賢一郎",
+      "chamber": "衆議院",
+      "district": "滋賀2",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "house-内山こう",
+      "member_name": "内山こう",
+      "chamber": "衆議院",
+      "district": "新潟1",
+      "party_candidate": "自由民主党",
+      "status": "現在党籍未照合",
+      "reason": "2026選挙の党公認原本は取得済みだが、現在の所属党資料と表示名の直接対応・党籍基準日が未確認。"
+    },
+    {
+      "member_id": "house-緒方林太郎",
+      "member_name": "緒方林太郎",
+      "chamber": "衆議院",
+      "district": "福岡9",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "house-こうらい啓一郎",
+      "member_name": "こうらい啓一郎",
+      "chamber": "衆議院",
+      "district": "（比）近畿",
+      "party_candidate": "自由民主党",
+      "status": "現在党籍未照合",
+      "reason": "2026選挙の党公認原本は取得済みだが、現在の所属党資料と表示名の直接対応・党籍基準日が未確認。"
+    },
+    {
+      "member_id": "house-世耕弘成",
+      "member_name": "世耕弘成",
+      "chamber": "衆議院",
+      "district": "和歌山2",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "house-中川こういち",
+      "member_name": "中川こういち",
+      "chamber": "衆議院",
+      "district": "北海道11",
+      "party_candidate": "自由民主党",
+      "status": "現在党籍未照合",
+      "reason": "2026選挙の党公認原本は取得済みだが、現在の所属党資料と表示名の直接対応・党籍基準日が未確認。"
+    },
+    {
+      "member_id": "house-中村はやと",
+      "member_name": "中村はやと",
+      "chamber": "衆議院",
+      "district": "茨城7",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "house-丸尾なつ子",
+      "member_name": "丸尾なつ子",
+      "chamber": "衆議院",
+      "district": "神奈川1",
+      "party_candidate": "自由民主党",
+      "status": "現在党籍未照合",
+      "reason": "2026選挙の党公認原本は取得済みだが、現在の所属党資料と表示名の直接対応・党籍基準日が未確認。"
+    },
+    {
+      "member_id": "house-水野よしひこ",
+      "member_name": "水野よしひこ",
+      "chamber": "衆議院",
+      "district": "愛知3",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "house-渡辺孝一",
+      "member_name": "渡辺孝一",
+      "chamber": "衆議院",
+      "district": "（比）北海道",
+      "party_candidate": null,
+      "status": "対象外・旧名簿保持",
+      "reason": "旧名簿に保持した逝去議員。現在党籍の確認対象から除外し、予算配分時点の党籍は別途未照合。"
+    },
+    {
+      "member_id": "senate-寺田静",
+      "member_name": "寺田静",
+      "chamber": "参議院",
+      "district": "秋田県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-平山佐知子",
+      "member_name": "平山佐知子",
+      "chamber": "参議院",
+      "district": "静岡県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-泉房穂",
+      "member_name": "泉房穂",
+      "chamber": "参議院",
+      "district": "兵庫県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-望月良男",
+      "member_name": "望月良男",
+      "chamber": "参議院",
+      "district": "和歌山県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-磯崎仁彦",
+      "member_name": "磯崎仁彦",
+      "chamber": "参議院",
+      "district": "香川県",
+      "party_candidate": "自由民主党",
+      "status": "現在党籍未照合",
+      "reason": "党の氏名表記と国会正式名が完全一致せず、今回の原本に両表記を直接結ぶ証跡を確認できない。院・区・読み一致だけでは党籍を確定しない。"
+    },
+    {
+      "member_id": "senate-ながえ孝子",
+      "member_name": "ながえ孝子",
+      "chamber": "参議院",
+      "district": "愛媛県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-広田一",
+      "member_name": "広田一",
+      "chamber": "参議院",
+      "district": "徳島県・高知県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-尾辻朋実",
+      "member_name": "尾辻朋実",
+      "chamber": "参議院",
+      "district": "鹿児島県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-伊波洋一",
+      "member_name": "伊波洋一",
+      "chamber": "参議院",
+      "district": "沖縄県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-高良沙哉",
+      "member_name": "高良沙哉",
+      "chamber": "参議院",
+      "district": "沖縄県",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    },
+    {
+      "member_id": "senate-宮崎勝",
+      "member_name": "宮崎勝",
+      "chamber": "参議院",
+      "district": "全国比例",
+      "party_candidate": "公明党",
+      "status": "現在党籍未照合",
+      "reason": "党の氏名表記と国会正式名が完全一致せず、今回の原本に両表記を直接結ぶ証跡を確認できない。院・区・読み一致だけでは党籍を確定しない。"
+    },
+    {
+      "member_id": "senate-齊藤健一郎",
+      "member_name": "齊藤健一郎",
+      "chamber": "参議院",
+      "district": "全国比例",
+      "party_candidate": null,
+      "status": "現在党籍未照合",
+      "reason": "この限定調査では、院・当選区・正式名が一意一致する現在の党名明示一次資料を確認できていない。会派や党公認・推薦だけで所属党を補完しない。"
+    }
+  ],
+  "stats": {
+    "baseline_unverified": 24,
+    "additional_current_party_matches": 2,
+    "remaining_unverified": 22,
+    "focused_original_cases": 8,
+    "historical_nomination_observations": 4,
+    "held_spelling_records": 2,
+    "deceased_retained": 1,
+    "conflicts_resolved": 0
+  },
+  "reviewed_baseline_ids": [
+    "house-上野賢一郎",
+    "house-内山こう",
+    "house-緒方林太郎",
+    "house-河村たかし",
+    "house-こうらい啓一郎",
+    "house-世耕弘成",
+    "house-中川こういち",
+    "house-中村はやと",
+    "house-丸尾なつ子",
+    "house-水野よしひこ",
+    "house-渡辺孝一",
+    "senate-櫻井充",
+    "senate-寺田静",
+    "senate-平山佐知子",
+    "senate-泉房穂",
+    "senate-望月良男",
+    "senate-磯崎仁彦",
+    "senate-ながえ孝子",
+    "senate-広田一",
+    "senate-尾辻朋実",
+    "senate-伊波洋一",
+    "senate-高良沙哉",
+    "senate-宮崎勝",
+    "senate-齊藤健一郎"
+  ]
+}

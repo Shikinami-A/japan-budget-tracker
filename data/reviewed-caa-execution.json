@@ -1,0 +1,2214 @@
+{
+  "review_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "caa-strengthened-execution-2025-part2",
+      "title": "2025年度地方消費者行政強化交付金事業実績・第５表",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_02.pdf",
+      "locator": "PDF内各県第５表、14県の合計行",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "retrieved_via": "公式PDF罫線セルと独立Poppler配置テキストの9金額及び県名を照合",
+      "excerpt": "令和７年度 地方消費者行政強化交付金事業実績 第５表。今年度都道府県及び市町村が実施した強化事業。単位：円。令和６年度補正予算と令和７年度本予算の交付金対象経費を分離。\n北海道 PDF3頁 合計 prefecture_project_expense_yen=4,892,105 prefecture_2024_supplementary_eligible_yen=555,629 prefecture_2025_initial_eligible_yen=2,829,840 municipal_project_expense_yen=19,193,308 municipal_2024_supplementary_eligible_yen=2,491,659 municipal_2025_initial_eligible_yen=12,807,478 total_project_expense_yen=24,085,413 total_2024_supplementary_eligible_yen=3,047,288 total_2025_initial_eligible_yen=15,637,318\n青森県 PDF12頁 合計 prefecture_project_expense_yen=9,314,451 prefecture_2024_supplementary_eligible_yen=2,688,961 prefecture_2025_initial_eligible_yen=3,725,233 municipal_project_expense_yen=1,282,290 municipal_2024_supplementary_eligible_yen=214,000 municipal_2025_initial_eligible_yen=432,200 total_project_expense_yen=10,596,741 total_2024_supplementary_eligible_yen=2,902,961 total_2025_initial_eligible_yen=4,157,433\n岩手県 PDF21頁 合計 prefecture_project_expense_yen=13,726,561 prefecture_2024_supplementary_eligible_yen=6,139,541 prefecture_2025_initial_eligible_yen=706,795 municipal_project_expense_yen=2,330,053 municipal_2024_supplementary_eligible_yen=428,917 municipal_2025_initial_eligible_yen=1,435,298 total_project_expense_yen=16,056,614 total_2024_supplementary_eligible_yen=6,568,458 total_2025_initial_eligible_yen=2,142,093\n宮城県 PDF30頁 合計 prefecture_project_expense_yen=10,884,600 prefecture_2024_supplementary_eligible_yen=6,498,503 prefecture_2025_initial_eligible_yen=1,557,484 municipal_project_expense_yen=6,218,240 municipal_2024_supplementary_eligible_yen=2,250,337 municipal_2025_initial_eligible_yen=1,274,112 total_project_expense_yen=17,102,840 total_2024_supplementary_eligible_yen=8,748,840 total_2025_initial_eligible_yen=2,831,596\n秋田県 PDF39頁 合計 prefecture_project_expense_yen=30,515,609 prefecture_2024_supplementary_eligible_yen=14,110,272 prefecture_2025_initial_eligible_yen=2,892,210 municipal_project_expense_yen=4,962,221 municipal_2024_supplementary_eligible_yen=1,688,874 municipal_2025_initial_eligible_yen=1,374,248 total_project_expense_yen=35,477,830 total_2024_supplementary_eligible_yen=15,799,146 total_2025_initial_eligible_yen=4,266,458\n山形県 PDF48頁 合計 prefecture_project_expense_yen=6,277,839 prefecture_2024_supplementary_eligible_yen=2,191,130 prefecture_2025_initial_eligible_yen=1,520,215 municipal_project_expense_yen=3,782,791 municipal_2024_supplementary_eligible_yen=1,212,870 municipal_2025_initial_eligible_yen=1,083,886 total_project_expense_yen=10,060,630 total_2024_supplementary_eligible_yen=3,404,000 total_2025_initial_eligible_yen=2,604,101\n福島県 PDF57頁 合計 prefecture_project_expense_yen=42,797,057 prefecture_2024_supplementary_eligible_yen=19,277,441 prefecture_2025_initial_eligible_yen=3,478,259 municipal_project_expense_yen=9,361,072 municipal_2024_supplementary_eligible_yen=3,210,005 municipal_2025_initial_eligible_yen=2,061,705 total_project_expense_yen=52,158,129 total_2024_supplementary_eligible_yen=22,487,446 total_2025_initial_eligible_yen=5,539,964\n茨城県 PDF66頁 合計 prefecture_project_expense_yen=5,922,131 prefecture_2024_supplementary_eligible_yen=2,340,534 prefecture_2025_initial_eligible_yen=849,062 municipal_project_expense_yen=17,180,706 municipal_2024_supplementary_eligible_yen=5,014,316 municipal_2025_initial_eligible_yen=6,885,429 total_project_expense_yen=23,102,837 total_2024_supplementary_eligible_yen=7,354,850 total_2025_initial_eligible_yen=7,734,491\n栃木県 PDF75頁 合計 prefecture_project_expense_yen=21,070,635 prefecture_2024_supplementary_eligible_yen=12,913,280 prefecture_2025_initial_eligible_yen=1,383,540 municipal_project_expense_yen=10,203,425 municipal_2024_supplementary_eligible_yen=2,007,469 municipal_2025_initial_eligible_yen=5,623,576 total_project_expense_yen=31,274,060 total_2024_supplementary_eligible_yen=14,920,749 total_2025_initial_eligible_yen=7,007,116\n群馬県 PDF84頁 合計 prefecture_project_expense_yen=1,448,240 prefecture_2024_supplementary_eligible_yen=179,850 prefecture_2025_initial_eligible_yen=596,630 municipal_project_expense_yen=6,251,677 municipal_2024_supplementary_eligible_yen=246,440 municipal_2025_initial_eligible_yen=5,339,477 total_project_expense_yen=7,699,917 total_2024_supplementary_eligible_yen=426,290 total_2025_initial_eligible_yen=5,936,107\n埼玉県 PDF93頁 合計 prefecture_project_expense_yen=30,409,360 prefecture_2024_supplementary_eligible_yen=3,864,242 prefecture_2025_initial_eligible_yen=24,292,865 municipal_project_expense_yen=26,531,251 municipal_2024_supplementary_eligible_yen=10,221,847 municipal_2025_initial_eligible_yen=8,696,438 total_project_expense_yen=56,940,611 total_2024_supplementary_eligible_yen=14,086,089 total_2025_initial_eligible_yen=32,989,303\n千葉県 PDF102頁 合計 prefecture_project_expense_yen=9,857,407 prefecture_2024_supplementary_eligible_yen=4,281,965 prefecture_2025_initial_eligible_yen=1,356,496 municipal_project_expense_yen=22,496,648 municipal_2024_supplementary_eligible_yen=7,715,588 municipal_2025_initial_eligible_yen=10,227,898 total_project_expense_yen=32,354,055 total_2024_supplementary_eligible_yen=11,997,553 total_2025_initial_eligible_yen=11,584,394\n東京都 PDF111頁 合計 prefecture_project_expense_yen=178,058,569 prefecture_2024_supplementary_eligible_yen=89,953,656 prefecture_2025_initial_eligible_yen=2,698,320 municipal_project_expense_yen=121,477,525 municipal_2024_supplementary_eligible_yen=57,271,461 municipal_2025_initial_eligible_yen=9,443,123 total_project_expense_yen=299,536,094 total_2024_supplementary_eligible_yen=147,225,117 total_2025_initial_eligible_yen=12,141,443\n神奈川県 PDF120頁 合計 prefecture_project_expense_yen=2,895,165 prefecture_2024_supplementary_eligible_yen=1,064,189 prefecture_2025_initial_eligible_yen=577,119 municipal_project_expense_yen=30,246,999 municipal_2024_supplementary_eligible_yen=12,123,559 municipal_2025_initial_eligible_yen=12,756,535 total_project_expense_yen=33,142,164 total_2024_supplementary_eligible_yen=13,187,748 total_2025_initial_eligible_yen=13,333,654\n",
+      "sha256_extracted_text": "e0b3c56d6b719a0f1f7449e7bd2c35d6565a7dcae99b21fc5e6023382498d69c"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-part3",
+      "title": "2025年度地方消費者行政強化交付金事業実績・第５表",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_03.pdf",
+      "locator": "PDF内各県第５表、16県の合計行",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "retrieved_via": "公式PDF罫線セルと独立Poppler配置テキストの9金額及び県名を照合",
+      "excerpt": "令和７年度 地方消費者行政強化交付金事業実績 第５表。今年度都道府県及び市町村が実施した強化事業。単位：円。令和６年度補正予算と令和７年度本予算の交付金対象経費を分離。\n新潟県 PDF3頁 合計 prefecture_project_expense_yen=10,028,026 prefecture_2024_supplementary_eligible_yen=4,006,000 prefecture_2025_initial_eligible_yen=1,517,000 municipal_project_expense_yen=26,397,064 municipal_2024_supplementary_eligible_yen=12,434,000 municipal_2025_initial_eligible_yen=2,733,000 total_project_expense_yen=36,425,090 total_2024_supplementary_eligible_yen=16,440,000 total_2025_initial_eligible_yen=4,250,000\n富山県 PDF12頁 合計 prefecture_project_expense_yen=15,054,401 prefecture_2024_supplementary_eligible_yen=5,908,707 prefecture_2025_initial_eligible_yen=2,410,996 municipal_project_expense_yen=2,504,370 municipal_2024_supplementary_eligible_yen=367,730 municipal_2025_initial_eligible_yen=1,660,270 total_project_expense_yen=17,558,771 total_2024_supplementary_eligible_yen=6,276,437 total_2025_initial_eligible_yen=4,071,266\n石川県 PDF21頁 合計 prefecture_project_expense_yen=10,930,453 prefecture_2024_supplementary_eligible_yen=7,217,633 prefecture_2025_initial_eligible_yen=466,790 municipal_project_expense_yen=7,251,654 municipal_2024_supplementary_eligible_yen=2,936,084 municipal_2025_initial_eligible_yen=1,516,973 total_project_expense_yen=18,182,107 total_2024_supplementary_eligible_yen=10,153,717 total_2025_initial_eligible_yen=1,983,763\n福井県 PDF30頁 合計 prefecture_project_expense_yen=8,144,978 prefecture_2024_supplementary_eligible_yen=3,476,589 prefecture_2025_initial_eligible_yen=793,618 municipal_project_expense_yen=10,578,820 municipal_2024_supplementary_eligible_yen=5,097,191 municipal_2025_initial_eligible_yen=0 total_project_expense_yen=18,723,798 total_2024_supplementary_eligible_yen=8,573,780 total_2025_initial_eligible_yen=793,618\n山梨県 PDF39頁 合計 prefecture_project_expense_yen=1,550,906 prefecture_2024_supplementary_eligible_yen=341,440 prefecture_2025_initial_eligible_yen=650,448 municipal_project_expense_yen=4,082,160 municipal_2024_supplementary_eligible_yen=945,700 municipal_2025_initial_eligible_yen=1,468,000 total_project_expense_yen=5,633,066 total_2024_supplementary_eligible_yen=1,287,140 total_2025_initial_eligible_yen=2,118,448\n長野県 PDF48頁 合計 prefecture_project_expense_yen=33,063,839 prefecture_2024_supplementary_eligible_yen=15,939,248 prefecture_2025_initial_eligible_yen=249,000 municipal_project_expense_yen=7,483,115 municipal_2024_supplementary_eligible_yen=2,290,000 municipal_2025_initial_eligible_yen=3,167,000 total_project_expense_yen=40,546,954 total_2024_supplementary_eligible_yen=18,229,248 total_2025_initial_eligible_yen=3,416,000\n岐阜県 PDF57頁 合計 prefecture_project_expense_yen=16,349,182 prefecture_2024_supplementary_eligible_yen=6,863,600 prefecture_2025_initial_eligible_yen=1,857,662 municipal_project_expense_yen=10,534,994 municipal_2024_supplementary_eligible_yen=3,424,913 municipal_2025_initial_eligible_yen=3,292,657 total_project_expense_yen=26,884,176 total_2024_supplementary_eligible_yen=10,288,513 total_2025_initial_eligible_yen=5,150,319\n静岡県 PDF66頁 合計 prefecture_project_expense_yen=15,763,499 prefecture_2024_supplementary_eligible_yen=7,681,986 prefecture_2025_initial_eligible_yen=4,723,670 municipal_project_expense_yen=39,852,829 municipal_2024_supplementary_eligible_yen=15,862,586 municipal_2025_initial_eligible_yen=7,598,248 total_project_expense_yen=55,616,328 total_2024_supplementary_eligible_yen=23,544,572 total_2025_initial_eligible_yen=12,321,918\n愛知県 PDF75頁 合計 prefecture_project_expense_yen=39,933,358 prefecture_2024_supplementary_eligible_yen=18,282,015 prefecture_2025_initial_eligible_yen=1,684,362 municipal_project_expense_yen=54,673,347 municipal_2024_supplementary_eligible_yen=25,735,985 municipal_2025_initial_eligible_yen=6,605,683 total_project_expense_yen=94,606,705 total_2024_supplementary_eligible_yen=44,018,000 total_2025_initial_eligible_yen=8,290,045\n三重県 PDF84頁 合計 prefecture_project_expense_yen=14,491,217 prefecture_2024_supplementary_eligible_yen=6,808,858 prefecture_2025_initial_eligible_yen=485,630 municipal_project_expense_yen=7,791,760 municipal_2024_supplementary_eligible_yen=3,464,152 municipal_2025_initial_eligible_yen=1,586,060 total_project_expense_yen=22,282,977 total_2024_supplementary_eligible_yen=10,273,010 total_2025_initial_eligible_yen=2,071,690\n滋賀県 PDF93頁 合計 prefecture_project_expense_yen=6,941,653 prefecture_2024_supplementary_eligible_yen=2,310,489 prefecture_2025_initial_eligible_yen=3,381,707 municipal_project_expense_yen=9,625,239 municipal_2024_supplementary_eligible_yen=3,645,998 municipal_2025_initial_eligible_yen=2,132,144 total_project_expense_yen=16,566,892 total_2024_supplementary_eligible_yen=5,956,487 total_2025_initial_eligible_yen=5,513,851\n京都府 PDF102頁 合計 prefecture_project_expense_yen=54,961,435 prefecture_2024_supplementary_eligible_yen=27,274,397 prefecture_2025_initial_eligible_yen=204,000 municipal_project_expense_yen=15,473,538 municipal_2024_supplementary_eligible_yen=6,938,000 municipal_2025_initial_eligible_yen=1,469,000 total_project_expense_yen=70,434,973 total_2024_supplementary_eligible_yen=34,212,397 total_2025_initial_eligible_yen=1,673,000\n大阪府 PDF111頁 合計 prefecture_project_expense_yen=14,160,575 prefecture_2024_supplementary_eligible_yen=3,086,376 prefecture_2025_initial_eligible_yen=6,688,238 municipal_project_expense_yen=18,065,295 municipal_2024_supplementary_eligible_yen=4,130,979 municipal_2025_initial_eligible_yen=9,039,700 total_project_expense_yen=32,225,870 total_2024_supplementary_eligible_yen=7,217,355 total_2025_initial_eligible_yen=15,727,938\n兵庫県 PDF120頁 合計 prefecture_project_expense_yen=28,497,044 prefecture_2024_supplementary_eligible_yen=13,622,062 prefecture_2025_initial_eligible_yen=677,750 municipal_project_expense_yen=27,264,468 municipal_2024_supplementary_eligible_yen=8,831,900 municipal_2025_initial_eligible_yen=10,656,908 total_project_expense_yen=55,761,512 total_2024_supplementary_eligible_yen=22,453,962 total_2025_initial_eligible_yen=11,334,658\n奈良県 PDF129頁 合計 prefecture_project_expense_yen=12,562,452 prefecture_2024_supplementary_eligible_yen=5,709,535 prefecture_2025_initial_eligible_yen=571,301 municipal_project_expense_yen=25,191,525 municipal_2024_supplementary_eligible_yen=11,319,543 municipal_2025_initial_eligible_yen=2,531,276 total_project_expense_yen=37,753,977 total_2024_supplementary_eligible_yen=17,029,078 total_2025_initial_eligible_yen=3,102,577\n和歌山県 PDF138頁 合計 prefecture_project_expense_yen=10,559,033 prefecture_2024_supplementary_eligible_yen=2,203,840 prefecture_2025_initial_eligible_yen=4,536,461 municipal_project_expense_yen=3,965,371 municipal_2024_supplementary_eligible_yen=2,348,468 municipal_2025_initial_eligible_yen=346,005 total_project_expense_yen=14,524,404 total_2024_supplementary_eligible_yen=4,552,308 total_2025_initial_eligible_yen=4,882,466\n",
+      "sha256_extracted_text": "6951bbe2ce9b104ee70949346fecdfb76c5d16bd49b2a6a272bd2ef71b8cfcd5"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-part4",
+      "title": "2025年度地方消費者行政強化交付金事業実績・第５表",
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_04.pdf",
+      "locator": "PDF内各県第５表、17県の合計行",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "retrieved_via": "公式PDF罫線セルと独立Poppler配置テキストの9金額及び県名を照合",
+      "excerpt": "令和７年度 地方消費者行政強化交付金事業実績 第５表。今年度都道府県及び市町村が実施した強化事業。単位：円。令和６年度補正予算と令和７年度本予算の交付金対象経費を分離。\n鳥取県 PDF3頁 合計 prefecture_project_expense_yen=12,648,740 prefecture_2024_supplementary_eligible_yen=8,488,359 prefecture_2025_initial_eligible_yen=2,021,592 municipal_project_expense_yen=1,811,300 municipal_2024_supplementary_eligible_yen=200,000 municipal_2025_initial_eligible_yen=1,303,100 total_project_expense_yen=14,460,040 total_2024_supplementary_eligible_yen=8,688,359 total_2025_initial_eligible_yen=3,324,692\n島根県 PDF12頁 合計 prefecture_project_expense_yen=9,713,525 prefecture_2024_supplementary_eligible_yen=3,967,172 prefecture_2025_initial_eligible_yen=893,197 municipal_project_expense_yen=638,844 municipal_2024_supplementary_eligible_yen=231,000 municipal_2025_initial_eligible_yen=173,000 total_project_expense_yen=10,352,369 total_2024_supplementary_eligible_yen=4,198,172 total_2025_initial_eligible_yen=1,066,197\n岡山県 PDF21頁 合計 prefecture_project_expense_yen=18,664,126 prefecture_2024_supplementary_eligible_yen=8,132,759 prefecture_2025_initial_eligible_yen=1,817,738 municipal_project_expense_yen=6,537,626 municipal_2024_supplementary_eligible_yen=2,189,630 municipal_2025_initial_eligible_yen=1,994,305 total_project_expense_yen=25,201,752 total_2024_supplementary_eligible_yen=10,322,389 total_2025_initial_eligible_yen=3,812,043\n広島県 PDF30頁 合計 prefecture_project_expense_yen=17,960,146 prefecture_2024_supplementary_eligible_yen=6,463,989 prefecture_2025_initial_eligible_yen=3,928,106 municipal_project_expense_yen=18,227,727 municipal_2024_supplementary_eligible_yen=7,021,025 municipal_2025_initial_eligible_yen=4,161,423 total_project_expense_yen=36,187,873 total_2024_supplementary_eligible_yen=13,485,014 total_2025_initial_eligible_yen=8,089,529\n山口県 PDF39頁 合計 prefecture_project_expense_yen=37,300,143 prefecture_2024_supplementary_eligible_yen=23,591,686 prefecture_2025_initial_eligible_yen=1,145,988 municipal_project_expense_yen=5,961,935 municipal_2024_supplementary_eligible_yen=1,911,862 municipal_2025_initial_eligible_yen=2,694,445 total_project_expense_yen=43,262,078 total_2024_supplementary_eligible_yen=25,503,548 total_2025_initial_eligible_yen=3,840,433\n徳島県 PDF48頁 合計 prefecture_project_expense_yen=77,769,457 prefecture_2024_supplementary_eligible_yen=36,640,881 prefecture_2025_initial_eligible_yen=4,455,592 municipal_project_expense_yen=5,713,532 municipal_2024_supplementary_eligible_yen=945,000 municipal_2025_initial_eligible_yen=3,667,000 total_project_expense_yen=83,482,989 total_2024_supplementary_eligible_yen=37,585,881 total_2025_initial_eligible_yen=8,122,592\n香川県 PDF57頁 合計 prefecture_project_expense_yen=5,886,543 prefecture_2024_supplementary_eligible_yen=4,621,954 prefecture_2025_initial_eligible_yen=609,106 municipal_project_expense_yen=93,720 municipal_2024_supplementary_eligible_yen=0 municipal_2025_initial_eligible_yen=93,720 total_project_expense_yen=5,980,263 total_2024_supplementary_eligible_yen=4,621,954 total_2025_initial_eligible_yen=702,826\n愛媛県 PDF66頁 合計 prefecture_project_expense_yen=12,285,422 prefecture_2024_supplementary_eligible_yen=4,781,033 prefecture_2025_initial_eligible_yen=1,840,652 municipal_project_expense_yen=2,634,638 municipal_2024_supplementary_eligible_yen=949,713 municipal_2025_initial_eligible_yen=488,778 total_project_expense_yen=14,920,060 total_2024_supplementary_eligible_yen=5,730,746 total_2025_initial_eligible_yen=2,329,430\n高知県 PDF75頁 合計 prefecture_project_expense_yen=9,664,440 prefecture_2024_supplementary_eligible_yen=4,723,368 prefecture_2025_initial_eligible_yen=429,068 municipal_project_expense_yen=3,218,032 municipal_2024_supplementary_eligible_yen=1,296,000 municipal_2025_initial_eligible_yen=383,000 total_project_expense_yen=12,882,472 total_2024_supplementary_eligible_yen=6,019,368 total_2025_initial_eligible_yen=812,068\n福岡県 PDF84頁 合計 prefecture_project_expense_yen=24,266,934 prefecture_2024_supplementary_eligible_yen=10,424,000 prefecture_2025_initial_eligible_yen=1,998,000 municipal_project_expense_yen=7,639,095 municipal_2024_supplementary_eligible_yen=3,086,000 municipal_2025_initial_eligible_yen=2,282,000 total_project_expense_yen=31,906,029 total_2024_supplementary_eligible_yen=13,510,000 total_2025_initial_eligible_yen=4,280,000\n佐賀県 PDF93頁 合計 prefecture_project_expense_yen=11,261,128 prefecture_2024_supplementary_eligible_yen=2,781,000 prefecture_2025_initial_eligible_yen=4,850,000 municipal_project_expense_yen=4,607,932 municipal_2024_supplementary_eligible_yen=778,000 municipal_2025_initial_eligible_yen=3,238,000 total_project_expense_yen=15,869,060 total_2024_supplementary_eligible_yen=3,559,000 total_2025_initial_eligible_yen=8,088,000\n長崎県 PDF102頁 合計 prefecture_project_expense_yen=6,326,190 prefecture_2024_supplementary_eligible_yen=4,205,344 prefecture_2025_initial_eligible_yen=1,125,838 municipal_project_expense_yen=5,025,538 municipal_2024_supplementary_eligible_yen=1,982,486 municipal_2025_initial_eligible_yen=918,330 total_project_expense_yen=11,351,728 total_2024_supplementary_eligible_yen=6,187,830 total_2025_initial_eligible_yen=2,044,168\n熊本県 PDF111頁 合計 prefecture_project_expense_yen=19,337,418 prefecture_2024_supplementary_eligible_yen=11,212,979 prefecture_2025_initial_eligible_yen=1,930,581 municipal_project_expense_yen=14,723,519 municipal_2024_supplementary_eligible_yen=6,451,000 municipal_2025_initial_eligible_yen=2,779,000 total_project_expense_yen=34,060,937 total_2024_supplementary_eligible_yen=17,663,979 total_2025_initial_eligible_yen=4,709,581\n大分県 PDF120頁 合計 prefecture_project_expense_yen=10,004,582 prefecture_2024_supplementary_eligible_yen=4,342,342 prefecture_2025_initial_eligible_yen=662,936 municipal_project_expense_yen=2,142,968 municipal_2024_supplementary_eligible_yen=417,425 municipal_2025_initial_eligible_yen=1,181,630 total_project_expense_yen=12,147,550 total_2024_supplementary_eligible_yen=4,759,767 total_2025_initial_eligible_yen=1,844,566\n宮崎県 PDF129頁 合計 prefecture_project_expense_yen=21,753,200 prefecture_2024_supplementary_eligible_yen=10,875,650 prefecture_2025_initial_eligible_yen=0 municipal_project_expense_yen=2,085,810 municipal_2024_supplementary_eligible_yen=0 municipal_2025_initial_eligible_yen=1,936,270 total_project_expense_yen=23,839,010 total_2024_supplementary_eligible_yen=10,875,650 total_2025_initial_eligible_yen=1,936,270\n鹿児島県 PDF138頁 合計 prefecture_project_expense_yen=11,513,970 prefecture_2024_supplementary_eligible_yen=3,087,941 prefecture_2025_initial_eligible_yen=4,223,977 municipal_project_expense_yen=8,765,191 municipal_2024_supplementary_eligible_yen=2,650,031 municipal_2025_initial_eligible_yen=3,736,370 total_project_expense_yen=20,279,161 total_2024_supplementary_eligible_yen=5,737,972 total_2025_initial_eligible_yen=7,960,347\n沖縄県 PDF147頁 合計 prefecture_project_expense_yen=25,670,944 prefecture_2024_supplementary_eligible_yen=10,973,512 prefecture_2025_initial_eligible_yen=2,419,338 municipal_project_expense_yen=1,121,210 municipal_2024_supplementary_eligible_yen=21,000 municipal_2025_initial_eligible_yen=818,560 total_project_expense_yen=26,792,154 total_2024_supplementary_eligible_yen=10,994,512 total_2025_initial_eligible_yen=3,237,898\n",
+      "sha256_extracted_text": "0c406d4acd35d81d6d4af18833962bdc7117fef49ebb374afb6915e9e39cb660"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_02.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_02.pdf",
+      "retrieved_at_utc": "2026-10-08T17:39:53.821960+00:00",
+      "sha256_original": "efcf670f45ca3a14d80e92debfd968c355be5a51dbe1bfbb73b320e4d792c699",
+      "bytes": 672036,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "独立した罫線セル・Poppler配置本文で9列126金額及び14県名を照合。県と市町村の合計3列を検算。2025本予算の対象経費だけをamount2025へ変換。",
+        "locator": "PDF内各県第５表、14県の合計行",
+        "row_ids": [
+          "caa-strengthened-execution-2025-北海道",
+          "caa-strengthened-execution-2025-青森県",
+          "caa-strengthened-execution-2025-岩手県",
+          "caa-strengthened-execution-2025-宮城県",
+          "caa-strengthened-execution-2025-秋田県",
+          "caa-strengthened-execution-2025-山形県",
+          "caa-strengthened-execution-2025-福島県",
+          "caa-strengthened-execution-2025-茨城県",
+          "caa-strengthened-execution-2025-栃木県",
+          "caa-strengthened-execution-2025-群馬県",
+          "caa-strengthened-execution-2025-埼玉県",
+          "caa-strengthened-execution-2025-千葉県",
+          "caa-strengthened-execution-2025-東京都",
+          "caa-strengthened-execution-2025-神奈川県"
+        ],
+        "fields": [
+          "amount2025"
+        ],
+        "values": {
+          "caa-strengthened-execution-2025-北海道": {
+            "amount2025": 15.637318
+          },
+          "caa-strengthened-execution-2025-青森県": {
+            "amount2025": 4.157433
+          },
+          "caa-strengthened-execution-2025-岩手県": {
+            "amount2025": 2.142093
+          },
+          "caa-strengthened-execution-2025-宮城県": {
+            "amount2025": 2.831596
+          },
+          "caa-strengthened-execution-2025-秋田県": {
+            "amount2025": 4.266458
+          },
+          "caa-strengthened-execution-2025-山形県": {
+            "amount2025": 2.604101
+          },
+          "caa-strengthened-execution-2025-福島県": {
+            "amount2025": 5.539964
+          },
+          "caa-strengthened-execution-2025-茨城県": {
+            "amount2025": 7.734491
+          },
+          "caa-strengthened-execution-2025-栃木県": {
+            "amount2025": 7.007116
+          },
+          "caa-strengthened-execution-2025-群馬県": {
+            "amount2025": 5.936107
+          },
+          "caa-strengthened-execution-2025-埼玉県": {
+            "amount2025": 32.989303
+          },
+          "caa-strengthened-execution-2025-千葉県": {
+            "amount2025": 11.584394
+          },
+          "caa-strengthened-execution-2025-東京都": {
+            "amount2025": 12.141443
+          },
+          "caa-strengthened-execution-2025-神奈川県": {
+            "amount2025": 13.333654
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_03.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_03.pdf",
+      "retrieved_at_utc": "2026-10-08T17:42:18.051319+00:00",
+      "sha256_original": "58c7359246fb27b3d3e09817a9d8016aa3685281a6b2dfad0f046682f49747b7",
+      "bytes": 1167339,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "独立した罫線セル・Poppler配置本文で9列144金額及び16県名を照合。県と市町村の合計3列を検算。2025本予算の対象経費だけをamount2025へ変換。",
+        "locator": "PDF内各県第５表、16県の合計行",
+        "row_ids": [
+          "caa-strengthened-execution-2025-新潟県",
+          "caa-strengthened-execution-2025-富山県",
+          "caa-strengthened-execution-2025-石川県",
+          "caa-strengthened-execution-2025-福井県",
+          "caa-strengthened-execution-2025-山梨県",
+          "caa-strengthened-execution-2025-長野県",
+          "caa-strengthened-execution-2025-岐阜県",
+          "caa-strengthened-execution-2025-静岡県",
+          "caa-strengthened-execution-2025-愛知県",
+          "caa-strengthened-execution-2025-三重県",
+          "caa-strengthened-execution-2025-滋賀県",
+          "caa-strengthened-execution-2025-京都府",
+          "caa-strengthened-execution-2025-大阪府",
+          "caa-strengthened-execution-2025-兵庫県",
+          "caa-strengthened-execution-2025-奈良県",
+          "caa-strengthened-execution-2025-和歌山県"
+        ],
+        "fields": [
+          "amount2025"
+        ],
+        "values": {
+          "caa-strengthened-execution-2025-新潟県": {
+            "amount2025": 4.25
+          },
+          "caa-strengthened-execution-2025-富山県": {
+            "amount2025": 4.071266
+          },
+          "caa-strengthened-execution-2025-石川県": {
+            "amount2025": 1.983763
+          },
+          "caa-strengthened-execution-2025-福井県": {
+            "amount2025": 0.793618
+          },
+          "caa-strengthened-execution-2025-山梨県": {
+            "amount2025": 2.118448
+          },
+          "caa-strengthened-execution-2025-長野県": {
+            "amount2025": 3.416
+          },
+          "caa-strengthened-execution-2025-岐阜県": {
+            "amount2025": 5.150319
+          },
+          "caa-strengthened-execution-2025-静岡県": {
+            "amount2025": 12.321918
+          },
+          "caa-strengthened-execution-2025-愛知県": {
+            "amount2025": 8.290045
+          },
+          "caa-strengthened-execution-2025-三重県": {
+            "amount2025": 2.07169
+          },
+          "caa-strengthened-execution-2025-滋賀県": {
+            "amount2025": 5.513851
+          },
+          "caa-strengthened-execution-2025-京都府": {
+            "amount2025": 1.673
+          },
+          "caa-strengthened-execution-2025-大阪府": {
+            "amount2025": 15.727938
+          },
+          "caa-strengthened-execution-2025-兵庫県": {
+            "amount2025": 11.334658
+          },
+          "caa-strengthened-execution-2025-奈良県": {
+            "amount2025": 3.102577
+          },
+          "caa-strengthened-execution-2025-和歌山県": {
+            "amount2025": 4.882466
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_04.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_04.pdf",
+      "retrieved_at_utc": "2026-10-08T17:42:19.475687+00:00",
+      "sha256_original": "f66119f50aef4a12c97bc25fe12ff361796a67fa69d0f1442dba0db307a47d66",
+      "bytes": 785918,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "独立した罫線セル・Poppler配置本文で9列153金額及び17県名を照合。県と市町村の合計3列を検算。2025本予算の対象経費だけをamount2025へ変換。",
+        "locator": "PDF内各県第５表、17県の合計行",
+        "row_ids": [
+          "caa-strengthened-execution-2025-鳥取県",
+          "caa-strengthened-execution-2025-島根県",
+          "caa-strengthened-execution-2025-岡山県",
+          "caa-strengthened-execution-2025-広島県",
+          "caa-strengthened-execution-2025-山口県",
+          "caa-strengthened-execution-2025-徳島県",
+          "caa-strengthened-execution-2025-香川県",
+          "caa-strengthened-execution-2025-愛媛県",
+          "caa-strengthened-execution-2025-高知県",
+          "caa-strengthened-execution-2025-福岡県",
+          "caa-strengthened-execution-2025-佐賀県",
+          "caa-strengthened-execution-2025-長崎県",
+          "caa-strengthened-execution-2025-熊本県",
+          "caa-strengthened-execution-2025-大分県",
+          "caa-strengthened-execution-2025-宮崎県",
+          "caa-strengthened-execution-2025-鹿児島県",
+          "caa-strengthened-execution-2025-沖縄県"
+        ],
+        "fields": [
+          "amount2025"
+        ],
+        "values": {
+          "caa-strengthened-execution-2025-鳥取県": {
+            "amount2025": 3.324692
+          },
+          "caa-strengthened-execution-2025-島根県": {
+            "amount2025": 1.066197
+          },
+          "caa-strengthened-execution-2025-岡山県": {
+            "amount2025": 3.812043
+          },
+          "caa-strengthened-execution-2025-広島県": {
+            "amount2025": 8.089529
+          },
+          "caa-strengthened-execution-2025-山口県": {
+            "amount2025": 3.840433
+          },
+          "caa-strengthened-execution-2025-徳島県": {
+            "amount2025": 8.122592
+          },
+          "caa-strengthened-execution-2025-香川県": {
+            "amount2025": 0.702826
+          },
+          "caa-strengthened-execution-2025-愛媛県": {
+            "amount2025": 2.32943
+          },
+          "caa-strengthened-execution-2025-高知県": {
+            "amount2025": 0.812068
+          },
+          "caa-strengthened-execution-2025-福岡県": {
+            "amount2025": 4.28
+          },
+          "caa-strengthened-execution-2025-佐賀県": {
+            "amount2025": 8.088
+          },
+          "caa-strengthened-execution-2025-長崎県": {
+            "amount2025": 2.044168
+          },
+          "caa-strengthened-execution-2025-熊本県": {
+            "amount2025": 4.709581
+          },
+          "caa-strengthened-execution-2025-大分県": {
+            "amount2025": 1.844566
+          },
+          "caa-strengthened-execution-2025-宮崎県": {
+            "amount2025": 1.93627
+          },
+          "caa-strengthened-execution-2025-鹿児島県": {
+            "amount2025": 7.960347
+          },
+          "caa-strengthened-execution-2025-沖縄県": {
+            "amount2025": 3.237898
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025",
+      "retrieved_at_utc": "2026-10-08T17:39:45.738965+00:00",
+      "sha256_original": "7b0283bed5a7aab357060ea94be41bc9362a671ebaa42ae79d550a8bc09f9ab0",
+      "bytes": 43089,
+      "content_type": "text/html",
+      "source_ids": [],
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式年度実績索引取得。金額検証対象はリンク先の各県第5表。",
+        "locator": "2025年度事業実績の3地域分割PDFリンク",
+        "row_ids": [],
+        "fields": [],
+        "values": {}
+      }
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025",
+      "retrieved_at_utc": "2026-10-08T17:39:45.738965+00:00",
+      "bytes": 43089,
+      "sha256_original": "7b0283bed5a7aab357060ea94be41bc9362a671ebaa42ae79d550a8bc09f9ab0",
+      "content_type": "text/html",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_02.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_02.pdf",
+      "retrieved_at_utc": "2026-10-08T17:39:53.821960+00:00",
+      "bytes": 672036,
+      "sha256_original": "efcf670f45ca3a14d80e92debfd968c355be5a51dbe1bfbb73b320e4d792c699",
+      "content_type": "application/pdf",
+      "status": "downloaded"
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_03.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_03.pdf",
+      "status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:42:18.051319+00:00",
+      "bytes": 1167339,
+      "sha256_original": "58c7359246fb27b3d3e09817a9d8016aa3685281a6b2dfad0f046682f49747b7",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_04.pdf",
+      "final_url": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/grant/implementation_report_2025/assets/local_cooperation_cms203_260615_04.pdf",
+      "status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:42:19.475687+00:00",
+      "bytes": 785918,
+      "sha256_original": "f66119f50aef4a12c97bc25fe12ff361796a67fa69d0f1442dba0db307a47d66",
+      "content_type": "application/pdf"
+    }
+  ],
+  "records": [
+    {
+      "prefecture": "北海道",
+      "page": 3,
+      "prefecture_project_expense_yen": 4892105,
+      "prefecture_2024_supplementary_eligible_yen": 555629,
+      "prefecture_2025_initial_eligible_yen": 2829840,
+      "municipal_project_expense_yen": 19193308,
+      "municipal_2024_supplementary_eligible_yen": 2491659,
+      "municipal_2025_initial_eligible_yen": 12807478,
+      "total_project_expense_yen": 24085413,
+      "total_2024_supplementary_eligible_yen": 3047288,
+      "total_2025_initial_eligible_yen": 15637318,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "青森県",
+      "page": 12,
+      "prefecture_project_expense_yen": 9314451,
+      "prefecture_2024_supplementary_eligible_yen": 2688961,
+      "prefecture_2025_initial_eligible_yen": 3725233,
+      "municipal_project_expense_yen": 1282290,
+      "municipal_2024_supplementary_eligible_yen": 214000,
+      "municipal_2025_initial_eligible_yen": 432200,
+      "total_project_expense_yen": 10596741,
+      "total_2024_supplementary_eligible_yen": 2902961,
+      "total_2025_initial_eligible_yen": 4157433,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "岩手県",
+      "page": 21,
+      "prefecture_project_expense_yen": 13726561,
+      "prefecture_2024_supplementary_eligible_yen": 6139541,
+      "prefecture_2025_initial_eligible_yen": 706795,
+      "municipal_project_expense_yen": 2330053,
+      "municipal_2024_supplementary_eligible_yen": 428917,
+      "municipal_2025_initial_eligible_yen": 1435298,
+      "total_project_expense_yen": 16056614,
+      "total_2024_supplementary_eligible_yen": 6568458,
+      "total_2025_initial_eligible_yen": 2142093,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "宮城県",
+      "page": 30,
+      "prefecture_project_expense_yen": 10884600,
+      "prefecture_2024_supplementary_eligible_yen": 6498503,
+      "prefecture_2025_initial_eligible_yen": 1557484,
+      "municipal_project_expense_yen": 6218240,
+      "municipal_2024_supplementary_eligible_yen": 2250337,
+      "municipal_2025_initial_eligible_yen": 1274112,
+      "total_project_expense_yen": 17102840,
+      "total_2024_supplementary_eligible_yen": 8748840,
+      "total_2025_initial_eligible_yen": 2831596,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "秋田県",
+      "page": 39,
+      "prefecture_project_expense_yen": 30515609,
+      "prefecture_2024_supplementary_eligible_yen": 14110272,
+      "prefecture_2025_initial_eligible_yen": 2892210,
+      "municipal_project_expense_yen": 4962221,
+      "municipal_2024_supplementary_eligible_yen": 1688874,
+      "municipal_2025_initial_eligible_yen": 1374248,
+      "total_project_expense_yen": 35477830,
+      "total_2024_supplementary_eligible_yen": 15799146,
+      "total_2025_initial_eligible_yen": 4266458,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "山形県",
+      "page": 48,
+      "prefecture_project_expense_yen": 6277839,
+      "prefecture_2024_supplementary_eligible_yen": 2191130,
+      "prefecture_2025_initial_eligible_yen": 1520215,
+      "municipal_project_expense_yen": 3782791,
+      "municipal_2024_supplementary_eligible_yen": 1212870,
+      "municipal_2025_initial_eligible_yen": 1083886,
+      "total_project_expense_yen": 10060630,
+      "total_2024_supplementary_eligible_yen": 3404000,
+      "total_2025_initial_eligible_yen": 2604101,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "福島県",
+      "page": 57,
+      "prefecture_project_expense_yen": 42797057,
+      "prefecture_2024_supplementary_eligible_yen": 19277441,
+      "prefecture_2025_initial_eligible_yen": 3478259,
+      "municipal_project_expense_yen": 9361072,
+      "municipal_2024_supplementary_eligible_yen": 3210005,
+      "municipal_2025_initial_eligible_yen": 2061705,
+      "total_project_expense_yen": 52158129,
+      "total_2024_supplementary_eligible_yen": 22487446,
+      "total_2025_initial_eligible_yen": 5539964,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "茨城県",
+      "page": 66,
+      "prefecture_project_expense_yen": 5922131,
+      "prefecture_2024_supplementary_eligible_yen": 2340534,
+      "prefecture_2025_initial_eligible_yen": 849062,
+      "municipal_project_expense_yen": 17180706,
+      "municipal_2024_supplementary_eligible_yen": 5014316,
+      "municipal_2025_initial_eligible_yen": 6885429,
+      "total_project_expense_yen": 23102837,
+      "total_2024_supplementary_eligible_yen": 7354850,
+      "total_2025_initial_eligible_yen": 7734491,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "栃木県",
+      "page": 75,
+      "prefecture_project_expense_yen": 21070635,
+      "prefecture_2024_supplementary_eligible_yen": 12913280,
+      "prefecture_2025_initial_eligible_yen": 1383540,
+      "municipal_project_expense_yen": 10203425,
+      "municipal_2024_supplementary_eligible_yen": 2007469,
+      "municipal_2025_initial_eligible_yen": 5623576,
+      "total_project_expense_yen": 31274060,
+      "total_2024_supplementary_eligible_yen": 14920749,
+      "total_2025_initial_eligible_yen": 7007116,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "群馬県",
+      "page": 84,
+      "prefecture_project_expense_yen": 1448240,
+      "prefecture_2024_supplementary_eligible_yen": 179850,
+      "prefecture_2025_initial_eligible_yen": 596630,
+      "municipal_project_expense_yen": 6251677,
+      "municipal_2024_supplementary_eligible_yen": 246440,
+      "municipal_2025_initial_eligible_yen": 5339477,
+      "total_project_expense_yen": 7699917,
+      "total_2024_supplementary_eligible_yen": 426290,
+      "total_2025_initial_eligible_yen": 5936107,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "埼玉県",
+      "page": 93,
+      "prefecture_project_expense_yen": 30409360,
+      "prefecture_2024_supplementary_eligible_yen": 3864242,
+      "prefecture_2025_initial_eligible_yen": 24292865,
+      "municipal_project_expense_yen": 26531251,
+      "municipal_2024_supplementary_eligible_yen": 10221847,
+      "municipal_2025_initial_eligible_yen": 8696438,
+      "total_project_expense_yen": 56940611,
+      "total_2024_supplementary_eligible_yen": 14086089,
+      "total_2025_initial_eligible_yen": 32989303,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "千葉県",
+      "page": 102,
+      "prefecture_project_expense_yen": 9857407,
+      "prefecture_2024_supplementary_eligible_yen": 4281965,
+      "prefecture_2025_initial_eligible_yen": 1356496,
+      "municipal_project_expense_yen": 22496648,
+      "municipal_2024_supplementary_eligible_yen": 7715588,
+      "municipal_2025_initial_eligible_yen": 10227898,
+      "total_project_expense_yen": 32354055,
+      "total_2024_supplementary_eligible_yen": 11997553,
+      "total_2025_initial_eligible_yen": 11584394,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "東京都",
+      "page": 111,
+      "prefecture_project_expense_yen": 178058569,
+      "prefecture_2024_supplementary_eligible_yen": 89953656,
+      "prefecture_2025_initial_eligible_yen": 2698320,
+      "municipal_project_expense_yen": 121477525,
+      "municipal_2024_supplementary_eligible_yen": 57271461,
+      "municipal_2025_initial_eligible_yen": 9443123,
+      "total_project_expense_yen": 299536094,
+      "total_2024_supplementary_eligible_yen": 147225117,
+      "total_2025_initial_eligible_yen": 12141443,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "神奈川県",
+      "page": 120,
+      "prefecture_project_expense_yen": 2895165,
+      "prefecture_2024_supplementary_eligible_yen": 1064189,
+      "prefecture_2025_initial_eligible_yen": 577119,
+      "municipal_project_expense_yen": 30246999,
+      "municipal_2024_supplementary_eligible_yen": 12123559,
+      "municipal_2025_initial_eligible_yen": 12756535,
+      "total_project_expense_yen": 33142164,
+      "total_2024_supplementary_eligible_yen": 13187748,
+      "total_2025_initial_eligible_yen": 13333654,
+      "source_id": "caa-strengthened-execution-2025-part2"
+    },
+    {
+      "prefecture": "新潟県",
+      "page": 3,
+      "prefecture_project_expense_yen": 10028026,
+      "prefecture_2024_supplementary_eligible_yen": 4006000,
+      "prefecture_2025_initial_eligible_yen": 1517000,
+      "municipal_project_expense_yen": 26397064,
+      "municipal_2024_supplementary_eligible_yen": 12434000,
+      "municipal_2025_initial_eligible_yen": 2733000,
+      "total_project_expense_yen": 36425090,
+      "total_2024_supplementary_eligible_yen": 16440000,
+      "total_2025_initial_eligible_yen": 4250000,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "富山県",
+      "page": 12,
+      "prefecture_project_expense_yen": 15054401,
+      "prefecture_2024_supplementary_eligible_yen": 5908707,
+      "prefecture_2025_initial_eligible_yen": 2410996,
+      "municipal_project_expense_yen": 2504370,
+      "municipal_2024_supplementary_eligible_yen": 367730,
+      "municipal_2025_initial_eligible_yen": 1660270,
+      "total_project_expense_yen": 17558771,
+      "total_2024_supplementary_eligible_yen": 6276437,
+      "total_2025_initial_eligible_yen": 4071266,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "石川県",
+      "page": 21,
+      "prefecture_project_expense_yen": 10930453,
+      "prefecture_2024_supplementary_eligible_yen": 7217633,
+      "prefecture_2025_initial_eligible_yen": 466790,
+      "municipal_project_expense_yen": 7251654,
+      "municipal_2024_supplementary_eligible_yen": 2936084,
+      "municipal_2025_initial_eligible_yen": 1516973,
+      "total_project_expense_yen": 18182107,
+      "total_2024_supplementary_eligible_yen": 10153717,
+      "total_2025_initial_eligible_yen": 1983763,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "福井県",
+      "page": 30,
+      "prefecture_project_expense_yen": 8144978,
+      "prefecture_2024_supplementary_eligible_yen": 3476589,
+      "prefecture_2025_initial_eligible_yen": 793618,
+      "municipal_project_expense_yen": 10578820,
+      "municipal_2024_supplementary_eligible_yen": 5097191,
+      "municipal_2025_initial_eligible_yen": 0,
+      "total_project_expense_yen": 18723798,
+      "total_2024_supplementary_eligible_yen": 8573780,
+      "total_2025_initial_eligible_yen": 793618,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "山梨県",
+      "page": 39,
+      "prefecture_project_expense_yen": 1550906,
+      "prefecture_2024_supplementary_eligible_yen": 341440,
+      "prefecture_2025_initial_eligible_yen": 650448,
+      "municipal_project_expense_yen": 4082160,
+      "municipal_2024_supplementary_eligible_yen": 945700,
+      "municipal_2025_initial_eligible_yen": 1468000,
+      "total_project_expense_yen": 5633066,
+      "total_2024_supplementary_eligible_yen": 1287140,
+      "total_2025_initial_eligible_yen": 2118448,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "長野県",
+      "page": 48,
+      "prefecture_project_expense_yen": 33063839,
+      "prefecture_2024_supplementary_eligible_yen": 15939248,
+      "prefecture_2025_initial_eligible_yen": 249000,
+      "municipal_project_expense_yen": 7483115,
+      "municipal_2024_supplementary_eligible_yen": 2290000,
+      "municipal_2025_initial_eligible_yen": 3167000,
+      "total_project_expense_yen": 40546954,
+      "total_2024_supplementary_eligible_yen": 18229248,
+      "total_2025_initial_eligible_yen": 3416000,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "岐阜県",
+      "page": 57,
+      "prefecture_project_expense_yen": 16349182,
+      "prefecture_2024_supplementary_eligible_yen": 6863600,
+      "prefecture_2025_initial_eligible_yen": 1857662,
+      "municipal_project_expense_yen": 10534994,
+      "municipal_2024_supplementary_eligible_yen": 3424913,
+      "municipal_2025_initial_eligible_yen": 3292657,
+      "total_project_expense_yen": 26884176,
+      "total_2024_supplementary_eligible_yen": 10288513,
+      "total_2025_initial_eligible_yen": 5150319,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "静岡県",
+      "page": 66,
+      "prefecture_project_expense_yen": 15763499,
+      "prefecture_2024_supplementary_eligible_yen": 7681986,
+      "prefecture_2025_initial_eligible_yen": 4723670,
+      "municipal_project_expense_yen": 39852829,
+      "municipal_2024_supplementary_eligible_yen": 15862586,
+      "municipal_2025_initial_eligible_yen": 7598248,
+      "total_project_expense_yen": 55616328,
+      "total_2024_supplementary_eligible_yen": 23544572,
+      "total_2025_initial_eligible_yen": 12321918,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "愛知県",
+      "page": 75,
+      "prefecture_project_expense_yen": 39933358,
+      "prefecture_2024_supplementary_eligible_yen": 18282015,
+      "prefecture_2025_initial_eligible_yen": 1684362,
+      "municipal_project_expense_yen": 54673347,
+      "municipal_2024_supplementary_eligible_yen": 25735985,
+      "municipal_2025_initial_eligible_yen": 6605683,
+      "total_project_expense_yen": 94606705,
+      "total_2024_supplementary_eligible_yen": 44018000,
+      "total_2025_initial_eligible_yen": 8290045,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "三重県",
+      "page": 84,
+      "prefecture_project_expense_yen": 14491217,
+      "prefecture_2024_supplementary_eligible_yen": 6808858,
+      "prefecture_2025_initial_eligible_yen": 485630,
+      "municipal_project_expense_yen": 7791760,
+      "municipal_2024_supplementary_eligible_yen": 3464152,
+      "municipal_2025_initial_eligible_yen": 1586060,
+      "total_project_expense_yen": 22282977,
+      "total_2024_supplementary_eligible_yen": 10273010,
+      "total_2025_initial_eligible_yen": 2071690,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "滋賀県",
+      "page": 93,
+      "prefecture_project_expense_yen": 6941653,
+      "prefecture_2024_supplementary_eligible_yen": 2310489,
+      "prefecture_2025_initial_eligible_yen": 3381707,
+      "municipal_project_expense_yen": 9625239,
+      "municipal_2024_supplementary_eligible_yen": 3645998,
+      "municipal_2025_initial_eligible_yen": 2132144,
+      "total_project_expense_yen": 16566892,
+      "total_2024_supplementary_eligible_yen": 5956487,
+      "total_2025_initial_eligible_yen": 5513851,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "京都府",
+      "page": 102,
+      "prefecture_project_expense_yen": 54961435,
+      "prefecture_2024_supplementary_eligible_yen": 27274397,
+      "prefecture_2025_initial_eligible_yen": 204000,
+      "municipal_project_expense_yen": 15473538,
+      "municipal_2024_supplementary_eligible_yen": 6938000,
+      "municipal_2025_initial_eligible_yen": 1469000,
+      "total_project_expense_yen": 70434973,
+      "total_2024_supplementary_eligible_yen": 34212397,
+      "total_2025_initial_eligible_yen": 1673000,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "大阪府",
+      "page": 111,
+      "prefecture_project_expense_yen": 14160575,
+      "prefecture_2024_supplementary_eligible_yen": 3086376,
+      "prefecture_2025_initial_eligible_yen": 6688238,
+      "municipal_project_expense_yen": 18065295,
+      "municipal_2024_supplementary_eligible_yen": 4130979,
+      "municipal_2025_initial_eligible_yen": 9039700,
+      "total_project_expense_yen": 32225870,
+      "total_2024_supplementary_eligible_yen": 7217355,
+      "total_2025_initial_eligible_yen": 15727938,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "兵庫県",
+      "page": 120,
+      "prefecture_project_expense_yen": 28497044,
+      "prefecture_2024_supplementary_eligible_yen": 13622062,
+      "prefecture_2025_initial_eligible_yen": 677750,
+      "municipal_project_expense_yen": 27264468,
+      "municipal_2024_supplementary_eligible_yen": 8831900,
+      "municipal_2025_initial_eligible_yen": 10656908,
+      "total_project_expense_yen": 55761512,
+      "total_2024_supplementary_eligible_yen": 22453962,
+      "total_2025_initial_eligible_yen": 11334658,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "奈良県",
+      "page": 129,
+      "prefecture_project_expense_yen": 12562452,
+      "prefecture_2024_supplementary_eligible_yen": 5709535,
+      "prefecture_2025_initial_eligible_yen": 571301,
+      "municipal_project_expense_yen": 25191525,
+      "municipal_2024_supplementary_eligible_yen": 11319543,
+      "municipal_2025_initial_eligible_yen": 2531276,
+      "total_project_expense_yen": 37753977,
+      "total_2024_supplementary_eligible_yen": 17029078,
+      "total_2025_initial_eligible_yen": 3102577,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "和歌山県",
+      "page": 138,
+      "prefecture_project_expense_yen": 10559033,
+      "prefecture_2024_supplementary_eligible_yen": 2203840,
+      "prefecture_2025_initial_eligible_yen": 4536461,
+      "municipal_project_expense_yen": 3965371,
+      "municipal_2024_supplementary_eligible_yen": 2348468,
+      "municipal_2025_initial_eligible_yen": 346005,
+      "total_project_expense_yen": 14524404,
+      "total_2024_supplementary_eligible_yen": 4552308,
+      "total_2025_initial_eligible_yen": 4882466,
+      "source_id": "caa-strengthened-execution-2025-part3"
+    },
+    {
+      "prefecture": "鳥取県",
+      "page": 3,
+      "prefecture_project_expense_yen": 12648740,
+      "prefecture_2024_supplementary_eligible_yen": 8488359,
+      "prefecture_2025_initial_eligible_yen": 2021592,
+      "municipal_project_expense_yen": 1811300,
+      "municipal_2024_supplementary_eligible_yen": 200000,
+      "municipal_2025_initial_eligible_yen": 1303100,
+      "total_project_expense_yen": 14460040,
+      "total_2024_supplementary_eligible_yen": 8688359,
+      "total_2025_initial_eligible_yen": 3324692,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "島根県",
+      "page": 12,
+      "prefecture_project_expense_yen": 9713525,
+      "prefecture_2024_supplementary_eligible_yen": 3967172,
+      "prefecture_2025_initial_eligible_yen": 893197,
+      "municipal_project_expense_yen": 638844,
+      "municipal_2024_supplementary_eligible_yen": 231000,
+      "municipal_2025_initial_eligible_yen": 173000,
+      "total_project_expense_yen": 10352369,
+      "total_2024_supplementary_eligible_yen": 4198172,
+      "total_2025_initial_eligible_yen": 1066197,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "岡山県",
+      "page": 21,
+      "prefecture_project_expense_yen": 18664126,
+      "prefecture_2024_supplementary_eligible_yen": 8132759,
+      "prefecture_2025_initial_eligible_yen": 1817738,
+      "municipal_project_expense_yen": 6537626,
+      "municipal_2024_supplementary_eligible_yen": 2189630,
+      "municipal_2025_initial_eligible_yen": 1994305,
+      "total_project_expense_yen": 25201752,
+      "total_2024_supplementary_eligible_yen": 10322389,
+      "total_2025_initial_eligible_yen": 3812043,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "広島県",
+      "page": 30,
+      "prefecture_project_expense_yen": 17960146,
+      "prefecture_2024_supplementary_eligible_yen": 6463989,
+      "prefecture_2025_initial_eligible_yen": 3928106,
+      "municipal_project_expense_yen": 18227727,
+      "municipal_2024_supplementary_eligible_yen": 7021025,
+      "municipal_2025_initial_eligible_yen": 4161423,
+      "total_project_expense_yen": 36187873,
+      "total_2024_supplementary_eligible_yen": 13485014,
+      "total_2025_initial_eligible_yen": 8089529,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "山口県",
+      "page": 39,
+      "prefecture_project_expense_yen": 37300143,
+      "prefecture_2024_supplementary_eligible_yen": 23591686,
+      "prefecture_2025_initial_eligible_yen": 1145988,
+      "municipal_project_expense_yen": 5961935,
+      "municipal_2024_supplementary_eligible_yen": 1911862,
+      "municipal_2025_initial_eligible_yen": 2694445,
+      "total_project_expense_yen": 43262078,
+      "total_2024_supplementary_eligible_yen": 25503548,
+      "total_2025_initial_eligible_yen": 3840433,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "徳島県",
+      "page": 48,
+      "prefecture_project_expense_yen": 77769457,
+      "prefecture_2024_supplementary_eligible_yen": 36640881,
+      "prefecture_2025_initial_eligible_yen": 4455592,
+      "municipal_project_expense_yen": 5713532,
+      "municipal_2024_supplementary_eligible_yen": 945000,
+      "municipal_2025_initial_eligible_yen": 3667000,
+      "total_project_expense_yen": 83482989,
+      "total_2024_supplementary_eligible_yen": 37585881,
+      "total_2025_initial_eligible_yen": 8122592,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "香川県",
+      "page": 57,
+      "prefecture_project_expense_yen": 5886543,
+      "prefecture_2024_supplementary_eligible_yen": 4621954,
+      "prefecture_2025_initial_eligible_yen": 609106,
+      "municipal_project_expense_yen": 93720,
+      "municipal_2024_supplementary_eligible_yen": 0,
+      "municipal_2025_initial_eligible_yen": 93720,
+      "total_project_expense_yen": 5980263,
+      "total_2024_supplementary_eligible_yen": 4621954,
+      "total_2025_initial_eligible_yen": 702826,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "愛媛県",
+      "page": 66,
+      "prefecture_project_expense_yen": 12285422,
+      "prefecture_2024_supplementary_eligible_yen": 4781033,
+      "prefecture_2025_initial_eligible_yen": 1840652,
+      "municipal_project_expense_yen": 2634638,
+      "municipal_2024_supplementary_eligible_yen": 949713,
+      "municipal_2025_initial_eligible_yen": 488778,
+      "total_project_expense_yen": 14920060,
+      "total_2024_supplementary_eligible_yen": 5730746,
+      "total_2025_initial_eligible_yen": 2329430,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "高知県",
+      "page": 75,
+      "prefecture_project_expense_yen": 9664440,
+      "prefecture_2024_supplementary_eligible_yen": 4723368,
+      "prefecture_2025_initial_eligible_yen": 429068,
+      "municipal_project_expense_yen": 3218032,
+      "municipal_2024_supplementary_eligible_yen": 1296000,
+      "municipal_2025_initial_eligible_yen": 383000,
+      "total_project_expense_yen": 12882472,
+      "total_2024_supplementary_eligible_yen": 6019368,
+      "total_2025_initial_eligible_yen": 812068,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "福岡県",
+      "page": 84,
+      "prefecture_project_expense_yen": 24266934,
+      "prefecture_2024_supplementary_eligible_yen": 10424000,
+      "prefecture_2025_initial_eligible_yen": 1998000,
+      "municipal_project_expense_yen": 7639095,
+      "municipal_2024_supplementary_eligible_yen": 3086000,
+      "municipal_2025_initial_eligible_yen": 2282000,
+      "total_project_expense_yen": 31906029,
+      "total_2024_supplementary_eligible_yen": 13510000,
+      "total_2025_initial_eligible_yen": 4280000,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "佐賀県",
+      "page": 93,
+      "prefecture_project_expense_yen": 11261128,
+      "prefecture_2024_supplementary_eligible_yen": 2781000,
+      "prefecture_2025_initial_eligible_yen": 4850000,
+      "municipal_project_expense_yen": 4607932,
+      "municipal_2024_supplementary_eligible_yen": 778000,
+      "municipal_2025_initial_eligible_yen": 3238000,
+      "total_project_expense_yen": 15869060,
+      "total_2024_supplementary_eligible_yen": 3559000,
+      "total_2025_initial_eligible_yen": 8088000,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "長崎県",
+      "page": 102,
+      "prefecture_project_expense_yen": 6326190,
+      "prefecture_2024_supplementary_eligible_yen": 4205344,
+      "prefecture_2025_initial_eligible_yen": 1125838,
+      "municipal_project_expense_yen": 5025538,
+      "municipal_2024_supplementary_eligible_yen": 1982486,
+      "municipal_2025_initial_eligible_yen": 918330,
+      "total_project_expense_yen": 11351728,
+      "total_2024_supplementary_eligible_yen": 6187830,
+      "total_2025_initial_eligible_yen": 2044168,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "熊本県",
+      "page": 111,
+      "prefecture_project_expense_yen": 19337418,
+      "prefecture_2024_supplementary_eligible_yen": 11212979,
+      "prefecture_2025_initial_eligible_yen": 1930581,
+      "municipal_project_expense_yen": 14723519,
+      "municipal_2024_supplementary_eligible_yen": 6451000,
+      "municipal_2025_initial_eligible_yen": 2779000,
+      "total_project_expense_yen": 34060937,
+      "total_2024_supplementary_eligible_yen": 17663979,
+      "total_2025_initial_eligible_yen": 4709581,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "大分県",
+      "page": 120,
+      "prefecture_project_expense_yen": 10004582,
+      "prefecture_2024_supplementary_eligible_yen": 4342342,
+      "prefecture_2025_initial_eligible_yen": 662936,
+      "municipal_project_expense_yen": 2142968,
+      "municipal_2024_supplementary_eligible_yen": 417425,
+      "municipal_2025_initial_eligible_yen": 1181630,
+      "total_project_expense_yen": 12147550,
+      "total_2024_supplementary_eligible_yen": 4759767,
+      "total_2025_initial_eligible_yen": 1844566,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "宮崎県",
+      "page": 129,
+      "prefecture_project_expense_yen": 21753200,
+      "prefecture_2024_supplementary_eligible_yen": 10875650,
+      "prefecture_2025_initial_eligible_yen": 0,
+      "municipal_project_expense_yen": 2085810,
+      "municipal_2024_supplementary_eligible_yen": 0,
+      "municipal_2025_initial_eligible_yen": 1936270,
+      "total_project_expense_yen": 23839010,
+      "total_2024_supplementary_eligible_yen": 10875650,
+      "total_2025_initial_eligible_yen": 1936270,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "鹿児島県",
+      "page": 138,
+      "prefecture_project_expense_yen": 11513970,
+      "prefecture_2024_supplementary_eligible_yen": 3087941,
+      "prefecture_2025_initial_eligible_yen": 4223977,
+      "municipal_project_expense_yen": 8765191,
+      "municipal_2024_supplementary_eligible_yen": 2650031,
+      "municipal_2025_initial_eligible_yen": 3736370,
+      "total_project_expense_yen": 20279161,
+      "total_2024_supplementary_eligible_yen": 5737972,
+      "total_2025_initial_eligible_yen": 7960347,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    },
+    {
+      "prefecture": "沖縄県",
+      "page": 147,
+      "prefecture_project_expense_yen": 25670944,
+      "prefecture_2024_supplementary_eligible_yen": 10973512,
+      "prefecture_2025_initial_eligible_yen": 2419338,
+      "municipal_project_expense_yen": 1121210,
+      "municipal_2024_supplementary_eligible_yen": 21000,
+      "municipal_2025_initial_eligible_yen": 818560,
+      "total_project_expense_yen": 26792154,
+      "total_2024_supplementary_eligible_yen": 10994512,
+      "total_2025_initial_eligible_yen": 3237898,
+      "source_id": "caa-strengthened-execution-2025-part4"
+    }
+  ],
+  "rows": [
+    {
+      "id": "caa-strengthened-execution-2025-北海道",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "北海道",
+      "prefecture": "北海道",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 15.637318,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-青森県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "青森県",
+      "prefecture": "青森県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.157433,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-岩手県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "岩手県",
+      "prefecture": "岩手県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.142093,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-宮城県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "宮城県",
+      "prefecture": "宮城県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.831596,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-秋田県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "秋田県",
+      "prefecture": "秋田県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.266458,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-山形県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "山形県",
+      "prefecture": "山形県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.604101,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-福島県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "福島県",
+      "prefecture": "福島県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 5.539964,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-茨城県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "茨城県",
+      "prefecture": "茨城県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 7.734491,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-栃木県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "栃木県",
+      "prefecture": "栃木県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 7.007116,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-群馬県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "群馬県",
+      "prefecture": "群馬県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 5.936107,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-埼玉県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "埼玉県",
+      "prefecture": "埼玉県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 32.989303,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-千葉県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "千葉県",
+      "prefecture": "千葉県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 11.584394,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-東京都",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "東京都",
+      "prefecture": "東京都",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 12.141443,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-神奈川県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "神奈川県",
+      "prefecture": "神奈川県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 13.333654,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part2"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-新潟県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "新潟県",
+      "prefecture": "新潟県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.25,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-富山県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "富山県",
+      "prefecture": "富山県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.071266,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-石川県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "石川県",
+      "prefecture": "石川県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 1.983763,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-福井県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "福井県",
+      "prefecture": "福井県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 0.793618,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-山梨県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "山梨県",
+      "prefecture": "山梨県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.118448,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-長野県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "長野県",
+      "prefecture": "長野県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.416,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-岐阜県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "岐阜県",
+      "prefecture": "岐阜県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 5.150319,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-静岡県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "静岡県",
+      "prefecture": "静岡県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 12.321918,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-愛知県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "愛知県",
+      "prefecture": "愛知県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 8.290045,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-三重県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "三重県",
+      "prefecture": "三重県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.07169,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-滋賀県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "滋賀県",
+      "prefecture": "滋賀県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 5.513851,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-京都府",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "京都府",
+      "prefecture": "京都府",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 1.673,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-大阪府",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "大阪府",
+      "prefecture": "大阪府",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 15.727938,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-兵庫県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "兵庫県",
+      "prefecture": "兵庫県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 11.334658,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-奈良県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "奈良県",
+      "prefecture": "奈良県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.102577,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-和歌山県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "和歌山県",
+      "prefecture": "和歌山県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.882466,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part3"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-鳥取県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "鳥取県",
+      "prefecture": "鳥取県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.324692,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-島根県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "島根県",
+      "prefecture": "島根県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 1.066197,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-岡山県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "岡山県",
+      "prefecture": "岡山県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.812043,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-広島県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "広島県",
+      "prefecture": "広島県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 8.089529,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-山口県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "山口県",
+      "prefecture": "山口県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.840433,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-徳島県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "徳島県",
+      "prefecture": "徳島県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 8.122592,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-香川県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "香川県",
+      "prefecture": "香川県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 0.702826,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-愛媛県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "愛媛県",
+      "prefecture": "愛媛県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.32943,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-高知県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "高知県",
+      "prefecture": "高知県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 0.812068,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-福岡県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "福岡県",
+      "prefecture": "福岡県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.28,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-佐賀県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "佐賀県",
+      "prefecture": "佐賀県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 8.088,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-長崎県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "長崎県",
+      "prefecture": "長崎県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 2.044168,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-熊本県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "熊本県",
+      "prefecture": "熊本県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 4.709581,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-大分県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "大分県",
+      "prefecture": "大分県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 1.844566,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-宮崎県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "宮崎県",
+      "prefecture": "宮崎県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 1.93627,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-鹿児島県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "鹿児島県",
+      "prefecture": "鹿児島県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 7.960347,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    },
+    {
+      "id": "caa-strengthened-execution-2025-沖縄県",
+      "ministry": "消費者庁",
+      "agency": "消費者庁",
+      "program": "地方消費者行政強化交付金",
+      "region": "沖縄県",
+      "prefecture": "沖縄県",
+      "basis": "事業実績の交付金対象経費（参考）",
+      "account": "2025年度本予算財源",
+      "unit": "百万円",
+      "scope": "県及び管内市町村の強化事業・2025年度本予算交付金対象経費",
+      "period2025": "2025年度事業実績",
+      "period2026": "同範囲の2026年度事業実績未収載",
+      "amount2025": 3.237898,
+      "amount2026": null,
+      "absence_status2025": null,
+      "absence_status2026": "not_collected",
+      "source_ids": [
+        "caa-strengthened-execution-2025-part4"
+      ],
+      "evidence_status": "公式原本集計済み",
+      "comparability": "片年度未収載",
+      "geography_status": "原本の都道府県名を独立確認。県及び管内市町村の総額で市町村・選挙区への配分は未照合。",
+      "note": "2025年度の強化事業実績のうち2025年度本予算財源の交付金対象経費。国庫の交付決定額・国の支出済額・事業経費総額・消費者行政決算見込み額と区別する。2024年度補正財源、推進事業（復興特会を含む）、事業計画を加算しない。県と市町村内訳の親合計だけを表示し、内訳と重複集計しない。2026年度公式申請表は段階・財源・制度区分が異なるため比較に使わず、同範囲の年度実績は未収載/null。金額だけで政治的影響を認定しない。"
+    }
+  ],
+  "reconciliation": {
+    "prefectures": 47,
+    "independently_verified_printed_amounts": 423,
+    "independent_poppler_equal": true,
+    "prefecture_plus_municipal_equal": true,
+    "totals_yen": {
+      "prefecture_project_expense_yen": 993088688,
+      "prefecture_2024_supplementary_eligible_yen": 456105937,
+      "prefecture_2025_initial_eligible_yen": 113714410,
+      "municipal_project_expense_yen": 643202372,
+      "municipal_2024_supplementary_eligible_yen": 246000743,
+      "municipal_2025_initial_eligible_yen": 167093258,
+      "total_project_expense_yen": 1636291060,
+      "total_2024_supplementary_eligible_yen": 702106680,
+      "total_2025_initial_eligible_yen": 280807668
+    }
+  }
+}

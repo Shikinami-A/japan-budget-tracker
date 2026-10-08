@@ -13,9 +13,21 @@ from verify_special_execution import validate as validate_special_execution
 from verify_roster_followup import validate as validate_roster_followup
 from verify_party_third_stage import validate as validate_party_third_stage
 from verify_roster_continued import validate as validate_roster_continued
+from verify_fdma_criteria import validate as validate_fdma_criteria
+from verify_fdma_reconciliation import validate as validate_fdma_reconciliation
+from verify_caa_execution import validate_report as validate_caa_execution
+from verify_caa_execution import validate_scope_report
+from verify_party_fourth_stage import validate as validate_party_fourth_stage
+from verify_mlit_water_utilities import validate_report as validate_water_utilities
 from verify_mlit_water_images import read_review as read_water_review, verify_ocr as validate_water_ocr
 
 ROOT=Path(__file__).resolve().parents[1]
+validate_fdma_criteria(json.loads((ROOT/'data/reviewed-fdma-criteria.json').read_text()))
+validate_fdma_reconciliation()
+validate_caa_execution(json.loads((ROOT/'data/reviewed-caa-execution.json').read_text()))
+validate_scope_report(json.loads((ROOT/'data/other-ministry-scope-review.json').read_text()))
+validate_party_fourth_stage()
+validate_water_utilities(json.loads((ROOT/'data/reviewed-mlit-water-utilities.json').read_text()))
 d=json.loads((ROOT/'public/data.json').read_text())
 assert d['schema_version']==1
 assert len(d['prefectures'])==47 and len(set(d['prefectures']))==47
@@ -27,6 +39,8 @@ followup=reviewed_followup(ROOT/'data/source-text')
 third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
 continued=json.loads((ROOT/'data/reviewed-roster-continued.json').read_text())
 continued_urls={s['id']:s['url'] for s in continued['sources']}
+fourth_stage=json.loads((ROOT/'data/reviewed-party-fourth-stage.json').read_text())
+continued_urls.update({s['id']:s['url'] for s in fourth_stage['sources']})
 approved_party_urls={url for party,url in PARTIES.values()}
 approved_party_urls.update(e['url'] for e in profiles['sources'])
 approved_party_urls.update(e['url'] for e in expansion['sources'])
@@ -55,6 +69,7 @@ for r in d['rows']:
     assert r['unit']=='百万円'
     assert r['source_ids'] and all(i in sources for i in r['source_ids'])
     assert all(i in sources for i in r.get('explanation_source_ids',[]))
+    assert all(i in sources for i in r.get('scope_review_source_ids',[]))
     for check in r.get('driver_checks', []):
         assert all(i in sources for i in check['source_ids'])
         assert isinstance(check['status'], str) and check['status'] and check['finding']
@@ -83,6 +98,13 @@ for r in d['rows']:
         assert '事業費' in r['program'] and '国費' in r['note']
         assert r['account']=='会計別未分解'
         if r['scope'].startswith('地方支分部局'):assert r['prefecture'] is None
+
+caa_rows=[r for r in d['rows'] if r.get('agency')=='消費者庁' and r['program']=='地方消費者行政強化交付金']
+assert len(caa_rows)==47
+for r in caa_rows:
+    assert r['ministry']=='内閣府' and r['amount2026'] is None
+    assert r['original_verified_fields']==['amount2025']
+    assert r['comparability']!='同範囲' and r['view_group']=='reference'
 
 assert d['original_coverage']['sources_with_original']==sum('original' in s for s in sources.values())
 assert d['original_coverage']['fully_verified_comparison_rows']==sum(r['evidence_status']=='原本数値照合済み' for r in d['rows'])

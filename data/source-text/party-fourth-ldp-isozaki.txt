@@ -1,0 +1,1 @@
+{"chamber": "参議院", "district": "香川県", "name": "いそざき仁彦", "original_location": "党公式現職プロフィール 氏名見出し・参議院議員・選挙区欄", "party": "自由民主党"}

@@ -367,17 +367,40 @@ def main():
                        ('reviewed-care-cities.json','reference'),
                        ('reviewed-reconstruction-followup.json','reference'),
                        ('reviewed-fdma-facilities.json','reference'),
-                       ('reviewed-mlit-water-images.json',None)]:
+                       ('reviewed-fdma-criteria.json',None),
+                       ('reviewed-fdma-reconciliation.json',None),
+                       ('reviewed-caa-execution.json','reference'),
+                       ('other-ministry-scope-review.json',None),
+                       ('reviewed-mlit-water-images.json',None),
+                       ('reviewed-mlit-water-utilities.json',None)]:
         report=json.loads((ROOT/'data'/name).read_text())
         SOURCES.extend(report.get('sources',[]))
         for reviewed_row in report.get('rows',[]):
+            if reviewed_row.get('agency') == '消費者庁' and reviewed_row['ministry'] == '消費者庁':
+                reviewed_row['ministry'] = '内閣府'
             reviewed_row['view_group']=group
             ROWS.append(reviewed_row)
         research_notes.extend(report.get('research_notes',[]))
+        if name == 'other-ministry-scope-review.json':
+            for finding in report['findings']:
+                note = dict(finding)
+                note['note'] = finding['scope'] + '。' + finding['note']
+                if note['ministry'] == '消費者庁':
+                    note.update(ministry='内閣府', agency='消費者庁')
+                research_notes.append(note)
         if name in ('reviewed-reconstruction.json', 'reviewed-cabinet-regional.json', 'reviewed-meti-regional.json', 'reviewed-mlit-water.json'):
             for note in report.get('research_notes', []):
                 note['snapshot_role'] = '先行調査（06d7543）の記録。今回の結果は別欄に表示。'
         research_findings.extend(report.get('data_quality_findings', []))
+        for enrichment in report.get('row_scope_enrichments', []):
+            target = next(r for r in ROWS if r['id'] == enrichment['row_id'])
+            allowed = {'program', 'basis', 'scope', 'comparability', 'note', 'view_group', 'account'}
+            updates = enrichment['updated_scope_fields']
+            assert set(updates) <= allowed
+            assert all(target[key] == value for key, value in enrichment['prior_scope_fields'].items())
+            target.update(updates)
+            target['prior_scope_declaration'] = enrichment['prior_scope_fields']
+            target['scope_review_source_ids'] = enrichment.get('source_ids', [])
         for enrichment in report.get('row_enrichments', []):
             target = next(r for r in ROWS if r['id'] == enrichment['row_id'])
             target['driver_checks'] = enrichment['driver_checks']
@@ -403,6 +426,12 @@ def main():
     roster=json.loads((ROOT/'data/reviewed-roster-followup.json').read_text())
     third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
     continued=json.loads((ROOT/'data/reviewed-roster-continued.json').read_text())
+    fourth_stage=json.loads((ROOT/'data/reviewed-party-fourth-stage.json').read_text())
+    for issue in fourth_stage['issues']:
+        member = next(m for m in legislators if m['id'] == issue['member_id'])
+        member['party_followup_review'] = dict(checked_at=fourth_stage['checked_at'], **issue)
+        member['party_nomination_observations'] = [o for o in fourth_stage['historical_nominations'] if o['member_id'] == member['id']]
+        member['party_spelling_holds'] = [o for o in fourth_stage['held_records'] if o['member_id'] == member['id']]
     for m in legislators:
         if m['chamber']=='衆議院':
             m['roster_verification_status']='公式原本の正式名・院一致' if m.get('roster_evidence') else '最新公式原本と正式名・院が未一致（旧名簿保持）'
@@ -423,6 +452,9 @@ def main():
             registry_source=next(e for e in continued['sources'] if e['id']==s['id'])
             s.update(accessed=continued['checked_at'], published=None, document_date=registry_source['as_of'],
                      retrieved_via='公式原本による氏名・院・当選区又は在職終了の独立照合')
+        elif s['id'] in {e['id'] for e in fourth_stage['sources']}:
+            s.update(accessed=fourth_stage['checked_at'], published=None, document_date=None,
+                     retrieved_via='党原本と国会プロフィールを照合。選挙時公認・表記保留と現在の所属確認を分離')
     geography=json.loads((ROOT/'data/reviewed-municipality-districts.json').read_text())
     for s in geography['sources']:
         SOURCES.append(dict(id=s['id'], title=s['title'], url=s['url'], locator=s['method'],

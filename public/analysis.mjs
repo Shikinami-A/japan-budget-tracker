@@ -1,7 +1,14 @@
 // Pure screening functions. Thresholds prioritize document checks, not allegations.
 export function change(row) {
   const a = row.amount2025, b = row.amount2026;
-  if (a === null || b === null) return { delta: null, pct: null, label: row.comparability === '片年度非掲載' ? '片年度非掲載' : '片年度未取得' };
+  if (a === null || b === null) {
+    const missingYears=[2025,2026].filter(year=>row[`amount${year}`]===null);
+    const statuses=missingYears.map(year=>row[`amount_status${year}`] ?? '').join(' / ');
+    const label=statuses.includes('原本ダッシュ') ? '原本ダッシュあり' :
+      row.comparability==='片年度非掲載' ? '片年度非掲載' :
+      row.comparability==='片年度未収載' || statuses.includes('未収載') ? '片年度未収載' : '片年度未取得';
+    return {delta:null,pct:null,label};
+  }
   const delta = b - a;
   if (a === 0) return { delta, pct: null, label: b === 0 ? '両年ゼロ' : '前年ゼロ・増減率なし' };
   const pct = row.published_change_pct ?? (delta / a * 100);

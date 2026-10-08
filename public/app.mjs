@@ -34,9 +34,13 @@ function rowMembers(r) { return membersForRow(r, data.legislators, true); }
 function rowSourceIDs(r) {
   return [...new Set([...r.source_ids,...r.explanation_source_ids??[],
     ...r.driver_checks?.flatMap(c=>c.source_ids)??[],
+    ...r.scope_review_source_ids??[],
     ...r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean) : []])];
 }
-function partyLabel(m) { return m.party ?? (m.party_status==='資料間不一致' ? `資料間不一致（${[...new Set(m.party_evidence.map(e=>e.party))].join('／')}）` : '未照合'); }
+function partyLabel(m) {
+  if(m.party) return m.party + ((m.party_evidence ?? []).some(e=>e.party===m.party && e.party_scope==='地域政党・政治団体') ? '（地域政党・政治団体の所属確認）' : '');
+  return m.party_status==='資料間不一致' ? `資料間不一致（${[...new Set(m.party_evidence.map(e=>e.party))].join('／')}）` : '未照合';
+}
 function memberLine(m) { return `${m.name}（${m.district ?? '選挙区未取得'}） / 党：${partyLabel(m)} / 会派：${m.caucus ?? '未取得'}`; }
 function render() {
   $('data-view').hidden = view === 'coverage'; $('coverage-view').hidden = view !== 'coverage';
@@ -142,7 +146,16 @@ function showDetail(row) {
   const r={...row,analysis:screen(row,data.rows,thresholds())}, content=$('detail-content');content.replaceChildren();
   content.append(el('h2',`${r.region} / ${r.program}`),el('p',`${r.ministry}・${r.account}・${r.basis}・${r.scope ?? ''}`),
     el('p',`${r.period2025}：${rowAmount(r,2025)} → ${r.period2026}：${rowAmount(r,2026)} 百万円 / ${r.analysis.label}`),
+    el('small',`金額の確認：2025 ${r.amount_status2025 ?? '未確認'} / 2026 ${r.amount_status2026 ?? '未確認'}`),
     el('p',r.note),el('p',`比較条件：${r.comparability} / ${r.evidence_status} / 精度：${r.precision ?? '出典単位から換算'}`,'muted'));
+  if (r.prior_scope_declaration) {
+    const prior=r.prior_scope_declaration, history=el('details');
+    history.append(el('summary','比較範囲の確認履歴'),el('p',`前の表示：${prior.program ?? r.program} / ${prior.basis ?? r.basis} / 比較条件：${prior.comparability ?? '未収録'}`));
+    if(prior.note)history.append(el('p',prior.note));
+    history.append(el('p','前の表示を履歴として保持しています。現在の比較条件は本文の確認結果を参照してください。'));
+    for(const id of r.scope_review_source_ids ?? [])history.append(sourceBlock(id));
+    content.append(history);
+  }
   if (r.published_change_pct !== undefined) content.append(el('p','増減率は国交省の公表値。表示金額が丸められているため、表示金額からの計算と端数が異なります。','muted'));
   if (r.plans2025 !== undefined) content.append(el('p',`計画件数：${r.plans2025} → ${r.plans2026} 件`));
   if (r.geography_status) content.append(el('p',`地域の確認：${r.geography_status}${r.municipality_code ? ' / 自治体コード：'+r.municipality_code : ''}`));
@@ -174,6 +187,20 @@ function memberCard(m) {
   const card=el('article',undefined,'member');card.append(el('h3',m.name),el('p',`${m.chamber}・${m.election_type}・${m.district ?? '選挙区未取得'}`),
     el('p',`所属党：${partyLabel(m)}`),el('p',`会派：${m.caucus ?? '未取得'}`),el('small',`名簿基準日：${m.as_of ?? '未確認'}`),link('国会名簿 ↗',m.source_url));
   if(m.roster_verification_status)card.append(el('small',`名簿確認：${m.roster_verification_status}`));
+  if(m.party_followup_review) {
+    const review=m.party_followup_review;
+    card.append(el('small',`追加党籍調査：${review.status} / 照合日：${review.checked_at}`),el('small',review.reason));
+    for(const observation of m.party_nomination_observations ?? []) {
+      const s=data.sources.find(s=>s.id===observation.source_id);
+      card.append(el('small',`選挙時公認の別記録：${observation.party} / ${observation.election_frame}。現在党籍は未照合。`));
+      if(s)card.append(link('選挙時公認の原本 ↗',s.url));
+    }
+    for(const hold of m.party_spelling_holds ?? []) {
+      const s=data.sources.find(s=>s.id===hold.source_id);
+      card.append(el('small',`氏名対応保留：${hold.possible_party} / ${hold.reason}`));
+      if(s)card.append(link('表記を確認した党原本 ↗',s.url));
+    }
+  }
   if(m.service_status) {
     card.append(el('p',`${m.service_status} / 在職終了日：${m.service_end_date ?? '未確認'}`));
     for(const e of m.service_evidence ?? [])card.append(link('在職終了の公式根拠 ↗',e.url),el('small',e.note));
@@ -188,6 +215,7 @@ function memberCard(m) {
   for(const e of m.party_evidence??[]) {
     card.append(link(`${e.party}の確認資料 ↗`,e.url),el('small',`所属資料の基準日：${e.as_of??'未確認'} / 照合日：${e.checked_at}`));
     if(e.roster_name)card.append(el('small',`党の表記：${e.roster_name}`));
+    if(e.scope_note)card.append(el('small',e.scope_note));
     if(e.profile_url) {
       card.append(link('党の個別プロフィール原本 ↗',e.profile_url));
       const original=(data.party_originals ?? []).find(o=>o.source_id===e.supporting_original_id);
@@ -276,15 +304,16 @@ function renderCoverage() {
 }
 function exportCSV() {
   const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','amount_status2025','amount_status2026','amount_column2025','amount_column2026','plans2025','plans2026','unit','comparability','evidence_status','geography_status','municipality_code','legislator_mapping_status','note'];
-  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence','municipality_mapping','geography_evidence','driver_checks']).map(csvCell).join(',')];
+  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence','municipality_mapping','geography_evidence','driver_checks','scope_review']).map(csvCell).join(',')];
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
     csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell(rowSourceIDs(r).map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
-    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,district:m.district,roster_as_of:m.as_of,roster_url:m.source_url,baseline_roster:m.baseline_roster,roster_evidence:m.roster_evidence,party_status:m.party_status,party_evidence:m.party_evidence,current_roster_eligible:m.current_roster_eligible,service_status:m.service_status,service_evidence:m.service_evidence})))),
+    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,district:m.district,roster_as_of:m.as_of,roster_url:m.source_url,baseline_roster:m.baseline_roster,roster_evidence:m.roster_evidence,party_status:m.party_status,party_evidence:m.party_evidence,current_roster_eligible:m.current_roster_eligible,service_status:m.service_status,service_evidence:m.service_evidence,party_followup_review:m.party_followup_review,party_nomination_observations:m.party_nomination_observations,party_spelling_holds:m.party_spelling_holds})))),
     csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]})))),
     csvCell(JSON.stringify(r.municipality_mapping ?? null)),
     csvCell(JSON.stringify(r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean).map(id=>data.sources.find(s=>s.id===id)).map(s=>({source_id:s.id,url:s.url,sha256_extracted_text:s.sha256_extracted_text,original:s.original})) : [])),
-    csvCell(JSON.stringify(r.driver_checks ?? []))]).join(','));
+    csvCell(JSON.stringify(r.driver_checks ?? [])),
+    csvCell(JSON.stringify(r.prior_scope_declaration ? {prior:r.prior_scope_declaration,source_ids:r.scope_review_source_ids,evidence:(r.scope_review_source_ids ?? []).map(id=>data.sources.find(s=>s.id===id)).map(s=>({source_id:s.id,url:s.url,original:s.original}))} : null))]).join(','));
   const blob=new Blob(['\uFEFF',lines.join('\r\n')],{type:'text/csv;charset=utf-8'}),u=URL.createObjectURL(blob),a=el('a');a.href=u;a.download=`budget-${view}-${data.as_of}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 async function start() {

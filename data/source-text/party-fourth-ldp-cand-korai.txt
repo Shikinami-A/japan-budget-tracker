@@ -1,0 +1,1 @@
+{"candidacy_district": "大阪府第8区", "chamber": "衆議院", "current_membership_confirmed": false, "election_frame": "2026年第51回衆議院選挙", "name": "こうらい啓一郎", "original_location": "選挙特設原本 .heading1-hero/選挙区 h2/氏名 ruby（rt除外）", "party": "自由民主党", "party_membership_as_of": null, "status_label": "公認候補者"}

@@ -1,0 +1,1 @@
+{"chamber": "衆議院", "date_fields": {"biography_as_of_month": "2026-04", "precise_biography_date": null}, "district": "愛知1", "name": "河村たかし", "original_location": "HTMLの氏名見出し・当選した選挙区欄。会派を党籍に使わず、役職日・略歴日を文書全体の資料日へ転用しない。"}

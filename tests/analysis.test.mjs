@@ -19,6 +19,28 @@ test('Zero baselines and absent values do not invent percentage changes',()=>{
   assert.equal(change({amount2025:null,amount2026:100}).delta,null);
   assert.equal(change({amount2025:100,amount2026:0}).pct,-100);
 });
+test('Missing reports and printed dashes stay distinct from nonlisted recipients and zero',()=>{
+  const eligible=data.rows.filter(r=>r.agency==='消費者庁'&&r.program==='地方消費者行政強化交付金');
+  assert.equal(eligible.length,47);
+  assert.ok(eligible.every(r=>r.amount2026===null&&change(r).label==='片年度未収載'));
+  assert.ok(eligible.every(r=>!screen(r,data.rows,{pct:0,amount:0,gap:0}).candidate));
+  const dash=data.rows.find(r=>[2025,2026].some(year=>r[`amount${year}`]===null&&r[`amount_status${year}`]?.includes('原本ダッシュ')));
+  assert.ok(dash);
+  assert.equal(change(dash).label,'原本ダッシュあり');
+  const absent=data.rows.find(r=>r.comparability==='片年度非掲載');
+  assert.equal(change(absent).label,'片年度非掲載');
+});
+test('Historical nominations and spelling holds never become current party evidence',()=>{
+  const review=JSON.parse(readFileSync(new URL('../data/reviewed-party-fourth-stage.json',import.meta.url)));
+  for(const observation of [...review.historical_nominations,...review.held_records]) {
+    const member=data.legislators.find(m=>m.id===observation.member_id);
+    assert.equal(member.party,null);
+    assert.ok(!member.party_evidence.some(e=>e.source_id===observation.source_id));
+  }
+  const regional=data.legislators.find(m=>m.id==='house-河村たかし');
+  assert.equal(regional.party,'減税日本');
+  assert.ok(regional.party_evidence.some(e=>e.party_scope==='地域政党・政治団体'&&e.as_of===null));
+});
 test('Peer baseline uses the matching institution and scope, not unweighted regional rates',()=>{
   const r=get('lat-愛知県-0'),actual=peerChange(r,data.rows);
   const peers=data.rows.filter(p=>p.program===r.program&&p.scope===r.scope);

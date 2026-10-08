@@ -1,0 +1,1 @@
+{"chamber": "参議院", "district": "全国比例", "name": "宮﨑勝", "original_location": "党公式現職プロフィール 氏名見出し・参議院議員・選挙区欄", "party": "公明党"}

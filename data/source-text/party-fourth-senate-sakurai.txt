@@ -1,0 +1,1 @@
+{"chamber": "参議院", "date_fields": {"biography_as_of": "2025-12-18", "role_as_of": "2026-10-07"}, "district": "宮城県", "name": "櫻井充", "original_location": "HTMLの氏名見出し・当選した選挙区欄。会派を党籍に使わず、役職日・略歴日を文書全体の資料日へ転用しない。"}
