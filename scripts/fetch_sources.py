@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 import time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -32,6 +33,19 @@ class CheckedRedirect(HTTPRedirectHandler):
         return result
 
 
+def failure_details(error):
+    """Return bounded diagnostics, never proxy headers, addresses, or raw errors."""
+    if isinstance(error,HTTPError):
+        return {'failure_category':'http_error','http_status':error.code}
+    if isinstance(error,URLError):
+        # CONNECT failures are wrapped in URLError by urllib, whereas remote
+        # HTTP errors use HTTPError. Do not log the exception's raw message.
+        if re.match(r'^Tunnel connection failed: 403(?:\s|$)',str(error.reason)):
+            return {'failure_category':'proxy_connect_denied','http_status':403}
+        return {'failure_category':'connection_error'}
+    return {'failure_category':'timeout' if isinstance(error,TimeoutError) else 'validation_error'}
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--limit',type=int,default=5,help='Maximum files to request; cached URLs are skipped')
@@ -60,9 +74,10 @@ def main():
                                final_url=checked(response.geturl()),content_type=response.headers.get_content_type())
                 destination.write_bytes(content)
         except (HTTPError,URLError,TimeoutError,ValueError) as error:
-            receipt.update(status='blocked_or_failed',error_type=type(error).__name__)
+            receipt.update(status='blocked_or_failed',error_type=type(error).__name__,**failure_details(error))
         with (cache/'manifest.jsonl').open('a') as f:f.write(json.dumps(receipt,ensure_ascii=False)+'\n')
-        print(json.dumps({'requested':requested,'status':receipt['status'],'host':urlsplit(url).hostname},ensure_ascii=False))
+        print(json.dumps({'requested':requested,'status':receipt['status'],'host':urlsplit(url).hostname,
+                         **{k:receipt[k] for k in ['failure_category','http_status'] if k in receipt}},ensure_ascii=False))
         if requested>=args.limit:break
 
 

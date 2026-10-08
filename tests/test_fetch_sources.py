@@ -3,6 +3,7 @@ import importlib.util
 import unittest
 from pathlib import Path
 from urllib.request import Request
+from urllib.error import HTTPError, URLError
 
 spec = importlib.util.spec_from_file_location(
     'fetch_sources', Path(__file__).resolve().parents[1] / 'scripts/fetch_sources.py')
@@ -11,6 +12,14 @@ spec.loader.exec_module(fetch)
 
 
 class FetchBoundaryTests(unittest.TestCase):
+    def test_failure_diagnostics_do_not_expose_raw_proxy_details(self):
+        denied=URLError(OSError('Tunnel connection failed: 403 Forbidden'))
+        self.assertEqual(fetch.failure_details(denied),{'failure_category':'proxy_connect_denied','http_status':403})
+        remote=HTTPError('https://www.mof.go.jp/data.pdf',403,'Forbidden',None,None)
+        self.assertEqual(fetch.failure_details(remote),{'failure_category':'http_error','http_status':403})
+        private=URLError('private proxy host and credentials')
+        self.assertEqual(fetch.failure_details(private),{'failure_category':'connection_error'})
+
     def test_reject_untrusted_urls(self):
         for url in (
             'http://www.mof.go.jp/data.pdf',

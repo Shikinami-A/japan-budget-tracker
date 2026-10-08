@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from party_sources import matching_members, apply_party_rosters
+from party_sources import matching_members, apply_party_rosters, apply_reviewed_profiles
 
 
 def member(name,reading,chamber='衆議院',caucus='自民'):
@@ -14,6 +14,22 @@ def member(name,reading,chamber='衆議院',caucus='自民'):
 
 
 class PartyJoinTests(unittest.TestCase):
+    def test_reviewed_profile_alias_preserves_unknown_date(self):
+        m=member('杉本純子',None,'参議院')
+        m.update(id='senate-杉本純子',district='愛知県',party_evidence=[])
+        apply_reviewed_profiles([m],ROOT/'data/source-text',lambda *a,**kw:None,'2026-10-08')
+        self.assertEqual(len(m['party_evidence']),1)
+        e=m['party_evidence'][0]
+        self.assertEqual(e['party'],'参政党')
+        self.assertEqual(e['roster_name'],'杉本じゅんこ')
+        self.assertIsNone(e['as_of'])
+
+    def test_reviewed_profile_rejects_different_district(self):
+        m=member('井野俊郎','いのとしろう')
+        m.update(id='house-井野俊郎',district='群馬1',party_evidence=[])
+        with self.assertRaises(AssertionError):
+            apply_reviewed_profiles([m],ROOT/'data/source-text',lambda *a,**kw:None,'2026-10-08')
+
     def test_homonyms_require_chamber(self):
         people=[member('同名議員','どうめいぎいん'),member('同名議員','どうめいぎいん','参議院')]
         self.assertEqual(matching_members(('同名議員',None,None),people),[])

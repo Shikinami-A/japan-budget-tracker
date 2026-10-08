@@ -1958,6 +1958,420 @@
       "note": "前年同期比較。繰越分などを含む。支出時期の違いがあるため、年間配分の減額を意味しない。"
     },
     {
+      "id": "july-デジタル庁",
+      "ministry": "デジタル庁",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 25917.612,
+      "amount2026": 34791.085,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-会計検査院",
+      "ministry": "会計検査院",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 5054.779,
+      "amount2026": 5307.777,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-内閣",
+      "ministry": "内閣",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 30380.472,
+      "amount2026": 30124.887,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-内閣府",
+      "ministry": "内閣府",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 1700169.807,
+      "amount2026": 2281534.625,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-厚生労働省",
+      "ministry": "厚生労働省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 12428853.89,
+      "amount2026": 13386013.701,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-国会",
+      "ministry": "国会",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 41099.967,
+      "amount2026": 42730.984,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-国土交通省",
+      "ministry": "国土交通省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 844196.271,
+      "amount2026": 837243.873,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-外務省",
+      "ministry": "外務省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 344697.137,
+      "amount2026": 324507.753,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-文部科学省",
+      "ministry": "文部科学省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 2512040.147,
+      "amount2026": 2913468.76,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-法務省",
+      "ministry": "法務省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 258826.853,
+      "amount2026": 271196.206,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-環境省",
+      "ministry": "環境省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 76259.536,
+      "amount2026": 51665.454,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-皇室費",
+      "ministry": "皇室費",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 2727.781,
+      "amount2026": 2479.536,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-経済産業省",
+      "ministry": "経済産業省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 263413.465,
+      "amount2026": 351979.987,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-総務省",
+      "ministry": "総務省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 13460749.866,
+      "amount2026": 14850006.481,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-裁判所",
+      "ministry": "裁判所",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 104816.053,
+      "amount2026": 111165.027,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-財務省",
+      "ministry": "財務省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 6763946.159,
+      "amount2026": 7309918.966,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-農林水産省",
+      "ministry": "農林水産省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 648398.987,
+      "amount2026": 661055.015,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
+      "id": "july-防衛省",
+      "ministry": "防衛省",
+      "program": "所管別支出済歳出額（7月末累計）",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "執行額（4〜7月累計）",
+      "account": "一般会計",
+      "amount2025": 2742909.782,
+      "amount2026": 2200725.619,
+      "unit": "百万円",
+      "source_ids": [
+        "mof-july-2025",
+        "mof-july-2026",
+        "mof-july-announcement-2025",
+        "mof-july-announcement-2026"
+      ],
+      "period2025": "2025年4〜7月",
+      "period2026": "2026年4〜7月",
+      "evidence_status": "公式本文確認",
+      "comparability": "同範囲",
+      "note": "同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。"
+    },
+    {
       "id": "lat-北海道-0",
       "ministry": "総務省",
       "program": "普通交付税",
@@ -4043,7 +4457,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-22",
-        "maff-2026-24"
+        "maff-2026-24",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4066,7 +4482,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-22",
-        "maff-2026-24"
+        "maff-2026-24",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4089,7 +4507,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-24",
-        "maff-2026-26"
+        "maff-2026-26",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4112,7 +4532,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-39",
-        "maff-2026-41"
+        "maff-2026-41",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4134,7 +4556,8 @@
       "amount2026": 5,
       "unit": "百万円",
       "source_ids": [
-        "maff-2026-28"
+        "maff-2026-28",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4157,7 +4580,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-26",
-        "maff-2026-28"
+        "maff-2026-28",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4180,7 +4605,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-1",
-        "maff-2026-1"
+        "maff-2026-1",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4203,7 +4630,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-1",
-        "maff-2026-1"
+        "maff-2026-1",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4226,7 +4655,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-12",
-        "maff-2026-12"
+        "maff-2026-12",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4249,7 +4680,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-28",
-        "maff-2026-30"
+        "maff-2026-30",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4272,7 +4705,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-11",
-        "maff-2026-11"
+        "maff-2026-11",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4295,7 +4730,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-11",
-        "maff-2026-11"
+        "maff-2026-11",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4318,7 +4755,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-42",
-        "maff-2026-44"
+        "maff-2026-44",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4341,7 +4780,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-25",
-        "maff-2026-27"
+        "maff-2026-27",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4364,7 +4805,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-25",
-        "maff-2026-27"
+        "maff-2026-27",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4387,7 +4830,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-27",
-        "maff-2026-29"
+        "maff-2026-29",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4410,7 +4855,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-27",
-        "maff-2026-29"
+        "maff-2026-29",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4433,7 +4880,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-4",
-        "maff-2026-4"
+        "maff-2026-4",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4456,7 +4905,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-43",
-        "maff-2026-45"
+        "maff-2026-45",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4479,7 +4930,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-16",
-        "maff-2026-16"
+        "maff-2026-16",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4502,7 +4955,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-16",
-        "maff-2026-16"
+        "maff-2026-16",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4525,7 +4980,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-33",
-        "maff-2026-35"
+        "maff-2026-35",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4548,7 +5005,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-6",
-        "maff-2026-6"
+        "maff-2026-6",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4571,7 +5030,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-6",
-        "maff-2026-6"
+        "maff-2026-6",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4594,7 +5055,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-17",
-        "maff-2026-19"
+        "maff-2026-19",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4617,7 +5080,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-19",
-        "maff-2026-21"
+        "maff-2026-21",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4640,7 +5105,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-19",
-        "maff-2026-21"
+        "maff-2026-21",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4663,7 +5130,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-31",
-        "maff-2026-33"
+        "maff-2026-33",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4686,7 +5155,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-31",
-        "maff-2026-33"
+        "maff-2026-33",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4709,7 +5180,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-3",
-        "maff-2026-3"
+        "maff-2026-3",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4732,7 +5205,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-3",
-        "maff-2026-3"
+        "maff-2026-3",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4755,7 +5230,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-30",
-        "maff-2026-32"
+        "maff-2026-32",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4778,7 +5255,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-32",
-        "maff-2026-34"
+        "maff-2026-34",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4801,7 +5280,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-34",
-        "maff-2026-36"
+        "maff-2026-36",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4824,7 +5305,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-36",
-        "maff-2026-38"
+        "maff-2026-38",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4847,7 +5330,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-36",
-        "maff-2026-38"
+        "maff-2026-38",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4870,7 +5355,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-21",
-        "maff-2026-23"
+        "maff-2026-23",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4893,7 +5380,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-21",
-        "maff-2026-23"
+        "maff-2026-23",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4916,7 +5405,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-47",
-        "maff-2026-15"
+        "maff-2026-15",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4939,7 +5430,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-47",
-        "maff-2026-15"
+        "maff-2026-15",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4962,7 +5455,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-13",
-        "maff-2026-13"
+        "maff-2026-13",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -4985,7 +5480,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-9",
-        "maff-2026-9"
+        "maff-2026-9",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5008,7 +5505,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-23",
-        "maff-2026-25"
+        "maff-2026-25",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5031,7 +5530,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-41",
-        "maff-2026-43"
+        "maff-2026-43",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5054,7 +5555,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-41",
-        "maff-2026-43"
+        "maff-2026-43",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5077,7 +5580,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-15",
-        "maff-2026-17"
+        "maff-2026-17",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5100,7 +5605,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-15",
-        "maff-2026-17"
+        "maff-2026-17",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5122,7 +5629,8 @@
       "amount2026": 4,
       "unit": "百万円",
       "source_ids": [
-        "maff-2026-14"
+        "maff-2026-14",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5145,7 +5653,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-14",
-        "maff-2026-14"
+        "maff-2026-14",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5168,7 +5678,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-48",
-        "maff-2026-18"
+        "maff-2026-18",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5191,7 +5703,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-38",
-        "maff-2026-40"
+        "maff-2026-40",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5214,7 +5728,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-38",
-        "maff-2026-40"
+        "maff-2026-40",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5237,7 +5753,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-7",
-        "maff-2026-7"
+        "maff-2026-7",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5259,7 +5777,8 @@
       "amount2026": 39,
       "unit": "百万円",
       "source_ids": [
-        "maff-2026-5"
+        "maff-2026-5",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5282,7 +5801,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-5",
-        "maff-2026-5"
+        "maff-2026-5",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5305,7 +5826,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-10",
-        "maff-2026-10"
+        "maff-2026-10",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5328,7 +5851,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-10",
-        "maff-2026-10"
+        "maff-2026-10",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5351,7 +5876,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-8",
-        "maff-2026-8"
+        "maff-2026-8",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5374,7 +5901,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-40",
-        "maff-2026-42"
+        "maff-2026-42",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5397,7 +5926,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-40",
-        "maff-2026-42"
+        "maff-2026-42",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5419,7 +5950,8 @@
       "amount2026": 3,
       "unit": "百万円",
       "source_ids": [
-        "maff-2026-20"
+        "maff-2026-20",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5442,7 +5974,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-18",
-        "maff-2026-20"
+        "maff-2026-20",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5465,7 +5999,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-2",
-        "maff-2026-2"
+        "maff-2026-2",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5487,7 +6023,8 @@
       "amount2026": null,
       "unit": "百万円",
       "source_ids": [
-        "maff-2025-20"
+        "maff-2025-20",
+        "maff-announcement-2025"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5509,7 +6046,8 @@
       "amount2026": null,
       "unit": "百万円",
       "source_ids": [
-        "maff-2025-20"
+        "maff-2025-20",
+        "maff-announcement-2025"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5532,7 +6070,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-35",
-        "maff-2026-37"
+        "maff-2026-37",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5555,7 +6095,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-37",
-        "maff-2026-39"
+        "maff-2026-39",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5578,7 +6120,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-29",
-        "maff-2026-31"
+        "maff-2026-31",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5601,7 +6145,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-29",
-        "maff-2026-31"
+        "maff-2026-31",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5624,7 +6170,9 @@
       "unit": "百万円",
       "source_ids": [
         "maff-2025-44",
-        "maff-2026-46"
+        "maff-2026-46",
+        "maff-announcement-2025",
+        "maff-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5647,7 +6195,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5656,7 +6206,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 17,
       "plans2026": 17,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-青森県",
@@ -5671,7 +6221,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5680,7 +6232,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 3,
       "plans2026": 10,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-岩手県",
@@ -5695,7 +6247,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5704,7 +6258,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 16,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-宮城県",
@@ -5719,7 +6273,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5728,7 +6284,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 8,
       "plans2026": 6,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-秋田県",
@@ -5743,7 +6299,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5752,7 +6310,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 3,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-山形県",
@@ -5767,7 +6325,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5776,7 +6336,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 9,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-福島県",
@@ -5791,7 +6351,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5800,7 +6362,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 11,
       "plans2026": 13,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-茨城県",
@@ -5815,7 +6377,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5824,7 +6388,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 11,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-栃木県",
@@ -5839,7 +6403,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5848,7 +6414,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 3,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-群馬県",
@@ -5863,7 +6429,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5872,7 +6440,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-埼玉県",
@@ -5887,7 +6455,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5896,7 +6466,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 15,
       "plans2026": 14,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-千葉県",
@@ -5911,7 +6481,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5920,7 +6492,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 20,
       "plans2026": 15,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-東京都",
@@ -5935,7 +6507,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5944,7 +6518,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 19,
       "plans2026": 14,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-神奈川県",
@@ -5959,7 +6533,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5968,7 +6544,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 13,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-新潟県",
@@ -5983,7 +6559,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -5992,7 +6570,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 5,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-富山県",
@@ -6007,7 +6585,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6016,7 +6596,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 5,
       "plans2026": 5,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-石川県",
@@ -6031,7 +6611,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6040,7 +6622,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-福井県",
@@ -6055,7 +6637,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6064,7 +6648,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 7,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-山梨県",
@@ -6079,7 +6663,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6088,7 +6674,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 9,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-長野県",
@@ -6103,7 +6689,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6112,7 +6700,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 13,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-岐阜県",
@@ -6127,7 +6715,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6136,7 +6726,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 13,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-静岡県",
@@ -6151,7 +6741,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6160,7 +6752,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 15,
       "plans2026": 10,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-愛知県",
@@ -6175,7 +6767,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6184,7 +6778,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 18,
       "plans2026": 15,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-三重県",
@@ -6199,7 +6793,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6208,7 +6804,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 5,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-滋賀県",
@@ -6223,7 +6819,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6232,7 +6830,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 15,
       "plans2026": 15,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-京都府",
@@ -6247,7 +6845,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6256,7 +6856,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 12,
       "plans2026": 2,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-大阪府",
@@ -6271,7 +6871,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6280,7 +6882,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 17,
       "plans2026": 10,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-兵庫県",
@@ -6295,7 +6897,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6304,7 +6908,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 15,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-奈良県",
@@ -6319,7 +6923,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6328,7 +6934,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 9,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-和歌山県",
@@ -6343,7 +6949,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6352,7 +6960,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 2,
       "plans2026": 1,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-鳥取県",
@@ -6367,7 +6975,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6376,7 +6986,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 5,
       "plans2026": 14,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-島根県",
@@ -6391,7 +7001,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6400,7 +7012,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 6,
       "plans2026": 2,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-岡山県",
@@ -6415,7 +7027,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6424,7 +7038,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 13,
       "plans2026": 6,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-広島県",
@@ -6439,7 +7053,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6448,7 +7064,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 5,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-山口県",
@@ -6463,7 +7079,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6472,7 +7090,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 9,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-徳島県",
@@ -6487,7 +7105,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6496,7 +7116,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 4,
       "plans2026": 3,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-香川県",
@@ -6511,7 +7131,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6520,7 +7142,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 5,
       "plans2026": 4,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-愛媛県",
@@ -6535,7 +7157,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6544,7 +7168,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 4,
       "plans2026": 2,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-高知県",
@@ -6559,7 +7183,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6568,7 +7194,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 4,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-福岡県",
@@ -6583,7 +7209,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6592,7 +7220,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 15,
       "plans2026": 9,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-佐賀県",
@@ -6607,7 +7235,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6616,7 +7246,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 2,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-長崎県",
@@ -6631,7 +7261,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6640,7 +7272,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 7,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-熊本県",
@@ -6655,7 +7287,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6664,7 +7298,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 12,
       "plans2026": 7,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-大分県",
@@ -6679,7 +7313,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6688,7 +7324,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 2,
       "plans2026": 6,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-宮崎県",
@@ -6703,7 +7339,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6712,7 +7350,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 10,
       "plans2026": 10,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-鹿児島県",
@@ -6727,7 +7365,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6736,7 +7376,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 22,
       "plans2026": 13,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "care-沖縄県",
@@ -6751,7 +7391,9 @@
       "unit": "百万円",
       "source_ids": [
         "care-2025",
-        "care-2026"
+        "care-2026",
+        "care-announcement-2025",
+        "care-announcement-2026"
       ],
       "period2025": "2025年度",
       "period2026": "2026年度",
@@ -6760,7 +7402,7 @@
       "scope": "都道府県分（指定都市・中核市を除く）",
       "plans2025": 9,
       "plans2026": 8,
-      "note": "2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。"
+      "note": "2025年10月24日公表と2026年6月26日公表。公表時点が違うため当初予算比較には使わない。2026資料に国土強靱化中期計画分の記載があるが、補正財源の含有は未確認。計画件数・採択段階・完了の確認が必要。"
     },
     {
       "id": "defense-三重県-伊勢市",
@@ -10104,7 +10746,7 @@
   "annual2025": {
     "spent_million_yen": 129466100,
     "source_id": "mof-annual-2025",
-    "note": "2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期執行額とは別扱い。"
+    "note": "2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期・月末累計執行額とは別扱い。"
   },
   "sources": [
     {
@@ -10168,6 +10810,54 @@
       "excerpt": "# 以上の詳細は、別表第 のとおりである。 )歳 出 (注)上記の各計数は、千円未満を切り捨てている。 令和 年度第 ・四半期中の支出済歳出額は、 千円であっ て、歳出予算現額 千円に対して ％(前年同期 ％)の支 出割合となる。これを前年同期 千円に比べると 千円の増加となる。\nURL: https://www.mof.go.jp/policy/budget/08_1a.pdf\nAuthor: 財務省\n\n## 令 和 8 年 度 第 1 ・ 四 半 期 予 算 使 用 の 状 況 (財務省調査)\n\nこれは、医療保険給付諸費において 881 ,911 ,846 千円、国債費において 1. 一 般 会 計 519 ,295 ,346 千円、物価高騰対応地方創生推進費において 499 ,154 ,983 千円の増 (1 )概 要 加があったこと等のためである。 令和 8 年度第 1 ・四半期中における収納済歳入額は、 5 ,343 ,884 ,687 千円で 以下、所管別内訳についてみると次のとおりである。 あって、これに対して当期中における支出済歳出額は、 39 ,047 ,272 ,046 千円で あり、支出済歳出額が収納済歳入額を超過する額は、 33 ,703 ,387 ,359 千円であ (単位千円 千円未満切捨) る。 所 管 8 年 度 第 1 ・ 四 半 期 前 年 同 期 (2 )歳 入\n\n| | | | | | | | | | | 皇 | 室 | 費 | 2,227,090 | 2,410,296 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 令和 | 年度第 8 | | ・四半期中の収納済歳入額は、 1 | | | | 5 ,343 | ,884 ,687 | 千円であって、 | | | | | |\n| | | | | | | | | | | 国 | | 会 | 34,165,854 | 32,863,362 |\n| 歳入予算額 | | 125 | ,422 | 千円に対して ,751 ,660 | | | ％(前年同期 4 .2 | 9 | ％)の収入割合 .2 | | | | | |\n| となる。これを前年同期 | | | | 10 ,711 | ,631 | 千円に比べると ,529 | | 5 ,367 | 千円の ,746 ,842 | 裁 | 判 | 所 | 91,324,347 | 86,254,690 |\n| 減少となる。 | | | | | | | | | | 会 | 計 検 査 | 院 | 4,291,521 | 4,140,599 |\n| これは、公債金において | | | | 3 ,612 | ,604 | 千円、雑収入において ,108 | | | 1 ,768 ,618 ,168 | 内 | | 閣 | 19,167,650 | 20,286,828 |\n| 千円の減少があったこと等のためである。 | | | | | | | | | | 内 | 閣 | 府 | 1,487,064,859 | 1,466,654,268 |\n| 以下、その性質別内訳についてみると次のとおりである。 | | | | | | | | | | デ | ジ タ ル | 庁 | 26,541,850 | 20,667,583 |\n| | | | | | | | | | | 防 | 災 | 庁 | － | － |\n| | | | | | | | (単位千円 | | 千円未満切捨) | | | | | |\n| | | | | | | | | | | 総 | 務 | 省 | 13,524,528,439 | 12,484,044,781 |\n| | 区 | | | 分 | | | 年 度 8 | 第 | | | | | | |\n| | | | | | | | ・ 四 半 1 | 期 | 前 年 同 期 | 法 | 務 | 省 | 210,974,015 | 200,322,431 |\n| 租 | 税 | 及 | 印 | 紙 | 収 | 入 | 174,798,114 | | 165,373,775 | 外 | 務 | 省 | 279,697,941 | 309,772,791 |\n| 官 業 | 益 | 金 | 及 | 官 業 | 収 | 入 | 13,423,875 | | 11,750,939 | 財 | 務 | 省 | 6,994,894,892 | 6,501,268,315 |\n| 政 | 府 | 資 | 産 | 整 理 | 収 | 入 | 6,790,122 | | 4,411,962 | 文 | 部 科 学 | 省 | 2,212,725,569 | 1,859,328,154 |\n| 雑 | | | 収 | | | 入 | 568,086,528 | | 2,336,704,697 | 厚 | 生 労 働 | 省 | 11,278,277,035 | 10,322,985,155 |\n| 公 | | | 債 | | | 金 | 4,580,786,046 | | 8,193,390,155 | 農 | 林 水 産 | 省 | 308,729,024 | 323,325,446 |\n| | | | 計 | | | | 5,343,884,687 | | 10,711,631,529 | 経 | 済 産 業 | 省 | 306,622,035 | 211,827,028 |\n| なお、上記収納済歳入額(5 | | | | | ,343 ,884 | ,687 | 千円)に、国税収納金整理資金から | | | 国 | 土 交 通 | 省 | 549,234,105 | 565,497,258 |\n| 一般会計への組入未済額 | | | | 3 ,099 | ,009 | 千円を加えると当期末までの収納済額 ,761 | | | | 環 | 境 | 省 | 31,474,328 | 54,716,464 |\n| は、 8 | ,442 | ,894 | ,449 | 千円となり、歳入予算額(125 | | | ,422 | ,751 ,660 | 千円)に対して | 防 | 衛 | 省 | 1,685,331,482 | 2,066,169,378 |\n| ％(前年同期 6 .7 | | | 11 .3 | ％)の収入割合となる。 | | | | | | | 計 | | 39,047,272,046 | 36,532,534,837 |\n"
     },
     {
+      "id": "mof-july-2025",
+      "title": "2025年度国庫歳入歳出状況：7月末歳出",
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707b.html",
+      "locator": "一般会計。支出済歳出額の「計」列（4〜7月累計）、千円未満切捨て。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2025-09-19",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "02ba19cbf8f86d5f6efee5657494c3dbfda8c3ddc178846f940870a471969dc5",
+      "excerpt": "# 国庫歳入歳出状況　(2)歳出（令和7年度　令和7年7月分） : 財務省\nURL: https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707b.html\n\n国庫歳入歳出状況 (2)歳出（令和7年度 令和7年7月分） : 財務省\n\n# 国庫歳入歳出状況 (2)歳出（令和7年度 令和7年7月分）\n\n（２）歳出\n\n| 単位 千円（千円未満切捨） | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| 所管 | 歳出予算現額 | 支出済歳出額 | | | 歳出予算残額 | 支出 歩合 (%) |\n| | | 本月分 | 前月までの累計 | 計 | | |\n| 皇室費 | 13,430,532 | 317,484 | 2,410,296 | 2,727,781 | 10,702,751 | 20.3 |\n| 国会 | 136,723,343 | 8,236,605 | 32,863,362 | 41,099,967 | 95,623,375 | 30.0 |\n| 裁判所 | 361,086,867 | 18,561,363 | 86,254,690 | 104,816,053 | 256,270,813 | 29.0 |\n| 会計検査院 | 17,378,570 | 914,179 | 4,140,599 | 5,054,779 | 12,323,791 | 29.0 |\n| 内閣 | 165,461,703 | 10,093,643 | 20,286,828 | 30,380,472 | 135,081,230 | 18.3 |\n| 内閣府 | 5,110,561,658 | 233,515,539 | 1,466,654,268 | 1,700,169,807 | 3,410,391,851 | 33.2 |\n| デジタル庁 | 232,353,396 | 5,250,028 | 20,667,583 | 25,917,612 | 206,435,783 | 11.1 |\n| 総務省 | 20,712,334,872 | 976,705,084 | 12,484,044,781 | 13,460,749,866 | 7,251,585,006 | 64.9 |\n| 法務省 | 886,574,497 | 58,504,422 | 200,322,431 | 258,826,853 | 627,747,643 | 29.1 |\n| 外務省 | 886,514,990 | 34,924,346 | 309,772,791 | 344,697,137 | 541,817,852 | 38.8 |\n| 財務省 | 29,935,154,663 | 262,677,843 | 6,501,268,315 | 6,763,946,159 | 23,171,208,504 | 22.5 |\n| 文部科学省 | 6,857,775,804 | 652,711,992 | 1,859,328,154 | 2,512,040,147 | 4,345,735,656 | 36.6 |\n| 厚生労働省 | 35,058,488,190 | 2,105,868,735 | 10,322,985,155 | 12,428,853,890 | 22,629,634,299 | 35.4 |\n| 農林水産省 | 3,275,834,359 | 325,073,541 | 323,325,446 | 648,398,987 | 2,627,435,372 | 19.7 |\n| 経済産業省 | 1,658,047,725 | 51,586,437 | 211,827,028 | 263,413,465 | 1,394,634,259 | 15.8 |\n| 国土交通省 | 9,925,833,405 | 278,699,012 | 565,497,258 | 844,196,271 | 9,081,637,134 | 8.5 |\n| 環境省 | 533,971,811 | 21,543,071 | 54,716,464 | 76,259,536 | 457,712,275 | 14.2 |\n| 防衛省 | 9,673,584,875 | 676,740,404 | 2,066,169,378 | 2,742,909,782 | 6,930,675,093 | 28.3 |\n| 合計 | 125,441,111,268 | 5,721,923,735 | 36,532,534,837 | 42,254,458,573 | 83,186,652,694 | 33.6 |\n"
+    },
+    {
+      "id": "mof-july-announcement-2025",
+      "title": "2025年度7月末状況の公表日",
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707a.html",
+      "locator": "公表日と対象月の説明。歳入額を歳出比較には使用しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2025-09-19",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "da3110624c70d4b189fb04d39572764f2840762fb955729abf650f18036dcdf8",
+      "excerpt": "# 国庫歳入歳出状況　(1)歳入（令和7年度　令和7年7月分） : 財務省\nURL: https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707a.html\n\n国庫歳入歳出状況 (1)歳入（令和7年度 令和7年7月分） : 財務省\n\n# 国庫歳入歳出状況 (1)歳入（令和7年度 令和7年7月分）\n\n国庫歳入歳出状況\n\n令和7年9月19日\n\n財務省において各省各庁からの報告をとりまとめた令和7年度の令和7年7月末における国庫歳入歳出状況は、次のとおりである。\n"
+    },
+    {
+      "id": "mof-july-2026",
+      "title": "2026年度国庫歳入歳出状況：7月末歳出",
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807b.html",
+      "locator": "一般会計。支出済歳出額の「計」列（4〜7月累計）、千円未満切捨て。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2026-09-18",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "2ad8652911c2d06bdb6d7dabcd0e256fd8db2deaacd287838efacc8049bc87e9",
+      "excerpt": "# 国庫歳入歳出状況　(2)歳出（令和8年度　令和8年7月分） : 財務省\nURL: https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807b.html\n\n国庫歳入歳出状況 (2)歳出（令和8年度 令和8年7月分） : 財務省\n\n# 国庫歳入歳出状況 (2)歳出（令和8年度 令和8年7月分）\n\n（２）歳出\n\n| 単位 千円（千円未満切捨） | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| 所管 | 歳出予算現額 | 支出済歳出額 | | | 歳出予算残額 | 支出 歩合 (%) |\n| | | 本月分 | 前月までの累計 | 計 | | |\n| 皇室費 | 13,648,753 | 252,445 | 2,227,090 | 2,479,536 | 11,169,217 | 18.1 |\n| 国会 | 145,773,232 | 8,565,129 | 34,165,854 | 42,730,984 | 103,042,247 | 29.3 |\n| 裁判所 | 387,221,498 | 19,840,680 | 91,324,347 | 111,165,027 | 276,056,470 | 28.7 |\n| 会計検査院 | 18,106,659 | 1,016,255 | 4,291,521 | 5,307,777 | 12,798,881 | 29.3 |\n| 内閣 | 175,403,568 | 10,957,237 | 19,167,650 | 30,124,887 | 145,278,680 | 17.1 |\n| 内閣府 | 5,140,617,840 | 794,469,765 | 1,487,064,859 | 2,281,534,625 | 2,859,083,215 | 44.3 |\n| デジタル庁 | 292,883,426 | 8,249,234 | 26,541,850 | 34,791,085 | 258,092,340 | 11.8 |\n| 防災庁 | 2,414,573 | - | - | - | 2,414,573 | - |\n| 総務省 | 23,187,723,844 | 1,325,478,041 | 13,524,528,439 | 14,850,006,481 | 8,337,717,362 | 64.0 |\n| 法務省 | 944,651,583 | 60,222,190 | 210,974,015 | 271,196,206 | 673,455,377 | 28.7 |\n| 外務省 | 889,281,550 | 44,809,812 | 279,697,941 | 324,507,753 | 564,773,796 | 36.4 |\n| 財務省 | 36,327,294,004 | 315,024,073 | 6,994,894,892 | 7,309,918,966 | 29,017,375,038 | 20.1 |\n| 文部科学省 | 7,726,609,065 | 700,743,191 | 2,212,725,569 | 2,913,468,760 | 4,813,140,304 | 37.7 |\n| 厚生労働省 | 36,532,840,596 | 2,107,736,665 | 11,278,277,035 | 13,386,013,701 | 23,146,826,894 | 36.6 |\n| 農林水産省 | 3,373,528,120 | 352,325,991 | 308,729,024 | 661,055,015 | 2,712,473,105 | 19.5 |\n| 経済産業省 | 2,005,811,572 | 45,357,951 | 306,622,035 | 351,979,987 | 1,653,831,584 | 17.5 |\n| 国土交通省 | 9,952,298,221 | 288,009,767 | 549,234,105 | 837,243,873 | 9,115,054,348 | 8.4 |\n| 環境省 | 566,119,509 | 20,191,125 | 31,474,328 | 51,665,454 | 514,454,054 | 9.1 |\n| 防衛省 | 9,919,530,135 | 515,394,136 | 1,685,331,482 | 2,200,725,619 | 7,718,804,516 | 22.1 |\n| 合計 | 137,601,757,756 | 6,618,643,698 | 39,047,272,046 | 45,665,915,744 | 91,935,842,011 | 33.1 |\n"
+    },
+    {
+      "id": "mof-july-announcement-2026",
+      "title": "2026年度7月末状況の公表日",
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807a.html",
+      "locator": "公表日と対象月の説明。歳入額を歳出比較には使用しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2026-09-18",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "8a2d4cabd92db95f3864be0dc1a5306bc9c011ae36880d2d5a82cff3a0aeaf06",
+      "excerpt": "# 国庫歳入歳出状況　(1)歳入（令和8年度　令和8年7月分） : 財務省\nURL: https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807a.html\n\n国庫歳入歳出状況 (1)歳入（令和8年度 令和8年7月分） : 財務省\n\n# 国庫歳入歳出状況 (1)歳入（令和8年度 令和8年7月分）\n\n国庫歳入歳出状況\n\n令和8年9月18日\n\n財務省において各省各庁からの報告をとりまとめた令和8年度の令和8年7月末における国庫歳入歳出状況は、次のとおりである。\n"
+    },
+    {
       "id": "lat-2025",
       "title": "2025年度普通交付税大綱",
       "url": "https://www.soumu.go.jp/main_content/001022039.pdf",
@@ -10204,10 +10894,34 @@
       "excerpt": "# 2026年度普通交付税等について - 愛知県\nURL: https://www.pref.aichi.jp/soshiki/zaisei/2026kohuzei.html\n\n2026年度普通交付税等について - 愛知県\n\n# 2026年度普通交付税等について\n\n ページID：0658721 掲載日：2026年7月24日更新 印刷ページ表示\n\n## 2026年度普通交付税等について\n\n○ 愛知県の普通交付税等の決定額\n\n （単位：億円、％）\n\n| 項目 | 2026年度 Ａ | 2025年度 Ｂ | 差引 (Ａ－Ｂ) C | 伸 率 Ｃ／Ｂ |\n| --- | --- | --- | --- | --- |\n| 普通交付税 | 1,456 | 514 | ＋942 | ＋183.3 |\n| 臨時財政対策債 | 0 | 0 | ー | ー |\n| 合計 | 1,456 | 514 | ＋942 | ＋183.3 |\n\n ※ 2025年度については、当初算定額としています。\n\n○ 給与改定・物価高への対応や、いわゆる教育無償化に係る地方負担の増等を反映して算定されたことなどから、本県の普通交付税は、2025年度当初算定額から942億円増加しました。\n\n○ また、2026年度当初予算額1，200億円と比較すると、今年度の地方財政対策において創設された「地域未来基金費」として算定された164億円を除く実質的な増加額は、92億円となりました。\n"
     },
     {
+      "id": "maff-announcement-2025",
+      "title": "2025年度農水省当初配分の発表",
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/index.html",
+      "locator": "配分発表の入口。交付金は参考として都道府県別配分予定額を掲載。個別PDFの更新日時ではない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2025-04-01",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "1d6a71a0ce92caabb94e2156f5aa9c601bcf8eb5ca85d2e322cde09a9667834b",
+      "excerpt": "# 令和7年度当初予算に係る公共事業の箇所別予算額について（令和7年4月1日）\nURL: https://www.maff.go.jp/j/budget/kasyo/7tousyo/index.html\n取得日: 2026-10-08\n取得方法: Exaによる公式本文抽出（原本ファイルではない）\n保存範囲: 公表日・交付金の定義・配分方針の必要箇所。連絡先は省略。\n\n令和7年度当初予算で実施する公共事業の箇所別予算額を取りまとめましたので、公表いたします。なお、農山漁村地域整備交付金及び美しい森林づくり基盤整備交付金については、箇所付け対象経費ではありませんが、参考として都道府県別の配分予定額を掲載しています。\n\n配分に当たっては、地域の実情や地方公共団体からの要望等を勘案しつつ、緊急性の高い地区や効果の早期発現が見込まれる地区を優先しています。\n\n※下のリンクをクリックすると都道府県別の資料が表示されます。\n"
+    },
+    {
+      "id": "maff-announcement-2026",
+      "title": "2026年度農水省当初配分の発表",
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/index.html",
+      "locator": "配分発表の入口。交付金は参考として都道府県別配分予定額を掲載。個別PDFの更新日時ではない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2026-04-07",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "b07f5bee755b9d4a358ea9a272213ed16ab16f3e19527459d6487fd60d486f13",
+      "excerpt": "# 令和8年度当初予算に係る公共事業の箇所別予算額について（令和8年4月7日）\nURL: https://www.maff.go.jp/j/budget/kasyo/8tousyo/index.html\n取得日: 2026-10-08\n取得方法: Exaによる公式本文抽出（原本ファイルではない）\n保存範囲: 公表日・交付金の定義・配分方針の必要箇所。連絡先は省略。\n\n令和8年度当初予算で実施する公共事業の箇所別予算額を取りまとめましたので、公表いたします。なお、農山漁村地域整備交付金及び美しい森林づくり基盤整備交付金については、箇所付け対象経費ではありませんが、参考として都道府県別の配分予定額を掲載しています。\n\n配分に当たっては、地域の実情や地方公共団体からの要望等を勘案しつつ、緊急性の高い地区や効果の早期発現が見込まれる地区を優先しています。\n\n※下のリンクをクリックすると都道府県別の資料が表示されます。\n"
+    },
+    {
       "id": "maff-2025-1",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-1.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10219,7 +10933,7 @@
       "id": "maff-2025-10",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-10.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10231,7 +10945,7 @@
       "id": "maff-2025-11",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-11.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10243,7 +10957,7 @@
       "id": "maff-2025-12",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-12.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10255,7 +10969,7 @@
       "id": "maff-2025-13",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-13.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10267,7 +10981,7 @@
       "id": "maff-2025-14",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-14.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10279,7 +10993,7 @@
       "id": "maff-2025-15",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-15.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10291,7 +11005,7 @@
       "id": "maff-2025-16",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-16.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10303,7 +11017,7 @@
       "id": "maff-2025-17",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-17.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10315,7 +11029,7 @@
       "id": "maff-2025-18",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-18.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10327,7 +11041,7 @@
       "id": "maff-2025-19",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-19.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10339,7 +11053,7 @@
       "id": "maff-2025-2",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-2.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10351,7 +11065,7 @@
       "id": "maff-2025-20",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-20.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10363,7 +11077,7 @@
       "id": "maff-2025-21",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-21.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10375,7 +11089,7 @@
       "id": "maff-2025-22",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-22.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10387,7 +11101,7 @@
       "id": "maff-2025-23",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-23.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10399,7 +11113,7 @@
       "id": "maff-2025-24",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-24.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10411,7 +11125,7 @@
       "id": "maff-2025-25",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-25.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10423,7 +11137,7 @@
       "id": "maff-2025-26",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-26.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10435,7 +11149,7 @@
       "id": "maff-2025-27",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-27.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10447,7 +11161,7 @@
       "id": "maff-2025-28",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-28.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10459,7 +11173,7 @@
       "id": "maff-2025-29",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-29.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10471,7 +11185,7 @@
       "id": "maff-2025-3",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-3.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10483,7 +11197,7 @@
       "id": "maff-2025-30",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-30.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10495,7 +11209,7 @@
       "id": "maff-2025-31",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-31.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10507,7 +11221,7 @@
       "id": "maff-2025-32",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-32.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10519,7 +11233,7 @@
       "id": "maff-2025-33",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-33.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10531,7 +11245,7 @@
       "id": "maff-2025-34",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-34.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10543,7 +11257,7 @@
       "id": "maff-2025-35",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-35.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10555,7 +11269,7 @@
       "id": "maff-2025-36",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-36.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10567,7 +11281,7 @@
       "id": "maff-2025-37",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-37.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10579,7 +11293,7 @@
       "id": "maff-2025-38",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-38.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10591,7 +11305,7 @@
       "id": "maff-2025-39",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-39.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10603,7 +11317,7 @@
       "id": "maff-2025-4",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-4.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10615,7 +11329,7 @@
       "id": "maff-2025-40",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-40.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10627,7 +11341,7 @@
       "id": "maff-2025-41",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-41.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10639,7 +11353,7 @@
       "id": "maff-2025-42",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-42.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10651,7 +11365,7 @@
       "id": "maff-2025-43",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-43.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10663,7 +11377,7 @@
       "id": "maff-2025-44",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-44.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10675,7 +11389,7 @@
       "id": "maff-2025-47",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-47.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10687,7 +11401,7 @@
       "id": "maff-2025-48",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-48.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10699,7 +11413,7 @@
       "id": "maff-2025-5",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-5.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10711,7 +11425,7 @@
       "id": "maff-2025-6",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-6.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10723,7 +11437,7 @@
       "id": "maff-2025-7",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-7.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10735,7 +11449,7 @@
       "id": "maff-2025-8",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-8.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10747,7 +11461,7 @@
       "id": "maff-2025-9",
       "title": "2025年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-9.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2025-04-01",
@@ -10759,7 +11473,7 @@
       "id": "maff-2026-1",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-1.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10771,7 +11485,7 @@
       "id": "maff-2026-10",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-10.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10783,7 +11497,7 @@
       "id": "maff-2026-11",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-11.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10795,7 +11509,7 @@
       "id": "maff-2026-12",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-12.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10807,7 +11521,7 @@
       "id": "maff-2026-13",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-13.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10819,7 +11533,7 @@
       "id": "maff-2026-14",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-14.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10831,7 +11545,7 @@
       "id": "maff-2026-15",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-15.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10843,7 +11557,7 @@
       "id": "maff-2026-16",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-16.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10855,7 +11569,7 @@
       "id": "maff-2026-17",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-17.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10867,7 +11581,7 @@
       "id": "maff-2026-18",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-18.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10879,7 +11593,7 @@
       "id": "maff-2026-19",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-19.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10891,7 +11605,7 @@
       "id": "maff-2026-2",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-2.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10903,7 +11617,7 @@
       "id": "maff-2026-20",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-20.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10915,7 +11629,7 @@
       "id": "maff-2026-21",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-21.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10927,7 +11641,7 @@
       "id": "maff-2026-23",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-23.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10939,7 +11653,7 @@
       "id": "maff-2026-24",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-24.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10951,7 +11665,7 @@
       "id": "maff-2026-25",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-25.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10963,7 +11677,7 @@
       "id": "maff-2026-26",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-26.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10975,7 +11689,7 @@
       "id": "maff-2026-27",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-27.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10987,7 +11701,7 @@
       "id": "maff-2026-28",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-28.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -10999,7 +11713,7 @@
       "id": "maff-2026-29",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-29.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11011,7 +11725,7 @@
       "id": "maff-2026-3",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-3.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11023,7 +11737,7 @@
       "id": "maff-2026-30",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-30.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11035,7 +11749,7 @@
       "id": "maff-2026-31",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-31.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11047,7 +11761,7 @@
       "id": "maff-2026-32",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-32.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11059,7 +11773,7 @@
       "id": "maff-2026-33",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-33.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11071,7 +11785,7 @@
       "id": "maff-2026-34",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-34.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11083,7 +11797,7 @@
       "id": "maff-2026-35",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-35.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11095,7 +11809,7 @@
       "id": "maff-2026-36",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-36.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11107,7 +11821,7 @@
       "id": "maff-2026-37",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-37.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11119,7 +11833,7 @@
       "id": "maff-2026-38",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-38.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11131,7 +11845,7 @@
       "id": "maff-2026-39",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-39.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11143,7 +11857,7 @@
       "id": "maff-2026-4",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-4.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11155,7 +11869,7 @@
       "id": "maff-2026-40",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-40.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11167,7 +11881,7 @@
       "id": "maff-2026-41",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-41.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11179,7 +11893,7 @@
       "id": "maff-2026-42",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-42.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11191,7 +11905,7 @@
       "id": "maff-2026-43",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-43.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11203,7 +11917,7 @@
       "id": "maff-2026-44",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-44.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11215,7 +11929,7 @@
       "id": "maff-2026-45",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-45.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11227,7 +11941,7 @@
       "id": "maff-2026-46",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-46.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11239,7 +11953,7 @@
       "id": "maff-2026-5",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-5.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11251,7 +11965,7 @@
       "id": "maff-2026-6",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-6.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11263,7 +11977,7 @@
       "id": "maff-2026-7",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-7.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11275,7 +11989,7 @@
       "id": "maff-2026-8",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-8.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11287,7 +12001,7 @@
       "id": "maff-2026-9",
       "title": "2026年度農林水産公共事業：交付金配分予定額",
       "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-9.pdf",
-      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。",
+      "locator": "交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。",
       "kind": "予算・議員資料",
       "accessed": "2026-10-08",
       "published": "2026-04-07",
@@ -11308,6 +12022,18 @@
       "excerpt": "| | 都道府県名 | 計画数 | 内示額 | | | 中核市名 | 計画数 | 内示額 | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 北 | 海 | 道 | 17 | 156,379 | 函 | 館 | 市 | 0 | 0 |\n| 青 | 森 | 県 | 3 | 22,003 | 旭 | 川 | 市 | 1 | 7,730 |\n| 岩 | 手 | 県 | 16 | 141,525 | 青 | 森 | 市 | 3 | 23,190 |\n| 宮 | 城 | 県 | 8 | 68,559 | 八 | 戸 | 市 | 0 | 0 |\n| 秋 | 田 | 県 | 3 | 14,556 | 盛 | 岡 | 市 | 1 | 5,923 |\n| 山 | 形 | 県 | 9 | 56,452 | 秋 | 田 | 市 | 2 | 15,263 |\n| 福 | 島 | 県 | 11 | 112,904 | 山 | 形 | 市 | 0 | 0 |\n| 茨 | 城 | 県 | 11 | 62,616 | 福 | 島 | 市 | 0 | 0 |\n| 栃 | 木 | 県 | 3 | 35,376 | 郡 | 山 | 市 | 6 | 30,208 |\n| 群 | 馬 | 県 | 10 | 113,047 | い | わ | き 市 | 9 | 55,407 |\n| 埼 | 玉 | 県 | 15 | 114,770 | 水 | 戸 | 市 | 1 | 672 |\n| 千 | 葉 | 県 | 20 | 233,194 | 宇 | 都 | 宮 市 | 0 | 0 |\n| 東 | 京 | 都 | 19 | 201,068 | 前 | 橋 | 市 | 3 | 23,190 |\n| 神 | 奈 川 | 県 | 10 | 88,006 | 高 | 崎 | 市 | 3 | 17,593 |\n| 新 | 潟 | 県 | 10 | 72,525 | 川 | 越 | 市 | 1 | 7,722 |\n| 富 | 山 | 県 | 5 | 38,598 | 川 | 口 | 市 | 1 | 7,730 |\n| 石 | 川 | 県 | 10 | 66,900 | 越 | 谷 | 市 | 0 | 0 |\n| 福 | 井 | 県 | 7 | 63,785 | 船 | 橋 | 市 | 3 | 23,166 |\n| 山 | 梨 | 県 | 9 | 54,158 | 柏 | | 市 | 3 | 18,358 |\n| 長 | 野 | 県 | 13 | 83,729 | 八 | 王 | 子 市 | 2 | 22,185 |\n| 岐 | 阜 | 県 | 13 | 115,084 | 横 | 須 | 賀 市 | 8 | 51,907 |\n| 静 | 岡 | 県 | 15 | 94,110 | 富 | 山 | 市 | 0 | 0 |\n| 愛 | 知 | 県 | 18 | 158,017 | 金 | 沢 | 市 | 2 | 5,538 |\n| 三 | 重 | 県 | 5 | 33,610 | 福 | 井 | 市 | 2 | 12,893 |\n| 滋 | 賀 | 県 | 15 | 160,190 | 甲 | 府 | 市 | 3 | 49,830 |\n| 京 | 都 | 府 | 12 | 154,145 | 長 | 野 | 市 | 2 | 14,464 |\n| 大 | 阪 | 府 | 17 | 147,651 | 松 | 本 | 市 | 7 | 128,425 |\n| 兵 | 庫 | 県 | 10 | 74,068 | 岐 | 阜 | 市 | 1 | 7,480 |\n| 奈 | 良 | 県 | 9 | 169,742 | 豊 | 橋 | 市 | 3 | 30,290 |\n| 和 | 歌 山 | 県 | 2 | 23,130 | 岡 | 崎 | 市 | 2 | 27,417 |\n| 鳥 | 取 | 県 | 5 | 26,870 | 豊 | 田 | 市 | 4 | 37,051 |\n| 島 | 根 | 県 | 6 | 80,016 | 一 | 宮 | 市 | 7 | 82,423 |\n| 岡 | 山 | 県 | 13 | 80,982 | 大 | 津 | 市 | 6 | 44,976 |\n| 広 | 島 | 県 | 5 | 88,235 | 豊 | 中 | 市 | 1 | 5,192 |\n| 山 | 口 | 県 | 9 | 107,850 | 高 | 槻 | 市 | 3 | 31,900 |\n| 徳 | 島 | 県 | 4 | 37,849 | 枚 | 方 | 市 | 1 | 4,400 |\n| 香 | 川 | 県 | 5 | 43,875 | 八 | 尾 | 市 | 0 | 0 |\n| 愛 | 媛 | 県 | 4 | 34,991 | 寝 | 屋 | 川 市 | 0 | 0 |\n| 高 | 知 | 県 | 4 | 31,351 | 東 | 大 | 阪 市 | 8 | 79,230 |\n| 福 | 岡 | 県 | 15 | 106,745 | 吹 | 田 | 市 | 5 | 24,405 |\n| 佐 | 賀 | 県 | 2 | 15,460 | 姫 | 路 | 市 | 4 | 46,260 |\n| 長 | 崎 | 県 | 7 | 35,595 | 尼 | 崎 | 市 | 7 | 58,119 |\n| 熊 | 本 | 県 | 12 | 91,256 | 明 | 石 | 市 | 6 | 53,351 |\n| 大 | 分 | 県 | 2 | 22,250 | 西 | 宮 | 市 | 1 | 7,730 |\n| 宮 | 崎 | 県 | 10 | 73,786 | 奈 | 良 | 市 | 2 | 237 |\n| 鹿 | 児 島 | 県 | 22 | 161,564 | 和 | 歌 | 山 市 | 0 | 0 |\n| 沖 | 縄 | 県 | 9 | 48,707 | 鳥 | 取 | 市 | 5 | 42,450 |\n| 小 | | 計 | 459 | 4,017,279 | 松 | 江 | 市 | 0 | 0 |\n| | | | | | | | | | |\n| | 指定都市名 | 計画数 | 今回計画額 | | 呉 | | 市 | 0 | 0 |\n| 札 | 幌 | 市 | 2 | 14,080 | 福 | 山 | 市 | 0 | 0 |\n| 仙 | 台 | 市 | 14 | 104,351 | 下 | 関 | 市 | 0 | 0 |\n| さ | い た ま | 市 | 0 | 0 | 高 | 松 | 市 | 1 | 7,730 |\n| 千 | 葉 | 市 | 3 | 27,494 | 松 | 山 | 市 | 3 | 17,914 |\n| 横 | 浜 | 市 | 13 | 98,648 | 高 | 知 | 市 | 0 | 0 |\n| 川 | 崎 | 市 | 2 | 55,164 | 久 | 留 | 米 市 | 1 | 11,487 |\n| 相 | 模 原 | 市 | 3 | 20,413 | 長 | 崎 | 市 | 1 | 19,800 |\n| 新 | 潟 | 市 | 2 | 15,268 | 佐 | 世 | 保 市 | 6 | 40,853 |\n| 静 | 岡 | 市 | 1 | 7,645 | 大 | 分 | 市 | 4 | 30,920 |\n| 浜 | 松 | 市 | 11 | 132,999 | 宮 | 崎 | 市 | 2 | 11,080 |\n| 名 | 古 屋 | 市 | 3 | 30,859 | 鹿 | 児 | 島 市 | 4 | 36,472 |\n| 京 | 都 | 市 | 5 | 34,886 | 那 | 覇 | 市 | 0 | 0 |\n| 大 | 阪 | 市 | 1 | 40,098 | | 小 | 計 | 158 | 1,335,808 |\n| 堺 | | 市 | 0 | 0 | | | | | |\n| 神 | 戸 | 市 | 5 | 59,530 | | | | | |\n| 岡 | 山 | 市 | 4 | 22,973 | | | | | |\n| 広 | 島 | 市 | 6 | 45,429 | | | 計画数 | 今回計画額 | |\n| 北 | 九 州 | 市 | 3 | 12,031 | | 合計 | | 712 | 6,214,838 |\n| 福 | 岡 | 市 | 6 | 51,715 | | | | | |\n| 熊 | 本 | 市 | 11 | 88,168 | （注）下線部はこれまでの内示から変更があった記載 | | | | |\n| 小 | | 計 | 95 | 861,751 | | | | | |\n\n倉 敷 市 7 55,247\n"
     },
     {
+      "id": "care-announcement-2025",
+      "title": "2025年度一次協議内示の公式発表",
+      "url": "https://www.mhlw.go.jp/stf/hard2025-1_00003.html",
+      "locator": "対象PDFの発表ページ、公表日の根拠。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2025-10-24",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "55eb210f702c865b6b3e40fb5502d30b66e821ee3aee9b155b6adc16667e25d3",
+      "excerpt": "# 令和７年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の 内示について\nURL: https://www.mhlw.go.jp/stf/hard2025-1_00003.html\n取得日: 2026-10-08\n取得方法: Exaによる公式本文抽出（原本ファイルではない）\n保存範囲: 公表日・対象資料の必要箇所。連絡先は省略。\n\n令和7年10月24日（金）\n\n令和７年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の 内示について［331KB］\n"
+    },
+    {
       "id": "care-2026",
       "title": "2026年度地域介護・福祉空間整備等施設整備交付金：一次協議",
       "url": "https://www.mhlw.go.jp/content/001715704.pdf",
@@ -11318,6 +12044,18 @@
       "retrieved_via": "Exaによる公式本文抽出",
       "sha256_extracted_text": "df3532fb4426d1fbd21261515cf0cd2a5d7598e62b5d29aa5bfc42527b940a88",
       "excerpt": "| | 都道府県名 | 計画数 | 計画額（千円） | | | 中核市名 | 計画数 | 計画額（千円） | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 北 | 海 | 道 | 17 | 178,295 | 函 | 館 | 市 | 4 | 34,230 |\n| 青 | 森 | 県 | 10 | 59,745 | 旭 | 川 | 市 | 1 | 8,330 |\n| 岩 | 手 | 県 | 7 | 86,843 | 青 | 森 | 市 | 0 | 0 |\n| 宮 | 城 | 県 | 6 | 82,986 | 八 | 戸 | 市 | 0 | 0 |\n| 秋 | 田 | 県 | 7 | 39,292 | 盛 | 岡 | 市 | 2 | 11,077 |\n| 山 | 形 | 県 | 9 | 87,321 | 秋 | 田 | 市 | 3 | 29,568 |\n| 福 | 島 | 県 | 13 | 102,428 | 山 | 形 | 市 | 2 | 16,660 |\n| 茨 | 城 | 県 | 7 | 62,587 | 福 | 島 | 市 | 3 | 44,320 |\n| 栃 | 木 | 県 | 8 | 77,304 | 郡 | 山 | 市 | 2 | 17,586 |\n| 群 | 馬 | 県 | 9 | 69,894 | い | わ | き 市 | 5 | 79,475 |\n| 埼 | 玉 | 県 | 14 | 93,036 | 水 | 戸 | 市 | 0 | 0 |\n| 千 | 葉 | 県 | 15 | 129,907 | 宇 | 都 | 宮 市 | 4 | 65,598 |\n| 東 | 京 | 都 | 14 | 238,136 | 前 | 橋 | 市 | 2 | 17,609 |\n| 神 | 奈 | 川 県 | 13 | 157,930 | 高 | 崎 | 市 | 6 | 40,256 |\n| 新 | 潟 | 県 | 5 | 42,531 | 川 | 越 | 市 | 4 | 46,218 |\n| 富 | 山 | 県 | 5 | 20,946 | 川 | 口 | 市 | 0 | 0 |\n| 石 | 川 | 県 | 9 | 71,455 | 越 | 谷 | 市 | 5 | 33,460 |\n| 福 | 井 | 県 | 9 | 83,918 | 船 | 橋 | 市 | 1 | 8,330 |\n| 山 | 梨 | 県 | 7 | 98,071 | 柏 | | 市 | 4 | 65,975 |\n| 長 | 野 | 県 | 8 | 63,793 | 八 | 王 | 子 市 | 7 | 86,715 |\n| 岐 | 阜 | 県 | 9 | 109,149 | 横 | 須 | 賀 市 | 3 | 31,906 |\n| 静 | 岡 | 県 | 10 | 83,325 | 富 | 山 | 市 | 1 | 11,896 |\n| 愛 | 知 | 県 | 15 | 182,244 | 金 | 沢 | 市 | 2 | 28,165 |\n| 三 | 重 | 県 | 8 | 89,384 | 福 | 井 | 市 | 2 | 21,455 |\n| 滋 | 賀 | 県 | 15 | 156,471 | 甲 | 府 | 市 | 1 | 8,330 |\n| 京 | 都 | 府 | 2 | 10,539 | 長 | 野 | 市 | 6 | 40,256 |\n| 大 | 阪 | 府 | 10 | 143,345 | 松 | 本 | 市 | 2 | 16,343 |\n| 兵 | 庫 | 県 | 15 | 133,298 | 岐 | 阜 | 市 | 7 | 56,912 |\n| 奈 | 良 | 県 | 9 | 101,753 | 豊 | 橋 | 市 | 3 | 26,057 |\n| 和 | 歌 | 山 県 | 1 | 1,528 | 岡 | 崎 | 市 | 4 | 39,360 |\n| 鳥 | 取 | 県 | 14 | 110,657 | 一 | 宮 | 市 | 5 | 38,515 |\n| 島 | 根 | 県 | 2 | 9,922 | 豊 | 田 | 市 | 6 | 67,399 |\n| 岡 | 山 | 県 | 6 | 59,635 | 大 | 津 | 市 | 0 | 0 |\n| 広 | 島 | 県 | 9 | 70,120 | 豊 | 中 | 市 | 0 | 0 |\n| 山 | 口 | 県 | 9 | 95,068 | 吹 | 田 | 市 | 2 | 3,507 |\n| 徳 | 島 | 県 | 3 | 39,625 | 高 | 槻 | 市 | 1 | 18,700 |\n| 香 | 川 | 県 | 4 | 20,774 | 枚 | 方 | 市 | 1 | 8,330 |\n| 愛 | 媛 | 県 | 2 | 12,955 | 八 | 尾 | 市 | 0 | 0 |\n| 高 | 知 | 県 | 8 | 41,631 | 寝 | 屋 | 川 市 | 1 | 8,107 |\n| 福 | 岡 | 県 | 9 | 68,191 | 東 | 大 | 阪 市 | 3 | 27,022 |\n| 佐 | 賀 | 県 | 8 | 65,912 | 姫 | 路 | 市 | 3 | 26,390 |\n| 長 | 崎 | 県 | 7 | 78,259 | 尼 | 崎 | 市 | 2 | 14,375 |\n| 熊 | 本 | 県 | 7 | 65,944 | 明 | 石 | 市 | 0 | 0 |\n| 大 | 分 | 県 | 6 | 51,047 | 西 | 宮 | 市 | 4 | 27,764 |\n| 宮 | 崎 | 県 | 10 | 85,483 | 奈 | 良 | 市 | 1 | 8,330 |\n| 鹿 | 児 | 島 県 | 13 | 164,252 | 和 | 歌 | 山 市 | 13 | 108,978 |\n| 沖 | 縄 | 県 | 8 | 68,891 | 鳥 | 取 | 市 | 6 | 40,288 |\n| | 小 | 計 | 411 | 3,965,820 | 松 | 江 | 市 | 0 | 0 |\n| | | | | | | | | | |\n| | 指定都市名 | 計画数 | 計画額（千円） | | 呉 | | 市 | 3 | 45,739 |\n| 札 | 幌 | 市 | 7 | 85,364 | 福 | 山 | 市 | 2 | 6,990 |\n| 仙 | 台 | 市 | 7 | 65,494 | 下 | 関 | 市 | 0 | 0 |\n| さ | い た | ま 市 | 4 | 37,077 | 高 | 松 | 市 | 3 | 24,410 |\n| 千 | 葉 | 市 | 0 | 0 | 松 | 山 | 市 | 3 | 22,251 |\n| 横 | 浜 | 市 | 13 | 153,974 | 高 | 知 | 市 | 3 | 23,641 |\n| 川 | 崎 | 市 | 7 | 80,815 | 久 | 留 | 米 市 | 3 | 12,816 |\n| 相 | 模 | 原 市 | 3 | 27,580 | 長 | 崎 | 市 | 4 | 28,796 |\n| 新 | 潟 | 市 | 9 | 85,719 | 佐 | 世 | 保 市 | 6 | 62,815 |\n| 静 | 岡 | 市 | 7 | 40,248 | 大 | 分 | 市 | 4 | 28,466 |\n| 浜 | 松 | 市 | 14 | 174,632 | 宮 | 崎 | 市 | 4 | 35,665 |\n| 名 | 古 | 屋 市 | 2 | 4,315 | 鹿 | 児 | 島 市 | 5 | 36,967 |\n| 京 | 都 | 市 | 7 | 57,305 | 那 | 覇 | 市 | 0 | 0 |\n| 大 | 阪 | 市 | 5 | 69,630 | | 小 | 計 | 174 | 1,612,348 |\n| 堺 | | 市 | 8 | 123,350 | | | | | |\n| 神 | 戸 | 市 | 10 | 116,313 | | | | | |\n| 岡 | 山 | 市 | 2 | 6,399 | | | 計画数 | 今回計画額（千円） | |\n| 広 | 島 | 市 | 10 | 88,596 | | 合計 | | 709 | 6,873,286 |\n| 北 | 九 | 州 市 | 2 | 14,250 | うち国土強靱化対策分 | | | 471 | 4,741,743 |\n| 福 | 岡 | 市 | 1 | 19,122 | | | | | |\n| 熊 | 本 | 市 | 6 | 44,935 | | | | | |\n| | 小 | 計 | 124 | 1,295,118 | （注）計画数が０の自治体は協議がなかったもの | | | | |\n\n倉 敷 市 0 0 （※）国土強靱化対策分は「第１次国土強靱化実施中期計画（令和７年６月６日閣議決定）」 に基づく取組に係る計画分\n"
+    },
+    {
+      "id": "care-announcement-2026",
+      "title": "2026年度一次協議内示の公式発表",
+      "url": "https://www.mhlw.go.jp/stf/hard2026-1_00001.html",
+      "locator": "対象PDFの発表ページ、公表日の根拠。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-08",
+      "published": "2026-06-26",
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "41b6c4de8c59935241772911c04ac52f4840c3dcc15771c8d346ffe701bbf2ee",
+      "excerpt": "# 令和８年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の内示について\nURL: https://www.mhlw.go.jp/stf/hard2026-1_00001.html\n取得日: 2026-10-08\n取得方法: Exaによる公式本文抽出（原本ファイルではない）\n保存範囲: 公表日・対象資料の必要箇所。連絡先は省略。\n\n令和8年6月26日（金）\n\n令和８年度地域介護・福祉空間整備等施設整備交付金（一次協議分）の内示について［259KB］\n"
     },
     {
       "id": "defense-2025",
@@ -11474,6 +12212,150 @@
       "retrieved_via": "Exaによる公式本文抽出",
       "sha256_extracted_text": "c9b44d5c5830a14bc207e2aab5c7c9ff96feadcd78f1ec9022625565b372fa67",
       "excerpt": "# 所属議員検索結果 | 所属議員検索 | 公明党\nURL: https://www.komei.or.jp/member/result/\n\n- 参議院\n: 横山 信一 （よこやま しんいち）\n- 衆議院\n: 佐藤 英道 （さとう ひでみち）\n- 衆議院\n: 浮島 智子 （うきしま ともこ）\n"
+    },
+    {
+      "id": "party-ldp-115187",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/115187.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "99fcb33fe1deb17bf31c5cb062a8454943c48ae3abc339f08909a38f8990e6b7",
+      "excerpt": "# 衆議院議員 井野 俊郎（いの としろう） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/115187.html\n衆議院議員\n# 井野俊郎\n| 選挙区 | 群馬県第2区 |\n"
+    },
+    {
+      "id": "party-ldp-135987",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/135987.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "c42f6527006dd302175319e84bf70203341118c4926456cd4ce01162f00b20fb",
+      "excerpt": "# 衆議院議員 中曽根 康隆（なかそね やすたか） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/135987.html\n衆議院議員\n# 中曽根康隆\n| 選挙区 | 群馬県第1区 |\n"
+    },
+    {
+      "id": "party-ldp-100497",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/100497.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "5025f7887493db0f5dae5b724d87a8eca4098dcc34a5233952fd491ab616b2d1",
+      "excerpt": "# 参議院議員 中曽根 弘文（なかそね ひろふみ） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/100497.html\n参議院議員\n# 中曽根弘文\n| 選挙区 | 群馬県 |\n"
+    },
+    {
+      "id": "party-ldp-102087",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/102087.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "9b1fbc5f6468fdea342af64af36bdd239c597f6da03386ccda6dd8e3e69c04d0",
+      "excerpt": "# 衆議院議員 木原 稔（きはら みのる） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/102087.html\n衆議院議員\n# 木原稔\n| 選挙区 | 熊本県第1区 |\n"
+    },
+    {
+      "id": "party-ldp-115364",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/115364.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "8338f052cce2a386b404b89ee09c73d1f2f9ccefe9fc2a6242d329c1963d3729",
+      "excerpt": "# 衆議院議員 長坂 康正（ながさか やすまさ） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/115364.html\n衆議院議員\n# 長坂康正\n| 選挙区 | 愛知県第9区 |\n"
+    },
+    {
+      "id": "party-ldp-110466",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/110466.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "3f66093a6881d08411dfec863140c5b0c6d887bcb2dd97e90d08ee36af504035",
+      "excerpt": "# 衆議院議員 工藤 彰三（くどう しょうぞう） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/110466.html\n衆議院議員\n# 工藤彰三\n| 選挙区 | 愛知県第4区 |\n"
+    },
+    {
+      "id": "party-ldp-209176",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/209176.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "c5dd7cea169de2c30b52cf359772ac933fbb2d749a22f5b94704b039495040a8",
+      "excerpt": "# 衆議院議員 若山 慎司（わかやま しんじ） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/209176.html\n衆議院議員\n# 若山慎司\n| 選挙区 | 愛知県第10区 |\n"
+    },
+    {
+      "id": "party-ldp-102122",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/102122.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "af60813a58d2b95bd405f1f24c27cc982ab9d5ee6d57064c41497376b51b01e0",
+      "excerpt": "# 衆議院議員 丹羽 秀樹（にわ ひでき） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/102122.html\n衆議院議員\n# 丹羽秀樹\n| 選挙区 | 愛知県第6区 |\n"
+    },
+    {
+      "id": "party-ldp-212426",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/212426.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "208bf51004810bbf300af4e871544ddaf02e68a0ea25364b0c1cd8eee1b7ca86",
+      "excerpt": "# 衆議院議員 山下 史守朗（やました しずお） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/212426.html\n衆議院議員\n# 山下史守朗\n| 選挙区 | 愛知県第16区 |\n"
+    },
+    {
+      "id": "party-ldp-126557",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin.jp/member/126557.html",
+      "locator": "党公式の現職国会議員プロフィール。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "a041f916f5ea50ab767340a108acd1448e8bc74885659ab089168571ea023de1",
+      "excerpt": "# 衆議院議員 加藤 鮎子（かとう あゆこ） | 議員 | 自由民主党\nURL: https://www.jimin.jp/member/126557.html\n衆議院議員\n# 加藤鮎子\n| 選挙区 | 山形県第3区 |\n"
+    },
+    {
+      "id": "party-ldp-aichi",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://www.jimin-aichi.or.jp/member_search",
+      "locator": "党県連の現職国会議員欄。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "a1d45bf2da0fa6369d41f9c6800b8cb7f2f038441ff5c7dd76aba4e1b49afb98",
+      "excerpt": "# 自由民主党愛知県支部連合会 あなたの街の議員・支部長\nURL: https://www.jimin-aichi.or.jp/member_search\n### 岡本康宏\n衆議院議員愛知5区\n\n### 伊藤忠彦\n衆議院議員愛知8区\n\n### 青山周平\n衆議院議員愛知12区\n"
+    },
+    {
+      "id": "party-sansei-aichi",
+      "title": "所属党：個別プロフィール・県連の現職議員欄",
+      "url": "https://sanseito-aichi.com/%E8%AD%B0%E5%93%A1%E3%83%9A%E3%83%BC%E3%82%B8/",
+      "locator": "党県連の現職参議院議員欄。本人の漢字氏名は同じ欄の事務所表記と照合。資料日未確認、確認日を党籍の基準日に読み替えない。",
+      "kind": "所属党",
+      "accessed": "2026-10-08",
+      "published": null,
+      "retrieved_via": "Exaによる公式本文抽出",
+      "sha256_extracted_text": "8aeac403b53e5e0da36134842b8ae723a50c87efb2378c3a6fd8f94efdbdfcdf",
+      "excerpt": "# 議員紹介 - 参政党愛知県支部連合会\nURL: https://sanseito-aichi.com/%E8%AD%B0%E5%93%A1%E3%83%9A%E3%83%BC%E3%82%B8/\n## 第３支部 参議院議員 杉本 じゅんこ\n・2025年7月の参議院選挙に愛知選挙区から出馬 当選(531,387票）\n杉本純子事務所\n"
     }
   ],
   "legislators": [
@@ -11571,12 +12453,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin-aichi.or.jp/member_search",
       "as_of": "2026-09-28",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin-aichi.or.jp/member_search",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-aichi",
+          "method": "党県連の現職国会議員欄",
+          "roster_name": "青山周平"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-赤澤亮正",
@@ -12466,12 +13360,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin-aichi.or.jp/member_search",
       "as_of": "2026-09-28",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin-aichi.or.jp/member_search",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-aichi",
+          "method": "党県連の現職国会議員欄",
+          "roster_name": "伊藤忠彦"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-伊藤達也",
@@ -12612,12 +13518,24 @@
         "群馬県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/115187.html",
       "as_of": "2026-09-28",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/115187.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-115187",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "井野俊郎"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-井上信治",
@@ -13518,12 +14436,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin-aichi.or.jp/member_search",
       "as_of": "2026-09-28",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin-aichi.or.jp/member_search",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-aichi",
+          "method": "党県連の現職国会議員欄",
+          "roster_name": "岡本康宏"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-小川淳也",
@@ -13971,12 +14901,24 @@
         "山形県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/126557.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/2giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/126557.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-126557",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "加藤鮎子"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-加藤勝信",
@@ -14629,12 +15571,24 @@
         "熊本県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/102087.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/2giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/102087.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-102087",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "木原稔"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-木村次郎",
@@ -14712,12 +15666,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/110466.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/2giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/110466.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-110466",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "工藤彰三"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-工藤聖子",
@@ -17392,12 +18358,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/115364.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/5giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/115364.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-115364",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "長坂康正"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-長澤興祐",
@@ -17446,12 +18424,24 @@
         "群馬県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/135987.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/5giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/135987.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-135987",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "中曽根康隆"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-中田宏",
@@ -18128,12 +19118,24 @@
         "愛知県"
       ],
       "caucus": null,
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/102122.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/5giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/102122.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-102122",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "丹羽秀樹"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-額賀福志郎",
@@ -20525,12 +21527,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/212426.html",
       "as_of": "2026-09-28",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/8giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/212426.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-212426",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "山下史守朗"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-山下貴司",
@@ -21006,12 +22020,24 @@
         "愛知県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/209176.html",
       "as_of": "2026-02-18",
       "source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/10giin.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/209176.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-209176",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "若山慎司"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "house-鷲尾英一郎",
@@ -21817,12 +22843,24 @@
         "群馬県"
       ],
       "caucus": "自民",
-      "party": null,
-      "party_source": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/100497.html",
       "as_of": "2026-09-04",
       "source_url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "自由民主党",
+          "url": "https://www.jimin.jp/member/100497.html",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-ldp-100497",
+          "method": "党公式の現職国会議員プロフィール",
+          "roster_name": "中曽根弘文"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "senate-清水真人",
@@ -23095,12 +24133,24 @@
         "愛知県"
       ],
       "caucus": "参政",
-      "party": null,
-      "party_source": null,
+      "party": "参政党",
+      "party_source": "https://sanseito-aichi.com/%E8%AD%B0%E5%93%A1%E3%83%9A%E3%83%BC%E3%82%B8/",
       "as_of": "2026-09-04",
       "source_url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
-      "party_evidence": [],
-      "party_status": "未照合"
+      "party_evidence": [
+        {
+          "party": "参政党",
+          "url": "https://sanseito-aichi.com/%E8%AD%B0%E5%93%A1%E3%83%9A%E3%83%BC%E3%82%B8/",
+          "as_of": null,
+          "checked_at": "2026-10-08",
+          "source_id": "party-sansei-aichi",
+          "method": "党県連の現職参議院議員欄。本人の漢字氏名は同じ欄の事務所表記と照合",
+          "roster_name": "杉本じゅんこ"
+        }
+      ],
+      "party_as_of": null,
+      "party_checked_at": "2026-10-08",
+      "party_status": "一次資料照合"
     },
     {
       "id": "senate-田島麻衣子",
@@ -26470,15 +27520,15 @@
     }
   },
   "party_coverage": {
-    "verified": 207,
+    "verified": 221,
     "conflicts": 2,
     "total": 711
   },
   "limitations": [
     "全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。",
-    "一般会計19所管、特別会計14会計34勘定等、第1四半期支出、一部制度の地域配分を収載。特別会計の府省別・地域別分解は未収載。",
+    "一般会計19所管、特別会計14会計34勘定等、第1四半期・7月末累計支出、一部制度の地域配分を収載。特別会計の府省別・地域別分解は未収載。",
     "検索本文は原本ファイルではない。PDF/CSVの原本照合と最新議員名簿の統一時点での取得は未完了。",
-    "所属党は207人を一次資料で照合。2人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。",
+    "所属党は221人を一次資料で照合。2人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。",
     "現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。"
   ]
 }

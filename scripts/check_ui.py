@@ -45,7 +45,10 @@ with sync_playwright() as p:
     page.click('[data-view=special]')
     assert page.locator('#row-count').inner_text()=='34'
     page.click('[data-view=execution]')
+    assert page.locator('#row-count').inner_text()=='36'
+    page.select_option('#program','所管別支出済歳出額（7月末累計）')
     assert page.locator('#row-count').inner_text()=='18'
+    assert '4〜7月' in page.locator('#rows').inner_text()
     page.click('[data-view=reference]')
     page.check('#candidate-only')
     assert page.locator('#candidate-count').inner_text()=='0'
@@ -59,7 +62,8 @@ with sync_playwright() as p:
     page.select_option('#member-pref','')
     assert page.locator('#members .member').count()==711
     assert '資料間不一致（中道改革連合／公明党）' in page.locator('#members').inner_text()
-    assert '207 / 711人' in page.locator('#party-coverage').inner_text()
+    coverage=json.loads((ROOT/'public/data.json').read_text())['party_coverage']
+    assert f"{coverage['verified']} / 711人" in page.locator('#party-coverage').inner_text()
     page.select_option('#member-pref','栃木県')
     page.click('[data-view=regional]');page.click('#reset')
     page.set_viewport_size({'width':390,'height':844})
@@ -68,4 +72,4 @@ with sync_playwright() as p:
     assert not errors,errors
     assert not remote,remote
     browser.close()
-    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['filters','details','MLIT scopes','Aichi explanation','CSV export with party evidence','national','Q1','noncomparable exclusion','coverage','joint Senate district','nationwide legislators','party sources and conflicts','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))
+    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['filters','details','MLIT scopes','Aichi explanation','CSV export with party evidence','national','Q1 and July cumulative','noncomparable exclusion','coverage','joint Senate district','nationwide legislators','party sources and conflicts','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))
