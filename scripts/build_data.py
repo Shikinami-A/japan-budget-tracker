@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from party_sources import apply_party_rosters
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / 'data' / 'source-text'
@@ -13,11 +14,11 @@ SOURCES = []
 ROWS = []
 
 
-def source(id, file, title, url, locator, excerpt=None, published=None):
+def source(id, file, title, url, locator, excerpt=None, published=None, kind='予算・議員資料'):
     raw = (RAW / file).read_text()
     text = excerpt if excerpt is not None else raw
     # Only selected public evidence, not entire reports, personal contacts or news copies.
-    SOURCES.append(dict(id=id, title=title, url=url, locator=locator,
+    SOURCES.append(dict(id=id, title=title, url=url, locator=locator, kind=kind,
                         accessed=DATE, published=published,
                         retrieved_via='Exaによる公式本文抽出',
                         sha256_extracted_text=hashlib.sha256(text.encode()).hexdigest(),
@@ -266,7 +267,7 @@ def main():
             proportional = bool(district and district.startswith('（比）'))
             short = re.sub(r'\d+$', '', district or '')
             prefs = [] if proportional else [SHORT[short]] if short in SHORT else []
-            legislators.append(dict(id=f'house-{name}', name=name, chamber='衆議院', district=district,
+            legislators.append(dict(id=f'house-{name}', name=name, reading=cells[0] if cells else None, chamber='衆議院', district=district,
                                     election_type='比例代表' if proportional else '小選挙区' if district else '未取得', prefectures=prefs,
                                     caucus=caucus, party=None, party_source=None, as_of=asof, source_url=url))
     t = (RAW/'source-3.txt').read_text()
@@ -280,20 +281,28 @@ def main():
         short = district.replace('県', '')
         prefs = [SHORT.get(p,p) for p in short.split('・')] if not proportional else []
         prefs = [p for p in prefs if p in PREFS]
-        legislators.append(dict(id=f'senate-{name}', name=name, chamber='参議院', district=district,
+        legislators.append(dict(id=f'senate-{name}', name=name, reading=cols[2], chamber='参議院', district=district,
                                 election_type='比例代表' if proportional else '選挙区', prefectures=prefs,
                                 caucus=cols[0] if proportional else cols[3], party=None, party_source=None,
                                 as_of='2026-09-04', source_url='https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm'))
     # Explicit party column in a prefectural government source, no caucus-to-party inference.
     party_source = 'https://www.pref.tochigi.lg.jp/a51/documents/20260413152401.pdf'
-    verified = {'船田元':'自由民主党','五十嵐清':'自由民主党','渡辺真太朗':'無所属',
-                '石坂太':'自由民主党','茂木敏充':'自由民主党','柏倉祐司':'日本維新の会',
-                '簗和生':'自由民主党','上野通子':'自由民主党','高橋克法':'自由民主党'}
+    source('tochigi-party','tochigi-party.txt','栃木県関係国会議員一覧',party_source,
+           '所属政党欄。住所・電話番号は保存しない。',(RAW/'tochigi-party.txt').read_text(),'2026-04-01')
+    verified={}
+    for line in (RAW/'tochigi-party.txt').read_text().splitlines():
+        match=re.match(r'^(.+?)[（(].*[）)]\s+.+\s+(自由民主党|日本維新の会|無所属)$',line)
+        if match:verified[match[1].replace(' ','')]=match[2]
+    assert len(verified)==9
     for r in legislators:
         if r['name'] in verified:
             r.update(party=verified[r['name']], party_source=party_source, party_as_of='2026-04-01')
             if r['election_type']=='比例代表':
                 r['related_prefectures']=['栃木県']
+
+    party_roster_stats=apply_party_rosters(legislators,RAW,source,DATE)
+    party_count=sum(m['party'] is not None for m in legislators)
+    party_conflicts=sum(m['party_status']=='資料間不一致' for m in legislators)
 
     agencies = {
         '内閣':['内閣官房','内閣法制局','人事院'],
@@ -316,12 +325,13 @@ def main():
     snapshot = dict(schema_version=1, as_of=DATE, prefectures=PREFS, rows=ROWS, coverage=coverage,
                     annual2025=dict(spent_million_yen=129466100,source_id='mof-annual-2025',
                                     note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期執行額とは別扱い。'),
-                    sources=SOURCES, legislators=legislators,
+                    sources=SOURCES, legislators=legislators,party_roster_stats=party_roster_stats,
+                    party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[
                         '全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。',
                         '一般会計19所管、特別会計14会計34勘定等、第1四半期支出、一部制度の地域配分を収載。特別会計の府省別・地域別分解は未収載。',
                         '検索本文は原本ファイルではない。PDF/CSVの原本照合と最新議員名簿の統一時点での取得は未完了。',
-                        '所属政党は栃木県資料で確認した9人のみ。その他は会派を表示し、党名は未照合と表示。',
+                        f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])
     (ROOT/'public'/'data.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2)+'\n')
     print(f'{len(ROWS)} comparison rows, {len(legislators)} legislators, {len(SOURCES)} sources')

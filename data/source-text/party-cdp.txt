@@ -1,0 +1,55 @@
+# 議員情報 - 立憲民主党
+URL: https://cdp-japan.jp/members
+Author: 立憲民主党
+
+議員情報 - 立憲民主党
+
+# 議員情報Parliamentary information
+
+### 徳永エリとくながえり
+
+参議院議員3期 北海道 ${m/candidateType}
+
+### 勝部賢志かつべけんじ
+
+参議院議員2期 北海道 ${m/candidateType}
+
+### 田名部匡代たなぶまさよ
+
+参議院議員2期 青森 ${m/candidateType}
+
+### 福士珠美ふくしますみ
+
+参議院議員1期 青森 ${m/candidateType}
+
+### 木戸口英司きどぐちえいじ
+
+参議院議員2期 岩手 ${m/candidateType}
+
+### 横沢たかのりよこさわたかのり
+
+参議院議員2期 岩手 ${m/candidateType}
+
+### 石垣のりこいしがきのりこ
+
+参議院議員2期 宮城 ${m/candidateType}
+
+### 高木真理たかぎまり
+
+参議院議員1期 埼玉 ${m/candidateType}
+
+### 熊谷裕人くまがいひろと
+
+参議院議員2期 埼玉 ${m/candidateType}
+
+### 小西洋之こにしひろゆき
+
+参議院議員3期 千葉 ${m/candidateType}
+
+### 長浜博行ながはまひろゆき
+
+参議院議員4期 千葉 ${m/candidateType}
+
+### 牧山ひろえまきやまひろえ
+
+参議院議員4期 神奈川 ${m/candidateType}

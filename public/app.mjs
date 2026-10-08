@@ -27,7 +27,8 @@ function thresholds() {
   return { pct: bounded('pct', 30, 1000), amount: bounded('amount', 10, 1e8), gap: bounded('gap', 20, 1000) };
 }
 function rowMembers(r) { return membersFor(r.prefecture, data.legislators, true); }
-function memberLine(m) { return `${m.name}（${m.district ?? '選挙区未取得'}） / ${m.party ? `党：${m.party}` : '党：未照合'} / 会派：${m.caucus ?? '未取得'}`; }
+function partyLabel(m) { return m.party ?? (m.party_status==='資料間不一致' ? `資料間不一致（${[...new Set(m.party_evidence.map(e=>e.party))].join('／')}）` : '未照合'); }
+function memberLine(m) { return `${m.name}（${m.district ?? '選挙区未取得'}） / 党：${partyLabel(m)} / 会派：${m.caucus ?? '未取得'}`; }
 function render() {
   $('data-view').hidden = view === 'coverage'; $('coverage-view').hidden = view !== 'coverage';
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
@@ -133,11 +134,17 @@ function showDetail(row) {
 }
 function memberCard(m) {
   const card=el('article',undefined,'member');card.append(el('h3',m.name),el('p',`${m.chamber}・${m.election_type}・${m.district ?? '選挙区未取得'}`),
-    el('p',`所属党：${m.party ?? '未照合'}`),el('p',`会派：${m.caucus ?? '未取得'}`),el('small',`名簿基準日：${m.as_of ?? '未確認'}`),link('国会名簿 ↗',m.source_url));
-  if(m.party_source)card.append(el('small',`党の確認資料：${m.party_as_of}時点`),link('所属党の出典 ↗',m.party_source));return card;
+    el('p',`所属党：${partyLabel(m)}`),el('p',`会派：${m.caucus ?? '未取得'}`),el('small',`名簿基準日：${m.as_of ?? '未確認'}`),link('国会名簿 ↗',m.source_url));
+  for(const e of m.party_evidence??[]) {
+    card.append(link(`${e.party}の確認資料 ↗`,e.url),el('small',`所属資料の基準日：${e.as_of??'未確認'} / 照合日：${e.checked_at}`));
+    if(e.roster_name)card.append(el('small',`党の表記：${e.roster_name}`));
+  }
+  return card;
 }
 function renderMembers() {
-  const p=$('member-pref').value;const members=membersFor(p,data.legislators,$('proportional').checked);
+  const p=$('member-pref').value, includeProportional=$('proportional').checked;
+  const members=p ? membersFor(p,data.legislators,includeProportional) : data.legislators.filter(m=>includeProportional || m.election_type!=='比例代表');
+  $('party-coverage').textContent=`全国の所属党照合：${data.party_coverage.verified} / ${data.party_coverage.total}人。資料間不一致：${data.party_coverage.conflicts}人。党の資料日が不明な場合は取得日を基準日に読み替えません。`;
   $('members').replaceChildren(...members.map(memberCard));
   if(!members.length)$('members').append(el('p','この地域に対応する議員を未取得。'));
 }
@@ -149,10 +156,11 @@ function renderCoverage() {
 }
 function exportCSV() {
   const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','unit','comparability'];
-  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls']).map(csvCell).join(',')];
+  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence']).map(csvCell).join(',')];
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
-    csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell([...r.source_ids,...r.explanation_source_ids??[]].map(id=>data.sources.find(s=>s.id===id)?.url).join(' '))]).join(','));
+    csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell([...r.source_ids,...r.explanation_source_ids??[]].map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
+    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,roster_as_of:m.as_of,roster_url:m.source_url,party_status:m.party_status,party_evidence:m.party_evidence}))))]).join(','));
   const blob=new Blob(['\uFEFF',lines.join('\r\n')],{type:'text/csv;charset=utf-8'}),u=URL.createObjectURL(blob),a=el('a');a.href=u;a.download=`budget-${view}-${data.as_of}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 async function start() {
@@ -160,7 +168,7 @@ async function start() {
     const response=await fetch('./data.json',{credentials:'omit'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
     data=await response.json();if(data.schema_version!==1||!Array.isArray(data.rows))throw new Error('データ形式が一致しません');
     $('date').textContent=`/ 調査日 ${data.as_of}`;
-    options('prefecture',data.prefectures,'全国の地域');options('member-pref',data.prefectures);$('member-pref').value='栃木県';
+    options('prefecture',data.prefectures,'全国の地域');options('member-pref',data.prefectures,'全国の議員');$('member-pref').value='栃木県';
     $('limits-list').replaceChildren(...data.limitations.map(t=>el('li',t)));
     const parties=data.legislators.filter(m=>m.party!==null).length;
     $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、議員名簿${data.legislators.length}人（衆議院464人、参議院247人の抽出本文）。選挙区未取得23人。所属党の一次資料照合：${parties}人。`;

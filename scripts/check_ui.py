@@ -39,6 +39,7 @@ with sync_playwright() as p:
         page.click('#export')
     downloaded=download.value;downloaded.save_as(str(OUT/'export.csv'))
     assert 'aichi.jp' in (OUT/'export.csv').read_text(encoding='utf-8-sig')
+    assert 'legislator_evidence' in (OUT/'export.csv').read_text(encoding='utf-8-sig')
     page.click('[data-view=national]')
     assert page.locator('#row-count').inner_text()=='19'
     page.click('[data-view=special]')
@@ -52,6 +53,13 @@ with sync_playwright() as p:
     assert '復興庁' in page.locator('#coverage').inner_text()
     page.select_option('#member-pref','鳥取県')
     assert '鳥取' in page.locator('#members').inner_text() and '島根' in page.locator('#members').inner_text()
+    page.select_option('#member-pref','山形県')
+    assert '国民民主党' in page.locator('#members').inner_text()
+    assert '所属資料の基準日：未確認' in page.locator('#members').inner_text()
+    page.select_option('#member-pref','')
+    assert page.locator('#members .member').count()==711
+    assert '資料間不一致（中道改革連合／公明党）' in page.locator('#members').inner_text()
+    assert '207 / 711人' in page.locator('#party-coverage').inner_text()
     page.select_option('#member-pref','栃木県')
     page.click('[data-view=regional]');page.click('#reset')
     page.set_viewport_size({'width':390,'height':844})
@@ -60,4 +68,4 @@ with sync_playwright() as p:
     assert not errors,errors
     assert not remote,remote
     browser.close()
-    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['filters','details','MLIT scopes','Aichi explanation','CSV export','national','Q1','noncomparable exclusion','coverage','joint Senate district','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))
+    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['filters','details','MLIT scopes','Aichi explanation','CSV export with party evidence','national','Q1','noncomparable exclusion','coverage','joint Senate district','nationwide legislators','party sources and conflicts','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))

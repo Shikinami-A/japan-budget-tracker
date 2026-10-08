@@ -65,7 +65,7 @@
       </section>
     </section>
     <section id="coverage-view" class="panel" hidden><h2>省庁別の調査状況</h2><p>所管総額を確認できても、地域別の裁量的な配分を確認できたとは限りません。「未収載」はゼロでも問題なしでもありません。</p><div id="coverage"></div></section>
-    <section id="legislator-view" class="panel"><h2>議員名簿を地域で見る</h2><label>都道府県 <select id="member-pref"><option value="栃木県">栃木県</option></select></label><label><input id="proportional" type="checkbox" checked> 公的資料で地域との関係を確認できた比例議員も表示</label><p class="muted">小選挙区・参議院選挙区と、比例代表の地域との関係は別表示。参議院の全国比例を特定地域の代表とは扱いません。</p><div id="members" class="member-grid"></div></section>
+    <section id="legislator-view" class="panel"><h2>議員名簿を地域で見る</h2><label>都道府県 <select id="member-pref"><option value="栃木県">栃木県</option></select></label><label><input id="proportional" type="checkbox" checked> 比例代表も表示（地域選択時は公的な関係資料がある人のみ）</label><p class="muted">小選挙区・参議院選挙区と、比例代表の地域との関係は別表示。参議院の全国比例を特定地域の代表とは扱いません。</p><p id="party-coverage" class="muted"></p><div id="members" class="member-grid"></div></section>
     <p id="error" role="alert" hidden></p>
     <footer>出典に戻って確かめるための調査資料。<span id="source-count"></span> <a href="./data.json" download>出典付きJSON</a> / <a href="https://github.com/Shikinami-A/japan-budget-tracker/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">比較方法</a></footer>
   </main>

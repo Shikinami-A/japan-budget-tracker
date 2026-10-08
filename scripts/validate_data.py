@@ -4,6 +4,7 @@ import json
 import math
 from pathlib import Path
 from urllib.parse import urlsplit
+from party_sources import PARTIES
 
 ROOT=Path(__file__).resolve().parents[1]
 d=json.loads((ROOT/'public/data.json').read_text())
@@ -14,7 +15,10 @@ assert len(sources)==len(d['sources'])
 for s in sources.values():
     u=urlsplit(s['url'])
     assert u.scheme=='https' and u.hostname and not u.username and not u.password
-    assert u.hostname.endswith(('.go.jp','.lg.jp')) or u.hostname=='www.pref.aichi.jp', s['url']
+    if s['kind']=='所属党':
+        assert s['url'] in {url for party,url in PARTIES.values()},s['url']
+    else:
+        assert u.hostname.endswith(('.go.jp','.lg.jp')) or u.hostname=='www.pref.aichi.jp', s['url']
     assert hashlib.sha256(s['excerpt'].encode()).hexdigest()==s['sha256_extracted_text']
 assert len({r['id'] for r in d['rows']})==len(d['rows'])
 for r in d['rows']:
@@ -48,6 +52,11 @@ for year,expected,count in [(2025,11993,120),(2026,12119,122)]:
 assert len({m['id'] for m in d['legislators']})==len(d['legislators'])
 for m in d['legislators']:
     assert all(p in d['prefectures'] for p in m['prefectures'])
-    if m['party'] is not None: assert m['party_source'] and m['party_as_of']
+    if m['party'] is not None:
+        assert m['party_source'] and m['party_checked_at'] and m['party_evidence']
+        assert {e['party'] for e in m['party_evidence']}=={m['party']}
+    if m['party_status']=='資料間不一致':assert m['party'] is None and len({e['party'] for e in m['party_evidence']})>1
+    assert all(e.get('source_id') is None or e['source_id'] in sources for e in m['party_evidence'])
     if m['election_type']=='比例代表': assert m['prefectures']==[]
+assert d['party_coverage']['verified']==sum(m['party'] is not None for m in d['legislators'])
 print(f"Data verified: {len(d['rows'])} rows, {len(d['sources'])} official sources, {len(d['legislators'])} legislators. National totals reconciled; rounded regional totals checked.")
