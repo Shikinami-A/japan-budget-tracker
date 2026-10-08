@@ -48,7 +48,15 @@ URLS = {
 MANIFEST = CACHE / 'cabinet-regional-manifest.jsonl'
 
 
-def fetch_missing(receipts):
+def cache_for(receipt):
+    key = hashlib.sha256(receipt['url'].encode()).hexdigest()
+    variant = receipt.get('cache_file')
+    if variant and variant != key + '.' + receipt['sha256_original'] + '.bin':
+        raise ValueError('Unexpected original-cache filename')
+    return CACHE / (variant or key + '.bin')
+
+
+def fetch_missing(receipts, refresh_indexes=False, network_observation=None):
     # Only these three official government hosts are added, in this process.
     # This does not edit the shared fetcher or permit arbitrary redirects.
     fetch_sources.HOSTS.update({'www.chisou.go.jp', 'www.cas.go.jp', 'www.cao.go.jp'})
@@ -56,11 +64,14 @@ def fetch_missing(receipts):
     CACHE.mkdir(parents=True, exist_ok=True)
     for source_id, url in URLS.items():
         cached = CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.bin')
-        if receipts.get(source_id, {}).get('status') == 'downloaded' and cached.exists():
+        refresh = refresh_indexes and (url.endswith('.html') or url.endswith('/'))
+        if receipts.get(source_id, {}).get('status') == 'downloaded' and cached.exists() and not refresh:
             continue
         fetch_sources.checked(url)
         receipt = {'source_id': source_id, 'url': url,
                    'retrieved_at_utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
+        if network_observation:
+            receipt['network_observation'] = network_observation
         try:
             req = Request(url, headers={'User-Agent': 'japan-budget-tracker/0.1 (public official budget research)'})
             with opener.open(req, timeout=25) as response:
@@ -71,7 +82,13 @@ def fetch_missing(receipts):
                                sha256_original=hashlib.sha256(content).hexdigest(),
                                final_url=fetch_sources.checked(response.geturl()),
                                content_type=response.headers.get_content_type())
-                (CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.bin')).write_bytes(content)
+                destination = cached
+                if cached.exists() and hashlib.sha256(cached.read_bytes()).hexdigest() != receipt['sha256_original']:
+                    # Preserve prior reviewed bytes while a changed original is
+                    # pending review. Both cache variants remain Git-ignored.
+                    destination = CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.' + receipt['sha256_original'] + '.bin')
+                    receipt['cache_file'] = destination.name
+                destination.write_bytes(content)
         except HTTPError as error:
             receipt.update(status='blocked_or_failed', error_type=type(error).__name__, **fetch_sources.failure_details(error))
         except (URLError, TimeoutError, ValueError) as error:
@@ -86,20 +103,34 @@ def fetch_missing(receipts):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--fetch', action='store_true')
+    parser.add_argument('--fetch-only', action='store_true', help='Record bounded fetch attempts without rewriting reviewed data')
+    parser.add_argument('--refresh-indexes', action='store_true', help='Recheck fixed official index URLs, including downloaded indexes')
+    parser.add_argument('--network-observation', type=Path, help='Non-secret environment-status observation JSON to attach to attempts')
     args = parser.parse_args()
+    if args.fetch_only and not args.fetch:
+        parser.error('--fetch-only requires --fetch')
+    network_observation = None
+    if args.network_observation:
+        supplied = json.loads(args.network_observation.read_text())
+        fields = ('observed_at_utc', 'spec_revision', 'observed_spec_revision', 'observations_current', 'network_policy_state', 'source')
+        network_observation = {key: supplied[key] for key in fields if key in supplied}
+        if not network_observation.get('observations_current') or network_observation.get('network_policy_state') not in ('unknown', 'enforced'):
+            raise ValueError('Network observation is not current or has an unsupported state')
     target = ROOT / 'data/reviewed-cabinet-regional.json'
     previous = json.loads(target.read_text()) if target.exists() else {}
     cached_attempts = list(map(json.loads, MANIFEST.read_text().splitlines())) if MANIFEST.exists() else []
     receipts = {r['source_id']: r for r in cached_attempts}
     if args.fetch:
-        fetch_missing(receipts)
+        fetch_missing(receipts, args.refresh_indexes, network_observation)
+    if args.fetch_only:
+        return
     if not receipts:
         raise ValueError('Original cache is unavailable; use --fetch to obtain official originals')
     source_id = 'cabinet-regional-2026-review'
     receipt = receipts[source_id]
     if receipt['status'] != 'downloaded':
         raise ValueError('Administrative review original is unavailable')
-    pdf = CACHE / (hashlib.sha256(receipt['url'].encode()).hexdigest() + '.bin')
+    pdf = cache_for(receipt)
     content = pdf.read_bytes()
     if len(content) != receipt['bytes'] or hashlib.sha256(content).hexdigest() != receipt['sha256_original']:
         raise ValueError('Cached original digest differs')
@@ -171,7 +202,7 @@ def main():
     policy_receipt = receipts.get(policy_id)
     policy_source = policy_original = None
     if policy_receipt and policy_receipt['status'] == 'downloaded':
-        policy_bytes = (CACHE / (hashlib.sha256(policy_receipt['url'].encode()).hexdigest() + '.bin')).read_bytes()
+        policy_bytes = cache_for(policy_receipt).read_bytes()
         if hashlib.sha256(policy_bytes).hexdigest() != policy_receipt['sha256_original'] or len(policy_bytes) != policy_receipt['bytes']:
             raise ValueError('Cached policy-index digest differs')
         if 'href="https://www.chisou.go.jp/sousei/index.html"' not in policy_bytes.decode('utf-8'):
@@ -190,7 +221,7 @@ def main():
         if prior_originals.get(policy_id, {}).get('sha256_original') == policy_original['sha256_original']:
             policy_original['retrieved_at_utc'] = prior_originals[policy_id]['retrieved_at_utc']
     all_attempts = previous.get('retrieval_attempts', []) + list(map(json.loads, MANIFEST.read_text().splitlines()))
-    attempt_fields = ('source_id', 'url', 'retrieved_at_utc', 'status', 'http_status', 'error_type', 'failure_category', 'sha256_original', 'bytes')
+    attempt_fields = ('source_id', 'url', 'retrieved_at_utc', 'status', 'http_status', 'error_type', 'failure_category', 'sha256_original', 'bytes', 'network_observation')
     history = []
     seen = set()
     for attempt in all_attempts:
@@ -230,6 +261,12 @@ def main():
              'finding': '第76回地域再生計画の申請受付・旧第2世代交付金の読み替え候補。地域再生計画認定と交付金額の採択は別で、原本未照合。'},
         ],
         'retrieval_attempts': history,
+        'network_observations': previous.get('network_observations', [{
+            'network_policy_state': 'unknown', 'observed_at_utc': None,
+            'observed_at_precision': 'prior_research_round',
+            'source': 'docs/NETWORK_SETUP.md（0532abd時点の前回観測記録）',
+            'individual_attempts_retroactively_relabelled': False,
+        }]),
         'search_provenance': {'provider': 'Exa', 'sources_reviewed_requested_results': 30,
                               'official_index_pages_fetched_as_extracted_text': 2,
                               'search_text_is_not_original': True,
@@ -237,6 +274,37 @@ def main():
                                                         'sources_reviewed_requested_results': 18,
                                                         'original_amounts_adopted_from_search': 0}},
     }
+    for attempt in history:
+        observation = attempt.get('network_observation')
+        if observation and observation not in report['network_observations']:
+            report['network_observations'].append(observation)
+    enforced_attempts = [attempt for attempt in history
+                         if attempt.get('network_observation', {}).get('network_policy_state') == 'enforced']
+    if enforced_attempts:
+        latest_observation = enforced_attempts[-1]['network_observation']
+        latest_attempts = [attempt for attempt in enforced_attempts if attempt['network_observation'] == latest_observation]
+        recheck = {'network_observation': latest_observation,
+                   'attempt_count': len(latest_attempts),
+                   'downloaded_count': sum(attempt['status'] == 'downloaded' for attempt in latest_attempts),
+                   'http404_count': sum(attempt.get('http_status') == 404 for attempt in latest_attempts),
+                   'source_ids': [attempt['source_id'] for attempt in latest_attempts]}
+        report['latest_network_recheck'] = recheck
+        report['research_notes'][1]['note'] += (
+            f" 環境仕様{latest_observation.get('spec_revision')}の現時点観測で通信ポリシーenforcedを確認した後、"
+            f"既存プロキシ・TLS検証で{recheck['attempt_count']}URLを一巡再取得。"
+            f"HTTP 404が{recheck['http404_count']}URL、取得成功が{recheck['downloaded_count']}URL。"
+            '前回unknownの観測・取得履歴を保持し、適用済み確認と個別URLの取得成功を分けて記録。'
+            '地域採択原本の取得失敗は未解消。')
+    # Existing source IDs are immutable evidence. Changed originals must be
+    # reviewed under a new source ID instead of replacing their earlier hashes.
+    prior_sources = {item['id']: item for item in previous.get('sources', [])}
+    for item in report['sources']:
+        if item['id'] in prior_sources and item != prior_sources[item['id']]:
+            raise ValueError('Reviewed source evidence differs; preserve its prior source ID and review changed evidence separately')
+    for item in report['originals']:
+        prior = prior_originals.get(item['source_id'])
+        if prior and item['sha256_original'] != prior['sha256_original']:
+            raise ValueError('Reviewed original digest differs; review cached revision under a new source ID')
     (ROOT / 'data/reviewed-cabinet-regional.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'sources': len(report['sources']), 'originals': len(report['originals']), 'rows': 0,
                       'retrieval_attempts': len(report['retrieval_attempts']), 'facts': facts}, ensure_ascii=False))

@@ -9,6 +9,9 @@ from party_sources import PARTIES, reviewed_profiles, reviewed_expansion
 from verify_party_followup import registry as reviewed_followup
 from verify_party_followup import validate as validate_party_followup
 from verify_municipality_districts import validate as validate_municipality_districts
+from verify_special_execution import validate as validate_special_execution
+from verify_roster_followup import validate as validate_roster_followup
+from verify_party_third_stage import validate as validate_party_third_stage
 
 ROOT=Path(__file__).resolve().parents[1]
 d=json.loads((ROOT/'public/data.json').read_text())
@@ -19,10 +22,12 @@ assert len(sources)==len(d['sources'])
 profiles=reviewed_profiles(ROOT/'data/source-text')
 expansion=reviewed_expansion(ROOT/'data/source-text')
 followup=reviewed_followup(ROOT/'data/source-text')
+third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
 approved_party_urls={url for party,url in PARTIES.values()}
 approved_party_urls.update(e['url'] for e in profiles['sources'])
 approved_party_urls.update(e['url'] for e in expansion['sources'])
 approved_party_urls.update(e['url'] for e in followup['sources'])
+approved_party_urls.update(e['url'] for e in third_stage['sources'])
 for s in sources.values():
     u=urlsplit(s['url'])
     assert u.scheme=='https' and u.hostname and not u.username and not u.password
@@ -119,7 +124,7 @@ assert reconcile('執行額（4〜6月）','amount2026',39047272.046,0.020)==18
 assert reconcile('執行額（4〜7月累計）','amount2025',42254458.573,0.020)==18
 assert reconcile('執行額（4〜7月累計）','amount2026',45665915.744,0.020)==18
 for r in d['rows']:
-    if r['basis']=='執行額（4〜7月累計）':
+    if r['basis']=='執行額（4〜7月累計）' and r['account']=='一般会計':
         earlier=next(p for p in d['rows'] if p['id']==f'q1-{r["ministry"]}')
         assert all(r[f'amount{year}']>=earlier[f'amount{year}'] for year in [2025,2026])
 for scope, year, expected in [('道府県分',2025,9272243),('市町村分合計',2025,8547545),('道府県分',2026,10103999),('市町村分合計',2026,8869736)]:
@@ -151,14 +156,31 @@ for o in d.get('research_observations', []):
 members_by_id={m['id']:m for m in d['legislators']}
 for e in profiles['entries']:
     m=members_by_id[e['member_id']]
-    assert (m['name'],m['chamber'],m['district'])==(e['member_name'],e['chamber'],e['district'])
+    assert (m['name'],m['chamber'],m.get('baseline_roster',m)['district'])==(e['member_name'],e['chamber'],e['district'])
     assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
                for p in m['party_evidence'])
 for e in expansion['entries']:
     m=members_by_id[e['member_id']]
-    assert (m['name'],m['chamber'],m['district'])==(e['member_name'],e['chamber'],e['district'])
+    assert (m['name'],m['chamber'],m.get('baseline_roster',m)['district'])==(e['member_name'],e['chamber'],e['district'])
     assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
                and p['checked_at']==e['checked_at'] and p['original_location']==e['original_location'] for p in m['party_evidence'])
 validate_party_followup()
 validate_municipality_districts()
+special_execution=json.loads((ROOT/'data/reviewed-special-execution.json').read_text())
+validate_special_execution(special_execution)
+for reviewed in special_execution['rows']:
+    actual=next(r for r in d['rows'] if r['id']==reviewed['id'])
+    for key in ('amount2025','amount2026','basis','account','scope','comparability'):
+        assert actual[key]==reviewed[key]
+drivers=json.loads((ROOT/'data/reviewed-national-drivers.json').read_text())
+for check in drivers['numerical_driver_checks']:
+    actual=next(r for r in d['rows'] if r['id']==check['row_id'])
+    for year in (2025,2026):
+        field=f'amount_thousand_yen{year}'
+        assert sum(leaf[field] or 0 for leaf in check['leaf_details'])==check[field]
+        assert round(actual[f'amount{year}']*1000)==check[field]
+    assert check['delta_thousand_yen']==check['amount_thousand_yen2026']-check['amount_thousand_yen2025']
+    assert all(sid in sources for sid in check['source_ids'])
+validate_roster_followup()
+validate_party_third_stage()
 print(f"Data verified: {len(d['rows'])} rows, {len(d['sources'])} official sources, {len(d['legislators'])} legislators. National totals reconciled; rounded regional totals checked.")

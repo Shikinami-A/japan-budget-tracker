@@ -89,10 +89,31 @@ with sync_playwright() as p:
     page.click('[data-view=special]')
     assert page.locator('#row-count').inner_text()=='34'
     page.click('[data-view=execution]')
-    assert page.locator('#row-count').inner_text()=='36'
+    assert page.locator('#row-count').inner_text()=='104'
     page.select_option('#program','所管別支出済歳出額（7月末累計）')
     assert page.locator('#row-count').inner_text()=='18'
     assert '4〜7月' in page.locator('#rows').inner_text()
+    page.select_option('#program','')
+    page.fill('#query','先端半導体')
+    assert page.locator('#row-count').inner_text()=='2'
+    assert '原本ダッシュ（ゼロ認定なし）' in page.locator('#rows').inner_text()
+    page.locator('#rows button').first.click()
+    assert '原本ダッシュあり' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
+    page.fill('#query','')
+    page.click('[data-view=programs]')
+    page.fill('#query','教育政策推進費')
+    page.locator('#rows button').first.click()
+    assert '164,882.856' in page.locator('#detail-content').inner_text()
+    assert '個別地域配分未確認' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
+    page.fill('#query','')
+    page.click('[data-view=regional]')
+    page.select_option('#program','港湾・港湾海岸補助事業（事業費・国費ではない）')
+    assert page.locator('#row-count').inner_text()=='39'
+    page.fill('#query','福島')
+    assert '非掲載' in page.locator('#rows').inner_text()
+    page.fill('#query','')
     page.click('[data-view=reference]')
     page.select_option('#program','子ども・子育て支援施設整備交付金')
     assert page.locator('#row-count').inner_text()=='330'

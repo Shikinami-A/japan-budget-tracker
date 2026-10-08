@@ -94,6 +94,10 @@ def apply_party_rosters(members, root, source, checked_at):
     apply_party_expansion(members, root, source)
     from verify_party_followup import apply_party_followup
     apply_party_followup(members, root, source)
+    from verify_roster_followup import apply_roster_followup
+    from verify_party_third_stage import apply_party_third_stage
+    apply_roster_followup(members, root, source)
+    apply_party_third_stage(members, root, source)
     for m in members:
         options={e['party'] for e in m['party_evidence']}
         if len(options)>1:

@@ -102,7 +102,7 @@
       "source_ids": [
         "cabinet-cao-policy-index"
       ],
-      "note": "採択候補8URLを再取得してHTTP 404が継続。現行内閣府政策入口の原本は従来のchisou.go.jp/sousei/index.htmlを案内しており、別の掲載先への移転は未確認。chisou・CASの現行入口と検索で発見した追加採択・制度要綱・基準・申請資料もHTTP 404で取得失敗。CONNECT拒否とは区別し、非掲載・非公表と断定しない。検索抽出は2025年4月のR6補正第1次・第2次＋R7当初、9月回と、2026年1月募集のR7当初・補正・R8当初混在を示すため、原本の財源分割・回次未照合のまま地域前年比を作らない。"
+      "note": "採択候補8URLを再取得してHTTP 404が継続。現行内閣府政策入口の原本は従来のchisou.go.jp/sousei/index.htmlを案内しており、別の掲載先への移転は未確認。chisou・CASの現行入口と検索で発見した追加採択・制度要綱・基準・申請資料もHTTP 404で取得失敗。CONNECT拒否とは区別し、非掲載・非公表と断定しない。検索抽出は2025年4月のR6補正第1次・第2次＋R7当初、9月回と、2026年1月募集のR7当初・補正・R8当初混在を示すため、原本の財源分割・回次未照合のまま地域前年比を作らない。 環境仕様5の現時点観測で通信ポリシーenforcedを確認した後、既存プロキシ・TLS検証で22URLを一巡再取得。HTTP 404が20URL、取得成功が2URL。前回unknownの観測・取得履歴を保持し、適用済み確認と個別URLの取得成功を分けて記録。地域採択原本の取得失敗は未解消。"
     }
   ],
   "verified_source_facts": {
@@ -455,6 +455,395 @@
       "http_status": 404,
       "error_type": "HTTPError",
       "failure_category": "http_error"
+    },
+    {
+      "source_id": "cabinet-regional-2025-index",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:50Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-index",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:51Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-april",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/pdf/r7-dai2sedai_hosei2_tosyo.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:51Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-april",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/pdf/r8_suishin_1.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:51Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-summary",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/saitaku_hosei2_tosyo_r7.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:51Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-national-summary",
+      "url": "https://www.cas.go.jp/jp/seisaku/atarashii_chihousousei/honbukaigi/dai3/siryou1-1.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:51Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-second-summary",
+      "url": "https://www.cas.go.jp/jp/seisaku/atarashii_chihousousei/honbukaigi/dai5/siryou2.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:52Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-root",
+      "url": "https://www.chisou.go.jp/sousei/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:52Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-cao-policy-index",
+      "url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "retrieved_at_utc": "2026-10-08T16:37:52Z",
+      "status": "downloaded",
+      "sha256_original": "00e9164eeb49a7496229e2eec686972ca0397bc7d5859600e0e7971475d0382e",
+      "bytes": 16731,
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-cao-current-root",
+      "url": "https://www.cao.go.jp/",
+      "retrieved_at_utc": "2026-10-08T16:37:55Z",
+      "status": "downloaded",
+      "sha256_original": "87148c9625d15910419a2480a5294964e6a86f2887137ec6fb8ae6f81969090a",
+      "bytes": 15518,
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-chisou-current-root",
+      "url": "https://www.chisou.go.jp/",
+      "retrieved_at_utc": "2026-10-08T16:37:57Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-chisou-current-tiiki",
+      "url": "https://www.chisou.go.jp/tiiki/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-cas-current-root",
+      "url": "https://www.cas.go.jp/",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-cas-chiikimirai-index",
+      "url": "https://www.cas.go.jp/jp/seisaku/chiikimirai/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-first-summary",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/saitaku_hosei_r7.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2025-september",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/pdf/r7-2-dai2sedai.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-program-root",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/index.html",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-criteria",
+      "url": "https://www.chisou.go.jp/tiiki/kankyo/pdf/02_kouhukingaiyou26.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-explanation",
+      "url": "https://www.chisou.go.jp/sousei/meeting/tihousousei_setumeikai/pdf/r08-01-20-shiryou04.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:58Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-application",
+      "url": "https://www.chisou.go.jp/tiiki/tiikisaisei/kouhyou/260119/nintei.html",
+      "retrieved_at_utc": "2026-10-08T16:37:59Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-ordinance",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/pdf/chiikimiraikoufukin_seidoyoukou.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:59Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    },
+    {
+      "source_id": "cabinet-regional-2026-outline",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/pdf/chiikimiraikoufukin_gaiyou.pdf",
+      "retrieved_at_utc": "2026-10-08T16:37:59Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "network_observation": {
+        "observed_at_utc": "2026-10-08T16:37:50Z",
+        "spec_revision": "5",
+        "observed_spec_revision": "5",
+        "observations_current": true,
+        "network_policy_state": "enforced",
+        "source": "cloud_environment.environment_status"
+      }
+    }
+  ],
+  "network_observations": [
+    {
+      "network_policy_state": "unknown",
+      "observed_at_utc": null,
+      "observed_at_precision": "prior_research_round",
+      "source": "docs/NETWORK_SETUP.md（0532abd時点の前回観測記録）",
+      "individual_attempts_retroactively_relabelled": false
+    },
+    {
+      "observed_at_utc": "2026-10-08T16:37:50Z",
+      "spec_revision": "5",
+      "observed_spec_revision": "5",
+      "observations_current": true,
+      "network_policy_state": "enforced",
+      "source": "cloud_environment.environment_status"
     }
   ],
   "search_provenance": {
@@ -468,5 +857,42 @@
       "sources_reviewed_requested_results": 18,
       "original_amounts_adopted_from_search": 0
     }
+  },
+  "latest_network_recheck": {
+    "network_observation": {
+      "observed_at_utc": "2026-10-08T16:37:50Z",
+      "spec_revision": "5",
+      "observed_spec_revision": "5",
+      "observations_current": true,
+      "network_policy_state": "enforced",
+      "source": "cloud_environment.environment_status"
+    },
+    "attempt_count": 22,
+    "downloaded_count": 2,
+    "http404_count": 20,
+    "source_ids": [
+      "cabinet-regional-2025-index",
+      "cabinet-regional-2026-index",
+      "cabinet-regional-2025-april",
+      "cabinet-regional-2026-april",
+      "cabinet-regional-2025-summary",
+      "cabinet-regional-2025-national-summary",
+      "cabinet-regional-2025-second-summary",
+      "cabinet-regional-root",
+      "cabinet-cao-policy-index",
+      "cabinet-cao-current-root",
+      "cabinet-chisou-current-root",
+      "cabinet-chisou-current-tiiki",
+      "cabinet-cas-current-root",
+      "cabinet-cas-chiikimirai-index",
+      "cabinet-regional-2025-first-summary",
+      "cabinet-regional-2025-september",
+      "cabinet-regional-2026-program-root",
+      "cabinet-regional-2026-criteria",
+      "cabinet-regional-2026-explanation",
+      "cabinet-regional-2026-application",
+      "cabinet-regional-2026-ordinance",
+      "cabinet-regional-2026-outline"
+    ]
   }
 }

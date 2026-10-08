@@ -12,9 +12,12 @@ def apply_originals(root, sources, rows):
                  'reviewed-mof-programs.json','reviewed-mext.json','reviewed-cfa.json',
                  'reviewed-environment.json','reviewed-reconstruction.json',
                  'reviewed-cabinet-regional.json','reviewed-party-expansion.json','reviewed-meti-regional.json',
-                 'reviewed-regional-followup.json','reviewed-party-followup.json','reviewed-municipality-districts.json'):
+                 'reviewed-regional-followup.json','reviewed-party-followup.json','reviewed-municipality-districts.json',
+                 'reviewed-mlit-water.json','reviewed-special-execution.json','reviewed-national-drivers.json',
+                 'reviewed-roster-followup.json','reviewed-party-third-stage.json'):
         report = json.loads((root / 'data' / name).read_text())
-        if name in ('reviewed-party-followup.json','reviewed-municipality-districts.json'):
+        if name in ('reviewed-party-followup.json','reviewed-municipality-districts.json',
+                    'reviewed-roster-followup.json','reviewed-party-third-stage.json'):
             # Public source IDs differ from the fetch receipt IDs. Keep the
             # original receipts intact and map them only for this snapshot.
             for receipt in report['originals']:
@@ -69,7 +72,11 @@ def apply_originals(root, sources, rows):
         if fields == {'amount2025', 'amount2026'} and all(row[f] is not None for f in fields):
             row['evidence_status'] = '原本数値照合済み'
         elif fields:
-            row['evidence_status'] = '原本照合済み・片年度非掲載あり' if fields == {'amount2025', 'amount2026'} else '原本一部照合済み'
+            if fields == {'amount2025', 'amount2026'}:
+                dash = any('原本ダッシュ' in row.get(f'amount_status{year}', '') for year in (2025, 2026))
+                row['evidence_status'] = '原本照合済み・原本ダッシュあり' if dash else '原本照合済み・片年度非掲載あり'
+            else:
+                row['evidence_status'] = '原本一部照合済み'
         if row['program']=='特定防衛施設周辺整備調整交付金' and any(row[f] is None for f in ('amount2025','amount2026')):
             row['comparability'] = '片年度非掲載'
     return dict(downloaded_unique_urls=len(inventory),

@@ -21,7 +21,7 @@ const options = (id, values, empty) => {
 function baseRows() {
   return data.rows.filter(r => view === 'programs' || view === 'institutions' ? r.view_group === view :
     view === 'national' ? r.basis === '当初予算' && r.account === '一般会計' :
-    view === 'special' ? r.account === '特別会計' :
+    view === 'special' ? r.account === '特別会計' && !r.basis.startsWith('執行額') :
     view === 'execution' ? r.basis.startsWith('執行額') : view === 'reference' ?
     r.view_group==='reference' || !r.view_group && r.comparability.startsWith('参考') :
     r.region !== '全国' && !r.view_group && !r.comparability.startsWith('参考'));
@@ -69,7 +69,7 @@ function render() {
     programs: '一般会計全19所管の859項を、所管・組織・項名で結合した全国内訳です。同名称でも制度の連続性は未確認のため参考比較とし、自動判定に使いません。名称変更や移管を新設・廃止と認定せず、片年度非掲載はゼロにしません。親の所管総額と合算しません。',
     institutions: '国立大学法人等の当初予算積算内訳86区分。交付決定額・決算ではありません。複数キャンパスの地域帰属を確認していないため、大学名や本部所在地から県や議員を割り当てません。全国所管総額・事業内訳と重複するため合算しません。',
     special: '14特別会計の34勘定等を当初予算の歳出欄で比較。2025年度は括弧内の当初額を使用。繰入・国債償還などを含む総計で、一般会計や他の勘定と足すと二重計上になります。府省別・地域別の分解は未照合。',
-    execution: '4〜6月と4〜7月累計を、それぞれ前年の同期間と比較します。7月末累計には第1四半期分が含まれるため合算しません。制度の絞り込みで期間を選べます。2026年度第2四半期は未収載。年間決算との比較・防災庁のダッシュのゼロ化は行いません。',
+    execution: '一般会計の所管別と特別会計の勘定別に、4〜6月と4〜7月累計を前年の同期間と比較します。7月末累計には第1四半期分が含まれるため合算しません。特別会計は繰入等を含み、一般会計や他勘定と足しません。同名勘定の制度範囲は未確認で参考比較です。制度の絞り込みで期間を選べます。地域別執行と2026年度第2四半期は未収載。防災庁のダッシュは欠損のまま保持します。',
     reference: '比較条件の異なる参考表です。補正後対当初、厚労省の一次協議、環境省の会計区分が異なる4月内示、こども家庭庁の第1次内示を収載。対象・財源・通知段階や年度全体の確認が必要です。片年度非掲載も同じ制度内に表示し、自動判定には使いません。'
   };
   $('view-note').textContent = notes[view]; $('context').hidden = view !== 'regional';
@@ -127,6 +127,7 @@ function sourceBlock(id) {
   const s = data.sources.find(v=>v.id===id); const block=el('section');
   if (!s) { block.append(el('p','出典未取得'));return block; }
   block.append(link(s.title+' ↗',s.url),el('p',`${s.locator} / 公表日：${s.published ?? '未確認'} / 本文取得：${s.accessed} / ${s.retrieved_via}`,'muted'));
+  if(s.document_date)block.append(el('small',`資料日：${s.document_date} / ${s.document_date_role ?? '資料の基準日（原本取得日とは別）'}`));
   if(s.published_verification)block.append(el('small',`公表日の確認範囲：${s.published_verification}`));
   const detail=el('details');detail.append(el('summary','確認した本文・抽出テキストのハッシュ'),el('pre',s.excerpt),el('small',`SHA-256（原本ファイルのハッシュではありません）：${s.sha256_extracted_text}`));block.append(detail);
   if (s.original) {
@@ -146,7 +147,7 @@ function showDetail(row) {
   if (r.plans2025 !== undefined) content.append(el('p',`計画件数：${r.plans2025} → ${r.plans2026} 件`));
   content.append(el('h3','次に確認すること'),el('p',r.analysis.reasons.join(' / ')||'設定したしきい値に達していません。'));
   const ul=el('ul');for(const t of ['申請・要望額に対する配分率、採択基準と制度変更','完了・新規事業・工事進捗、災害復旧、人口や税収などの需要','配分決定時点の議員・首長、問い合わせ記録と決定過程']) ul.append(el('li',t));content.append(ul);
-  if (r.explanation) { content.append(el('h3','公式の説明'),el('p',r.explanation));for(const id of r.explanation_source_ids)content.append(sourceBlock(id)); }
+  if (r.explanation) { content.append(el('h3','公式の説明'),el('p',r.explanation));if(r.explanation_status)content.append(el('small',`説明の確認範囲：${r.explanation_status}`));for(const id of r.explanation_source_ids)content.append(sourceBlock(id)); }
   if (r.driver_checks?.length) {
     content.append(el('h3','増減理由と決定過程の確認状態'));
     for (const check of r.driver_checks) {
@@ -170,6 +171,14 @@ function showDetail(row) {
 function memberCard(m) {
   const card=el('article',undefined,'member');card.append(el('h3',m.name),el('p',`${m.chamber}・${m.election_type}・${m.district ?? '選挙区未取得'}`),
     el('p',`所属党：${partyLabel(m)}`),el('p',`会派：${m.caucus ?? '未取得'}`),el('small',`名簿基準日：${m.as_of ?? '未確認'}`),link('国会名簿 ↗',m.source_url));
+  if(m.roster_verification_status)card.append(el('small',`名簿確認：${m.roster_verification_status}`));
+  if(m.roster_evidence?.length) {
+    for(const e of m.roster_evidence) {
+      const s=data.sources.find(s=>s.id===e.source_id);
+      card.append(el('small',`${e.district_completed ? '選挙区補完' : '国会原本照合'}：公式名簿 ${e.as_of ?? s?.document_date ?? '資料日未確認'} / ${e.original_location ?? ''}`));
+      if(s)card.append(link('選挙区を照合した国会原本 ↗',s.url),el('small',`原本SHA-256：${s.original?.sha256_original ?? '未収載'}`));
+    }
+  }
   for(const e of m.party_evidence??[]) {
     card.append(link(`${e.party}の確認資料 ↗`,e.url),el('small',`所属資料の基準日：${e.as_of??'未確認'} / 照合日：${e.checked_at}`));
     if(e.roster_name)card.append(el('small',`党の表記：${e.roster_name}`));
@@ -217,6 +226,7 @@ function renderCoverage() {
   $('coverage').replaceChildren(...data.coverage.map(c=>{
     const row=el('div',undefined,'coverage-item'),text=el('div');
     text.append(el('div',c.status),el('small',`${c.national?'一般会計所管総額を比較済み / ':''}組織・項別内訳：${c.national_item_rows??0} / 県へ対応する配分：${c.regional_rows} / 広域配分：${c.wide_area_rows??0} / 法人・枠別：${c.institution_rows??0}${c.parent?` / 母省：${c.parent}`:''}`),el('small',c.note));
+    if(c.same_period_execution_status)text.append(el('small',`同期間執行：${c.same_period_execution_status}`));
     for(const n of c.research_notes??[]) {
       const detail=el('details');detail.append(el('summary',n.status),el('p',n.note));
       if(n.requested_url)detail.append(link('確認対象の公式入口 ↗',n.requested_url));
@@ -242,7 +252,7 @@ function exportCSV() {
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
     csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell(rowSourceIDs(r).map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
-    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,roster_as_of:m.as_of,roster_url:m.source_url,party_status:m.party_status,party_evidence:m.party_evidence})))),
+    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,district:m.district,roster_as_of:m.as_of,roster_url:m.source_url,baseline_roster:m.baseline_roster,roster_evidence:m.roster_evidence,party_status:m.party_status,party_evidence:m.party_evidence})))),
     csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]})))),
     csvCell(JSON.stringify(r.municipality_mapping ?? null)),
     csvCell(JSON.stringify(r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean).map(id=>data.sources.find(s=>s.id===id)).map(s=>({source_id:s.id,url:s.url,sha256_extracted_text:s.sha256_extracted_text,original:s.original})) : [])),
@@ -257,7 +267,7 @@ async function start() {
     options('prefecture',data.prefectures,'全国の地域');options('member-pref',data.prefectures,'全国の議員');$('member-pref').value='栃木県';
     $('limits-list').replaceChildren(...data.limitations.map(t=>el('li',t)));
     const parties=data.legislators.filter(m=>m.party!==null).length;
-    $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、議員名簿${data.legislators.length}人（衆議院464人、参議院247人の抽出本文）。選挙区未取得23人。所属党の一次資料照合：${parties}人。`;
+    $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、議員名簿${data.legislators.length}人（衆議院464人、参議院247人）。選挙区未取得${data.legislators.filter(m=>!m.district).length}人。所属党の一次資料照合：${parties}人。`;
     $('source-count').textContent=`公式出典 ${data.sources.length}件。両年度の原本数値照合 ${data.original_coverage.fully_verified_comparison_rows} / ${data.rows.length}行。`;
     for(const id of ['prefecture','ministry','program','query','pct','amount','gap','candidate-only','sort'])$(id).addEventListener(id==='query'?'input':'change',()=>{page=0;render();});
     document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;page=0;$('candidate-only').checked=false;render();});

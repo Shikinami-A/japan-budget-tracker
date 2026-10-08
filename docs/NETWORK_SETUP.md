@@ -2,13 +2,13 @@
 
 ## 2026年10月9日の確認結果
 
-環境の許可ホストには下記の公式サイトが含まれ、`/etc/codex/network-policy.json`にも設定されています。環境状態ツールは接続済み・現在の観測を返しますが、HTTPポリシーの適用状態は`unknown`です。設定の存在だけで「適用済み」と断定しません。
+環境の許可ホストには下記の公式サイトが含まれ、`/etc/codex/network-policy.json`にも設定されています。初回の環境観測は適用状態`unknown`でした。その後、環境状態ツールで仕様5・現在のHTTPポリシーが`enforced`と確認できました。過去のunknown観測は履歴として保持し、当時の試行へ適用済みラベルを遡及しません。
 
 通常サンドボックスの通信はプロキシ接続エラー（HTTP応答なし）。コマンドにネットワーク権限を付けた実行では、既存のHTTP(S)プロキシとTLS検証を維持したまま財務省HTTP 200、GitHubのwork取得、財務省・総務省・農水省・厚労省・防衛省・国交省の原本取得が成功しました。プロキシ解除・直接接続・別の取得経路は使っていません。
 
-前回はchisou.go.jp/CASの採択候補8URLがHTTP 404、資源エネルギー庁はCONNECT 403でした。今回の環境設定・`/etc/codex/network-policy.json`には`www.enecho.meti.go.jp`の追加を確認しています。ただし環境状態ツールの適用状態は`unknown`のままです。追加許可後の事業概要・評価報告・制度入口・トップ・index.htmlと経産省予算概要候補はHTTP応答403でした。CONNECT拒否とは別に記録し、403の発生主体は未確定。プロキシ解除やTLS検証無効化、別経路での原本取得に置き換えていません。
+前回はchisou.go.jp/CASの採択候補8URLがHTTP 404、資源エネルギー庁はCONNECT 403でした。今回の環境設定・`/etc/codex/network-policy.json`には`www.enecho.meti.go.jp`の追加を確認しています。初回unknown状態と、その後の仕様5・enforced状態でそれぞれ一巡しました。両状態とも、追加許可後の事業概要・評価報告・制度入口・トップ・index.htmlと経産省予算概要候補はHTTP応答403でした。CONNECT拒否とは別に記録し、403の発生主体は未確定。プロキシ解除やTLS検証無効化、別経路での原本取得に置き換えていません。
 
-内閣府の候補8URLは404継続。現行政策入口は取得成功し、従来のchisou掲載先を案内していました。追加の原本は復興庁・国交省・防衛省・栃木県選管・参政党・公明党で取得成功。取得不能の資料を非掲載・非公表と認定せず、他の調査を継続しています。
+仕様5・enforced状態でも内閣府の候補8URLは404継続。計22URLを一巡し、20件は404、内閣府政策入口・トップ2件は取得成功。現行政策入口は取得成功し、従来のchisou掲載先を案内していました。追加の原本は復興庁・国交省・防衛省・栃木県選管・参政党・公明党で取得成功。取得不能の資料を非掲載・非公表と認定せず、他の調査を継続しています。
 
 静岡2026の旧想定`index-22.pdf`の403は現行の公式索引でURL差し替えを確認し、`index-49.pdf`で取得しました。ホストの許可不足と、個別URLの変更を区別します。原本の取得記録は`data/`の照合JSON、原本バイナリはGit除外の`.cache/originals/`に保存しています。
 
@@ -81,7 +81,7 @@ www.komei.or.jp
 
 ## 反映の確認
 
-上の`www.enecho.meti.go.jp`は今回の環境設定にはありますが、適用状態unknownとHTTP 403を解消できていません。次の福島県の事業計画・進捗・交付決定原本には、追加候補`www.pref.fukushima.lg.jp`が必要です。現在の許可にはなく、接続を試みていません。候補掲載先は`https://www.pref.fukushima.lg.jp/sec/11015e/kasokukahama.html`。追加後も取得・年度・対象範囲をそれぞれ検証します。
+上の`www.enecho.meti.go.jp`は仕様5の適用済み許可に含まれますが、HTTP 403を解消できていません。次の福島県の事業計画・進捗・交付決定原本には、追加候補`www.pref.fukushima.lg.jp`が必要です。現在の許可にはなく、接続を試みていません。候補掲載先は`https://www.pref.fukushima.lg.jp/sec/11015e/kasokukahama.html`。追加後も取得・年度・対象範囲をそれぞれ検証します。
 
 タスク内で環境の適用済み許可と実際の取得結果を確認します。収載済みの政府・自治体原本については、次のスクリプトで最初の1件を取得できます。
 
@@ -91,6 +91,6 @@ python3 scripts/fetch_sources.py --limit 1
 
 成功時は`downloaded`、失敗時は`blocked_or_failed`と表示し、原本はGit対象外の`.cache/originals/`へ保存します。`failure_category: proxy_connect_denied`と`http_status: 403`はプロキシのCONNECT段階の拒否。HTTP応答の`http_error`と区別します。診断には認証情報・生のプロキシ例外・ヘッダーを記録しません。原本の取得だけで数値照合が完了したとは扱いません。党のページはこの取得スクリプトの対象外です。
 
-`http_error`はHTTP応答を受けたという失敗分類であり、ゲートウェイと接続先のどちらが応答したかを単独では確定しません。資源エネルギー庁の専用確認は`python3 scripts/verify_meti_regional_originals.py --fetch --write`。失敗履歴を保持して継続し、通常ビルド・CIは外部取得しません。
+`http_error`はHTTP応答を受けたという失敗分類であり、ゲートウェイと接続先のどちらが応答したかを単独では確定しません。資源エネルギー庁の専用確認は`python3 scripts/verify_meti_regional_originals.py --fetch --write --policy-state enforced`（環境ツールで適用済みを確認した場合のみ指定）。失敗履歴を保持して継続し、通常ビルド・CIは外部取得しません。
 
 EnterpriseワークスペースのAgent Securityによる制限が表示され、編集できない場合は管理者による設定が必要です。公式手順では、環境の通信許可とワークスペースの制限の両方が適用されます。

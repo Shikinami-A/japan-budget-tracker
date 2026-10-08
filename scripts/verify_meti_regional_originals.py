@@ -48,7 +48,7 @@ def fetch():
         print(json.dumps({k: receipt[k] for k in ('url', 'status', 'http_status', 'failure_category') if k in receipt}))
 
 
-def update():
+def update(policy_state):
     report = json.loads(OUTPUT.read_text())
     previous = report['retrieval_attempts']
     attempts = [json.loads(line) for line in (CACHE / 'manifest.jsonl').read_text().splitlines()]
@@ -70,19 +70,25 @@ def update():
                                 method='原本取得・ハッシュ確認のみ。掲載年度・金額・比較条件は未照合。', locator='未照合', row_ids=[], fields=[]))
                 report['originals'].append(original)
     failed = all(latest.get(url, {}).get('status') == 'blocked_or_failed' for url in URLS)
+    old_observation = report.get('network_observation')
+    history = report.setdefault('network_observations', [])
+    if old_observation and old_observation not in history:
+        history.append(old_observation)
     report['network_observation'] = dict(
         checked_at='2026-10-09', runtime_policy_contains_enecho=any(
             r['host'] == 'www.enecho.meti.go.jp' for r in json.loads(
                 Path('/etc/codex/network-policy.json').read_text())['http_network_policy']['egress_rules']),
-        environment_policy_state='unknown', proxy_and_tls_preserved=True,
-        note='追加ホストは環境設定・executorポリシーに掲載。適用状態unknownと実測を分離。HTTPErrorの403は前回URLErrorのCONNECT 403と別の失敗種別で、発生主体は未確定。')
+        environment_policy_state=policy_state, proxy_and_tls_preserved=True,
+        note='環境ツールで確認した適用状態と取得実測を分離。HTTPErrorの403は前回URLErrorのCONNECT 403と別の失敗種別で、発生主体は未確定。過去のunknown観測は別履歴で保持。')
+    if report['network_observation'] not in history:
+        history.append(report['network_observation'])
     report['research_notes'] = [dict(
         ministry='経済産業省', agency='資源エネルギー庁',
-        status='許可ホスト追加後もHTTP 403・原本未取得' if failed else '取得結果更新・地域配分の数値照合は未完了',
+        status=f'通信許可{policy_state}確認後もHTTP 403・原本未取得' if failed else '取得結果更新・地域配分の数値照合は未完了',
         source_ids=[], requested_url=URLS[0],
         note='電源立地地域対策交付金の事業概要・評価報告・制度入口を追加許可後に再確認。今回はHTTP応答403で原本取得できず、前回のプロキシCONNECT拒否とは分離。検索抽出は令和4〜6年度掲載を示すが、2025/2026年度の非掲載を原本で確認したとは扱わない。経産省2026年度予算概要の候補も403。全国予算と地域交付、当初と実施後評価を混ぜず、地域配分・同期間執行は取得不能／未確認として残す。',
         checked_at='2026-10-09', retrieval_attempts=previous,
-        next_steps=['環境ポリシー適用状態とHTTP 403の発生主体を確認する。プロキシ解除・TLS無効化・別経路での原本取得は行わない。',
+        next_steps=['HTTP 403の発生主体は未確定。通信許可は適用済みと確認したが取得できず、プロキシ解除・TLS無効化・別経路での原本取得は行わない。' if policy_state == 'enforced' else '環境ポリシー適用状態とHTTP 403の発生主体を確認する。プロキシ解除・TLS無効化・別経路での原本取得は行わない。',
                     '原本到達後、2025/2026の交付決定・実績・評価年度を分けて確認し、同じ財源・対象・段階・期間だけを比較する。'])]
     report['unadopted_discoveries'] = [dict(
         url=url, evidence_status='Exa検索抽出のみ・公式原本未取得',
@@ -111,11 +117,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--fetch', action='store_true')
     parser.add_argument('--write', action='store_true')
+    parser.add_argument('--policy-state', choices=('unknown', 'enforced'), default='unknown',
+                        help='環境ツールで実際に確認した適用状態。推測で指定しない。')
     args = parser.parse_args()
     if args.fetch:
         fetch()
     if args.write:
-        update()
+        update(args.policy_state)
     verify()
 
 

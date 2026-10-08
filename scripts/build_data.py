@@ -360,7 +360,9 @@ def main():
     for name,group in [('reviewed-mof-programs.json','programs'),('reviewed-mext.json','institutions'),
                        ('reviewed-cfa.json','reference'),('reviewed-environment.json','reference'),
                        ('reviewed-reconstruction.json',None),('reviewed-cabinet-regional.json',None),
-                       ('reviewed-meti-regional.json',None),('reviewed-regional-followup.json','reference')]:
+                       ('reviewed-meti-regional.json',None),('reviewed-regional-followup.json','reference'),
+                       ('reviewed-mlit-water.json',None),('reviewed-special-execution.json','execution'),
+                       ('reviewed-national-drivers.json',None)]:
         report=json.loads((ROOT/'data'/name).read_text())
         SOURCES.extend(report.get('sources',[]))
         for reviewed_row in report.get('rows',[]):
@@ -371,6 +373,8 @@ def main():
         for enrichment in report.get('row_enrichments', []):
             target = next(r for r in ROWS if r['id'] == enrichment['row_id'])
             target['driver_checks'] = enrichment['driver_checks']
+            for key in ('explanation', 'explanation_status'):
+                if key in enrichment: target[key] = enrichment[key]
             target['explanation_source_ids'] = list(dict.fromkeys(
                 target.get('explanation_source_ids', []) + enrichment.get('explanation_source_ids', [])))
         if name == 'reviewed-cabinet-regional.json':
@@ -388,6 +392,11 @@ def main():
                      finding=c.get('details', c.get('reason', '')), source_ids=c.get('source_ids', [])) for key,c in checks.items()]
     expansion=reviewed_expansion(RAW)
     followup=reviewed_followup(RAW)
+    roster=json.loads((ROOT/'data/reviewed-roster-followup.json').read_text())
+    third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
+    for m in legislators:
+        if m['chamber']=='衆議院':
+            m['roster_verification_status']='公式原本の正式名・院一致' if m.get('roster_evidence') else '最新公式原本と正式名・院が未一致（旧名簿保持）'
     for s in SOURCES:
         if s['id'] in {e['id'] for e in expansion['sources']}:
             s['accessed']=expansion['checked_at']
@@ -395,6 +404,12 @@ def main():
         elif s['id'] in {e['id'] for e in followup['sources']}:
             s['accessed']=followup['checked_at']
             s['retrieved_via']='党公式原本から現職欄・正式氏名・院・当選選挙区を一意照合'
+        elif s['id'] in {e['id'] for e in roster['sources']}:
+            registry_source=next(e for e in roster['sources'] if e['id']==s['id'])
+            s.update(accessed=roster['checked_at'], published=None, document_date=registry_source['as_of'],
+                     retrieved_via='衆議院公式原本の表セルから氏名・院・読み・選挙区・会派を独立抽出')
+        elif s['id'] in {e['id'] for e in third_stage['sources']}:
+            s.update(accessed=third_stage['checked_at'],retrieved_via='党公式原本と国会原本で正式名・院・当選選挙区を一意照合')
     geography=json.loads((ROOT/'data/reviewed-municipality-districts.json').read_text())
     for s in geography['sources']:
         SOURCES.append(dict(id=s['id'], title=s['title'], url=s['url'], locator=s['method'],
@@ -439,7 +454,11 @@ def main():
         items=[r for r in ROWS if r['ministry']==name and r.get('view_group')=='programs']
         institutions=[r for r in ROWS if r['ministry']==name and r.get('view_group')=='institutions']
         wide_area=[r for r in ROWS if r['ministry']==name and r['prefecture'] is None and r['region']!='全国']
+        execution=[r for r in ROWS if r['ministry']==name and r['account']=='一般会計' and r['basis'].startswith('執行額')]
         coverage.append(dict(name=name,parent=None,national=name!='復興庁',regional_rows=len(regional),
+                             same_period_execution_status=('特別会計の勘定別支出を収載・復興庁所管別／地域別は未分解' if name=='復興庁' else
+                                 '全国の所管別支出を収載・地域別は未収載' if execution else
+                                 '原本ダッシュ・所管別執行額未収載（ゼロ認定なし）'),
                              national_item_rows=len(items),institution_rows=len(institutions),wide_area_rows=len(wide_area),
                              research_notes=[n for n in research_notes if n['ministry']==name and not n.get('agency')],
                              status='一部制度を収載・地域全体は未完了' if regional else '全国内訳を収載・地域配分は未確認' if items or institutions else '地域別・事業別は未収載',
@@ -448,6 +467,7 @@ def main():
             child_regions=[r for r in regional if r.get('agency')==child]
             child_items=[r for r in items if r.get('organization')==child]
             coverage.append(dict(name=child,parent=name,national=False,regional_rows=len(child_regions),
+                                 same_period_execution_status='母省の全国支出に含む・機関別／地域別は未分解',
                                  national_item_rows=len(child_items),institution_rows=0,
                                  research_notes=[n for n in research_notes if n['ministry']==child or n.get('agency')==child],
                                  status='一部制度を参考収載・地域全体は未完了' if child_regions else '母省の総額に含む・地域配分未確認',
@@ -460,14 +480,16 @@ def main():
                     research_observations=research_observations,
                     research_findings=research_findings,
                     party_followup_stats=followup['stats'],party_originals=followup['originals'],
+                    roster_followup_stats=roster['stats'],party_third_stage_stats=third_stage['stats'],
                     municipality_mappings=geography['mappings'],
                     original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[
                         '全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。',
-                        '一般会計19所管、組織・項別859区分、特別会計14会計34勘定等、第1四半期・7月末累計支出、一部地域配分、国立大学法人等86区分の積算内訳を収載。親の総額と内訳を合算しない。名称一致は制度連続性を証明しない。特別会計の府省別・地域別分解は未収載。',
+                        '一般会計19所管、組織・項別859区分、特別会計14会計34勘定等の当初予算と同期間勘定別支出、一部地域配分、国立大学法人等86区分の積算内訳を収載。親の総額と内訳を合算しない。名称一致は制度連続性を証明しない。特別会計の府省別・地域別分解は未収載。',
                         f'原本数値を両年度照合した比較行は{original_coverage["fully_verified_comparison_rows"]}件。原本未掲載の値は欠損のまま残す。抽出本文と原本ファイルのハッシュは別に保存。議員名簿の統一時点での原本照合は未完了。',
                         f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
+                        '2026年9月28日の衆院公式原本で既存463人の正式名・院が一致し、23人の欠落選挙区を補完。既存1人は未一致、新原本1人は保留。旧名簿と資料日を保持し、現行464人の全員照合とは扱わない。参院との統一時点も未確認。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])
     (ROOT/'public'/'data.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2)+'\n')
     print(f'{len(ROWS)} comparison rows, {len(legislators)} legislators, {len(SOURCES)} sources')
