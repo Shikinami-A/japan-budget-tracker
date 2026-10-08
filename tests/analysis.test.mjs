@@ -50,6 +50,25 @@ test('Uncollected third-round allocations remain missing and never enter screeni
   assert.ok(rows.every(r=>r.amount2025===null&&r.amount_status2025.startsWith('未収載')));
   assert.ok(rows.every(r=>!screen(r,data.rows,{pct:0,amount:0,gap:0}).candidate));
 });
+test('Confirmed service end remains in the historical roster and is excluded from regional relationships',()=>{
+  const ended=data.legislators.find(m=>m.id==='house-渡辺孝一');
+  assert.equal(ended.service_end_date,'2026-09-17');
+  assert.equal(ended.current_roster_eligible,false);
+  assert.ok(ended.service_evidence.some(e=>e.event==='逝去'));
+  const regional={...ended,prefectures:['北海道'],related_prefectures:['北海道']};
+  assert.deepEqual(membersFor('北海道',[regional],true),[]);
+  assert.equal(data.held_roster_records[0].name,'栗原渉');
+  assert.ok(!data.legislators.some(m=>m.name==='栗原渉'));
+});
+test('Nagoya municipal amounts retain every verified constituency without division',()=>{
+  const mapping=data.municipality_mappings.find(m=>m.prefecture==='愛知県'&&m.municipality==='名古屋市');
+  assert.equal(mapping.coverage,'municipality_split');
+  assert.deepEqual(mapping.districts,['愛知1','愛知2','愛知3','愛知4','愛知5']);
+  const row=data.rows.find(r=>r.municipality_mapping?.municipality==='名古屋市');
+  assert.ok(row);
+  const districts=new Set(membersForRow(row,data.legislators).filter(m=>m.chamber==='衆議院'&&m.election_type==='小選挙区').map(m=>m.district));
+  assert.deepEqual(districts,new Set(mapping.districts));
+});
 test('Executable and credential-bearing URLs are rejected; spreadsheet formulas are neutralized',()=>{
   for(const u of ['javascript:alert(1)','data:text/html,abc','http://example.com','https://user:pass@example.com'])assert.equal(safeURL(u),null);
   assert.equal(safeURL('https://www.mof.go.jp/'),'https://www.mof.go.jp/');

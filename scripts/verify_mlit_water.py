@@ -12,7 +12,7 @@ from urllib.error import HTTPError, URLError
 
 from fetch_sources import failure_details
 from verify_grants_originals import table_rows, column, integer
-from verify_mlit_originals import ROOT, PREFS, BUREAUS, fetch, original_path, receipt_for, pdf_pages
+from verify_mlit_originals import ROOT, PREFS, BUREAUS, fetch, original_path, receipt_for as cache_receipt_for, pdf_pages
 from verify_regional_followup import text_html
 
 OUT = ROOT / 'data/reviewed-mlit-water.json'
@@ -30,6 +30,28 @@ PREF_ALIASES = {re.sub(r'[都府県]$', '', p) if p != '北海道' else p: p for
 PREF_ALIASES.update({p: p for p in PREFS})
 REGION_LABELS = ['北海道', '東北', '関東', '北陸', '中部', '近畿', '中国', '四国', '九州', '沖縄']
 REGION_TO_BUREAU = dict(zip(REGION_LABELS, BUREAUS))
+
+
+def historical_receipt(url, report_path):
+    """Keep the first reviewed receipt when a fresh download is identical.
+
+    The cache manifest retains the new download timestamp separately. An
+    updated original or destination requires review, never a silent rewrite
+    of previously committed evidence.
+    """
+    current = cache_receipt_for(url)
+    if report_path.exists():
+        saved = [r for r in json.loads(report_path.read_text()).get('originals', []) if r['url'] == url]
+        if saved:
+            first = saved[0]
+            for key in ['url', 'final_url', 'sha256_original', 'bytes', 'content_type']:
+                assert current[key] == first[key], f'Official original changed ({key}); manual review required: {url}'
+            current['retrieved_at_utc'] = first['retrieved_at_utc']
+    return current
+
+
+def receipt_for(url):
+    return historical_receipt(url, OUT)
 
 
 def url_for(family, year):

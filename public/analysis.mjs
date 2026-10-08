@@ -35,8 +35,8 @@ export function screen(row, allRows, thresholds = {}) {
 
 export function membersFor(prefecture, members, includeProportional = false) {
   if (!prefecture || prefecture === '全国') return [];
-  return members.filter(m => m.prefectures.includes(prefecture) || (includeProportional &&
-    (m.related_prefectures ?? []).includes(prefecture)));
+  return members.filter(m => m.current_roster_eligible !== false && (m.prefectures.includes(prefecture) || (includeProportional &&
+    (m.related_prefectures ?? []).includes(prefecture))));
 }
 
 export function membersForRow(row, members, includeProportional = true) {

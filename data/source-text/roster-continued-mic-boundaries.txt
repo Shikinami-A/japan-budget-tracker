@@ -1,0 +1,1 @@
+{"effective_from": "2022-12-28", "law_promulgation_date": "2022-11-28", "original_location": "HTML本文の区割り改定法施行日・全県区割り表 愛知県リンク", "pdf_url": "https://www.soumu.go.jp/main_content/000853828.pdf", "prefecture": "愛知県"}

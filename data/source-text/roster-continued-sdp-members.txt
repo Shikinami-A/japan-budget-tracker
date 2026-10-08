@@ -1,0 +1,2 @@
+{"chamber": "参議院", "district": "全国比例", "name": "福島みずほ", "original_location": "HTML現職国会議員情報の参議院現5期・氏名・選挙区欄（連絡先除外）", "party": "社会民主党", "reading": "ふくしまみずほ"}
+{"chamber": "参議院", "district": "全国比例", "name": "ラサール石井", "original_location": "HTML現職国会議員情報の参議院現1期・氏名・選挙区欄（連絡先除外）", "party": "社会民主党", "reading": "らさーるいしい"}

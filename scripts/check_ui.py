@@ -139,12 +139,39 @@ with sync_playwright() as p:
     assert page.locator('#row-count').inner_text()=='47'
     page.check('#candidate-only')
     assert page.locator('#candidate-count').inner_text()=='0'
+    page.uncheck('#candidate-only')
+    page.select_option('#program','地域介護・福祉空間整備等施設整備交付金')
+    assert page.locator('#row-count').inner_text()=='129'
+    page.fill('#query','名古屋市')
+    page.locator('#rows button').first.click()
+    city_text=page.locator('#detail-content').inner_text()
+    assert '自治体コード：231002' in city_text and '今回計画額' in city_text and '計画額（千円）' in city_text
+    assert '愛知1・愛知2・愛知3・愛知4・愛知5' in city_text
+    page.keyboard.press('Escape')
+    page.fill('#query','')
+    page.select_option('#program','消防防災施設整備費補助金')
+    assert page.locator('#row-count').inner_text()=='124'
+    page.fill('#query','藤沢市')
+    page.locator('#rows button').first.click()
+    assert 'Ⅲ型' in page.locator('#detail-content').inner_text()
+    assert '配分時点の関係者' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
+    page.fill('#query','')
+    page.select_option('#program','福島再生加速化交付金（浜通り地域等産業発展環境整備事業）公表県事業計画')
+    assert page.locator('#row-count').inner_text()=='1'
+    page.locator('#rows button').first.click()
+    assert '251.187' in page.locator('#detail-content').inner_text()
+    assert '通知前原申請額' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
     page.click('[data-view=coverage]')
     assert '復興庁' in page.locator('#coverage').inner_text()
     assert '通知段階差で未比較' in page.locator('#coverage').inner_text()
     assert 'HTTP 403・原本未取得' in page.locator('#coverage').inner_text()
     assert '原本内不一致未解消' in page.locator('#coverage').inner_text()
     assert '127観測' in page.locator('#coverage').inner_text()
+    page.get_by_text('原本取得済・通知段階差で未比較',exact=True).click()
+    assert '先行調査（06d7543）の記録' in page.locator('#coverage').inner_text()
+    assert '今回の現行案内' in page.locator('#coverage').inner_text()
     page.get_by_text('年度比較に採用していない通知の原表：127観測',exact=True).click()
     tamura=page.locator('#coverage tbody tr').filter(has_text='第64回').filter(has_text='田村市')
     assert tamura.count()==1
@@ -158,6 +185,10 @@ with sync_playwright() as p:
     assert '所属資料の基準日：未確認' in page.locator('#members').inner_text()
     page.select_option('#member-pref','')
     assert page.locator('#members .member').count()==711
+    assert '旧名簿・逝去を公式確認' in page.locator('#members').inner_text()
+    page.locator('#held-members > details > summary').click()
+    assert '栗原渉' in page.locator('#held-members').inner_text()
+    assert '旧名簿IDに未一致・新原本独立確認' in page.locator('#held-members').inner_text()
     assert '資料間不一致（中道改革連合／公明党）' in page.locator('#members').inner_text()
     coverage=json.loads((ROOT/'public/data.json').read_text())['party_coverage']
     assert f"{coverage['verified']} / 711人" in page.locator('#party-coverage').inner_text()

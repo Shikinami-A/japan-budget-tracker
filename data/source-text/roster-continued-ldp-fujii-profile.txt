@@ -1,0 +1,1 @@
+{"chamber": "衆議院", "district": "兵庫4", "identity_excerpt": "自由民主8面コラム「思わず食べたい私の推しメシ」藤井比早之衆議院議員酒米の王者山田錦のふるさとから", "name": "藤井比早之", "original_location": "党本人プロフィール h1・選挙区表・本人関連ニュース h3正式名/衆議院議員", "party": "自由民主党", "profile_heading": "藤井ひさゆき"}

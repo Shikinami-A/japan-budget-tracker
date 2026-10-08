@@ -1,0 +1,6564 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "method": "Poppler画像をセル単位に抽出、Tesseract数値限定PSM7。手転記とは独立の抽出。",
+  "cells": [
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 0,
+      "reviewed": 12723,
+      "ocr": 12723,
+      "ocr_raw": "12,723",
+      "box": [
+        338,
+        256,
+        445,
+        274
+      ],
+      "match": true,
+      "sha256_cell_png": "5e61d8e19963083d5cc835bfd9cfbd7b4840eda32b6dddc51fe7092537718250"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 1,
+      "reviewed": 4086,
+      "ocr": 4086,
+      "ocr_raw": "4086",
+      "box": [
+        572,
+        256,
+        679,
+        274
+      ],
+      "match": true,
+      "sha256_cell_png": "de0a63d4a278c1a840e661e739333724c950c3165c005e33fdea2982ce2fcb76"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 2,
+      "reviewed": 3515,
+      "ocr": 3515,
+      "ocr_raw": "3,515",
+      "box": [
+        1157,
+        256,
+        1263,
+        274
+      ],
+      "match": true,
+      "sha256_cell_png": "ba19bcec1d95bba177bfcfbaaf500f2e469a44cf52babdb7a1cf7aca3adfe865"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 0,
+      "reviewed": 1480,
+      "ocr": 1480,
+      "ocr_raw": "1,480",
+      "box": [
+        338,
+        285,
+        445,
+        303
+      ],
+      "match": true,
+      "sha256_cell_png": "99be2c11a37bcfd14909cab30132905c91666948c7acde8fd94a2367a79780c7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 1,
+      "reviewed": 1026,
+      "ocr": 1026,
+      "ocr_raw": "1,026",
+      "box": [
+        572,
+        285,
+        679,
+        303
+      ],
+      "match": true,
+      "sha256_cell_png": "a3193371cc1c857f934e3d576cd8622a3ee20727da1aa4df8b768d93be6e085e"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 2,
+      "reviewed": 4535,
+      "ocr": 4535,
+      "ocr_raw": "4535",
+      "box": [
+        1157,
+        285,
+        1263,
+        303
+      ],
+      "match": true,
+      "sha256_cell_png": "28a7bc6a920015b3000a2e1354398c14de9ffb6e06078cfccb8dad2cc72aa543"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 0,
+      "reviewed": 757,
+      "ocr": 757,
+      "ocr_raw": "757",
+      "box": [
+        338,
+        314,
+        445,
+        332
+      ],
+      "match": true,
+      "sha256_cell_png": "02ec94e645ddcbf64f68265daa73191c47cf89a3e5f2069961ca831ee421d903"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 1,
+      "reviewed": 742,
+      "ocr": 742,
+      "ocr_raw": "742",
+      "box": [
+        572,
+        314,
+        679,
+        332
+      ],
+      "match": true,
+      "sha256_cell_png": "64c8ba83f6b12cbb42d052bb9d1b25420c049189abd526c53cef69f1c022e4ad"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 2,
+      "reviewed": 320,
+      "ocr": 320,
+      "ocr_raw": "320",
+      "box": [
+        1157,
+        314,
+        1263,
+        332
+      ],
+      "match": true,
+      "sha256_cell_png": "3ab5ce540bf7bbcceef1af0c97fbbfe196cdf53f7d4fc8b33c85946983c7ff45"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 0,
+      "reviewed": 898,
+      "ocr": 898,
+      "ocr_raw": "898",
+      "box": [
+        338,
+        343,
+        445,
+        361
+      ],
+      "match": true,
+      "sha256_cell_png": "6f2415ca4832db15fefd8cf84a61f2fdaedd30f44afb2d0149a4f12df0c4fd25"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 1,
+      "reviewed": 951,
+      "ocr": 951,
+      "ocr_raw": "951",
+      "box": [
+        572,
+        343,
+        679,
+        361
+      ],
+      "match": true,
+      "sha256_cell_png": "516675120a3142b7001b956a4663d5c6cf5c1860a23cd9562a6132df83eca4a3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 2,
+      "reviewed": 6538,
+      "ocr": 6538,
+      "ocr_raw": "6,538",
+      "box": [
+        1157,
+        343,
+        1263,
+        361
+      ],
+      "match": true,
+      "sha256_cell_png": "b71b4e469e1dcacdf23c0a924fa55190bd01836b9b66af2de06ab85ab0872c34"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 0,
+      "reviewed": 1497,
+      "ocr": 1497,
+      "ocr_raw": "1,497",
+      "box": [
+        338,
+        371,
+        445,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "1c729d8ea64d0a53590699e8ca01df2941e01271d7858dc04e4c729adf6e15dd"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 1,
+      "reviewed": 842,
+      "ocr": 842,
+      "ocr_raw": "842",
+      "box": [
+        572,
+        371,
+        679,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "f345dff6ec4d42580f2f637409abc0a4a37a9ae8b40ce8ebe6460a539977683e"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 2,
+      "reviewed": 5781,
+      "ocr": 5781,
+      "ocr_raw": "5781",
+      "box": [
+        1157,
+        371,
+        1263,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "e188cf12bf55c1edede8cffcbe09029271124afe57e2d09cd1cb42fe39c9b78c"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 0,
+      "reviewed": 858,
+      "ocr": 858,
+      "ocr_raw": "858",
+      "box": [
+        338,
+        400,
+        445,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "431b72e6c6abeaa61cab5032b646a32e00597ff0a04a60ad24ebb01415c7fbd3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 1,
+      "reviewed": 696,
+      "ocr": 696,
+      "ocr_raw": "696",
+      "box": [
+        572,
+        400,
+        679,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "3f6d591849a75f9d3231c56882f3e1bc87eb102c07db1589f28a9e5f1caa9054"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 2,
+      "reviewed": 1450,
+      "ocr": 1450,
+      "ocr_raw": "1,450",
+      "box": [
+        1157,
+        400,
+        1263,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "62e0c48bece38f9780ad11a8c1816041533fdc74d59795f4a838f4cd56d9b39a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 0,
+      "reviewed": 926,
+      "ocr": 926,
+      "ocr_raw": "926",
+      "box": [
+        338,
+        429,
+        445,
+        447
+      ],
+      "match": true,
+      "sha256_cell_png": "ebddb282482c165274aeb8040334eaa284ace54ccdde1ddc05bd0d6785aac80f"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 1,
+      "reviewed": 986,
+      "ocr": 986,
+      "ocr_raw": "986",
+      "box": [
+        572,
+        429,
+        679,
+        447
+      ],
+      "match": true,
+      "sha256_cell_png": "299b916497dde5ece6b0a4f8b1d8caed3094ab5fd62bf105862ecd580bb34ce5"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 2,
+      "reviewed": 1316,
+      "ocr": 1316,
+      "ocr_raw": "1,316",
+      "box": [
+        1157,
+        429,
+        1263,
+        447
+      ],
+      "match": true,
+      "sha256_cell_png": "8fe7b3153e26ff524b8292cef4978497eb52643b5bde183ec461f057f048e832"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 0,
+      "reviewed": 885,
+      "ocr": 885,
+      "ocr_raw": "885",
+      "box": [
+        338,
+        457,
+        445,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "9435fb9e62c3b071adfd2274463b447b42bec39c6eed8fa8fcec96075f60805d"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 1,
+      "reviewed": 183,
+      "ocr": 183,
+      "ocr_raw": "183",
+      "box": [
+        572,
+        457,
+        679,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "c94e58f7385cb7a60d099d6f9630f443ed1d5e5a727dbc3fac0e9dc138ca5615"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 2,
+      "reviewed": 1068,
+      "ocr": 1068,
+      "ocr_raw": "1,068",
+      "box": [
+        1157,
+        457,
+        1263,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "c53f1f31727319179bb69d4f40aedde1b690fe803295213403b8c600621c0962"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 0,
+      "reviewed": 4413,
+      "ocr": 4413,
+      "ocr_raw": "4413",
+      "box": [
+        338,
+        486,
+        445,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "026490e3ef273cc5b8cd4b01a7a2504bb116c8b5eb684d03c3d2d88adbf930b3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 1,
+      "reviewed": 572,
+      "ocr": 572,
+      "ocr_raw": "572",
+      "box": [
+        572,
+        486,
+        679,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "ec2f3656411aa37d836e190aa5fe3e601e84d30d54d43909696f8df2f6539f8c"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 2,
+      "reviewed": 1303,
+      "ocr": 1303,
+      "ocr_raw": "1,303",
+      "box": [
+        1157,
+        486,
+        1263,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "7ee24ad2db8faf2309b33468f46312ed9fdc3f21b086175605ee4f4180f7cfab"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 0,
+      "reviewed": 400,
+      "ocr": 400,
+      "ocr_raw": "400",
+      "box": [
+        338,
+        515,
+        445,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "965344148248f7742fa07281281012d527a30055bc79ac00c5bc29e048da5654"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 1,
+      "reviewed": 765,
+      "ocr": 765,
+      "ocr_raw": "765",
+      "box": [
+        572,
+        515,
+        679,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "de26597f78a7d060610046095cde785848ab7c64d940ac3b6d191e5e0e4b2c82"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 2,
+      "reviewed": 608,
+      "ocr": 608,
+      "ocr_raw": "608",
+      "box": [
+        1157,
+        515,
+        1263,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "b568e23fb613a4970dc5dfba81e7f42697b01e965536bd76501c4294659c7f23"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 0,
+      "reviewed": 3254,
+      "ocr": 3254,
+      "ocr_raw": "3,254",
+      "box": [
+        338,
+        544,
+        445,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "4a8770d9dad954829e2a4e4fa81cfbdbb8bbfb0e087eaa465c170725420e62a9"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 1,
+      "reviewed": 605,
+      "ocr": 605,
+      "ocr_raw": "605",
+      "box": [
+        572,
+        544,
+        679,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "7393970aa5effe235ad73d66a7f430acf4ef9050ebf9d6243432093707fcf556"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 2,
+      "reviewed": 3822,
+      "ocr": 3822,
+      "ocr_raw": "3,822",
+      "box": [
+        1157,
+        544,
+        1263,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "3528d0f6119d0e95b97e65c541160e1c00fc8c80dfad9ac0c80dd75c446dd7c4"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 0,
+      "reviewed": 1174,
+      "ocr": 1174,
+      "ocr_raw": "1,174",
+      "box": [
+        338,
+        572,
+        445,
+        590
+      ],
+      "match": true,
+      "sha256_cell_png": "ac10b1c9c9c58fcfea7d66f5b649f94f526fcd37e939584a846a8efe67b3d07f"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 1,
+      "reviewed": 472,
+      "ocr": 42,
+      "ocr_raw": "42",
+      "box": [
+        572,
+        572,
+        679,
+        590
+      ],
+      "match": false,
+      "sha256_cell_png": "489c08b8a08ac27029337102f93fbfcc585963773b4dab7d11d47afcb905cf32",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 472,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 2,
+      "reviewed": 6663,
+      "ocr": 6663,
+      "ocr_raw": "6,663",
+      "box": [
+        1157,
+        572,
+        1263,
+        590
+      ],
+      "match": true,
+      "sha256_cell_png": "73ee9c485015f7ffb5d63378fbbac25f7e982b4794f154325ed5b9e818d0513d"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 0,
+      "reviewed": 1099,
+      "ocr": 1099,
+      "ocr_raw": "1,099",
+      "box": [
+        338,
+        601,
+        445,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "0d7337bbf93b66c9a6c2cf97e826480e3d3d91f31674d5af18ec171f5cde6bf7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 1,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        572,
+        601,
+        679,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "c7c6a8e5386b24302f13c4f44de6f0db13688d70e9a5855e138e36f86e191c42",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 2,
+      "reviewed": 31452,
+      "ocr": 31452,
+      "ocr_raw": "31,452",
+      "box": [
+        1157,
+        601,
+        1263,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "0c414711b19e935d1753daf4d4da532a5b62382baf8afd9d54252d7097528253"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 0,
+      "reviewed": 3455,
+      "ocr": 3455,
+      "ocr_raw": "3,455",
+      "box": [
+        338,
+        630,
+        445,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "946e6129f1b694d1e44b17688e0b9c7ebe8f588f2c6957ec40786c769c1ee23d"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 1,
+      "reviewed": 1569,
+      "ocr": 1569,
+      "ocr_raw": "1,569",
+      "box": [
+        572,
+        630,
+        679,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "175c39a7b78306ae6e45d39d03b347a07de465c0fc8b8363a2f025baaf37a97c"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 2,
+      "reviewed": 11642,
+      "ocr": 11642,
+      "ocr_raw": "11,642",
+      "box": [
+        1157,
+        630,
+        1263,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "f41309513e3efe51f6c9b4a6b4e13aaa9840ca140c75efbe9c38e7ca026b5b17"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 0,
+      "reviewed": 732,
+      "ocr": 732,
+      "ocr_raw": "732",
+      "box": [
+        338,
+        658,
+        445,
+        676
+      ],
+      "match": true,
+      "sha256_cell_png": "4362ddd9e020fb16ea86cb7a5dd0bd97906c44198751921c34e3dd8ac08e9cc3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 1,
+      "reviewed": 1471,
+      "ocr": 147,
+      "ocr_raw": "1,47",
+      "box": [
+        572,
+        658,
+        679,
+        676
+      ],
+      "match": false,
+      "sha256_cell_png": "b23fc41462397c8f5e0cd6a86ee6748d5f3a8bf91df6aafdfcc258e3dab87945",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 1471,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        1157,
+        658,
+        1263,
+        676
+      ],
+      "match": true,
+      "sha256_cell_png": "18beee3a7fa0ba39f3bb4f77ed3b76bfeca047a504a479595867c36ce897a773",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 0,
+      "reviewed": 1136,
+      "ocr": 1136,
+      "ocr_raw": "1,136",
+      "box": [
+        338,
+        687,
+        445,
+        705
+      ],
+      "match": true,
+      "sha256_cell_png": "b90cc25e39371ef82ca6d1d933fd0b5b5438d8537eefa1c7bdcaa984dd0705e7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 1,
+      "reviewed": 4515,
+      "ocr": 4515,
+      "ocr_raw": "4515",
+      "box": [
+        572,
+        687,
+        679,
+        705
+      ],
+      "match": true,
+      "sha256_cell_png": "6b5a69234c1e1a4fd0c9543a1e87e9568ca0618c2db92575a3e83819f4d9fd2e"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 2,
+      "reviewed": 828,
+      "ocr": 828,
+      "ocr_raw": "828",
+      "box": [
+        1157,
+        687,
+        1263,
+        705
+      ],
+      "match": true,
+      "sha256_cell_png": "3c36b0baa4c0a5b1e0cd0ffce132105cf09d6bbb2907e177ddd3ed2a7f172e14"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 0,
+      "reviewed": 2554,
+      "ocr": 2554,
+      "ocr_raw": "2,554",
+      "box": [
+        338,
+        716,
+        445,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "5a44f003a6e65e55c62fffd7fb2ca6c4a2cb690248ad47ad7bc43f7523e334d9"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 1,
+      "reviewed": 1723,
+      "ocr": 1723,
+      "ocr_raw": "1,723",
+      "box": [
+        572,
+        716,
+        679,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "54f0688bec7da91a3d6509580768a56618ba018c570e87cafd968f681cc2d76a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 2,
+      "reviewed": 5154,
+      "ocr": 5154,
+      "ocr_raw": "5154",
+      "box": [
+        1157,
+        716,
+        1263,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "be6d4bd20e835f68e2152a58b5955c350820e8c5a70adf263aee636096e73c0b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 0,
+      "reviewed": 970,
+      "ocr": 970,
+      "ocr_raw": "970",
+      "box": [
+        338,
+        744,
+        445,
+        762
+      ],
+      "match": true,
+      "sha256_cell_png": "44afb1a2c3aeb59ee355c0febdf2028d13f0bfa0a931b38fdebd2c7ffdde68dd"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 1,
+      "reviewed": 2558,
+      "ocr": 2558,
+      "ocr_raw": "2,558",
+      "box": [
+        572,
+        744,
+        679,
+        762
+      ],
+      "match": true,
+      "sha256_cell_png": "5b418893c3f89fd98c67a79d9afba82c93c0ffcf724cb23aad0fe31301d30157"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 2,
+      "reviewed": 948,
+      "ocr": 948,
+      "ocr_raw": "948",
+      "box": [
+        1157,
+        744,
+        1263,
+        762
+      ],
+      "match": true,
+      "sha256_cell_png": "928bfad541e52ed4c9a0f3f50fa44d0d491c6c1044260aab793db1566361fc85"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 0,
+      "reviewed": 2245,
+      "ocr": 2245,
+      "ocr_raw": "2,245",
+      "box": [
+        338,
+        773,
+        445,
+        791
+      ],
+      "match": true,
+      "sha256_cell_png": "15cd8db081d5b0701335a512edf3d1be4876817548b897fb68ad16f7700a55ea"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 1,
+      "reviewed": 3264,
+      "ocr": 3264,
+      "ocr_raw": "3,264",
+      "box": [
+        572,
+        773,
+        679,
+        791
+      ],
+      "match": true,
+      "sha256_cell_png": "ceb24bd8c10e676a5340b07ac845c63e85c24d18877d922903478e3ddceff1c1"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        1157,
+        773,
+        1263,
+        791
+      ],
+      "match": true,
+      "sha256_cell_png": "a370501211135c172051c1846188ca98aee13d595d321a6f078ba9e0d54a7803",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 0,
+      "reviewed": 1478,
+      "ocr": 1478,
+      "ocr_raw": "1,478",
+      "box": [
+        338,
+        802,
+        445,
+        820
+      ],
+      "match": true,
+      "sha256_cell_png": "a93712028c592f961cf39b8084f19511b991d625aa0b06b1ab1b49a25a4a1bc7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 1,
+      "reviewed": 800,
+      "ocr": 800,
+      "ocr_raw": "800",
+      "box": [
+        572,
+        802,
+        679,
+        820
+      ],
+      "match": true,
+      "sha256_cell_png": "1554ce2c6bb5f697e69d17b4ec7643409f6f154972fcd2dc2df4c891b33f9750"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 2,
+      "reviewed": 592,
+      "ocr": 592,
+      "ocr_raw": "592",
+      "box": [
+        1157,
+        802,
+        1263,
+        820
+      ],
+      "match": true,
+      "sha256_cell_png": "0020082ea91185dc6165e1be1f95119d4be49dbb7e85f9d23f4b8be119335c6d"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 0,
+      "reviewed": 2893,
+      "ocr": 2893,
+      "ocr_raw": "2,893",
+      "box": [
+        338,
+        830,
+        445,
+        848
+      ],
+      "match": true,
+      "sha256_cell_png": "466d4b22e5e596487a9f961adc12400b783da85a9b65dd6794629e9e6800a549"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 1,
+      "reviewed": 1312,
+      "ocr": 1312,
+      "ocr_raw": "1,312",
+      "box": [
+        572,
+        830,
+        679,
+        848
+      ],
+      "match": true,
+      "sha256_cell_png": "fe8a16ce03fe7badff76531ad896385beccd8e9927e7bdd3c16aa88daed3f8b8"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 2,
+      "reviewed": 2398,
+      "ocr": 2398,
+      "ocr_raw": "2,398",
+      "box": [
+        1157,
+        830,
+        1263,
+        848
+      ],
+      "match": true,
+      "sha256_cell_png": "2bb972a3eb356f575e270dbd0991ffb2c9bddb5803a60788a57a0501b02f749b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 0,
+      "reviewed": 5794,
+      "ocr": 5794,
+      "ocr_raw": "5794",
+      "box": [
+        338,
+        859,
+        445,
+        877
+      ],
+      "match": true,
+      "sha256_cell_png": "05bc35b94cd99e198eb54874035cc2a7c04ab8a95d5cb82d3a5a86d1fa5d6abe"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 1,
+      "reviewed": 1920,
+      "ocr": 1920,
+      "ocr_raw": "1,920",
+      "box": [
+        572,
+        859,
+        679,
+        877
+      ],
+      "match": true,
+      "sha256_cell_png": "38b8ce7905a8998cec5f306e44379fb0bb456fd4ff421d7e022528474e6f8d82"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 2,
+      "reviewed": 15394,
+      "ocr": 15394,
+      "ocr_raw": "15,394",
+      "box": [
+        1157,
+        859,
+        1263,
+        877
+      ],
+      "match": true,
+      "sha256_cell_png": "6358ccd4a71a37095b8e35c64875259d2bc34276c24b132708cdbb9eab2a58f2"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 0,
+      "reviewed": 1098,
+      "ocr": 1098,
+      "ocr_raw": "1,098",
+      "box": [
+        338,
+        888,
+        445,
+        906
+      ],
+      "match": true,
+      "sha256_cell_png": "6b827c3733839468763cd6b037b5b6e93a02af09ccbbe7f490a7a89a2e5c0953"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 1,
+      "reviewed": 929,
+      "ocr": 929,
+      "ocr_raw": "929",
+      "box": [
+        572,
+        888,
+        679,
+        906
+      ],
+      "match": true,
+      "sha256_cell_png": "4701313344456f7c930ca93a09b675a02dd01b00aa6b89693688a0dcb8e93ec2"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 2,
+      "reviewed": 4703,
+      "ocr": 4703,
+      "ocr_raw": "4703",
+      "box": [
+        1157,
+        888,
+        1263,
+        906
+      ],
+      "match": true,
+      "sha256_cell_png": "3469746c4bce478c5f292678289cfc46b333bb092e62ead2c5d22de4f1b568e3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 0,
+      "reviewed": 586,
+      "ocr": 586,
+      "ocr_raw": "586",
+      "box": [
+        338,
+        917,
+        445,
+        935
+      ],
+      "match": true,
+      "sha256_cell_png": "6ad3dfaaabc32f91be20c6f202e987643aba279b5818671fbc850d8354068dd0"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 1,
+      "reviewed": 205,
+      "ocr": 205,
+      "ocr_raw": "205",
+      "box": [
+        572,
+        917,
+        679,
+        935
+      ],
+      "match": true,
+      "sha256_cell_png": "94c2ac274c5b67e4c539a9768659c38d811f78ac2963548b337da565ee516c27"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 2,
+      "reviewed": 4901,
+      "ocr": 4901,
+      "ocr_raw": "4901",
+      "box": [
+        1157,
+        917,
+        1263,
+        935
+      ],
+      "match": true,
+      "sha256_cell_png": "6ad991f6ee51b620e78b172fb8b4261ac87c14d81006f9f78a88d54e0c833904"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 0,
+      "reviewed": 856,
+      "ocr": 856,
+      "ocr_raw": "856",
+      "box": [
+        338,
+        945,
+        445,
+        963
+      ],
+      "match": true,
+      "sha256_cell_png": "b280077ae7a8f623e8b9146658cb20597bfad619a3354e2e89976f010b5289fc"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 1,
+      "reviewed": 632,
+      "ocr": 632,
+      "ocr_raw": "632",
+      "box": [
+        572,
+        945,
+        679,
+        963
+      ],
+      "match": true,
+      "sha256_cell_png": "50c75066fcd5eee9c1cb6ee3e2e7f3e7d78937a9129f972b190a9dab5cf33c46"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 2,
+      "reviewed": 2450,
+      "ocr": 2450,
+      "ocr_raw": "2,450",
+      "box": [
+        1157,
+        945,
+        1263,
+        963
+      ],
+      "match": true,
+      "sha256_cell_png": "2853c4b41e09b9567c27021d50d03134d52a5b027c3ef18fea77206eb93c945f"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 0,
+      "reviewed": 1566,
+      "ocr": 1566,
+      "ocr_raw": "1,566",
+      "box": [
+        338,
+        974,
+        445,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "07dedaabb0eb1e6209c3fc351a42bde6b093eb20cae36bca1b7579fbf6804984"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 1,
+      "reviewed": 570,
+      "ocr": 570,
+      "ocr_raw": "570",
+      "box": [
+        572,
+        974,
+        679,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "bdce3c8f29da8e782e905a2ac6531151ee515b03fd4110ed47d8fc4ea154ad5a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 2,
+      "reviewed": 9704,
+      "ocr": 9704,
+      "ocr_raw": "9704",
+      "box": [
+        1157,
+        974,
+        1263,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "2a6b150ac3549397ea44ef7f447572727f6c38c54fcc3484e573a56d30735e1b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 0,
+      "reviewed": 7571,
+      "ocr": 7571,
+      "ocr_raw": "7,571",
+      "box": [
+        338,
+        1003,
+        445,
+        1021
+      ],
+      "match": true,
+      "sha256_cell_png": "8dd70740897df786b49d1d3325dd482eb15f48564c7c8b0918ff80ee0c794fed"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 1,
+      "reviewed": 388,
+      "ocr": 388,
+      "ocr_raw": "388",
+      "box": [
+        572,
+        1003,
+        679,
+        1021
+      ],
+      "match": true,
+      "sha256_cell_png": "786cd36278772630a6da81e93bcdf32617e9add9222471bc563b4d50d53c9bd9"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 2,
+      "reviewed": 40041,
+      "ocr": 40041,
+      "ocr_raw": "40,041",
+      "box": [
+        1157,
+        1003,
+        1263,
+        1021
+      ],
+      "match": true,
+      "sha256_cell_png": "5998d4f60ecfe1c615c02fd894641c1f76ae0a765102c5a84823234c68718b6b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 0,
+      "reviewed": 3660,
+      "ocr": 3660,
+      "ocr_raw": "3,660",
+      "box": [
+        338,
+        1031,
+        445,
+        1049
+      ],
+      "match": true,
+      "sha256_cell_png": "233ce4ffb1f64728a0786b4d08d5e999cf69797732c37e0cde87200a8361f4e3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 1,
+      "reviewed": 1354,
+      "ocr": 1354,
+      "ocr_raw": "1,354",
+      "box": [
+        572,
+        1031,
+        679,
+        1049
+      ],
+      "match": true,
+      "sha256_cell_png": "9daf82dbe58609743e8e49b1fa1e226176cc2a4817ddb78d1e671e74c2a625b1"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 2,
+      "reviewed": 6755,
+      "ocr": 6755,
+      "ocr_raw": "6,755",
+      "box": [
+        1157,
+        1031,
+        1263,
+        1049
+      ],
+      "match": true,
+      "sha256_cell_png": "2a19e71d9dffac5d143f46792581cbeb2b54d37e3dd28782381173da38bba108"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 0,
+      "reviewed": 1189,
+      "ocr": 1189,
+      "ocr_raw": "1,189",
+      "box": [
+        338,
+        1060,
+        445,
+        1078
+      ],
+      "match": true,
+      "sha256_cell_png": "ded8366a342a37c663cca4c64b3571586d6d5048f893c5386bf23c6e1912a300"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 1,
+      "reviewed": 1267,
+      "ocr": 1267,
+      "ocr_raw": "1,267",
+      "box": [
+        572,
+        1060,
+        679,
+        1078
+      ],
+      "match": true,
+      "sha256_cell_png": "d6470f5ac7c80a27c16d93296065b4ee148ecb1ef439a5b120a99f6b5312b0a7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 2,
+      "reviewed": 905,
+      "ocr": 905,
+      "ocr_raw": "905",
+      "box": [
+        1157,
+        1060,
+        1263,
+        1078
+      ],
+      "match": true,
+      "sha256_cell_png": "cfb1d8ab50b59a7e11a2f6095491a50dfbedad99563ae91abc44f37747915358"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 0,
+      "reviewed": 2210,
+      "ocr": 2210,
+      "ocr_raw": "2,210",
+      "box": [
+        338,
+        1089,
+        445,
+        1107
+      ],
+      "match": true,
+      "sha256_cell_png": "3241f55bb6c8555d3fa06d41be93fa613dc0d1880123776b5564876b68ddaa51"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 1,
+      "reviewed": 2341,
+      "ocr": 2341,
+      "ocr_raw": "2,341",
+      "box": [
+        572,
+        1089,
+        679,
+        1107
+      ],
+      "match": true,
+      "sha256_cell_png": "a172af885daa1f16a0b553754daf0924fe7c2656e2670e6de7b1e0585597adfe"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 2,
+      "reviewed": 1124,
+      "ocr": 1124,
+      "ocr_raw": "1,124",
+      "box": [
+        1157,
+        1089,
+        1263,
+        1107
+      ],
+      "match": true,
+      "sha256_cell_png": "d81faaf637008d6e677e39976d4601e58145c60978435d42cebbdca8999f0282"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 0,
+      "reviewed": 1154,
+      "ocr": 1154,
+      "ocr_raw": "1,154",
+      "box": [
+        338,
+        1118,
+        445,
+        1136
+      ],
+      "match": true,
+      "sha256_cell_png": "b3ab31016754b0b7309f22253f9a5310390bab659ec7139292261dbfb0ce71e5"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 1,
+      "reviewed": 1496,
+      "ocr": 1496,
+      "ocr_raw": "1,496",
+      "box": [
+        572,
+        1118,
+        679,
+        1136
+      ],
+      "match": true,
+      "sha256_cell_png": "ed0b490c691741aa4c85b2df9182b4926b102955b1e5d22b3601aea87f388b4e"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        1157,
+        1118,
+        1263,
+        1136
+      ],
+      "match": true,
+      "sha256_cell_png": "4d34e03fe5834fd2f7bffe3a31918d0cd671360e43705d608cecdf1b9571e61c",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 0,
+      "reviewed": 984,
+      "ocr": 984,
+      "ocr_raw": "984",
+      "box": [
+        338,
+        1146,
+        445,
+        1164
+      ],
+      "match": true,
+      "sha256_cell_png": "fd1d319683b78b12cc7be1ebf42fe3268fcb0b3665c3abfda31945b5a4445305"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 1,
+      "reviewed": 1068,
+      "ocr": 1068,
+      "ocr_raw": "1,068",
+      "box": [
+        572,
+        1146,
+        679,
+        1164
+      ],
+      "match": true,
+      "sha256_cell_png": "1f4bf238720312acceae8280c032a74dff321ca820a3926ee1a7e01e74e42f83"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 2,
+      "reviewed": 400,
+      "ocr": 400,
+      "ocr_raw": "400",
+      "box": [
+        1157,
+        1146,
+        1263,
+        1164
+      ],
+      "match": true,
+      "sha256_cell_png": "98d928bd505e3ed4ea60fb648df8fae95e110ec3bb4cb0f4f922f5d68df36f75"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 0,
+      "reviewed": 1144,
+      "ocr": 1144,
+      "ocr_raw": "1,144",
+      "box": [
+        338,
+        1175,
+        445,
+        1193
+      ],
+      "match": true,
+      "sha256_cell_png": "859a04c7f53d26721f637e5cd76d6f2c264d0f3289ab7c85259c0a8de23c62c0"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 1,
+      "reviewed": 650,
+      "ocr": 650,
+      "ocr_raw": "650",
+      "box": [
+        572,
+        1175,
+        679,
+        1193
+      ],
+      "match": true,
+      "sha256_cell_png": "9a094bc533ad600b37767bc5030ea91fe0e0d91026ea234d918f36c0b537d030"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 2,
+      "reviewed": 2706,
+      "ocr": 2706,
+      "ocr_raw": "2,706",
+      "box": [
+        1157,
+        1175,
+        1263,
+        1193
+      ],
+      "match": true,
+      "sha256_cell_png": "6ea0df02958da99fcddebb949e11d68f5272be3d26be62051e18dd25e2842929"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 0,
+      "reviewed": 2329,
+      "ocr": 2329,
+      "ocr_raw": "2,329",
+      "box": [
+        338,
+        1204,
+        445,
+        1222
+      ],
+      "match": true,
+      "sha256_cell_png": "e561dcf3376fc069a2a840bd1bc6ce2a7279829253c2dd4928f10df3eb5c8688"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 1,
+      "reviewed": 1776,
+      "ocr": 1776,
+      "ocr_raw": "1,776",
+      "box": [
+        572,
+        1204,
+        679,
+        1222
+      ],
+      "match": true,
+      "sha256_cell_png": "75e067294ffdf2ccadeebaffa7192977158a82164b287129819be72298bcf436"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 2,
+      "reviewed": 10349,
+      "ocr": 10349,
+      "ocr_raw": "10,349",
+      "box": [
+        1157,
+        1204,
+        1263,
+        1222
+      ],
+      "match": true,
+      "sha256_cell_png": "0c44d3291da16893c9bbb10aee5cb30dbf95ae5a5de5ed1116c8e2c0d9f21ef9"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 0,
+      "reviewed": 924,
+      "ocr": 924,
+      "ocr_raw": "924",
+      "box": [
+        338,
+        1232,
+        445,
+        1250
+      ],
+      "match": true,
+      "sha256_cell_png": "10b14075ee628f4bf9d3e55876103fd12462e83e72437da527abfb6a47de6d3d"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 1,
+      "reviewed": 1819,
+      "ocr": 1819,
+      "ocr_raw": "1,819",
+      "box": [
+        572,
+        1232,
+        679,
+        1250
+      ],
+      "match": true,
+      "sha256_cell_png": "f7af85372ae7818d2023af339e3ebce8aab49a957718b73806b7c0cf00291712"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 2,
+      "reviewed": 2831,
+      "ocr": 2831,
+      "ocr_raw": "2,831",
+      "box": [
+        1157,
+        1232,
+        1263,
+        1250
+      ],
+      "match": true,
+      "sha256_cell_png": "52bb121e089851ac990076dfc0567502ba5f70fedf3f4915b8ff232cb51b949a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 0,
+      "reviewed": 1180,
+      "ocr": 1180,
+      "ocr_raw": "1,180",
+      "box": [
+        338,
+        1261,
+        445,
+        1279
+      ],
+      "match": true,
+      "sha256_cell_png": "b9298258c3753ae5ca239b1d9f27f0b9ba2370abbaef87755c3c83b2c6c8d0eb"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 1,
+      "reviewed": 928,
+      "ocr": 928,
+      "ocr_raw": "928",
+      "box": [
+        572,
+        1261,
+        679,
+        1279
+      ],
+      "match": true,
+      "sha256_cell_png": "3064c545f54126f6e834a450c9efc5ef5be1a6dfbff31a2c0cb5563e3110366c"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 2,
+      "reviewed": 559,
+      "ocr": 559,
+      "ocr_raw": "559",
+      "box": [
+        1157,
+        1261,
+        1263,
+        1279
+      ],
+      "match": true,
+      "sha256_cell_png": "a33c5f4fe5cb2e68a599c46a5aeeb7decf7e29736b256a4558ec59b0273a89d8"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 0,
+      "reviewed": 826,
+      "ocr": 826,
+      "ocr_raw": "826",
+      "box": [
+        338,
+        1290,
+        445,
+        1308
+      ],
+      "match": true,
+      "sha256_cell_png": "a6db01c3b3f6b3a9341cc55445d2aec4dd345e8c969107e03166bab2cc14a6e0"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 1,
+      "reviewed": 574,
+      "ocr": 574,
+      "ocr_raw": "574",
+      "box": [
+        572,
+        1290,
+        679,
+        1308
+      ],
+      "match": true,
+      "sha256_cell_png": "3977e879cc5b03c81fa6c1a3f926530d64c586ee447d776f0004612c63676d28"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 2,
+      "reviewed": 823,
+      "ocr": 823,
+      "ocr_raw": "823",
+      "box": [
+        1157,
+        1290,
+        1263,
+        1308
+      ],
+      "match": true,
+      "sha256_cell_png": "7c79e4d666ba6e2c01431b4ca314cdbd9146e2a9a1be62812633617f837187a5"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 0,
+      "reviewed": 1420,
+      "ocr": 1420,
+      "ocr_raw": "1,420",
+      "box": [
+        338,
+        1318,
+        445,
+        1336
+      ],
+      "match": true,
+      "sha256_cell_png": "6e495633a078ed8bfdfbe1b9d9bf1ba8513b65df45b30e8bbbdafc6d863e0a1b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 1,
+      "reviewed": 2145,
+      "ocr": 2145,
+      "ocr_raw": "2,145",
+      "box": [
+        572,
+        1318,
+        679,
+        1336
+      ],
+      "match": true,
+      "sha256_cell_png": "d0e0c1cfc3164f3b2e150b4a8a043fa66e2b04e00a078257cc678aebd34e5867"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 2,
+      "reviewed": 2591,
+      "ocr": 2591,
+      "ocr_raw": "2,591",
+      "box": [
+        1157,
+        1318,
+        1263,
+        1336
+      ],
+      "match": true,
+      "sha256_cell_png": "41222cb69c6ad0eac1f26654b54a3d442b2da8bd4bf48613a06be46ab6632d63"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 0,
+      "reviewed": 876,
+      "ocr": 876,
+      "ocr_raw": "876",
+      "box": [
+        338,
+        1347,
+        445,
+        1365
+      ],
+      "match": true,
+      "sha256_cell_png": "76b2a476062a22e9ed3455d1704753d0bc53f0a3cf9e4970373cb8b4f46a44b7"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 1,
+      "reviewed": 683,
+      "ocr": 683,
+      "ocr_raw": "683",
+      "box": [
+        572,
+        1347,
+        679,
+        1365
+      ],
+      "match": true,
+      "sha256_cell_png": "765f2cdcbc06d26761e994db77b7143968b431851ea6b02f19e1ecd982eaa214"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 2,
+      "reviewed": 2195,
+      "ocr": 2195,
+      "ocr_raw": "2,195",
+      "box": [
+        1157,
+        1347,
+        1263,
+        1365
+      ],
+      "match": true,
+      "sha256_cell_png": "0d10fe50bfd0dd5bff7bb1adead2b3d88fb145acd602b43332f29e3f30879251"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 0,
+      "reviewed": 1357,
+      "ocr": 1357,
+      "ocr_raw": "1,357",
+      "box": [
+        338,
+        1376,
+        445,
+        1394
+      ],
+      "match": true,
+      "sha256_cell_png": "2cdc96d7d115049c63317da9bfd8fab409c7055f0bf980dea2eb41b61abe6ec2"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 1,
+      "reviewed": 2232,
+      "ocr": 2232,
+      "ocr_raw": "2,232",
+      "box": [
+        572,
+        1376,
+        679,
+        1394
+      ],
+      "match": true,
+      "sha256_cell_png": "b2bb2c6e95e1deabda7197facb13581abd7371f84055198fde89ce9970703972"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 2,
+      "reviewed": 7915,
+      "ocr": 7915,
+      "ocr_raw": "7,915",
+      "box": [
+        1157,
+        1376,
+        1263,
+        1394
+      ],
+      "match": true,
+      "sha256_cell_png": "76c882cf0c9b611e4db979a7ce3a34634779b48ba44388ccb8637f5e5bf5b5c3"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 0,
+      "reviewed": 1798,
+      "ocr": 1798,
+      "ocr_raw": "1,798",
+      "box": [
+        338,
+        1404,
+        445,
+        1422
+      ],
+      "match": true,
+      "sha256_cell_png": "c78f1b0d2139de8e2c493987b64250e5c7864221da45b0f57d8a8c4fe3f511a9"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 1,
+      "reviewed": 797,
+      "ocr": 797,
+      "ocr_raw": "797",
+      "box": [
+        572,
+        1404,
+        679,
+        1422
+      ],
+      "match": true,
+      "sha256_cell_png": "978c055d4083c12e7e6f0ac264bf372815887d7eb641229b2f4d16f48b147aac"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 2,
+      "reviewed": 1234,
+      "ocr": 1234,
+      "ocr_raw": "1,234",
+      "box": [
+        1157,
+        1404,
+        1263,
+        1422
+      ],
+      "match": true,
+      "sha256_cell_png": "ff16c383010fab7c815959b9f8293c1ce7a1eea59721f3642985a79aaf1db013"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 0,
+      "reviewed": 366,
+      "ocr": 366,
+      "ocr_raw": "366",
+      "box": [
+        338,
+        1433,
+        445,
+        1451
+      ],
+      "match": true,
+      "sha256_cell_png": "a0f47a72c881b9186ed8f2c797c099acc33b7c721e165c3316cd57a414eabf41"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 1,
+      "reviewed": 1032,
+      "ocr": 1032,
+      "ocr_raw": "1,032",
+      "box": [
+        572,
+        1433,
+        679,
+        1451
+      ],
+      "match": true,
+      "sha256_cell_png": "e447e1da37b2185d3b894d71d14e7a9c97d29856bad7d8301003ffa16aaf062a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 2,
+      "reviewed": 167,
+      "ocr": 167,
+      "ocr_raw": "167",
+      "box": [
+        1157,
+        1433,
+        1263,
+        1451
+      ],
+      "match": true,
+      "sha256_cell_png": "aed964798b5df771349cf6d6713a81bf634340fdb86488d9606213ebd3cfddb8"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 0,
+      "reviewed": 912,
+      "ocr": 912,
+      "ocr_raw": "912",
+      "box": [
+        338,
+        1462,
+        445,
+        1480
+      ],
+      "match": true,
+      "sha256_cell_png": "1c26fdc9c24de405aa6ef93c7b9f5afadd141ea66f10db62e5d058ee6d34bc6f"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 1,
+      "reviewed": 1470,
+      "ocr": 1470,
+      "ocr_raw": "1,470",
+      "box": [
+        572,
+        1462,
+        679,
+        1480
+      ],
+      "match": true,
+      "sha256_cell_png": "993c336edf4bd23bfac829f69fdad4733cdfa033ba8bae752ec75b85632079cb"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 2,
+      "reviewed": 3780,
+      "ocr": 3780,
+      "ocr_raw": "3,780",
+      "box": [
+        1157,
+        1462,
+        1263,
+        1480
+      ],
+      "match": true,
+      "sha256_cell_png": "c5af4a80072d49607d0dc59cb2304daf97e9bf10dff50c543b8dd20bdb49efac"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 0,
+      "reviewed": 604,
+      "ocr": 604,
+      "ocr_raw": "604",
+      "box": [
+        338,
+        1491,
+        445,
+        1509
+      ],
+      "match": true,
+      "sha256_cell_png": "260dcb7b5067538cbc546a28a1e5717ea02d985871eff95ddb81c70953c4348f"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 1,
+      "reviewed": 1675,
+      "ocr": 1675,
+      "ocr_raw": "1,675",
+      "box": [
+        572,
+        1491,
+        679,
+        1509
+      ],
+      "match": true,
+      "sha256_cell_png": "9a4587c4c938cc0f94e6ad7f4d4304b21ca3dc4f1376092ad2816ff792efe8a2"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 2,
+      "reviewed": 1812,
+      "ocr": 1812,
+      "ocr_raw": "1,812",
+      "box": [
+        1157,
+        1491,
+        1263,
+        1509
+      ],
+      "match": true,
+      "sha256_cell_png": "df1ff2d6f82acc3bd790d59a11e473699ec10dc889765c7c70025f45a78a0417"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 0,
+      "reviewed": 1020,
+      "ocr": 1020,
+      "ocr_raw": "1,020",
+      "box": [
+        338,
+        1519,
+        445,
+        1537
+      ],
+      "match": true,
+      "sha256_cell_png": "750edb678275d93ef0fc0a04e93ebaa508d013c288d86470a5def2e7ab08873a"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 1,
+      "reviewed": 1224,
+      "ocr": 1224,
+      "ocr_raw": "1,224",
+      "box": [
+        572,
+        1519,
+        679,
+        1537
+      ],
+      "match": true,
+      "sha256_cell_png": "fab89514cebd02b57818d9086f59a2df13a6003584837040ffc434c546806dc5"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 2,
+      "reviewed": 1460,
+      "ocr": 1460,
+      "ocr_raw": "1,460",
+      "box": [
+        1157,
+        1519,
+        1263,
+        1537
+      ],
+      "match": true,
+      "sha256_cell_png": "e0e90306d0f616b40f1297479138048037dccb2e8423ac7172bab788090075bb"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 0,
+      "reviewed": 1006,
+      "ocr": 1006,
+      "ocr_raw": "1,006",
+      "box": [
+        338,
+        1548,
+        445,
+        1566
+      ],
+      "match": true,
+      "sha256_cell_png": "2eaa6a276a0d31d2a46474b68b3124082e38635e6fee8838f071bf4f3b5a4b13"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 1,
+      "reviewed": 2366,
+      "ocr": 2366,
+      "ocr_raw": "2,366",
+      "box": [
+        572,
+        1548,
+        679,
+        1566
+      ],
+      "match": true,
+      "sha256_cell_png": "35989ad1abc8cb6f796cd308b298103c76d2a08b1c19711b462550ed9eb3a5ad"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 2,
+      "reviewed": 2740,
+      "ocr": 2740,
+      "ocr_raw": "2,740",
+      "box": [
+        1157,
+        1548,
+        1263,
+        1566
+      ],
+      "match": true,
+      "sha256_cell_png": "99a83cb2bd42f88dcddd37f72d01e3840be57a9cbf76e902b30f028576c96712"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 0,
+      "reviewed": 16,
+      "ocr": 16,
+      "ocr_raw": "16",
+      "box": [
+        338,
+        1577,
+        445,
+        1595
+      ],
+      "match": true,
+      "sha256_cell_png": "88358a6d941067421b95e65a3d451ccbe8ab5a2172a03f7cf548645b34869770"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 1,
+      "reviewed": 274,
+      "ocr": 274,
+      "ocr_raw": "274",
+      "box": [
+        572,
+        1577,
+        679,
+        1595
+      ],
+      "match": true,
+      "sha256_cell_png": "2861d32ec6b699698a5111bcb1e9e15a96bf1b96a7a69f8584f264db76e75c5b"
+    },
+    {
+      "year": 2025,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        1157,
+        1577,
+        1263,
+        1595
+      ],
+      "match": true,
+      "sha256_cell_png": "fe97c485329a2628d5359029e933b2251f7a7f22bf67d520a593d01fd85bcc71",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 0,
+      "reviewed": 31477,
+      "ocr": 31477,
+      "ocr_raw": "31,477",
+      "box": [
+        425,
+        422,
+        592,
+        442
+      ],
+      "match": true,
+      "sha256_cell_png": "b42b49e5ecb5f61248fe28fb5ae7d7b3ebfaa4594cd23db9932a8158b80cf3cb"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 1,
+      "reviewed": 47451,
+      "ocr": 47451,
+      "ocr_raw": "47,451",
+      "box": [
+        605,
+        422,
+        773,
+        442
+      ],
+      "match": true,
+      "sha256_cell_png": "a4f5814360e4d32f0efd8a6559c2998076af5e1e554ff3a6a36191c8913c976f"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 2,
+      "reviewed": 9292,
+      "ocr": 9292,
+      "ocr_raw": "9292",
+      "box": [
+        785,
+        422,
+        953,
+        442
+      ],
+      "match": true,
+      "sha256_cell_png": "92f664174c1357ad2e8b4ab0ac8d146571237c0c321697ee068947e8101acd74"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 3,
+      "reviewed": 1021,
+      "ocr": 1021,
+      "ocr_raw": "1,021",
+      "box": [
+        965,
+        422,
+        1133,
+        442
+      ],
+      "match": true,
+      "sha256_cell_png": "4e4009239b96b5a6bdbdfc7631b71574024c8416ae8404485ea1ac0736f09e72"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 4,
+      "reviewed": 89241,
+      "ocr": 8924,
+      "ocr_raw": "89,24",
+      "box": [
+        1145,
+        422,
+        1313,
+        442
+      ],
+      "match": false,
+      "sha256_cell_png": "686250a35deee4772488e44abca3b4e73eae2c2b78caf32fb2cc085190c1e667",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 89241,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 0,
+      "reviewed": 66105,
+      "ocr": 66105,
+      "ocr_raw": "66,105",
+      "box": [
+        425,
+        537,
+        592,
+        557
+      ],
+      "match": true,
+      "sha256_cell_png": "d5b068319241b0162905b8706b8121cf4d284e5fae52687825b79d07255ef6d7"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 1,
+      "reviewed": 38672,
+      "ocr": 38672,
+      "ocr_raw": "38,672",
+      "box": [
+        605,
+        537,
+        773,
+        557
+      ],
+      "match": true,
+      "sha256_cell_png": "1d995f2d3d3c9ee8c0b9174a1c93fa651483be1a19792d731e49a5210842ee98"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 2,
+      "reviewed": 12474,
+      "ocr": 12474,
+      "ocr_raw": "12,474",
+      "box": [
+        785,
+        537,
+        953,
+        557
+      ],
+      "match": true,
+      "sha256_cell_png": "3a68758f790015eff025f6ff98ade69282dadbff60b6ac6880b48f5aac6df12e"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 3,
+      "reviewed": 2321,
+      "ocr": 2321,
+      "ocr_raw": "2,321",
+      "box": [
+        965,
+        537,
+        1133,
+        557
+      ],
+      "match": true,
+      "sha256_cell_png": "5c3b9c378a22d3a36d92325ab9a93ffc045dcf0ffb541704221afafc6c96687a"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 4,
+      "reviewed": 119573,
+      "ocr": 119573,
+      "ocr_raw": "119,573",
+      "box": [
+        1145,
+        537,
+        1313,
+        557
+      ],
+      "match": true,
+      "sha256_cell_png": "a8803149bd7ecfcd1fcf6b54348cad562080f2d356399abec71cf092b9ffe1ff"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 0,
+      "reviewed": 24731,
+      "ocr": 24731,
+      "ocr_raw": "24,731",
+      "box": [
+        425,
+        652,
+        592,
+        672
+      ],
+      "match": true,
+      "sha256_cell_png": "845dd47421685def3c20c1e17764f12db21465b37992eff910e7f082ca254e4f"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 1,
+      "reviewed": 19760,
+      "ocr": 19760,
+      "ocr_raw": "19,760",
+      "box": [
+        605,
+        652,
+        773,
+        672
+      ],
+      "match": true,
+      "sha256_cell_png": "927544229066e0e66e85f090ae9d1d5d6202b56a49976111435a46be848bac57"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 2,
+      "reviewed": 25165,
+      "ocr": 25165,
+      "ocr_raw": "25,165",
+      "box": [
+        785,
+        652,
+        953,
+        672
+      ],
+      "match": true,
+      "sha256_cell_png": "a9bb542c4c764179778dd1bc79b295634aecfbb6e1f467da8d80f742965eed0b"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 3,
+      "reviewed": 3021,
+      "ocr": 3021,
+      "ocr_raw": "3,021",
+      "box": [
+        965,
+        652,
+        1133,
+        672
+      ],
+      "match": true,
+      "sha256_cell_png": "1284deb9bf6590081efb72d7a7eb34aefd942cf2b9428335b5a65ad9eca2c87f"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 4,
+      "reviewed": 72677,
+      "ocr": 72677,
+      "ocr_raw": "72,677",
+      "box": [
+        1145,
+        652,
+        1313,
+        672
+      ],
+      "match": true,
+      "sha256_cell_png": "9be4a31160ed36e7e4ee9ba34a06232cadab6583bb4dac3ae22da722ad912321"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 0,
+      "reviewed": 29350,
+      "ocr": 29350,
+      "ocr_raw": "29350",
+      "box": [
+        425,
+        766,
+        592,
+        786
+      ],
+      "match": true,
+      "sha256_cell_png": "294f46c0ea80a405d1210613720948b0341fe0b2c0749047ebcfa7539d1dd4d8"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 1,
+      "reviewed": 38980,
+      "ocr": 38980,
+      "ocr_raw": "38,980",
+      "box": [
+        605,
+        766,
+        773,
+        786
+      ],
+      "match": true,
+      "sha256_cell_png": "e4432f9937c821dcdc8a734cefd6f37b43e9c9999b96df488c08a288b182eb2e"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 2,
+      "reviewed": 18395,
+      "ocr": 18395,
+      "ocr_raw": "18,395",
+      "box": [
+        785,
+        766,
+        953,
+        786
+      ],
+      "match": true,
+      "sha256_cell_png": "ac748c64c706729c0bf4fc2bdc9182303dac0b9032b48a0ce1d0e5c1aaf26fec"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 3,
+      "reviewed": 2448,
+      "ocr": 2448,
+      "ocr_raw": "2,448",
+      "box": [
+        965,
+        766,
+        1133,
+        786
+      ],
+      "match": true,
+      "sha256_cell_png": "c5f8838ed40edb15d7ed2b75af7df6693712d03fcec797e8130716b7fa8e8aca"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 4,
+      "reviewed": 89173,
+      "ocr": 89173,
+      "ocr_raw": "89173",
+      "box": [
+        1145,
+        766,
+        1313,
+        786
+      ],
+      "match": true,
+      "sha256_cell_png": "aef191ae66629d9cc0541f4ecde710923fbeac385d4b82883657d81c3243f2eb"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 0,
+      "reviewed": 44881,
+      "ocr": 4488,
+      "ocr_raw": "4488",
+      "box": [
+        425,
+        881,
+        592,
+        901
+      ],
+      "match": false,
+      "sha256_cell_png": "18b18b9ae8dd7a33b3519c53d04f077c82cd8a2ed6b13a0c1d423f3459785792",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 44881,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 1,
+      "reviewed": 24188,
+      "ocr": 24188,
+      "ocr_raw": "24188",
+      "box": [
+        605,
+        881,
+        773,
+        901
+      ],
+      "match": true,
+      "sha256_cell_png": "f642d9724a36ddd47ed40509b813984ec88a36f59460cefd32e216efd6590628"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 2,
+      "reviewed": 9453,
+      "ocr": 9453,
+      "ocr_raw": "9453",
+      "box": [
+        785,
+        881,
+        953,
+        901
+      ],
+      "match": true,
+      "sha256_cell_png": "6d4b2ae2de23e662285460fa22c2bb89234f678dfb490c2e08cbd56f40e75a83"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 3,
+      "reviewed": 597,
+      "ocr": 597,
+      "ocr_raw": "597",
+      "box": [
+        965,
+        881,
+        1133,
+        901
+      ],
+      "match": true,
+      "sha256_cell_png": "28fc5158d7df0755ed151e20e66e243d623468d16574f7fab5595962dfe34293"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 4,
+      "reviewed": 79119,
+      "ocr": 79119,
+      "ocr_raw": "79,119",
+      "box": [
+        1145,
+        881,
+        1313,
+        901
+      ],
+      "match": true,
+      "sha256_cell_png": "f54b19566d387198dd7f691ee1ff16ee6fc19fa93c17e4aebc4c96e1cc2d4f10"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 0,
+      "reviewed": 21495,
+      "ocr": 21495,
+      "ocr_raw": "21,495",
+      "box": [
+        425,
+        996,
+        592,
+        1016
+      ],
+      "match": true,
+      "sha256_cell_png": "dc5785f3bf3ca4bf409264d8272e804d5104f338e903b5a8e0ecd42581055889"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 1,
+      "reviewed": 7345,
+      "ocr": 7345,
+      "ocr_raw": "7,345",
+      "box": [
+        605,
+        996,
+        773,
+        1016
+      ],
+      "match": true,
+      "sha256_cell_png": "a5d7406d486baeff5173eecac56f504f79734dea0a3d0cd09b9407bc9d99a2dd"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 2,
+      "reviewed": 6035,
+      "ocr": 6035,
+      "ocr_raw": "6,035",
+      "box": [
+        785,
+        996,
+        953,
+        1016
+      ],
+      "match": true,
+      "sha256_cell_png": "9fdee1a1cdd4783779da4210f4eb800c4039391faeb18ea15ebe180d5e01112d"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 3,
+      "reviewed": 276,
+      "ocr": 276,
+      "ocr_raw": "276",
+      "box": [
+        965,
+        996,
+        1133,
+        1016
+      ],
+      "match": true,
+      "sha256_cell_png": "2fdbf0d0b874745f14164eabacc67d983e0c6ff9edf2f083c95c3103ab1f0a4c"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 4,
+      "reviewed": 35150,
+      "ocr": 35150,
+      "ocr_raw": "35,150",
+      "box": [
+        1145,
+        996,
+        1313,
+        1016
+      ],
+      "match": true,
+      "sha256_cell_png": "44ba46edc7159c1eff436e975da6df7ae4f80253bddc686d0d5e5d9ef31638d9"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 0,
+      "reviewed": 17221,
+      "ocr": 17221,
+      "ocr_raw": "17,221",
+      "box": [
+        425,
+        1110,
+        592,
+        1130
+      ],
+      "match": true,
+      "sha256_cell_png": "572c929195fd2274c452c38b1c1a29460537e6701207212146040f7a5f07d844"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 1,
+      "reviewed": 17078,
+      "ocr": 17078,
+      "ocr_raw": "17,078",
+      "box": [
+        605,
+        1110,
+        773,
+        1130
+      ],
+      "match": true,
+      "sha256_cell_png": "61f07846caeea4b4d3cd4009e52acb8f69000606d43097d3f4f1f4e8ecd49297"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 2,
+      "reviewed": 3844,
+      "ocr": 3844,
+      "ocr_raw": "3,844",
+      "box": [
+        785,
+        1110,
+        953,
+        1130
+      ],
+      "match": true,
+      "sha256_cell_png": "d96dfabddee6da68d0c493403d3c94c82d75b5ebfec92a4d6c02e02c5d2f7b69"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 3,
+      "reviewed": 1405,
+      "ocr": 1405,
+      "ocr_raw": "1,405",
+      "box": [
+        965,
+        1110,
+        1133,
+        1130
+      ],
+      "match": true,
+      "sha256_cell_png": "f0fd6b26dcd84f0c3ecb7dda071fa934c96635c6b3221682c22e707fedbac188"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 4,
+      "reviewed": 39548,
+      "ocr": 39548,
+      "ocr_raw": "39,548",
+      "box": [
+        1145,
+        1110,
+        1313,
+        1130
+      ],
+      "match": true,
+      "sha256_cell_png": "59b58ee4084acb906400721316cdaea182c602980fcf8c211bb6559f5e23dd55"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 0,
+      "reviewed": 42861,
+      "ocr": 42861,
+      "ocr_raw": "42861",
+      "box": [
+        425,
+        1225,
+        592,
+        1245
+      ],
+      "match": true,
+      "sha256_cell_png": "dde0533503575cbdcf40926dcee1a6cff3fb09b5def0c6dd9652a58953a170e6"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 1,
+      "reviewed": 17309,
+      "ocr": 17309,
+      "ocr_raw": "17,309",
+      "box": [
+        605,
+        1225,
+        773,
+        1245
+      ],
+      "match": true,
+      "sha256_cell_png": "9936ed682d6c7012ecff598837f8a03e8e5f300107a93fd20aa865d44ff327a2"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 2,
+      "reviewed": 7767,
+      "ocr": 7767,
+      "ocr_raw": "7,767",
+      "box": [
+        785,
+        1225,
+        953,
+        1245
+      ],
+      "match": true,
+      "sha256_cell_png": "6d648bbad60662e58a4641d83f1a4fac9e80ac268a29fa0e6555e881d3859acb"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 3,
+      "reviewed": 512,
+      "ocr": 512,
+      "ocr_raw": "512",
+      "box": [
+        965,
+        1225,
+        1133,
+        1245
+      ],
+      "match": true,
+      "sha256_cell_png": "00e09f110f32166ad8e5be889bed25c36490be5790a99ede99a903dbde549869"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 4,
+      "reviewed": 68449,
+      "ocr": 68449,
+      "ocr_raw": "68,449",
+      "box": [
+        1145,
+        1225,
+        1313,
+        1245
+      ],
+      "match": true,
+      "sha256_cell_png": "78983af846b99465ace3be348a7c5af12df8af0630d448b1953553eb8608f921"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 0,
+      "reviewed": 53026,
+      "ocr": 53026,
+      "ocr_raw": "53026",
+      "box": [
+        425,
+        1454,
+        592,
+        1474
+      ],
+      "match": true,
+      "sha256_cell_png": "5fcda6ffcd1ca0c8ce72f532bf235d768e98d4f7c1f38b2159bf332c429c1480"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 1,
+      "reviewed": 18373,
+      "ocr": 18373,
+      "ocr_raw": "18373",
+      "box": [
+        605,
+        1454,
+        773,
+        1474
+      ],
+      "match": true,
+      "sha256_cell_png": "08a638d63311405dbe82df089c42da43d1944f8373ca3e14b6d19d8a1f1de3cc"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 2,
+      "reviewed": 4082,
+      "ocr": 4082,
+      "ocr_raw": "4082",
+      "box": [
+        785,
+        1454,
+        953,
+        1474
+      ],
+      "match": true,
+      "sha256_cell_png": "ab5fa9a1d8a0ea2f482729b88ea4b2238c9ac8d270f1ea3cd3c515a213c3507d"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 3,
+      "reviewed": 483,
+      "ocr": 483,
+      "ocr_raw": "483",
+      "box": [
+        965,
+        1454,
+        1133,
+        1474
+      ],
+      "match": true,
+      "sha256_cell_png": "b6e0382a853265fee7fcd91780d3e286a4f68d9580e0c5f13f1d248937f82fba"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 4,
+      "reviewed": 75965,
+      "ocr": 75965,
+      "ocr_raw": "75,965",
+      "box": [
+        1145,
+        1454,
+        1313,
+        1474
+      ],
+      "match": true,
+      "sha256_cell_png": "5952f3c71166bd93d46d066a780f3cce4dbb79eeaef198d31a496133e458cf45"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 0,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        425,
+        1568,
+        592,
+        1588
+      ],
+      "match": true,
+      "sha256_cell_png": "3a0ab293d552a4056d0946300163d8d708d138ab40a58f3910bd71ffb5b328f0",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 1,
+      "reviewed": 2672,
+      "ocr": 62,
+      "ocr_raw": "62",
+      "box": [
+        605,
+        1568,
+        773,
+        1588
+      ],
+      "match": false,
+      "sha256_cell_png": "8852367c030bb3856e9f2251b07f0c0f7be375ea75bbcc44ebb2bf362d62e435",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 2672,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        785,
+        1568,
+        953,
+        1588
+      ],
+      "match": true,
+      "sha256_cell_png": "639d77296eeb26badcd45ba07da9d5f4b7c160f197033034e897dbd6817c838d",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 3,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        965,
+        1568,
+        1133,
+        1588
+      ],
+      "match": true,
+      "sha256_cell_png": "ebaf1f5159df47b792c8d4c368536860076ba49100039d6b8fdf197c2bc2f3f8",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2025,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 4,
+      "reviewed": 2672,
+      "ocr": 62,
+      "ocr_raw": "62",
+      "box": [
+        1145,
+        1568,
+        1313,
+        1588
+      ],
+      "match": false,
+      "sha256_cell_png": "ae1e717b0497be7bf75380360fb3a7357c69600e69a6891942418261ff734934",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 2672,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 0,
+      "reviewed": 9800,
+      "ocr": 9800,
+      "ocr_raw": "9800",
+      "box": [
+        322,
+        284,
+        438,
+        302
+      ],
+      "match": true,
+      "sha256_cell_png": "be3d2978798fb5211bd7ed247fd857b6ba834b51802c5d4df3ea7631006e8369"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 1,
+      "reviewed": 4119,
+      "ocr": 4119,
+      "ocr_raw": "4119",
+      "box": [
+        564,
+        284,
+        675,
+        302
+      ],
+      "match": true,
+      "sha256_cell_png": "9252cd0ce59c5cbcde3d735ff554cc332bb873a5702ca71dc695fee255f2a412"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "北海道",
+      "column": 2,
+      "reviewed": 4171,
+      "ocr": 4171,
+      "ocr_raw": "4171",
+      "box": [
+        1169,
+        284,
+        1278,
+        302
+      ],
+      "match": true,
+      "sha256_cell_png": "1b6cc3801d35547f7225a6c78ca7567881a77d4b86eaf1a3056b94607b892ff8"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 0,
+      "reviewed": 1182,
+      "ocr": 1182,
+      "ocr_raw": "1,182",
+      "box": [
+        322,
+        313,
+        438,
+        331
+      ],
+      "match": true,
+      "sha256_cell_png": "83f8ec4bb4dae1fab0827fcaa41343878c02d0f7d91da6329265e5b2d45e5e68"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 1,
+      "reviewed": 741,
+      "ocr": 741,
+      "ocr_raw": "741",
+      "box": [
+        564,
+        313,
+        675,
+        331
+      ],
+      "match": true,
+      "sha256_cell_png": "2b1f0d1538126e447c1e7aad0437856187d8e5b25d08c3d09d4d83bca86c064f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "青森県",
+      "column": 2,
+      "reviewed": 1048,
+      "ocr": 1048,
+      "ocr_raw": "1,048",
+      "box": [
+        1169,
+        313,
+        1278,
+        331
+      ],
+      "match": true,
+      "sha256_cell_png": "770966ead6373a3fa49cadec22cbe7ea8d910bb1b7777051e0ea87343dc20297"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 0,
+      "reviewed": 402,
+      "ocr": 402,
+      "ocr_raw": "402",
+      "box": [
+        322,
+        342,
+        438,
+        360
+      ],
+      "match": true,
+      "sha256_cell_png": "a072e8a961c1e64812b64182daf99ecf924481e12fdccfb1b4a069bb451b98f9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 1,
+      "reviewed": 626,
+      "ocr": 626,
+      "ocr_raw": "626",
+      "box": [
+        564,
+        342,
+        675,
+        360
+      ],
+      "match": true,
+      "sha256_cell_png": "7181bc3034afe48a959ef529e14887fddc24ddb309e426b605cb5a1a574e7520"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岩手県",
+      "column": 2,
+      "reviewed": 590,
+      "ocr": 590,
+      "ocr_raw": "590",
+      "box": [
+        1169,
+        342,
+        1278,
+        360
+      ],
+      "match": true,
+      "sha256_cell_png": "f1a8594b875d1b91a965b96f59f0d41ecd6073b73ff60f21895c46adf788d163"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 0,
+      "reviewed": 746,
+      "ocr": 746,
+      "ocr_raw": "746",
+      "box": [
+        322,
+        371,
+        438,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "e94c7f57a428dc8f2838c0132ee6276b62d9b50e19254c9ca246ea03ec0a98ae"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 1,
+      "reviewed": 871,
+      "ocr": 871,
+      "ocr_raw": "871",
+      "box": [
+        564,
+        371,
+        675,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "8b33d9016f643ffd854afffd10564f7565644641eef18c807d81c42f42f5d593"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮城県",
+      "column": 2,
+      "reviewed": 5434,
+      "ocr": 5434,
+      "ocr_raw": "5,434",
+      "box": [
+        1169,
+        371,
+        1278,
+        389
+      ],
+      "match": true,
+      "sha256_cell_png": "46d997eb13234827649762f80451af9e83b3d950c0d078d87117ce3008da61d8"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 0,
+      "reviewed": 1136,
+      "ocr": 1136,
+      "ocr_raw": "1,136",
+      "box": [
+        322,
+        400,
+        438,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "799c67bd3d91ee491f5667c424c83bea12e7bd5e05d232b59fc1663a98aed7f4"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 1,
+      "reviewed": 698,
+      "ocr": 698,
+      "ocr_raw": "698",
+      "box": [
+        564,
+        400,
+        675,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "191f2de3fc964eb98a3553aab8194c0be4a6aed2dfd2eab1a01e6eae9cd9d6a9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "秋田県",
+      "column": 2,
+      "reviewed": 814,
+      "ocr": 814,
+      "ocr_raw": "814",
+      "box": [
+        1169,
+        400,
+        1278,
+        418
+      ],
+      "match": true,
+      "sha256_cell_png": "572e4e74bfff0cc90db1b69c4abdebfe863c27aa0b2e253a2c089c2d0470bfcf"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 0,
+      "reviewed": 686,
+      "ocr": 686,
+      "ocr_raw": "686",
+      "box": [
+        322,
+        428,
+        438,
+        446
+      ],
+      "match": true,
+      "sha256_cell_png": "f0b98fb1a6cc2ecaa1c249da648f7e112e00d947d0665a4cc0998d036d367b57"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 1,
+      "reviewed": 504,
+      "ocr": 504,
+      "ocr_raw": "504",
+      "box": [
+        564,
+        428,
+        675,
+        446
+      ],
+      "match": true,
+      "sha256_cell_png": "77f0d797c382bb75f8a26513d9f33e1df10beef09c1b4c6b82c151acab3131a8"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山形県",
+      "column": 2,
+      "reviewed": 2311,
+      "ocr": 2311,
+      "ocr_raw": "2311",
+      "box": [
+        1169,
+        428,
+        1278,
+        446
+      ],
+      "match": true,
+      "sha256_cell_png": "0b153a12b06fdfa99aea4fe5d029a9b6c20ba583822a5d3cf36c92e71b1562d0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 0,
+      "reviewed": 738,
+      "ocr": 738,
+      "ocr_raw": "738",
+      "box": [
+        322,
+        457,
+        438,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "f937724efe51cb496dea2d78c3c3f4f0e820917a6823713af962ffaf88b7f568"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 1,
+      "reviewed": 385,
+      "ocr": 385,
+      "ocr_raw": "385",
+      "box": [
+        564,
+        457,
+        675,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "760d748e7213f37fa02fde37881a8939caab8fa08f6df314177738d3a915759b"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福島県",
+      "column": 2,
+      "reviewed": 1531,
+      "ocr": 1531,
+      "ocr_raw": "1,531",
+      "box": [
+        1169,
+        457,
+        1278,
+        475
+      ],
+      "match": true,
+      "sha256_cell_png": "9d61ded0594388cf17db5bd777b1cf2c6458cbe70872bf72dff69947ccc5a171"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 0,
+      "reviewed": 707,
+      "ocr": 707,
+      "ocr_raw": "707",
+      "box": [
+        322,
+        486,
+        438,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "5bf006c2103bd85b827f5dc671d3c4697acd53339cc4212f9d5ad12e809e1b55"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 1,
+      "reviewed": 221,
+      "ocr": 221,
+      "ocr_raw": "221",
+      "box": [
+        564,
+        486,
+        675,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "3b1afcf12069e63b7a627203fd7d78170a0b427d977297ec3cde79c22f167226"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "茨城県",
+      "column": 2,
+      "reviewed": 4149,
+      "ocr": 4149,
+      "ocr_raw": "4149",
+      "box": [
+        1169,
+        486,
+        1278,
+        504
+      ],
+      "match": true,
+      "sha256_cell_png": "05328a1bd147624242af540de7b0deb007dac14df6a0605a63cba0b779eeecf0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 0,
+      "reviewed": 2590,
+      "ocr": 2590,
+      "ocr_raw": "2,590",
+      "box": [
+        322,
+        515,
+        438,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "b87d5c928924578ac774d424ee963841d2bc2f6a5cc008c3b504438331b15fb2"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 1,
+      "reviewed": 517,
+      "ocr": 517,
+      "ocr_raw": "517",
+      "box": [
+        564,
+        515,
+        675,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "ab116b10153d1a585b6622c5e7feb6027a207561e840598fcb9ff99df3252054"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "栃木県",
+      "column": 2,
+      "reviewed": 1450,
+      "ocr": 1450,
+      "ocr_raw": "1,450",
+      "box": [
+        1169,
+        515,
+        1278,
+        533
+      ],
+      "match": true,
+      "sha256_cell_png": "2ff8decd988e587e9a3606fb61513f0cfb98f70f78d7e2bafa77a794584d070c"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 0,
+      "reviewed": 294,
+      "ocr": 294,
+      "ocr_raw": "294",
+      "box": [
+        322,
+        544,
+        438,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "058a4e0067efe24c01996f400e683acf4a1832f2b2defba5ff6be64d03a8b3a9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 1,
+      "reviewed": 851,
+      "ocr": 851,
+      "ocr_raw": "851",
+      "box": [
+        564,
+        544,
+        675,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "9d5313248d0d87381dde8f519e00e2e24a1c7a6c21b6a885d54a3382f82cc0aa"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "群馬県",
+      "column": 2,
+      "reviewed": 1333,
+      "ocr": 1333,
+      "ocr_raw": "1,333",
+      "box": [
+        1169,
+        544,
+        1278,
+        562
+      ],
+      "match": true,
+      "sha256_cell_png": "f68ff79db58cf0c5487ab5d6ea4cc646af656810b3c26fe7d5efd7a5bf0b5bea"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 0,
+      "reviewed": 2576,
+      "ocr": 2576,
+      "ocr_raw": "2,576",
+      "box": [
+        322,
+        572,
+        438,
+        590
+      ],
+      "match": true,
+      "sha256_cell_png": "f96f7574c08930406bbdd741fdb334013b21265cf6182d52d2b39dd28831f897"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 1,
+      "reviewed": 579,
+      "ocr": 579,
+      "ocr_raw": "579",
+      "box": [
+        564,
+        572,
+        675,
+        590
+      ],
+      "match": true,
+      "sha256_cell_png": "0d0c959b701a0c2e957c663675c18c8141285c173276ed8389aaa96233522c0e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "埼玉県",
+      "column": 2,
+      "reviewed": 11747,
+      "ocr": 11747,
+      "ocr_raw": "11,747",
+      "box": [
+        1169,
+        572,
+        1278,
+        590
+      ],
+      "match": true,
+      "sha256_cell_png": "36d55648bafce5f265c927812c43761e38f4fe004639bff3ab59aea627855610"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 0,
+      "reviewed": 1820,
+      "ocr": 1820,
+      "ocr_raw": "1,820",
+      "box": [
+        322,
+        601,
+        438,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "aa971dc4c1093a59d1c0ed4e772dce21538b45749fc49c03f9241f2819f6e7c4"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 1,
+      "reviewed": 507,
+      "ocr": 507,
+      "ocr_raw": "507",
+      "box": [
+        564,
+        601,
+        675,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "9cbca937bf45a6ee32d0d068c61ba66ad71cb2dddf016e4538cfbecd3b1dfd2a"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "千葉県",
+      "column": 2,
+      "reviewed": 12741,
+      "ocr": 12741,
+      "ocr_raw": "12,741",
+      "box": [
+        1169,
+        601,
+        1278,
+        619
+      ],
+      "match": true,
+      "sha256_cell_png": "4b3da9512fb47acc428a771567fdcae7661ca9cfec63689e32aed56734fddd00"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 0,
+      "reviewed": 706,
+      "ocr": 706,
+      "ocr_raw": "706",
+      "box": [
+        322,
+        630,
+        438,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "5a8881c2aecc96c403ab6c8b783cde576079d129285b055a568d7a93f4199309"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 1,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        564,
+        630,
+        675,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "7d800454f8715247f535da2378f3ff51a10a6f0d6683d8a527fc3006343c2d6d",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "東京都",
+      "column": 2,
+      "reviewed": 19659,
+      "ocr": 19659,
+      "ocr_raw": "19,659",
+      "box": [
+        1169,
+        630,
+        1278,
+        648
+      ],
+      "match": true,
+      "sha256_cell_png": "e844d679bbd3318c3b1adc7e36bc069a6a7bd396c04d70a87abc99c7eb204883"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 0,
+      "reviewed": 3081,
+      "ocr": 3081,
+      "ocr_raw": "3,081",
+      "box": [
+        322,
+        659,
+        438,
+        677
+      ],
+      "match": true,
+      "sha256_cell_png": "48f383a3184a93bb817ffa1c4e7b66d61486bd0b74802684ecb8f22d14702880"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 1,
+      "reviewed": 1827,
+      "ocr": 1827,
+      "ocr_raw": "1,827",
+      "box": [
+        564,
+        659,
+        675,
+        677
+      ],
+      "match": true,
+      "sha256_cell_png": "28dfc692145d16cc2e7f42a82fa8417836811639fc363d64a56e6231bf707c4e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "神奈川県",
+      "column": 2,
+      "reviewed": 18289,
+      "ocr": 18289,
+      "ocr_raw": "18,289",
+      "box": [
+        1169,
+        659,
+        1278,
+        677
+      ],
+      "match": true,
+      "sha256_cell_png": "d5b4ac5f9d9c14b7f0f7e70e9499dbe497e960dece6b85493f73063971ba0bcc"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 0,
+      "reviewed": 558,
+      "ocr": 558,
+      "ocr_raw": "558",
+      "box": [
+        322,
+        688,
+        438,
+        706
+      ],
+      "match": true,
+      "sha256_cell_png": "fa15a4313b4eaef62f637eddd768d8728861283d3448f96d5dcd4bd8ed4a1004"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 1,
+      "reviewed": 1805,
+      "ocr": 1805,
+      "ocr_raw": "1,805",
+      "box": [
+        564,
+        688,
+        675,
+        706
+      ],
+      "match": true,
+      "sha256_cell_png": "53a1bcebe46ed2bcdb6f40e1a5afc6d68461b00cb4a8c9bf18e9f6aaaee7b9bf"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山梨県",
+      "column": 2,
+      "reviewed": 445,
+      "ocr": 445,
+      "ocr_raw": "445",
+      "box": [
+        1169,
+        688,
+        1278,
+        706
+      ],
+      "match": true,
+      "sha256_cell_png": "7d2c1c7488326a1bc705b6c7ba90e7f537dd2ecc7865ef811fe8523bf8f8958a"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 0,
+      "reviewed": 760,
+      "ocr": 760,
+      "ocr_raw": "760",
+      "box": [
+        322,
+        716,
+        438,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "60b47682890ab47e39eb856799c5508c4a67bb98602fe523706f8c7a7e0eac53"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 1,
+      "reviewed": 4951,
+      "ocr": 4951,
+      "ocr_raw": "4,951",
+      "box": [
+        564,
+        716,
+        675,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "c16fbc9dc248ef27264e07bf31e230f86ac2563542f3b926ce9d5e4071d2ec8a"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長野県",
+      "column": 2,
+      "reviewed": 935,
+      "ocr": 935,
+      "ocr_raw": "935",
+      "box": [
+        1169,
+        716,
+        1278,
+        734
+      ],
+      "match": true,
+      "sha256_cell_png": "528bee082750a802aff16ca26dd9e1850927e95ead9ee32189cf68601481517f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 0,
+      "reviewed": 1873,
+      "ocr": 1873,
+      "ocr_raw": "1,873",
+      "box": [
+        322,
+        745,
+        438,
+        763
+      ],
+      "match": true,
+      "sha256_cell_png": "3d15fff946c2077d6d900bbdffda8dd1d2fedcd32b0764874d31d97b72ff280e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 1,
+      "reviewed": 2053,
+      "ocr": 2053,
+      "ocr_raw": "2,053",
+      "box": [
+        564,
+        745,
+        675,
+        763
+      ],
+      "match": true,
+      "sha256_cell_png": "659d4ef88183b55cf4fe06d8d3160f384f3775790a6661dcaa9dc0d43b768e1e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "新潟県",
+      "column": 2,
+      "reviewed": 5582,
+      "ocr": 5582,
+      "ocr_raw": "5,582",
+      "box": [
+        1169,
+        745,
+        1278,
+        763
+      ],
+      "match": true,
+      "sha256_cell_png": "41c5f9a1e61e9149948e22aeecd4336c5d07a11d601af4c3bd232bbe02fa2161"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 0,
+      "reviewed": 738,
+      "ocr": 738,
+      "ocr_raw": "738",
+      "box": [
+        322,
+        774,
+        438,
+        792
+      ],
+      "match": true,
+      "sha256_cell_png": "bcf1ac79b486db0c37ea317ce3d28892d581baed5883f7c2f1e2db36b6c88bef"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 1,
+      "reviewed": 2757,
+      "ocr": 2757,
+      "ocr_raw": "2,757",
+      "box": [
+        564,
+        774,
+        675,
+        792
+      ],
+      "match": true,
+      "sha256_cell_png": "ce1b70b57a66860632267957f3858a1f84afc41def90074899bb04a7011c8d74"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "富山県",
+      "column": 2,
+      "reviewed": 1028,
+      "ocr": 1028,
+      "ocr_raw": "1,028",
+      "box": [
+        1169,
+        774,
+        1278,
+        792
+      ],
+      "match": true,
+      "sha256_cell_png": "8d80162dd21ffd1829f64b3dbc7e33b4175acd219b455b1e41d459c74808fedf"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 0,
+      "reviewed": 1793,
+      "ocr": 1793,
+      "ocr_raw": "1,793",
+      "box": [
+        322,
+        803,
+        438,
+        821
+      ],
+      "match": true,
+      "sha256_cell_png": "6f0aeba90ffc14f6e9552dc974700882dd2ac64c1e3a3f8e9209360ea86eba2b"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 1,
+      "reviewed": 3823,
+      "ocr": 3823,
+      "ocr_raw": "3,823",
+      "box": [
+        564,
+        803,
+        675,
+        821
+      ],
+      "match": true,
+      "sha256_cell_png": "962a0e1b8d444706fcbf127aacf9822ea9d60631310fe8197fe3d9256bf79397"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "石川県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "-",
+      "box": [
+        1169,
+        803,
+        1278,
+        821
+      ],
+      "match": true,
+      "sha256_cell_png": "f91e3f148d9bb8445c8ac01d438a4908bfbe8afe5cd12a7aec48b47a51c458bf"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 0,
+      "reviewed": 1264,
+      "ocr": 1264,
+      "ocr_raw": "1,264",
+      "box": [
+        322,
+        832,
+        438,
+        850
+      ],
+      "match": true,
+      "sha256_cell_png": "052534e84745ec525fbce491a32200c66f27dee1fdaed0ea2083470fcd48459f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 1,
+      "reviewed": 1475,
+      "ocr": 1475,
+      "ocr_raw": "1,475",
+      "box": [
+        564,
+        832,
+        675,
+        850
+      ],
+      "match": true,
+      "sha256_cell_png": "f55ec73335331820a0770039ae5ea7ddaadab75502e8b10787d5c3234b55c4b7"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岐阜県",
+      "column": 2,
+      "reviewed": 1261,
+      "ocr": 1261,
+      "ocr_raw": "1,261",
+      "box": [
+        1169,
+        832,
+        1278,
+        850
+      ],
+      "match": true,
+      "sha256_cell_png": "1c1dad4baf32442b8b96df26518c2a459570d5065a872f36fc99efce609efae5"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 0,
+      "reviewed": 2306,
+      "ocr": 2306,
+      "ocr_raw": "2,306",
+      "box": [
+        322,
+        860,
+        438,
+        878
+      ],
+      "match": true,
+      "sha256_cell_png": "fc5af2ea03389b61c5824007428044047b9b2ddaaffd897dd0c13ffda942eb13"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 1,
+      "reviewed": 1240,
+      "ocr": 1240,
+      "ocr_raw": "1,240",
+      "box": [
+        564,
+        860,
+        675,
+        878
+      ],
+      "match": true,
+      "sha256_cell_png": "e5f67f927842922a6fb295fba7105d9accb15131add495265fae5575b3e708b6"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "静岡県",
+      "column": 2,
+      "reviewed": 3106,
+      "ocr": 3106,
+      "ocr_raw": "3,106",
+      "box": [
+        1169,
+        860,
+        1278,
+        878
+      ],
+      "match": true,
+      "sha256_cell_png": "6344b5f160b3ecaa5887540fe0832474edccda1882a3bd66361876eb465b4e55"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 0,
+      "reviewed": 5136,
+      "ocr": 5136,
+      "ocr_raw": "5,136",
+      "box": [
+        322,
+        889,
+        438,
+        907
+      ],
+      "match": true,
+      "sha256_cell_png": "1bff41d2e2d7dd731b4ea932e0ffd57d025c4807fe6514cfa5d2edbad2a016dc"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 1,
+      "reviewed": 2308,
+      "ocr": 2308,
+      "ocr_raw": "2,308",
+      "box": [
+        564,
+        889,
+        675,
+        907
+      ],
+      "match": true,
+      "sha256_cell_png": "5b60bf16c839baef49fbd6f428f5050d786734f1309684e34aeeb0d4448d1dba"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛知県",
+      "column": 2,
+      "reviewed": 19347,
+      "ocr": 19347,
+      "ocr_raw": "19,347",
+      "box": [
+        1169,
+        889,
+        1278,
+        907
+      ],
+      "match": true,
+      "sha256_cell_png": "16374ffe1ad3384bb5486a4d08e15d2d3aaf1bc4311909ff1c676305891f3de1"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 0,
+      "reviewed": 791,
+      "ocr": 791,
+      "ocr_raw": "791",
+      "box": [
+        322,
+        918,
+        438,
+        936
+      ],
+      "match": true,
+      "sha256_cell_png": "a298346e2f2fb0e4b7aae388539a1e841a5061123d578b644aa96431b44055a9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 1,
+      "reviewed": 728,
+      "ocr": 728,
+      "ocr_raw": "728",
+      "box": [
+        564,
+        918,
+        675,
+        936
+      ],
+      "match": true,
+      "sha256_cell_png": "debb150d5fa63edcaa9b7722ed434313327ff08140a5de194b85cd8aa8e23c01"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "三重県",
+      "column": 2,
+      "reviewed": 5969,
+      "ocr": 5969,
+      "ocr_raw": "5969",
+      "box": [
+        1169,
+        918,
+        1278,
+        936
+      ],
+      "match": true,
+      "sha256_cell_png": "667b5b770260ad007e81b46dafe88b3d6164fd46b3cad3147b498e8ad7d0920d"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 0,
+      "reviewed": 430,
+      "ocr": 430,
+      "ocr_raw": "430",
+      "box": [
+        322,
+        947,
+        438,
+        965
+      ],
+      "match": true,
+      "sha256_cell_png": "e50906e5d451b09c9e24400721741b0f4964e598b8579b87b5c954b3d507aac9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 1,
+      "reviewed": 146,
+      "ocr": 146,
+      "ocr_raw": "146",
+      "box": [
+        564,
+        947,
+        675,
+        965
+      ],
+      "match": true,
+      "sha256_cell_png": "75b756d1e111b55ced3cca4fb1da2fcb7d8f6a33c663e61e8ae63777724a2245"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福井県",
+      "column": 2,
+      "reviewed": 8956,
+      "ocr": 8956,
+      "ocr_raw": "8,956",
+      "box": [
+        1169,
+        947,
+        1278,
+        965
+      ],
+      "match": true,
+      "sha256_cell_png": "b4f128b388beb1765a9c1a88b2aaad32aa8245200eefa8cc830be3ff0f2c5b6e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 0,
+      "reviewed": 582,
+      "ocr": 582,
+      "ocr_raw": "582",
+      "box": [
+        322,
+        975,
+        438,
+        993
+      ],
+      "match": true,
+      "sha256_cell_png": "dd2cd4c97edc1f95fa5322ce0771ea89df263f5d3312c2c14afaca3217a10e8f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 1,
+      "reviewed": 670,
+      "ocr": 670,
+      "ocr_raw": "670",
+      "box": [
+        564,
+        975,
+        675,
+        993
+      ],
+      "match": true,
+      "sha256_cell_png": "2eec06c59f759dac32eaa5ed60d0738e50f883d2c55af284a19b9d940b2ceee3"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "滋賀県",
+      "column": 2,
+      "reviewed": 2357,
+      "ocr": 2357,
+      "ocr_raw": "2,357",
+      "box": [
+        1169,
+        975,
+        1278,
+        993
+      ],
+      "match": true,
+      "sha256_cell_png": "22f5d9d79125b9407045046a8bd7c78fa26d977c605e2c0eb6a2cf67bfe54249"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 0,
+      "reviewed": 1244,
+      "ocr": 1244,
+      "ocr_raw": "1,244",
+      "box": [
+        322,
+        1004,
+        438,
+        1022
+      ],
+      "match": true,
+      "sha256_cell_png": "40d02fbf40e46a1d83eeec7642d6cb6c47c669e044337990cffda8cc54eb9e6f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 1,
+      "reviewed": 459,
+      "ocr": 459,
+      "ocr_raw": "459",
+      "box": [
+        564,
+        1004,
+        675,
+        1022
+      ],
+      "match": true,
+      "sha256_cell_png": "9eedda1bed0dd1e98f4b4350b28bf7a3678f3c65f297d3c228180f5f664b7db4"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "京都府",
+      "column": 2,
+      "reviewed": 9752,
+      "ocr": 9752,
+      "ocr_raw": "9,752",
+      "box": [
+        1169,
+        1004,
+        1278,
+        1022
+      ],
+      "match": true,
+      "sha256_cell_png": "5e141d65fea31077ff4b363718089046b95eefcd65ceb08383b7ef47e44405de"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 0,
+      "reviewed": 5819,
+      "ocr": 5819,
+      "ocr_raw": "5,819",
+      "box": [
+        322,
+        1033,
+        438,
+        1051
+      ],
+      "match": true,
+      "sha256_cell_png": "0dcb65bcddb8743d3f1dcaa878c571f1d31821db4193dc70d14eee9a702f5602"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 1,
+      "reviewed": 408,
+      "ocr": 408,
+      "ocr_raw": "408",
+      "box": [
+        564,
+        1033,
+        675,
+        1051
+      ],
+      "match": true,
+      "sha256_cell_png": "56ab5273a3e9e113167e441eaa543fbfbe8dee110fddfa130fddd3e3981837db"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大阪府",
+      "column": 2,
+      "reviewed": 40696,
+      "ocr": 40696,
+      "ocr_raw": "40,696",
+      "box": [
+        1169,
+        1033,
+        1278,
+        1051
+      ],
+      "match": true,
+      "sha256_cell_png": "5ab62fb46bd950ab9f4cb196a13f4decf615afeafcde389a2ae8676e9369f907"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 0,
+      "reviewed": 2855,
+      "ocr": 2855,
+      "ocr_raw": "2,855",
+      "box": [
+        322,
+        1062,
+        438,
+        1080
+      ],
+      "match": true,
+      "sha256_cell_png": "ea20cf7557f616e1627751c19036036a9e3797ab3d7be4908682f93ed4961187"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 1,
+      "reviewed": 1932,
+      "ocr": 1932,
+      "ocr_raw": "1,932",
+      "box": [
+        564,
+        1062,
+        675,
+        1080
+      ],
+      "match": true,
+      "sha256_cell_png": "130634da173468b1af0dd5b52b9a0df9b5765d0f527d186a7db1f6b677bb8346"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "兵庫県",
+      "column": 2,
+      "reviewed": 10846,
+      "ocr": 10846,
+      "ocr_raw": "10,846",
+      "box": [
+        1169,
+        1062,
+        1278,
+        1080
+      ],
+      "match": true,
+      "sha256_cell_png": "f8b133db85e927d064994a863b10b63a246acf3e599874bfacceb53f35eb2d23"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 0,
+      "reviewed": 1121,
+      "ocr": 1121,
+      "ocr_raw": "1,121",
+      "box": [
+        322,
+        1091,
+        438,
+        1109
+      ],
+      "match": true,
+      "sha256_cell_png": "b6a9180b76b49ea6246335d6f3d495758d613654f9a17bfd1faa90055b05f4e9"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 1,
+      "reviewed": 1283,
+      "ocr": 1283,
+      "ocr_raw": "1,283",
+      "box": [
+        564,
+        1091,
+        675,
+        1109
+      ],
+      "match": true,
+      "sha256_cell_png": "55b16722b10062e9697e8dc4cd16612cecf6316c8fbd6745deaf0bf057d30ae7"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "奈良県",
+      "column": 2,
+      "reviewed": 843,
+      "ocr": 843,
+      "ocr_raw": "843",
+      "box": [
+        1169,
+        1091,
+        1278,
+        1109
+      ],
+      "match": true,
+      "sha256_cell_png": "d5eb525389d416c3fa4fee6eaa4f48e42cb733808a56f7c3514389387a4ad922"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 0,
+      "reviewed": 1764,
+      "ocr": 1764,
+      "ocr_raw": "1,764",
+      "box": [
+        322,
+        1119,
+        438,
+        1137
+      ],
+      "match": true,
+      "sha256_cell_png": "2da5933d71eca9baeb76a47b33327e89e15b357c0f8379223d423bdbc08a40e7"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 1,
+      "reviewed": 1954,
+      "ocr": 1954,
+      "ocr_raw": "1,954",
+      "box": [
+        564,
+        1119,
+        675,
+        1137
+      ],
+      "match": true,
+      "sha256_cell_png": "9cc7dfcde3504226ac7074344316a16b7291f1d3e8bb9b83f61ddeb9bd0f2b6d"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "和歌山県",
+      "column": 2,
+      "reviewed": 1765,
+      "ocr": 1765,
+      "ocr_raw": "1,765",
+      "box": [
+        1169,
+        1119,
+        1278,
+        1137
+      ],
+      "match": true,
+      "sha256_cell_png": "81514cc308a91a607b37a1b37685a221d6dd70e74874a0cd94f44592aa2f40ff"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 0,
+      "reviewed": 858,
+      "ocr": 858,
+      "ocr_raw": "858",
+      "box": [
+        322,
+        1148,
+        438,
+        1166
+      ],
+      "match": true,
+      "sha256_cell_png": "0f729fcfe740e08f665422f5c986165730dc6ceda725989611737a366f05f98e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 1,
+      "reviewed": 1647,
+      "ocr": 1647,
+      "ocr_raw": "1,647",
+      "box": [
+        564,
+        1148,
+        675,
+        1166
+      ],
+      "match": true,
+      "sha256_cell_png": "337be7912a81038a7d31776413d52ddc17209173dc7141005d5602e6a1d553a2"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鳥取県",
+      "column": 2,
+      "reviewed": 843,
+      "ocr": 843,
+      "ocr_raw": "843",
+      "box": [
+        1169,
+        1148,
+        1278,
+        1166
+      ],
+      "match": true,
+      "sha256_cell_png": "40e66e988d16dbac297bb69f424ebaca32b06996b09e658dd75fa57f63f1683c"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 0,
+      "reviewed": 752,
+      "ocr": 752,
+      "ocr_raw": "752",
+      "box": [
+        322,
+        1177,
+        438,
+        1195
+      ],
+      "match": true,
+      "sha256_cell_png": "351495eec8b13f45ce5a284610de12146bc903733bc97f77fbe2be78255df4a8"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 1,
+      "reviewed": 1024,
+      "ocr": 1024,
+      "ocr_raw": "1,024",
+      "box": [
+        564,
+        1177,
+        675,
+        1195
+      ],
+      "match": true,
+      "sha256_cell_png": "abd35d68fb40d5fb2cb74f89a2817d8af2172fbe592a3d7f2d89f3c12edbe5a6"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "島根県",
+      "column": 2,
+      "reviewed": 250,
+      "ocr": 250,
+      "ocr_raw": "250",
+      "box": [
+        1169,
+        1177,
+        1278,
+        1195
+      ],
+      "match": true,
+      "sha256_cell_png": "5326a2240e0d528b7be70af88f02da2137b83c5bad32c4f95a126493e128d7e8"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 0,
+      "reviewed": 854,
+      "ocr": 854,
+      "ocr_raw": "854",
+      "box": [
+        322,
+        1206,
+        438,
+        1224
+      ],
+      "match": true,
+      "sha256_cell_png": "b2823ec20c108d96e5952b9c792deacaff4f0bd614fe13bcda7be18e117ba2ea"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 1,
+      "reviewed": 444,
+      "ocr": 444,
+      "ocr_raw": "444",
+      "box": [
+        564,
+        1206,
+        675,
+        1224
+      ],
+      "match": true,
+      "sha256_cell_png": "fd23c8fbd3b0425de2dc3766f825ebca3fc8ad88d62e92022b36fa343994cb0c"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "岡山県",
+      "column": 2,
+      "reviewed": 5319,
+      "ocr": 5319,
+      "ocr_raw": "5319",
+      "box": [
+        1169,
+        1206,
+        1278,
+        1224
+      ],
+      "match": true,
+      "sha256_cell_png": "827e553f391a05046d01994419299b2fddb25a67a8ba4c6c2140f37afce6ba0e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 0,
+      "reviewed": 1765,
+      "ocr": 1765,
+      "ocr_raw": "1,765",
+      "box": [
+        322,
+        1235,
+        438,
+        1253
+      ],
+      "match": true,
+      "sha256_cell_png": "b8586bc5c188df87490a418699fcaa895edaa693f38469aef04993b72c6f5816"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 1,
+      "reviewed": 2128,
+      "ocr": 2128,
+      "ocr_raw": "2,128",
+      "box": [
+        564,
+        1235,
+        675,
+        1253
+      ],
+      "match": true,
+      "sha256_cell_png": "c0af1b306f4035c23656cbbfe99c0eddc555ed1d6b7099dc3345eb991e54c646"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "広島県",
+      "column": 2,
+      "reviewed": 20563,
+      "ocr": 20563,
+      "ocr_raw": "20,563",
+      "box": [
+        1169,
+        1235,
+        1278,
+        1253
+      ],
+      "match": true,
+      "sha256_cell_png": "a05fa08b466a782206f539e286f7f131ccd32c89391d47db109c1144d0485b30"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 0,
+      "reviewed": 694,
+      "ocr": 694,
+      "ocr_raw": "694",
+      "box": [
+        322,
+        1263,
+        438,
+        1281
+      ],
+      "match": true,
+      "sha256_cell_png": "598fadc5d70a63479423559da22fd0f8af3a4e6324f885967a49ac5254031e4e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 1,
+      "reviewed": 2043,
+      "ocr": 2043,
+      "ocr_raw": "2,043",
+      "box": [
+        564,
+        1263,
+        675,
+        1281
+      ],
+      "match": true,
+      "sha256_cell_png": "602283cf262482a94e3c84fa766bb766b0f1ace12281d50218b4ff7edcfca8b0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "山口県",
+      "column": 2,
+      "reviewed": 5579,
+      "ocr": 5579,
+      "ocr_raw": "5579",
+      "box": [
+        1169,
+        1263,
+        1278,
+        1281
+      ],
+      "match": true,
+      "sha256_cell_png": "4b6a6a7ba65e3eebb0bef29804aafb04fef1c3cf66f53b79fac63c2c3cbdb9a7"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 0,
+      "reviewed": 902,
+      "ocr": 902,
+      "ocr_raw": "902",
+      "box": [
+        322,
+        1292,
+        438,
+        1310
+      ],
+      "match": true,
+      "sha256_cell_png": "c1b34e27b6ab93a5ba866fc4a72bc5606b9c4222899d1bfef20254aeec8c4add"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 1,
+      "reviewed": 1189,
+      "ocr": 1189,
+      "ocr_raw": "1,189",
+      "box": [
+        564,
+        1292,
+        675,
+        1310
+      ],
+      "match": true,
+      "sha256_cell_png": "cd9e50a1807dab5c0833316070eb1d8a500eba58d866fd054db849d63c749a05"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "徳島県",
+      "column": 2,
+      "reviewed": 662,
+      "ocr": 662,
+      "ocr_raw": "662",
+      "box": [
+        1169,
+        1292,
+        1278,
+        1310
+      ],
+      "match": true,
+      "sha256_cell_png": "e37cba4955522d310b35fa08ae0e88d305fc6d21cbe2b8abd3d72930b4f48153"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 0,
+      "reviewed": 630,
+      "ocr": 630,
+      "ocr_raw": "630",
+      "box": [
+        322,
+        1321,
+        438,
+        1339
+      ],
+      "match": true,
+      "sha256_cell_png": "4ea1a32ce1c444a54003232e5db73cd2fe0115c26d309feba444d26a6e3455bf"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 1,
+      "reviewed": 716,
+      "ocr": 716,
+      "ocr_raw": "716",
+      "box": [
+        564,
+        1321,
+        675,
+        1339
+      ],
+      "match": true,
+      "sha256_cell_png": "5b0f27ac6ac541af315cf4009e0bdde3d572ada7fbcf9d78d46fd2dfe6e90a52"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "香川県",
+      "column": 2,
+      "reviewed": 3083,
+      "ocr": 3083,
+      "ocr_raw": "3,083",
+      "box": [
+        1169,
+        1321,
+        1278,
+        1339
+      ],
+      "match": true,
+      "sha256_cell_png": "6bb36146f919eeaa258236c9195f9ba023704ff03db0644851ffc5d9a61383b1"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 0,
+      "reviewed": 1049,
+      "ocr": 1049,
+      "ocr_raw": "1,049",
+      "box": [
+        322,
+        1350,
+        438,
+        1368
+      ],
+      "match": true,
+      "sha256_cell_png": "90b5467ba73b9b08ef87d82e35eaa29cf129bd6e47dfc5712b06f3394e8c81ff"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 1,
+      "reviewed": 2164,
+      "ocr": 2164,
+      "ocr_raw": "2,164",
+      "box": [
+        564,
+        1350,
+        675,
+        1368
+      ],
+      "match": true,
+      "sha256_cell_png": "4426f468c08fb2be7fbd6fc5bcb94288a8a113a382336810c613b2d751c49cef"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "愛媛県",
+      "column": 2,
+      "reviewed": 759,
+      "ocr": 759,
+      "ocr_raw": "759",
+      "box": [
+        1169,
+        1350,
+        1278,
+        1368
+      ],
+      "match": true,
+      "sha256_cell_png": "3b1fadc040560ce9728ed753af31a7c8d2af153dd7fd17fc02e6c72f1c68d8db"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 0,
+      "reviewed": 692,
+      "ocr": 692,
+      "ocr_raw": "692",
+      "box": [
+        322,
+        1379,
+        438,
+        1397
+      ],
+      "match": true,
+      "sha256_cell_png": "eeab7a510bae3aec160a93e2610821f29670b577ff881dccc8667db25312b99f"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 1,
+      "reviewed": 665,
+      "ocr": 665,
+      "ocr_raw": "665",
+      "box": [
+        564,
+        1379,
+        675,
+        1397
+      ],
+      "match": true,
+      "sha256_cell_png": "f36aa11db5a37f7df9cd24ab452754852abb99c7ad7f3868a83ec156abd6128b"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "高知県",
+      "column": 2,
+      "reviewed": 1288,
+      "ocr": 1288,
+      "ocr_raw": "1,288",
+      "box": [
+        1169,
+        1379,
+        1278,
+        1397
+      ],
+      "match": true,
+      "sha256_cell_png": "443657178753db1a96c409b901c79102fa5ba95e5c905b692f20e0ac35c3b92c"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 0,
+      "reviewed": 906,
+      "ocr": 906,
+      "ocr_raw": "906",
+      "box": [
+        322,
+        1407,
+        438,
+        1425
+      ],
+      "match": true,
+      "sha256_cell_png": "5e9255ee1db2249c48a9ba021dca08b1256b6202db603758309986b252d37bb4"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 1,
+      "reviewed": 1750,
+      "ocr": 1750,
+      "ocr_raw": "1,750",
+      "box": [
+        564,
+        1407,
+        675,
+        1425
+      ],
+      "match": true,
+      "sha256_cell_png": "d66fbdb6b4575f0e122d3cea1d68c7c5242e0f4d09ba21a058fa9b2dbeada454"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "福岡県",
+      "column": 2,
+      "reviewed": 13291,
+      "ocr": 13291,
+      "ocr_raw": "13,291",
+      "box": [
+        1169,
+        1407,
+        1278,
+        1425
+      ],
+      "match": true,
+      "sha256_cell_png": "ac1fb0954cd46b9b72b151b1f55b8f2558c4b8fa23f15a8cd0284a3e78a6308a"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 0,
+      "reviewed": 1324,
+      "ocr": 1324,
+      "ocr_raw": "1,324",
+      "box": [
+        322,
+        1436,
+        438,
+        1454
+      ],
+      "match": true,
+      "sha256_cell_png": "f2ee084d3c9d683686fec78d2b86a51865cc8933b7094772577574f42bf7ffa7"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 1,
+      "reviewed": 460,
+      "ocr": 460,
+      "ocr_raw": "460",
+      "box": [
+        564,
+        1436,
+        675,
+        1454
+      ],
+      "match": true,
+      "sha256_cell_png": "6b04089cf9593f20cab696004aa93d882e059348538422de0850f59fd8020f6e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "佐賀県",
+      "column": 2,
+      "reviewed": 928,
+      "ocr": 928,
+      "ocr_raw": "928",
+      "box": [
+        1169,
+        1436,
+        1278,
+        1454
+      ],
+      "match": true,
+      "sha256_cell_png": "a1980523205681e5fbaf95b81734a96bf40b1b5cb5fafa90e19408ae77babdd0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 0,
+      "reviewed": 278,
+      "ocr": 278,
+      "ocr_raw": "278",
+      "box": [
+        322,
+        1465,
+        438,
+        1483
+      ],
+      "match": true,
+      "sha256_cell_png": "58c85e7af11796e81f32dcd6c6c8beaa41a78cd07eae9a34ef6653f55a6026f0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 1,
+      "reviewed": 1386,
+      "ocr": 1386,
+      "ocr_raw": "1,386",
+      "box": [
+        564,
+        1465,
+        675,
+        1483
+      ],
+      "match": true,
+      "sha256_cell_png": "338377a074809086c68fed9abc2114c002c14ea2953ef322a769114865f67c88"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "長崎県",
+      "column": 2,
+      "reviewed": 533,
+      "ocr": 533,
+      "ocr_raw": "533",
+      "box": [
+        1169,
+        1465,
+        1278,
+        1483
+      ],
+      "match": true,
+      "sha256_cell_png": "b6acbf69030a22a695de0c4057e019df4097c22bc11adfa3dbdd3541b575f535"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 0,
+      "reviewed": 746,
+      "ocr": 746,
+      "ocr_raw": "746",
+      "box": [
+        322,
+        1494,
+        438,
+        1512
+      ],
+      "match": true,
+      "sha256_cell_png": "baa5ce13020e9c51ecf8a9d88832863fe0e5ce0f1ea241135713526838748559"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 1,
+      "reviewed": 1217,
+      "ocr": 1217,
+      "ocr_raw": "1,217",
+      "box": [
+        564,
+        1494,
+        675,
+        1512
+      ],
+      "match": true,
+      "sha256_cell_png": "e24fa52c306b25918e22d8c450aca2ef95e55c021ca61e72011b026625d0ffe6"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "熊本県",
+      "column": 2,
+      "reviewed": 1669,
+      "ocr": 1669,
+      "ocr_raw": "1,669",
+      "box": [
+        1169,
+        1494,
+        1278,
+        1512
+      ],
+      "match": true,
+      "sha256_cell_png": "d111b16df52b3795a6bdf29e6ffd17540dcfe463f2628ba4b3ad88b634f3c95c"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 0,
+      "reviewed": 484,
+      "ocr": 484,
+      "ocr_raw": "484",
+      "box": [
+        322,
+        1522,
+        438,
+        1540
+      ],
+      "match": true,
+      "sha256_cell_png": "42b119e92622cf834f06f1e9beee7d9f5edf629d226cd62e0595059ebde5b514"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 1,
+      "reviewed": 1676,
+      "ocr": 1676,
+      "ocr_raw": "1,676",
+      "box": [
+        564,
+        1522,
+        675,
+        1540
+      ],
+      "match": true,
+      "sha256_cell_png": "298388acdc603bb7c3cd87a086fa105da09d192b86660c866ca4b9bee5132642"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "大分県",
+      "column": 2,
+      "reviewed": 2495,
+      "ocr": 2495,
+      "ocr_raw": "2,495",
+      "box": [
+        1169,
+        1522,
+        1278,
+        1540
+      ],
+      "match": true,
+      "sha256_cell_png": "23155d602c3c11ce4a3d5332c5c6f57d9f2aaa161dea1f0a854d412eb07bdc98"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 0,
+      "reviewed": 810,
+      "ocr": 810,
+      "ocr_raw": "810",
+      "box": [
+        322,
+        1551,
+        438,
+        1569
+      ],
+      "match": true,
+      "sha256_cell_png": "93ee5b920a07187bbc6c54de8b8a68225a0b640f5cfb7741aaffc165bbc956c0"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 1,
+      "reviewed": 1052,
+      "ocr": 1052,
+      "ocr_raw": "1,052",
+      "box": [
+        564,
+        1551,
+        675,
+        1569
+      ],
+      "match": true,
+      "sha256_cell_png": "8ba8e7b459e503cd388f5c830e685a71e0ea888443cce25f79ab2bc6db5d8ef6"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "宮崎県",
+      "column": 2,
+      "reviewed": 1013,
+      "ocr": 1013,
+      "ocr_raw": "1,013",
+      "box": [
+        1169,
+        1551,
+        1278,
+        1569
+      ],
+      "match": true,
+      "sha256_cell_png": "e7f7f154e5a8e07008dec28fe0cf319065789e6c3105c33a389a00383773df5e"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 0,
+      "reviewed": 808,
+      "ocr": 808,
+      "ocr_raw": "808",
+      "box": [
+        322,
+        1580,
+        438,
+        1598
+      ],
+      "match": true,
+      "sha256_cell_png": "9932910c3931bd2654c763f0915928d634971ca206382ce3ee22a37c96f9da45"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 1,
+      "reviewed": 2356,
+      "ocr": 2356,
+      "ocr_raw": "2,356",
+      "box": [
+        564,
+        1580,
+        675,
+        1598
+      ],
+      "match": true,
+      "sha256_cell_png": "f03d83ce337c28030ebf4f106e7fe508ac770b7d2fa7326d89deb69bfc646b38"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "鹿児島県",
+      "column": 2,
+      "reviewed": 2699,
+      "ocr": 2699,
+      "ocr_raw": "2699",
+      "box": [
+        1169,
+        1580,
+        1278,
+        1598
+      ],
+      "match": true,
+      "sha256_cell_png": "a087aa3fb2d70c0f7df6de116148131829ee5c5b5be5c0f107648851d52e0896"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 0,
+      "reviewed": 16,
+      "ocr": 16,
+      "ocr_raw": "16",
+      "box": [
+        322,
+        1609,
+        438,
+        1627
+      ],
+      "match": true,
+      "sha256_cell_png": "24e10d7d39e6dad13e9fce6f46cf626f5987496e76870296f668e26a9a7ada76"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 1,
+      "reviewed": 254,
+      "ocr": 254,
+      "ocr_raw": "254",
+      "box": [
+        564,
+        1609,
+        675,
+        1627
+      ],
+      "match": true,
+      "sha256_cell_png": "fe150b36e7e1b2950da896de0d4216ae7edfba97a03b50c5e3e64885cee02f62"
+    },
+    {
+      "year": 2026,
+      "family": "subsidy",
+      "region": "沖縄県",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        1169,
+        1609,
+        1278,
+        1627
+      ],
+      "match": true,
+      "sha256_cell_png": "6c6674207fffe2878dd8f0ff08323792254258dc7f996124eea5fba502d0b41c",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 0,
+      "reviewed": 32829,
+      "ocr": 32829,
+      "ocr_raw": "32,829",
+      "box": [
+        442,
+        424,
+        602,
+        444
+      ],
+      "match": true,
+      "sha256_cell_png": "9b02dd1520aec7326b9f91c9bdce9d3612b2cc4a6ba62e120456dd2ffbc36061"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 1,
+      "reviewed": 49594,
+      "ocr": 49594,
+      "ocr_raw": "49594",
+      "box": [
+        615,
+        424,
+        773,
+        444
+      ],
+      "match": true,
+      "sha256_cell_png": "e2e891492f966abd3f815445a1ce4403bc20b5a9b5dde9bd2b35512458feda75"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 2,
+      "reviewed": 9921,
+      "ocr": 9921,
+      "ocr_raw": "9921",
+      "box": [
+        787,
+        424,
+        946,
+        444
+      ],
+      "match": true,
+      "sha256_cell_png": "38e6e986387ad34834a7a3e47345d8ddbca52b4cce34e15773e0d74f36280a99"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 3,
+      "reviewed": 1024,
+      "ocr": 1024,
+      "ocr_raw": "1,024",
+      "box": [
+        959,
+        424,
+        1117,
+        444
+      ],
+      "match": true,
+      "sha256_cell_png": "484752045ffb2d4b3c001f42a744bb38d3ff49250987d2bc07fd558295df9d29"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "東北地方整備局",
+      "column": 4,
+      "reviewed": 93367,
+      "ocr": 93367,
+      "ocr_raw": "93,367",
+      "box": [
+        1130,
+        424,
+        1290,
+        444
+      ],
+      "match": true,
+      "sha256_cell_png": "6403b64bf55bd37d201634f27c1afd3f6a37d6483c0775c0efd732a96afe2556"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 0,
+      "reviewed": 68641,
+      "ocr": 68641,
+      "ocr_raw": "68,641",
+      "box": [
+        442,
+        534,
+        602,
+        554
+      ],
+      "match": true,
+      "sha256_cell_png": "1d829c21bebfd8669e2fe90a70a3a5d8955f996432af5b29424a12e857a04252"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 1,
+      "reviewed": 32594,
+      "ocr": 32594,
+      "ocr_raw": "32,594",
+      "box": [
+        615,
+        534,
+        773,
+        554
+      ],
+      "match": true,
+      "sha256_cell_png": "ab220bf20e3fdf58f0eaea798cbf3c32bf3e59a5c639244a386fd8b356a4aa1e"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 2,
+      "reviewed": 12241,
+      "ocr": 12241,
+      "ocr_raw": "12,241",
+      "box": [
+        787,
+        534,
+        946,
+        554
+      ],
+      "match": true,
+      "sha256_cell_png": "a33365daf407c5618f1291f2b9a36da53f8b7753c8a00a2eaa6c2738b7c61ffc"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 3,
+      "reviewed": 2484,
+      "ocr": 2484,
+      "ocr_raw": "2,484",
+      "box": [
+        959,
+        534,
+        1117,
+        554
+      ],
+      "match": true,
+      "sha256_cell_png": "3ab5116f2fb4534a4a42dab8ec13996169bb877ebe2e90ddf7af1bc1775f272a"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "関東地方整備局",
+      "column": 4,
+      "reviewed": 115959,
+      "ocr": 115959,
+      "ocr_raw": "115,959",
+      "box": [
+        1130,
+        534,
+        1290,
+        554
+      ],
+      "match": true,
+      "sha256_cell_png": "5e88900e2fe9f018f722dc5a8d2db13017aca085cb4d8b39d231d7d63d76a45a"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 0,
+      "reviewed": 25860,
+      "ocr": 25860,
+      "ocr_raw": "25,860",
+      "box": [
+        442,
+        643,
+        602,
+        663
+      ],
+      "match": true,
+      "sha256_cell_png": "0b59a8bce98d0455bb635adf2dd52c23bc8c0dcd534059da09b7358fcc69fd0c"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 1,
+      "reviewed": 19292,
+      "ocr": 19292,
+      "ocr_raw": "19292",
+      "box": [
+        615,
+        643,
+        773,
+        663
+      ],
+      "match": true,
+      "sha256_cell_png": "5b3f963b46b714920064386f7bc2e3d3ed920e754f1ea50348add5bd47197bf6"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 2,
+      "reviewed": 24358,
+      "ocr": 24358,
+      "ocr_raw": "24358",
+      "box": [
+        787,
+        643,
+        946,
+        663
+      ],
+      "match": true,
+      "sha256_cell_png": "f0dc02aa4a5d5775320c9541ac48f2c1b398b770bbd11fc7f89efc92715fdd1f"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 3,
+      "reviewed": 2977,
+      "ocr": 2977,
+      "ocr_raw": "2977",
+      "box": [
+        959,
+        643,
+        1117,
+        663
+      ],
+      "match": true,
+      "sha256_cell_png": "88f0377e091b432840f907d930cc693c45a3bd3c0591c10d94d3468c297cdecf"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北陸地方整備局",
+      "column": 4,
+      "reviewed": 72487,
+      "ocr": 72487,
+      "ocr_raw": "72487",
+      "box": [
+        1130,
+        643,
+        1290,
+        663
+      ],
+      "match": true,
+      "sha256_cell_png": "2c2458a8c199c54fb26183f9ad84958fe8dbed9910a6c0acc6bd8305d9c78fb4"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 0,
+      "reviewed": 30371,
+      "ocr": 30371,
+      "ocr_raw": "30,371",
+      "box": [
+        442,
+        753,
+        602,
+        773
+      ],
+      "match": true,
+      "sha256_cell_png": "454a732eec5a7f47b54bfce119042e709a4f8dc0c855b4cf58e1ade82575df8a"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 1,
+      "reviewed": 38982,
+      "ocr": 38982,
+      "ocr_raw": "38,982",
+      "box": [
+        615,
+        753,
+        773,
+        773
+      ],
+      "match": true,
+      "sha256_cell_png": "7987e81a96cdfa58ddd32789bec1b2e4b31b99489d9e2ee3fd145a360791e857"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 2,
+      "reviewed": 18579,
+      "ocr": 18579,
+      "ocr_raw": "18579",
+      "box": [
+        787,
+        753,
+        946,
+        773
+      ],
+      "match": true,
+      "sha256_cell_png": "dee41625d664c3eba0272f8cc74aef09c8b7f395f6aaa23f70a3815bd07ac94d"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 3,
+      "reviewed": 2188,
+      "ocr": 2188,
+      "ocr_raw": "2,188",
+      "box": [
+        959,
+        753,
+        1117,
+        773
+      ],
+      "match": true,
+      "sha256_cell_png": "337ba3abe2ddc3074379a0480a09a29374552fa926318f4e996f41d395d90694"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中部地方整備局",
+      "column": 4,
+      "reviewed": 90120,
+      "ocr": 90120,
+      "ocr_raw": "90,120",
+      "box": [
+        1130,
+        753,
+        1290,
+        773
+      ],
+      "match": true,
+      "sha256_cell_png": "4540883f4a1b426b2626971306f588e6f81b8786df7b6f472cbb9a52b0231a91"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 0,
+      "reviewed": 48094,
+      "ocr": 48094,
+      "ocr_raw": "48094",
+      "box": [
+        442,
+        863,
+        602,
+        883
+      ],
+      "match": true,
+      "sha256_cell_png": "70a21e30c7e515dd80e87d7b98fa3e053eaac6a1e16ef2e47af8f3b363debe56"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 1,
+      "reviewed": 24974,
+      "ocr": 24974,
+      "ocr_raw": "24974",
+      "box": [
+        615,
+        863,
+        773,
+        883
+      ],
+      "match": true,
+      "sha256_cell_png": "7de1c2864c242ddba8507aa453838e3918ce9c2e0cd0e8aa9ba7acf8695bb387"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 2,
+      "reviewed": 9448,
+      "ocr": 448,
+      "ocr_raw": "448",
+      "box": [
+        787,
+        863,
+        946,
+        883
+      ],
+      "match": false,
+      "sha256_cell_png": "95c0b8fde30c2006fe0d4b28495aef622bb6493f8698b5f99015163a1e4463d4",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 9448,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 3,
+      "reviewed": 585,
+      "ocr": 585,
+      "ocr_raw": "585",
+      "box": [
+        959,
+        863,
+        1117,
+        883
+      ],
+      "match": true,
+      "sha256_cell_png": "404412ef7c4f7da5d29bebd2b651b9083e668bb2cad29b302dbf8796ff80027b"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "近畿地方整備局",
+      "column": 4,
+      "reviewed": 83101,
+      "ocr": 83101,
+      "ocr_raw": "83,101",
+      "box": [
+        1130,
+        863,
+        1290,
+        883
+      ],
+      "match": true,
+      "sha256_cell_png": "d316cb159f6414e79c25488c7a0f6aff639d9a605434e8ece9ced0cb0803b93d"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 0,
+      "reviewed": 22319,
+      "ocr": 22319,
+      "ocr_raw": "22319",
+      "box": [
+        442,
+        972,
+        602,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "c3698899da339c81f14a127f5122d8fc1fd4b4dd95bf28b9c766b05ce0e100bb"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 1,
+      "reviewed": 7525,
+      "ocr": 7525,
+      "ocr_raw": "7,525",
+      "box": [
+        615,
+        972,
+        773,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "3ac09f1e150a443d11effacd0b9c482da3c6dc08bc25fddba5ebc6aac4c322c2"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 2,
+      "reviewed": 6341,
+      "ocr": 6341,
+      "ocr_raw": "6,341",
+      "box": [
+        787,
+        972,
+        946,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "6a535ce0fc465c023c1f9fda795d87be593e3eb5eb86a8dc81da8db9c61c0b95"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 3,
+      "reviewed": 291,
+      "ocr": 29,
+      "ocr_raw": "29",
+      "box": [
+        959,
+        972,
+        1117,
+        992
+      ],
+      "match": false,
+      "sha256_cell_png": "361a95190bfef9029cba39ca7e4b7623966a2fef685ac35755b84d519dfe3ded",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": 291,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "中国地方整備局",
+      "column": 4,
+      "reviewed": 36476,
+      "ocr": 36476,
+      "ocr_raw": "36,476",
+      "box": [
+        1130,
+        972,
+        1290,
+        992
+      ],
+      "match": true,
+      "sha256_cell_png": "c56305ada192f9464f669ab4ec4eea61c0285c57459e507f0da17b9f38a251da"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 0,
+      "reviewed": 16386,
+      "ocr": 16386,
+      "ocr_raw": "16,386",
+      "box": [
+        442,
+        1082,
+        602,
+        1102
+      ],
+      "match": true,
+      "sha256_cell_png": "ab44dc76e3212f8b5312268a1d4f0108b97aa5289608b72447882c8b9cce4891"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 1,
+      "reviewed": 17060,
+      "ocr": 17060,
+      "ocr_raw": "17,060",
+      "box": [
+        615,
+        1082,
+        773,
+        1102
+      ],
+      "match": true,
+      "sha256_cell_png": "1e99ca9c82ddaedc214ac2ef08d10b2c708863021aa99f2ad8cd58dfbec4dbb5"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 2,
+      "reviewed": 3831,
+      "ocr": 3831,
+      "ocr_raw": "3,831",
+      "box": [
+        787,
+        1082,
+        946,
+        1102
+      ],
+      "match": true,
+      "sha256_cell_png": "7a611e9d4199937a0eb4bad000c2a75b7bfd4b1980635ee3b51b5ad0dbcfbe08"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 3,
+      "reviewed": 1402,
+      "ocr": 1402,
+      "ocr_raw": "1,402",
+      "box": [
+        959,
+        1082,
+        1117,
+        1102
+      ],
+      "match": true,
+      "sha256_cell_png": "aa75133c698cdfdb7192745c71d1d8207ed6efa283ad7d291c20fe9f1739dee3"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "四国地方整備局",
+      "column": 4,
+      "reviewed": 38678,
+      "ocr": 38678,
+      "ocr_raw": "38,678",
+      "box": [
+        1130,
+        1082,
+        1290,
+        1102
+      ],
+      "match": true,
+      "sha256_cell_png": "fc1c626fe36100fa34a40c1817bd83676325ee4dacf1daf7353519aae62e48ad"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 0,
+      "reviewed": 44215,
+      "ocr": 44215,
+      "ocr_raw": "44215",
+      "box": [
+        442,
+        1192,
+        602,
+        1212
+      ],
+      "match": true,
+      "sha256_cell_png": "ffc77c65e617f25834dcda614c8297aafba682dc7149cae170e0291d2047aec5"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 1,
+      "reviewed": 21153,
+      "ocr": 21153,
+      "ocr_raw": "21,153",
+      "box": [
+        615,
+        1192,
+        773,
+        1212
+      ],
+      "match": true,
+      "sha256_cell_png": "b3410726939cc2c4f5647ec584c3c5d33241ac63cba1956fe7a6835966e5ae2b"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 2,
+      "reviewed": 7878,
+      "ocr": 7878,
+      "ocr_raw": "7,878",
+      "box": [
+        787,
+        1192,
+        946,
+        1212
+      ],
+      "match": true,
+      "sha256_cell_png": "e3e05491924ca6a4c3a36c02fadf52f6bdd683e3922529e0a39f1089e918fc7b"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 3,
+      "reviewed": 509,
+      "ocr": 509,
+      "ocr_raw": "509",
+      "box": [
+        959,
+        1192,
+        1117,
+        1212
+      ],
+      "match": true,
+      "sha256_cell_png": "fb16032981c3d4546f566d77a2eeba0d76c1ce8961cd216666a5ed707a298be8"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "九州地方整備局",
+      "column": 4,
+      "reviewed": 73755,
+      "ocr": 73755,
+      "ocr_raw": "73,755",
+      "box": [
+        1130,
+        1192,
+        1290,
+        1212
+      ],
+      "match": true,
+      "sha256_cell_png": "fa2ecb32b35c8fab025cd9e57cf9747bd2f783bbe73c4f8428b46592254b8174"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 0,
+      "reviewed": 55289,
+      "ocr": 55289,
+      "ocr_raw": "55289",
+      "box": [
+        442,
+        1411,
+        602,
+        1431
+      ],
+      "match": true,
+      "sha256_cell_png": "cc9f222ba02c763e6a4bc02ae59e767a51919cc024e189dc471022015cbd132e"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 1,
+      "reviewed": 18325,
+      "ocr": 18325,
+      "ocr_raw": "18,325",
+      "box": [
+        615,
+        1411,
+        773,
+        1431
+      ],
+      "match": true,
+      "sha256_cell_png": "f0093b9225a479564702761df5bedf3bfa9fd522685cbc3f5bc786c5cd9b6016"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 2,
+      "reviewed": 4161,
+      "ocr": 4161,
+      "ocr_raw": "4161",
+      "box": [
+        787,
+        1411,
+        946,
+        1431
+      ],
+      "match": true,
+      "sha256_cell_png": "ec19394e834173e211778f95cab35e7662231ff374c3886d46a15f0d8d82b3dc"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 3,
+      "reviewed": 473,
+      "ocr": 473,
+      "ocr_raw": "473",
+      "box": [
+        959,
+        1411,
+        1117,
+        1431
+      ],
+      "match": true,
+      "sha256_cell_png": "7669c5021879a595d45e8a14d54e225af2c70e3fa846ab991600cda97cc2f082"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "北海道開発局",
+      "column": 4,
+      "reviewed": 78248,
+      "ocr": 78248,
+      "ocr_raw": "78,248",
+      "box": [
+        1130,
+        1411,
+        1290,
+        1431
+      ],
+      "match": true,
+      "sha256_cell_png": "15148ab84b6a173b6e0a8bec506ed4803fcd08c4b314d8670fb4411af0f34dd0"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 0,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        442,
+        1521,
+        602,
+        1541
+      ],
+      "match": true,
+      "sha256_cell_png": "79fa26eeab0afd60db2819fa4b187c37365350d4ddcada0c647a30ab1e776f67",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 1,
+      "reviewed": 2637,
+      "ocr": 2637,
+      "ocr_raw": "2637",
+      "box": [
+        615,
+        1521,
+        773,
+        1541
+      ],
+      "match": true,
+      "sha256_cell_png": "db17cc30f621e5fef44236a4ec3a4e5d471e2b1c89b04e00ce5184e9728a0a48"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 2,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        787,
+        1521,
+        946,
+        1541
+      ],
+      "match": true,
+      "sha256_cell_png": "035493fcfaf4b5e4c1260e046bf7918b796471c72966484014f767da9fa001ef",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 3,
+      "reviewed": null,
+      "ocr": null,
+      "ocr_raw": "",
+      "box": [
+        959,
+        1521,
+        1117,
+        1541
+      ],
+      "match": true,
+      "sha256_cell_png": "ced56dee5ee3a5a5d76c030ee91f68d67b41ee67c9198b3cda64bd01bde6414c",
+      "visual_review_status": "公式原本セルを再確認",
+      "visual_review_value": null,
+      "visual_review_reason": "原本全頁画像と当該セル画像を直接再確認。OCR数字の脱落／ダッシュ検出誤り。手転記値を採用しOCR候補は不採用。"
+    },
+    {
+      "year": 2026,
+      "family": "direct",
+      "region": "沖縄総合事務局",
+      "column": 4,
+      "reviewed": 2637,
+      "ocr": 2637,
+      "ocr_raw": "2637",
+      "box": [
+        1130,
+        1521,
+        1290,
+        1541
+      ],
+      "match": true,
+      "sha256_cell_png": "85eba90834074901d57d0bd072a13bd0673b08db978b63a83790e52d45a3e498"
+    }
+  ]
+}

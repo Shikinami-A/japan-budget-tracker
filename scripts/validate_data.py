@@ -12,6 +12,8 @@ from verify_municipality_districts import validate as validate_municipality_dist
 from verify_special_execution import validate as validate_special_execution
 from verify_roster_followup import validate as validate_roster_followup
 from verify_party_third_stage import validate as validate_party_third_stage
+from verify_roster_continued import validate as validate_roster_continued
+from verify_mlit_water_images import read_review as read_water_review, verify_ocr as validate_water_ocr
 
 ROOT=Path(__file__).resolve().parents[1]
 d=json.loads((ROOT/'public/data.json').read_text())
@@ -23,16 +25,21 @@ profiles=reviewed_profiles(ROOT/'data/source-text')
 expansion=reviewed_expansion(ROOT/'data/source-text')
 followup=reviewed_followup(ROOT/'data/source-text')
 third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
+continued=json.loads((ROOT/'data/reviewed-roster-continued.json').read_text())
+continued_urls={s['id']:s['url'] for s in continued['sources']}
 approved_party_urls={url for party,url in PARTIES.values()}
 approved_party_urls.update(e['url'] for e in profiles['sources'])
 approved_party_urls.update(e['url'] for e in expansion['sources'])
 approved_party_urls.update(e['url'] for e in followup['sources'])
 approved_party_urls.update(e['url'] for e in third_stage['sources'])
+approved_party_urls.update(continued_urls.values())
 for s in sources.values():
     u=urlsplit(s['url'])
     assert u.scheme=='https' and u.hostname and not u.username and not u.password
     if s['kind']=='所属党':
         assert s['url'] in approved_party_urls,s['url']
+    elif s['id'] in continued_urls:
+        assert s['url']==continued_urls[s['id']]
     else:
         assert u.hostname.endswith(('.go.jp','.lg.jp')) or u.hostname=='www.pref.aichi.jp', s['url']
     assert hashlib.sha256(s['excerpt'].encode()).hexdigest()==s['sha256_extracted_text']
@@ -183,4 +190,61 @@ for check in drivers['numerical_driver_checks']:
     assert all(sid in sources for sid in check['source_ids'])
 validate_roster_followup()
 validate_party_third_stage()
+validate_roster_continued()
+for filename in ('reviewed-care-cities.json', 'reviewed-fdma-facilities.json', 'reviewed-reconstruction-followup.json'):
+    report=json.loads((ROOT/'data'/filename).read_text())
+    for reviewed in report['rows']:
+        actual=next(r for r in d['rows'] if r['id']==reviewed['id'])
+        for key in ('amount2025','amount2026','ministry','program','basis','account','scope','comparability'):
+            assert actual[key]==reviewed[key],(filename,reviewed['id'],key)
+        assert actual['view_group']=='reference' and actual['comparability']!='同範囲'
+care_cities=json.loads((ROOT/'data/reviewed-care-cities.json').read_text())
+assert len(care_cities['rows'])==82
+for year in (2025,2026):
+    reconciliation=care_cities['reconciliation'][str(year)]
+    for group in ('指定都市','中核市'):
+        rows=[r for r in care_cities['rows'] if r['scope']==f'{group}分（県分とは別枠）']
+        assert len(rows)==(20 if group=='指定都市' else 62)
+        assert sum(round(r[f'amount{year}']*1000) for r in rows)==reconciliation['subtotals'][group]['amount_thousand_yen']
+        assert sum(r[f'plans{year}'] for r in rows)==reconciliation['subtotals'][group]['plans']
+    assert reconciliation['total']['amount_thousand_yen']==(6214838 if year==2025 else 6873286)
+fdma=json.loads((ROOT/'data/reviewed-fdma-facilities.json').read_text())
+assert len(fdma['rows'])==124
+assert sum(r['amount2025'] is None or r['amount2026'] is None for r in fdma['rows'])==84
+for year,count,total in ((2025,91,1278929),(2026,73,1108214)):
+    present=[r for r in fdma['rows'] if r[f'amount{year}'] is not None]
+    assert len(present)==count and sum(round(r[f'amount{year}']*1000) for r in present)==total
+    assert fdma['reconciliation'][str(year)]['total']['recipient_sum_thousand_yen']==total
+plan=json.loads((ROOT/'data/reviewed-reconstruction-followup.json').read_text())
+for check in plan['plan_checks']:
+    assert sum(check['annual_component_amounts_thousand_yen'])==check['business_cost_thousand_yen']
+    assert check['published_plan_grant_thousand_yen']*2==check['business_cost_thousand_yen']
+assert plan['interim_remainder_assessment']['status']=='丸め値の突合一致・排他性未確定'
+assert all(o['is_cash_spending'] is False for o in plan['contract_progress_observations'])
+assert d['held_roster_records']==continued['held_records']
+assert d['service_end_count']==sum(m.get('current_roster_eligible') is False for m in d['legislators'])==1
+ended=members_by_id['house-渡辺孝一']
+assert ended['current_roster_eligible'] is False and ended['service_end_date']=='2026-09-17'
+assert all(e['source_id'] in sources for e in ended['service_evidence'])
+for e in continued['party_entries']:
+    assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
+               for p in members_by_id[e['member_id']]['party_evidence'])
+water_review=read_water_review()
+water_ocr=json.loads((ROOT/'data/mlit-water-image-ocr.json').read_text())
+validate_water_ocr(water_review,water_ocr)
+water=json.loads((ROOT/'data/reviewed-mlit-water-images.json').read_text())
+assert len(water['rows'])==181 and water['verification_summary']['fully_nonmissing_rows']==173
+assert sum(r['amount2025'] is None or r['amount2026'] is None for r in water['rows'])==8
+for name,key in (('mlit-water-image-review.json','review_sha256'),('mlit-water-image-ocr.json','ocr_ledger_sha256'),('mlit-water-independent-review.json','independent_review_sha256')):
+    assert hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest()==water['verification_summary'][key]
+for reviewed in water['rows']:
+    actual=next(r for r in d['rows'] if r['id']==reviewed['id'])
+    assert actual['view_group'] is None
+    for key in ('amount2025','amount2026','region','prefecture','comparability','source_locator2025','source_locator2026'):
+        assert actual[key]==reviewed[key]
+    for year in (2025,2026):
+        table=next(t for t in water_review['tables'] if t['year']==year)
+        family='direct' if '-direct-' in reviewed['id'] else 'subsidy'
+        column=table[f'{family}_columns'].index(reviewed[f'source_locator{year}']['column'])
+        assert reviewed[f'amount{year}']==table[family][reviewed['region']][column]
 print(f"Data verified: {len(d['rows'])} rows, {len(d['sources'])} official sources, {len(d['legislators'])} legislators. National totals reconciled; rounded regional totals checked.")

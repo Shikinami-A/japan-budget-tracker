@@ -1,0 +1,16 @@
+{"area_labels": ["名古屋市東区", "名古屋市北区", "名古屋市西区", "名古屋市中区"], "district": "愛知1", "original_location": "PDF p.1 第１区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["名古屋市千種区", "名古屋市守山区", "名古屋市名東区"], "district": "愛知2", "original_location": "PDF p.1 第２区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["名古屋市昭和区", "名古屋市緑区", "名古屋市天白区"], "district": "愛知3", "original_location": "PDF p.1 第３区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["名古屋市瑞穂区", "名古屋市熱田区", "名古屋市港区", "名古屋市南区"], "district": "愛知4", "original_location": "PDF p.1 第４区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["名古屋市中村区", "名古屋市中川区", "清須市"], "district": "愛知5", "original_location": "PDF p.1 第５区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["瀬戸市", "春日井市"], "district": "愛知6", "original_location": "PDF p.1 第６区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["大府市", "尾張旭市", "豊明市", "日進市", "長久手市", "愛知郡"], "district": "愛知7", "original_location": "PDF p.1 第７区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["半田市", "常滑市", "東海市", "知多市", "知多郡"], "district": "愛知8", "original_location": "PDF p.1 第８区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["津島市", "稲沢市", "愛西市", "弥富市", "あま市", "海部郡"], "district": "愛知9", "original_location": "PDF p.1 第９区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["一宮市", "岩倉市"], "district": "愛知10", "original_location": "PDF p.1 第10区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["豊田市", "みよし市"], "district": "愛知11", "original_location": "PDF p.1 第11区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["岡崎市", "西尾市"], "district": "愛知12", "original_location": "PDF p.1 第12区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["碧南市", "刈谷市", "安城市", "知立市", "高浜市"], "district": "愛知13", "original_location": "PDF p.1 第13区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["豊川市", "蒲郡市", "新城市", "額田郡", "北設楽郡"], "district": "愛知14", "original_location": "PDF p.1 第14区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["豊橋市", "田原市"], "district": "愛知15", "original_location": "PDF p.1 第15区 区域列", "prefecture": "愛知県"}
+{"area_labels": ["犬山市", "江南市", "小牧市", "北名古屋市", "西春日井郡", "丹羽郡"], "district": "愛知16", "original_location": "PDF p.1 第16区 区域列", "prefecture": "愛知県"}

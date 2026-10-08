@@ -14,10 +14,15 @@ def apply_originals(root, sources, rows):
                  'reviewed-cabinet-regional.json','reviewed-party-expansion.json','reviewed-meti-regional.json',
                  'reviewed-regional-followup.json','reviewed-party-followup.json','reviewed-municipality-districts.json',
                  'reviewed-mlit-water.json','reviewed-special-execution.json','reviewed-national-drivers.json',
-                 'reviewed-roster-followup.json','reviewed-party-third-stage.json'):
+                 'reviewed-roster-followup.json','reviewed-party-third-stage.json',
+                 'reviewed-retrieval-followup.json','reviewed-care-cities.json',
+                 'reviewed-reconstruction-followup.json','reviewed-fdma-facilities.json',
+                 'reviewed-roster-continued.json','reviewed-aichi-districts.json',
+                 'reviewed-mlit-water-images.json'):
         report = json.loads((root / 'data' / name).read_text())
         if name in ('reviewed-party-followup.json','reviewed-municipality-districts.json',
-                    'reviewed-roster-followup.json','reviewed-party-third-stage.json'):
+                    'reviewed-roster-followup.json','reviewed-party-third-stage.json',
+                    'reviewed-roster-continued.json','reviewed-aichi-districts.json'):
             # Public source IDs differ from the fetch receipt IDs. Keep the
             # original receipts intact and map them only for this snapshot.
             for receipt in report['originals']:

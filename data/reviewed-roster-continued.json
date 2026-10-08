@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "note": "旧名簿711人のID・氏名・資料日・URL・党籍根拠を保持。逝去は在職状態の別証跡、新原本のみの議員は保留観測。党資料日不明を取得日や国会原本日で補わず、不一致24人を解消しない。",
+  "sources": [
+    {
+      "id": "roster-continued-watanabe-obituary",
+      "url": "https://www.jimin.jp/news/information/214223.html",
+      "filename": "roster-continued-watanabe-obituary.txt",
+      "title": "自民党公式：渡辺孝一衆議院議員逝去",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "2a3cfe6dd79a3ef7f8e832a2389da4f43014612ff3ae427b4f390b186acf6911",
+      "original": {
+        "source_id": "watanabe-obituary",
+        "url": "https://www.jimin.jp/news/information/214223.html",
+        "final_url": "https://www.jimin.jp/news/information/214223.html",
+        "content_type": "text/html",
+        "bytes": 57695,
+        "sha256_original": "1fe2a3df61cf20c4480e886f959da662a00e34fe64d58e2ead9bab2f1a4f15d5",
+        "download_status": "downloaded",
+        "retrieved_at_utc": "2026-10-08T17:07:38.229970+00:00"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-ldp-json",
+      "url": "https://www.jimin.jp/member/data/member.json",
+      "filename": "roster-continued-ldp-json.txt",
+      "title": "自民党公式現職JSON：栗原・藤井の照合用抜粋",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "07f771d50157a91d5fcf18258175e010b8c6e0914e297e6803af2bbc60521101",
+      "original": {
+        "source_id": "ldp-json",
+        "url": "https://www.jimin.jp/member/data/member.json",
+        "final_url": "https://www.jimin.jp/member/data/member.json",
+        "content_type": "application/json",
+        "bytes": 143687,
+        "sha256_original": "3d16bea0e55f6409bed959b0cc37e5f746b4ea404dce0945a48e0c4392127d6b",
+        "download_status": "downloaded",
+        "retrieved_at_utc": "2026-10-08T17:07:42.189727+00:00"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-kurihara-profile",
+      "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/157.html",
+      "filename": "roster-continued-kurihara-profile.txt",
+      "title": "衆議院公式：栗原渉プロフィール",
+      "as_of": "2026-09-18",
+      "checked_at": "2026-10-09",
+      "sha256": "fe061c9f167213453e8f64278c12dbddc720054889fac8b6c5731457624f489d",
+      "original": {
+        "source_id": "kurihara-profile",
+        "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/157.html",
+        "final_url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/157.html",
+        "content_type": "text/html",
+        "bytes": 6508,
+        "sha256_original": "28b4967c12de9d29ef46981f9bf4bfa0cb971801a7ee630d503d097aa6909fe8",
+        "download_status": "downloaded",
+        "retrieved_at_utc": "2026-10-08T17:07:40.392359+00:00"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-senate-roster",
+      "url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
+      "filename": "roster-continued-senate-roster.txt",
+      "title": "参議院公式：追加党籍3人の氏名・全国比例確認",
+      "as_of": "2026-09-04",
+      "checked_at": "2026-10-09",
+      "sha256": "e115767f08f02d26589000b0bd716ccac7aaf04c058a2b746b986366e19d588c",
+      "original": {
+        "source_id": "senate-roster",
+        "url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
+        "final_url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
+        "retrieved_at_utc": "2026-10-08T17:08:40.288224+00:00",
+        "bytes": 121011,
+        "sha256_original": "63bf96d4a3058fe518f82fd417e42f6dec5b2cd936bbf4ebab1c5f9d427d3684",
+        "content_type": "text/html",
+        "download_status": "downloaded"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-cdp-tsujimoto",
+      "url": "https://cdp-japan.jp/member/4357",
+      "filename": "roster-continued-cdp-tsujimoto.txt",
+      "title": "立憲民主党公式：辻元清美現職プロフィール",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "90d1ff641d912d2a37d8296e23413709ff47e33da3d7da5a11bd1dbf8429e38c",
+      "original": {
+        "source_id": "cdp-tsujimoto",
+        "url": "https://cdp-japan.jp/member/4357",
+        "final_url": "https://cdp-japan.jp/member/4357",
+        "content_type": "text/html",
+        "bytes": 28976,
+        "sha256_original": "ec98ff5ff2e73e3bd2dc64f5570074640ec183ec3d45b5d53f053ec1c0e6193b",
+        "download_status": "downloaded",
+        "retrieved_at_utc": "2026-10-08T17:07:41.292259+00:00"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-sdp-members",
+      "url": "https://sdp.or.jp/member/",
+      "filename": "roster-continued-sdp-members.txt",
+      "title": "社会民主党公式：現職国会議員と全国比例区",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "f0ac490e5d2db145d63f710f2fa5af5c51e4429a0453e52def65ccd0dbade76d",
+      "original": {
+        "source_id": "sdp-members",
+        "url": "https://sdp.or.jp/member/",
+        "final_url": "https://sdp.or.jp/member/",
+        "retrieved_at_utc": "2026-10-08T17:08:37.976596+00:00",
+        "bytes": 64176,
+        "sha256_original": "c9e3da9a5310518e86aa6b2c24f5e0ca2cc16c00446bbc0300c041323c89d414",
+        "content_type": "text/html",
+        "download_status": "downloaded"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-ldp-fujii-profile",
+      "url": "https://www.jimin.jp/member/102132.html",
+      "filename": "roster-continued-ldp-fujii-profile.txt",
+      "title": "自民党公式：藤井ひさゆき本人プロフィールと藤井比早之正式名",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "f341444b34f30de77cad9656750fbb0a7eae88d2adb97af7f35515588fbbeaa9",
+      "original": {
+        "source_id": "ldp-fujii-profile",
+        "url": "https://www.jimin.jp/member/102132.html",
+        "final_url": "https://www.jimin.jp/member/102132.html",
+        "retrieved_at_utc": "2026-10-08T17:08:44.612618+00:00",
+        "bytes": 77006,
+        "sha256_original": "b606d972359912cc677a98e588ccfc98233d48e035eeeb77d43792cf6a62155b",
+        "content_type": "text/html",
+        "download_status": "downloaded"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "watanabe-obituary",
+      "url": "https://www.jimin.jp/news/information/214223.html",
+      "final_url": "https://www.jimin.jp/news/information/214223.html",
+      "content_type": "text/html",
+      "bytes": 57695,
+      "sha256_original": "1fe2a3df61cf20c4480e886f959da662a00e34fe64d58e2ead9bab2f1a4f15d5",
+      "download_status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:07:38.229970+00:00"
+    },
+    {
+      "source_id": "ldp-json",
+      "url": "https://www.jimin.jp/member/data/member.json",
+      "final_url": "https://www.jimin.jp/member/data/member.json",
+      "content_type": "application/json",
+      "bytes": 143687,
+      "sha256_original": "3d16bea0e55f6409bed959b0cc37e5f746b4ea404dce0945a48e0c4392127d6b",
+      "download_status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:07:42.189727+00:00"
+    },
+    {
+      "source_id": "kurihara-profile",
+      "url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/157.html",
+      "final_url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/157.html",
+      "content_type": "text/html",
+      "bytes": 6508,
+      "sha256_original": "28b4967c12de9d29ef46981f9bf4bfa0cb971801a7ee630d503d097aa6909fe8",
+      "download_status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:07:40.392359+00:00"
+    },
+    {
+      "source_id": "senate-roster",
+      "url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
+      "final_url": "https://www.sangiin.go.jp/japanese/giin/hireiku/hireiku.htm",
+      "retrieved_at_utc": "2026-10-08T17:08:40.288224+00:00",
+      "bytes": 121011,
+      "sha256_original": "63bf96d4a3058fe518f82fd417e42f6dec5b2cd936bbf4ebab1c5f9d427d3684",
+      "content_type": "text/html",
+      "download_status": "downloaded"
+    },
+    {
+      "source_id": "cdp-tsujimoto",
+      "url": "https://cdp-japan.jp/member/4357",
+      "final_url": "https://cdp-japan.jp/member/4357",
+      "content_type": "text/html",
+      "bytes": 28976,
+      "sha256_original": "ec98ff5ff2e73e3bd2dc64f5570074640ec183ec3d45b5d53f053ec1c0e6193b",
+      "download_status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T17:07:41.292259+00:00"
+    },
+    {
+      "source_id": "sdp-members",
+      "url": "https://sdp.or.jp/member/",
+      "final_url": "https://sdp.or.jp/member/",
+      "retrieved_at_utc": "2026-10-08T17:08:37.976596+00:00",
+      "bytes": 64176,
+      "sha256_original": "c9e3da9a5310518e86aa6b2c24f5e0ca2cc16c00446bbc0300c041323c89d414",
+      "content_type": "text/html",
+      "download_status": "downloaded"
+    },
+    {
+      "source_id": "ldp-fujii-profile",
+      "url": "https://www.jimin.jp/member/102132.html",
+      "final_url": "https://www.jimin.jp/member/102132.html",
+      "retrieved_at_utc": "2026-10-08T17:08:44.612618+00:00",
+      "bytes": 77006,
+      "sha256_original": "b606d972359912cc677a98e588ccfc98233d48e035eeeb77d43792cf6a62155b",
+      "content_type": "text/html",
+      "download_status": "downloaded"
+    }
+  ],
+  "member_enrichments": [
+    {
+      "member_id": "house-渡辺孝一",
+      "member_name": "渡辺孝一",
+      "chamber": "衆議院",
+      "baseline_as_of": "2026-02-18",
+      "baseline_source_url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/syu/10giin.htm",
+      "baseline_district": "（比）北海道",
+      "service_status": "旧名簿・逝去を公式確認",
+      "current_roster_eligible": false,
+      "service_end_date": "2026-09-17",
+      "evidence": {
+        "source_id": "roster-continued-watanabe-obituary",
+        "excerpt_line": 1,
+        "url": "https://www.jimin.jp/news/information/214223.html",
+        "original_location": "HTML本文の氏名・逝去日。家族名・会場・連絡先を除外"
+      },
+      "note": "党公式の訃報による逝去の直接確認。現職名簿に正式名未一致という既存証跡と別に保存し、旧名簿を削除しない。予算配分決定時点の党籍の証明にはしない。"
+    }
+  ],
+  "held_records": [
+    {
+      "name": "栗原渉",
+      "reading": "くりはらわたる",
+      "chamber": "衆議院",
+      "district": "福岡5",
+      "as_of": "2026-09-18",
+      "original_location": "HTML h2#TopContents・小選挙区選出段落・現在日",
+      "status": "旧名簿IDに未一致・新原本独立確認",
+      "proposed_member_id": null,
+      "profile_evidence": {
+        "source_id": "roster-continued-kurihara-profile",
+        "excerpt_line": 1
+      },
+      "roster_evidence": {
+        "source_id": "roster-house-roster-2-original",
+        "excerpt_line": 50,
+        "as_of": "2026-09-28"
+      },
+      "party_observation": {
+        "party": "自由民主党",
+        "source_id": "roster-continued-ldp-json",
+        "excerpt_line": 1,
+        "as_of": null
+      },
+      "note": "衆議院一覧・本人プロフィール・党現職JSONで正式名・院・福岡5が一致。渡辺孝一の後継とみなさず、旧711人名簿への自動追加・ID置換はしない。"
+    }
+  ],
+  "party_entries": [
+    {
+      "member_id": "senate-辻元清美",
+      "member_name": "辻元清美",
+      "chamber": "参議院",
+      "district": "全国比例",
+      "party": "立憲民主党",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "roster-continued-cdp-tsujimoto",
+      "excerpt_line": 1,
+      "roster_name": "辻󠄀元清美",
+      "original_location": "HTML .member-name span[0]/.house-type[0]/.district[0]",
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-continued-senate-roster",
+        "excerpt_line": 1,
+        "as_of": "2026-09-04"
+      },
+      "method": "党公式現職の氏名・院・当選区＋参院原本の氏名・院・全国比例一意一致。会派から党籍を推定しない。"
+    },
+    {
+      "member_id": "senate-福島みずほ",
+      "member_name": "福島みずほ",
+      "chamber": "参議院",
+      "district": "全国比例",
+      "party": "社会民主党",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "roster-continued-sdp-members",
+      "excerpt_line": 1,
+      "roster_name": "福島みずほ",
+      "original_location": "HTML現職国会議員情報の参議院現5期・氏名・選挙区欄（連絡先除外）",
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-continued-senate-roster",
+        "excerpt_line": 2,
+        "as_of": "2026-09-04"
+      },
+      "method": "党公式現職の氏名・院・当選区＋参院原本の氏名・院・全国比例一意一致。会派から党籍を推定しない。"
+    },
+    {
+      "member_id": "senate-ラサール石井",
+      "member_name": "ラサール石井",
+      "chamber": "参議院",
+      "district": "全国比例",
+      "party": "社会民主党",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "roster-continued-sdp-members",
+      "excerpt_line": 2,
+      "roster_name": "ラサール石井",
+      "original_location": "HTML現職国会議員情報の参議院現1期・氏名・選挙区欄（連絡先除外）",
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-continued-senate-roster",
+        "excerpt_line": 3,
+        "as_of": "2026-09-04"
+      },
+      "method": "党公式現職の氏名・院・当選区＋参院原本の氏名・院・全国比例一意一致。会派から党籍を推定しない。"
+    },
+    {
+      "member_id": "house-藤井比早之",
+      "member_name": "藤井比早之",
+      "chamber": "衆議院",
+      "district": "兵庫4",
+      "party": "自由民主党",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "roster-continued-ldp-fujii-profile",
+      "excerpt_line": 1,
+      "roster_name": "藤井ひさゆき",
+      "original_location": "党本人プロフィール h1・選挙区表・本人関連ニュース h3正式名/衆議院議員",
+      "supporting_party_evidence": {
+        "source_id": "roster-continued-ldp-json",
+        "excerpt_line": 2
+      },
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 31,
+        "original_location": "HTML table tr[32] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数",
+        "as_of": "2026-09-28"
+      },
+      "method": "党本人プロフィールに掲載された正式名・院と本人選挙区を国会原本で照合。現職JSONも一致。読みだけによる異名推定はしない。"
+    }
+  ],
+  "issues": [
+    {
+      "status": "取得不能",
+      "scope": "中道改革連合の結党・党籍異動日",
+      "source_url": "https://craj.jp/news/20260122_0038",
+      "retrieval_attempt_source_id": "craj-foundation",
+      "reason": "原本はHTTP応答403。日付不明の公明・中道資料間不一致24人を推測で解消しない。"
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "source_id": "craj-foundation",
+      "url": "https://craj.jp/news/20260122_0038",
+      "retrieved_at_utc": "2026-10-08T17:13:54.732917+00:00",
+      "download_status": "blocked_or_failed",
+      "failure_category": "http_error",
+      "http_status": 403
+    }
+  ],
+  "stats": {
+    "additional_party_matches": 4,
+    "service_end_observations": 1,
+    "new_roster_observations_held": 1,
+    "conflicts_resolved": 0
+  }
+}

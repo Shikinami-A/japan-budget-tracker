@@ -145,6 +145,8 @@ function showDetail(row) {
     el('p',r.note),el('p',`比較条件：${r.comparability} / ${r.evidence_status} / 精度：${r.precision ?? '出典単位から換算'}`,'muted'));
   if (r.published_change_pct !== undefined) content.append(el('p','増減率は国交省の公表値。表示金額が丸められているため、表示金額からの計算と端数が異なります。','muted'));
   if (r.plans2025 !== undefined) content.append(el('p',`計画件数：${r.plans2025} → ${r.plans2026} 件`));
+  if (r.geography_status) content.append(el('p',`地域の確認：${r.geography_status}${r.municipality_code ? ' / 自治体コード：'+r.municipality_code : ''}`));
+  if (r.amount_column2025 || r.amount_column2026) content.append(el('small',`原本の列名：2025 ${r.amount_column2025 ?? '未収載'} / 2026 ${r.amount_column2026 ?? '未収載'}`));
   content.append(el('h3','次に確認すること'),el('p',r.analysis.reasons.join(' / ')||'設定したしきい値に達していません。'));
   const ul=el('ul');for(const t of ['申請・要望額に対する配分率、採択基準と制度変更','完了・新規事業・工事進捗、災害復旧、人口や税収などの需要','配分決定時点の議員・首長、問い合わせ記録と決定過程']) ul.append(el('li',t));content.append(ul);
   if (r.explanation) { content.append(el('h3','公式の説明'),el('p',r.explanation));if(r.explanation_status)content.append(el('small',`説明の確認範囲：${r.explanation_status}`));for(const id of r.explanation_source_ids)content.append(sourceBlock(id)); }
@@ -172,6 +174,10 @@ function memberCard(m) {
   const card=el('article',undefined,'member');card.append(el('h3',m.name),el('p',`${m.chamber}・${m.election_type}・${m.district ?? '選挙区未取得'}`),
     el('p',`所属党：${partyLabel(m)}`),el('p',`会派：${m.caucus ?? '未取得'}`),el('small',`名簿基準日：${m.as_of ?? '未確認'}`),link('国会名簿 ↗',m.source_url));
   if(m.roster_verification_status)card.append(el('small',`名簿確認：${m.roster_verification_status}`));
+  if(m.service_status) {
+    card.append(el('p',`${m.service_status} / 在職終了日：${m.service_end_date ?? '未確認'}`));
+    for(const e of m.service_evidence ?? [])card.append(link('在職終了の公式根拠 ↗',e.url),el('small',e.note));
+  }
   if(m.roster_evidence?.length) {
     for(const e of m.roster_evidence) {
       const s=data.sources.find(s=>s.id===e.source_id);
@@ -193,8 +199,18 @@ function memberCard(m) {
 function renderMembers() {
   const p=$('member-pref').value, includeProportional=$('proportional').checked;
   const members=p ? membersFor(p,data.legislators,includeProportional) : data.legislators.filter(m=>includeProportional || m.election_type!=='比例代表');
-  $('party-coverage').textContent=`全国の所属党照合：${data.party_coverage.verified} / ${data.party_coverage.total}人。資料間不一致：${data.party_coverage.conflicts}人。党の資料日が不明な場合は取得日を基準日に読み替えません。`;
+  $('party-coverage').textContent=`保存名簿の所属党照合：${data.party_coverage.verified} / ${data.party_coverage.total}人。資料間不一致：${data.party_coverage.conflicts}人。在職終了を原本確認：${data.service_end_count ?? 0}人（地域対応から除外し、旧名簿は保持）。党の資料日が不明な場合は取得日を基準日に読み替えません。`;
   $('members').replaceChildren(...members.map(memberCard));
+  const held=$('held-members');held.replaceChildren();
+  if(data.held_roster_records?.length) {
+    const details=el('details');details.append(el('summary',`旧名簿に未一致の公式原本：${data.held_roster_records.length}人を別記録で保持`));
+    for(const r of data.held_roster_records) {
+      details.append(el('h3',`${r.name} / ${r.chamber} / ${r.district}`),el('p',r.status),el('p',r.note));
+      for(const proof of [r.profile_evidence,r.roster_evidence])if(proof)details.append(sourceBlock(proof.source_id));
+      if(r.party_observation)details.append(el('small',`党原本の観測：${r.party_observation.party} / 党資料の基準日：${r.party_observation.as_of ?? '未確認'}`),sourceBlock(r.party_observation.source_id));
+    }
+    held.append(details);
+  }
   if(!members.length)$('members').append(el('p','この地域に対応する議員を未取得。'));
 }
 function showObservation(observation) {
@@ -229,6 +245,11 @@ function renderCoverage() {
     if(c.same_period_execution_status)text.append(el('small',`同期間執行：${c.same_period_execution_status}`));
     for(const n of c.research_notes??[]) {
       const detail=el('details');detail.append(el('summary',n.status),el('p',n.note));
+      if(n.snapshot_role)detail.append(el('p',n.snapshot_role,'muted'));
+      if(n.network_observation) {
+        const o=n.network_observation;
+        detail.append(el('small',`取得試行時の通信観測：仕様${o.spec_revision ?? '未収録'} / ${o.network_policy_mode ?? o.mode ?? '未収録'} / ${o.network_policy_state ?? o.state ?? '未収録'}。取得実測と適用状態を区別。`));
+      }
       if(n.requested_url)detail.append(link('確認対象の公式入口 ↗',n.requested_url));
       if(n.retrieval_attempts?.length) {
         const attempts=el('details');attempts.append(el('summary','原本の取得試行と失敗種別'));
@@ -243,16 +264,23 @@ function renderCoverage() {
     }
     const observations=(data.research_observations ?? []).filter(o=>o.ministry===c.name);
     if(observations.length)text.append(observationTable(observations));
+    for(const finding of (data.research_findings ?? []).filter(f=>f.ministry===c.name)) {
+      const detail=el('details');detail.append(el('summary',`${finding.recipient ?? c.name}：${finding.status}`));
+      detail.append(el('p',finding.inference_limit ?? finding.note ?? '確認範囲は原本を参照してください。'));
+      if(finding.difference_million_yen !== undefined)detail.append(el('p',`原表間の差：${amount(finding.difference_million_yen)}百万円。原表値を補正していません。`));
+      for(const id of finding.source_ids ?? [])detail.append(sourceBlock(id));
+      text.append(detail);
+    }
     row.append(el('strong',c.name),text);return row;
   }));
 }
 function exportCSV() {
-  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','amount_status2025','amount_status2026','unit','comparability','evidence_status','legislator_mapping_status','note'];
+  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','amount_status2025','amount_status2026','amount_column2025','amount_column2026','plans2025','plans2026','unit','comparability','evidence_status','geography_status','municipality_code','legislator_mapping_status','note'];
   const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence','municipality_mapping','geography_evidence','driver_checks']).map(csvCell).join(',')];
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
     csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell(rowSourceIDs(r).map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
-    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,district:m.district,roster_as_of:m.as_of,roster_url:m.source_url,baseline_roster:m.baseline_roster,roster_evidence:m.roster_evidence,party_status:m.party_status,party_evidence:m.party_evidence})))),
+    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,district:m.district,roster_as_of:m.as_of,roster_url:m.source_url,baseline_roster:m.baseline_roster,roster_evidence:m.roster_evidence,party_status:m.party_status,party_evidence:m.party_evidence,current_roster_eligible:m.current_roster_eligible,service_status:m.service_status,service_evidence:m.service_evidence})))),
     csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]})))),
     csvCell(JSON.stringify(r.municipality_mapping ?? null)),
     csvCell(JSON.stringify(r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean).map(id=>data.sources.find(s=>s.id===id)).map(s=>({source_id:s.id,url:s.url,sha256_extracted_text:s.sha256_extracted_text,original:s.original})) : [])),
@@ -267,7 +295,7 @@ async function start() {
     options('prefecture',data.prefectures,'全国の地域');options('member-pref',data.prefectures,'全国の議員');$('member-pref').value='栃木県';
     $('limits-list').replaceChildren(...data.limitations.map(t=>el('li',t)));
     const parties=data.legislators.filter(m=>m.party!==null).length;
-    $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、議員名簿${data.legislators.length}人（衆議院464人、参議院247人）。選挙区未取得${data.legislators.filter(m=>!m.district).length}人。所属党の一次資料照合：${parties}人。`;
+    $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、保存名簿${data.legislators.length}人（衆議院464人、参議院247人、在職終了確認${data.service_end_count ?? 0}人を含む）。旧名簿へ自動追加しない別原本記録${data.held_roster_records?.length ?? 0}人。選挙区未取得${data.legislators.filter(m=>!m.district).length}人。所属党の一次資料照合：${parties}人。`;
     $('source-count').textContent=`公式出典 ${data.sources.length}件。両年度の原本数値照合 ${data.original_coverage.fully_verified_comparison_rows} / ${data.rows.length}行。`;
     for(const id of ['prefecture','ministry','program','query','pct','amount','gap','candidate-only','sort'])$(id).addEventListener(id==='query'?'input':'change',()=>{page=0;render();});
     document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;page=0;$('candidate-only').checked=false;render();});

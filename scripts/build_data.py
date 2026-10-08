@@ -6,6 +6,7 @@ from pathlib import Path
 from party_sources import apply_party_rosters, reviewed_expansion
 from original_sources import apply_originals
 from verify_party_followup import registry as reviewed_followup
+from verify_roster_continued import apply_aichi_districts
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / 'data' / 'source-text'
@@ -362,13 +363,20 @@ def main():
                        ('reviewed-reconstruction.json',None),('reviewed-cabinet-regional.json',None),
                        ('reviewed-meti-regional.json',None),('reviewed-regional-followup.json','reference'),
                        ('reviewed-mlit-water.json',None),('reviewed-special-execution.json','execution'),
-                       ('reviewed-national-drivers.json',None)]:
+                       ('reviewed-national-drivers.json',None),('reviewed-retrieval-followup.json',None),
+                       ('reviewed-care-cities.json','reference'),
+                       ('reviewed-reconstruction-followup.json','reference'),
+                       ('reviewed-fdma-facilities.json','reference'),
+                       ('reviewed-mlit-water-images.json',None)]:
         report=json.loads((ROOT/'data'/name).read_text())
         SOURCES.extend(report.get('sources',[]))
         for reviewed_row in report.get('rows',[]):
             reviewed_row['view_group']=group
             ROWS.append(reviewed_row)
         research_notes.extend(report.get('research_notes',[]))
+        if name in ('reviewed-reconstruction.json', 'reviewed-cabinet-regional.json', 'reviewed-meti-regional.json', 'reviewed-mlit-water.json'):
+            for note in report.get('research_notes', []):
+                note['snapshot_role'] = '先行調査（06d7543）の記録。今回の結果は別欄に表示。'
         research_findings.extend(report.get('data_quality_findings', []))
         for enrichment in report.get('row_enrichments', []):
             target = next(r for r in ROWS if r['id'] == enrichment['row_id'])
@@ -394,6 +402,7 @@ def main():
     followup=reviewed_followup(RAW)
     roster=json.loads((ROOT/'data/reviewed-roster-followup.json').read_text())
     third_stage=json.loads((ROOT/'data/reviewed-party-third-stage.json').read_text())
+    continued=json.loads((ROOT/'data/reviewed-roster-continued.json').read_text())
     for m in legislators:
         if m['chamber']=='衆議院':
             m['roster_verification_status']='公式原本の正式名・院一致' if m.get('roster_evidence') else '最新公式原本と正式名・院が未一致（旧名簿保持）'
@@ -410,12 +419,24 @@ def main():
                      retrieved_via='衆議院公式原本の表セルから氏名・院・読み・選挙区・会派を独立抽出')
         elif s['id'] in {e['id'] for e in third_stage['sources']}:
             s.update(accessed=third_stage['checked_at'],retrieved_via='党公式原本と国会原本で正式名・院・当選選挙区を一意照合')
+        elif s['id'] in {e['id'] for e in continued['sources']}:
+            registry_source=next(e for e in continued['sources'] if e['id']==s['id'])
+            s.update(accessed=continued['checked_at'], published=None, document_date=registry_source['as_of'],
+                     retrieved_via='公式原本による氏名・院・当選区又は在職終了の独立照合')
     geography=json.loads((ROOT/'data/reviewed-municipality-districts.json').read_text())
     for s in geography['sources']:
         SOURCES.append(dict(id=s['id'], title=s['title'], url=s['url'], locator=s['method'],
             kind='地域対応', accessed=s['checked_at'], published=None, document_date=s['as_of'],
             retrieved_via='県選管の公式原本から団体名・選挙区・分割境界を確認',
             sha256_extracted_text=s['sha256'], excerpt=(RAW/s['filename']).read_text()))
+    aichi_geography=apply_aichi_districts(RAW,source)
+    for s in SOURCES:
+        if s['id'] in {e['id'] for e in aichi_geography['sources']}:
+            s.update(accessed=aichi_geography['checked_at'], published=None, document_date=None,
+                     retrieved_via='総務省の現行区域PDFから市・区名と小選挙区を確認')
+    for mapping in aichi_geography['mappings']:
+        mapping.setdefault('boundary_source_id', None)
+    geography['mappings'].extend(aichi_geography['mappings'])
     for r in ROWS:
         municipality=r['region'].removeprefix(r['prefecture'] or '')
         matches=[m for m in geography['mappings'] if m['prefecture']==r['prefecture'] and m['municipality']==municipality]
@@ -481,6 +502,9 @@ def main():
                     research_findings=research_findings,
                     party_followup_stats=followup['stats'],party_originals=followup['originals'],
                     roster_followup_stats=roster['stats'],party_third_stage_stats=third_stage['stats'],
+                    roster_continued_stats=continued['stats'],held_roster_records=continued['held_records'],
+                    roster_issues=continued['issues'],district_issues=aichi_geography['issues'],
+                    service_end_count=sum(m.get('current_roster_eligible') is False for m in legislators),
                     municipality_mappings=geography['mappings'],
                     original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
@@ -489,7 +513,7 @@ def main():
                         '一般会計19所管、組織・項別859区分、特別会計14会計34勘定等の当初予算と同期間勘定別支出、一部地域配分、国立大学法人等86区分の積算内訳を収載。親の総額と内訳を合算しない。名称一致は制度連続性を証明しない。特別会計の府省別・地域別分解は未収載。',
                         f'原本数値を両年度照合した比較行は{original_coverage["fully_verified_comparison_rows"]}件。原本未掲載の値は欠損のまま残す。抽出本文と原本ファイルのハッシュは別に保存。議員名簿の統一時点での原本照合は未完了。',
                         f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
-                        '2026年9月28日の衆院公式原本で既存463人の正式名・院が一致し、23人の欠落選挙区を補完。既存1人は未一致、新原本1人は保留。旧名簿と資料日を保持し、現行464人の全員照合とは扱わない。参院との統一時点も未確認。',
+                        '2026年9月28日の衆院公式原本で既存463人の正式名・院が一致し、23人の欠落選挙区を補完。未一致の渡辺孝一は党公式訃報で逝去を確認し旧名簿保持・地域表示から除外。栗原渉は衆院本人頁と党原本も独立確認したが旧IDへの未一致を別記録に留める。現行全員・衆参統一時点の照合完了とは扱わない。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])
     (ROOT/'public'/'data.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2)+'\n')
     print(f'{len(ROWS)} comparison rows, {len(legislators)} legislators, {len(SOURCES)} sources')
