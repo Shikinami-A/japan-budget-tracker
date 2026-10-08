@@ -18,7 +18,32 @@ with sync_playwright() as p:
     page.goto('http://127.0.0.1:8000/',wait_until='networkidle')
     page.wait_for_function("document.getElementById('row-count').textContent !== '—'")
     assert not page.locator('#error').is_visible()
+    assert page.locator('.prefecture-shape').count()==47
+    assert page.locator('#scope').input_value()=='都道府県別配分額（事業費）'
+    assert not page.locator('#comparison-table').get_attribute('open')
+    assert not page.locator('#legislator-view').get_attribute('open')
+    assert page.locator('.prefecture-shape[fill="rgb(191,62,72)"]').count()>0
+    assert page.locator('.prefecture-shape[fill="rgb(21,125,91)"]').count()>0
     page.screenshot(path=str(OUT/'dashboard-wide.png'),full_page=True)
+    page.locator('.prefecture-shape[data-prefecture="愛知県"]').click()
+    assert '愛知県' in page.locator('#map-inspector').inner_text()
+    page.locator('#map-inspector button').first.click()
+    assert '原本数値照合済み' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
+    page.locator('.prefecture-shape[data-prefecture="栃木県"]').focus()
+    page.keyboard.press('Enter')
+    assert '栃木県' in page.locator('#map-inspector').inner_text()
+    page.select_option('#program','普通交付税')
+    assert page.locator('.prefecture-shape').count()==0
+    assert '集計範囲を一つずつ' in page.locator('#map-empty').inner_text()
+    page.select_option('#scope','道府県分')
+    page.select_option('#map-prefecture','東京都')
+    assert '両年ゼロ' in page.locator('#map-inspector').inner_text()
+    assert page.locator('.prefecture-shape[data-prefecture="東京都"]').get_attribute('fill')=='url(#missing-pattern)'
+    page.click('#reset')
+    page.locator('#comparison-table > summary').click()
+    page.locator('.advanced > summary').click()
+    page.locator('.view-method > summary').click()
     page.select_option('#prefecture','栃木県')
     page.fill('#query','那珂川')
     assert page.locator('#rows').inner_text().count('那珂川町')==3
@@ -69,6 +94,9 @@ with sync_playwright() as p:
     page.click('#reset')
     page.select_option('#program','上下水道関係補助事業（事業費・国費ではない）')
     assert page.locator('#row-count').inner_text()=='47'
+    assert page.locator('.prefecture-shape[fill="url(#missing-pattern)"]').count()==10
+    page.select_option('#map-prefecture','青森県')
+    assert '原本ダッシュあり' in page.locator('#map-inspector').inner_text()
     page.fill('#query','青森県')
     assert '原本ダッシュ' in page.locator('#rows').inner_text()
     page.fill('#query','東京都')
@@ -185,6 +213,9 @@ with sync_playwright() as p:
     page.fill('#query','')
     page.select_option('#program','地方消費者行政強化交付金')
     assert page.locator('#row-count').inner_text()=='47'
+    assert page.locator('.prefecture-shape[fill="url(#missing-pattern)"]').count()==47
+    page.select_option('#map-prefecture','北海道')
+    assert '片年度未収載' in page.locator('#map-inspector').inner_text()
     assert '未収載' in page.locator('#rows').inner_text()
     page.locator('#rows button').first.click()
     assert '原本数値照合済み' in page.locator('#detail-content').inner_text()
@@ -217,6 +248,7 @@ with sync_playwright() as p:
     tamura.locator('button').click()
     assert '原本内部の整合性' in page.locator('#detail-content').inner_text()
     page.keyboard.press('Escape')
+    page.locator('#legislator-view > summary').click()
     page.select_option('#member-pref','鳥取県')
     assert '鳥取' in page.locator('#members').inner_text() and '島根' in page.locator('#members').inner_text()
     page.select_option('#member-pref','山形県')
@@ -236,10 +268,27 @@ with sync_playwright() as p:
     assert f"{coverage['verified']} / 711人" in page.locator('#party-coverage').inner_text()
     page.select_option('#member-pref','栃木県')
     page.click('[data-view=regional]');page.click('#reset')
+    page.select_option('#program','道路関係補助事業（事業費・国費ではない）')
+    page.locator('#comparison-table').evaluate('(e)=>e.open=false')
+    page.locator('#legislator-view').evaluate('(e)=>e.open=false')
+    page.locator('#ranking-panel').evaluate('(e)=>e.open=false')
+    page.locator('.advanced').evaluate('(e)=>e.open=false')
     page.set_viewport_size({'width':390,'height':844})
     assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
     page.screenshot(path=str(OUT/'dashboard-mobile.png'),full_page=True)
+    page.locator('.prefecture-shape[data-prefecture="北海道"]').click()
+    assert '北海道' in page.locator('#map-inspector').inner_text()
+    page.select_option('#map-prefecture','沖縄県')
+    assert '沖縄県' in page.locator('#map-inspector').inner_text()
     assert not errors,errors
     assert not remote,remote
+    fallback=browser.new_page()
+    fallback.route('**/map/japan.json',lambda route:route.fulfill(status=503,body='unavailable'))
+    fallback.goto('http://127.0.0.1:8000/',wait_until='networkidle')
+    assert not fallback.locator('#error').is_visible()
+    assert fallback.locator('#row-count').inner_text()=='47'
+    assert fallback.locator('#comparison-table').get_attribute('open') is not None
+    assert '地図データを読み込めませんでした' in fallback.locator('#map-empty').inner_text()
+    fallback.close()
     browser.close()
-    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['filters','details','MLIT scopes','Aichi explanation','CSV export with party evidence','national','Q1 and July cumulative','noncomparable exclusion','coverage','joint Senate district','nationwide legislators','party sources and conflicts','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))
+    print(json.dumps({'desktop':'1440x1080','mobile':'390x844','checks':['47-prefecture map','±10% colors','scope selection','keyboard and mobile map selection','zero and missing hatching','map failure fallback','filters','details','MLIT scopes','Aichi explanation','CSV export with party evidence','national','Q1 and July cumulative','noncomparable exclusion','coverage','joint Senate district','nationwide legislators','party sources and conflicts','responsive overflow','no console/CSP errors','no external requests']},ensure_ascii=False))

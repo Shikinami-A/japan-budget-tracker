@@ -69,3 +69,33 @@ export function csvCell(value) {
   if (/^[\s\u0000-\u001f]*[=+\-@]/u.test(s)) s = "'" + s;
   return '"' + s.replaceAll('"', '""') + '"';
 }
+
+// One series is one institution, funding stage, scope, unit and pair of periods.
+// Municipality and bureau totals are never inferred to be prefecture totals.
+export function mapSeriesKey(row) {
+  return JSON.stringify(['ministry','agency','program','scope','basis','account','period2025','period2026','unit'].map(k=>row[k] ?? null));
+}
+
+export function prefectureMap(rows, prefectures) {
+  const direct = rows.filter(r=>prefectures.includes(r.prefecture) && r.region===r.prefecture);
+  if (!direct.length) return {available:false, reason:'県別の原表掲載行がありません。市町村・広域管内の額から県計を推計しません。', entries:[]};
+  if (new Set(direct.map(mapSeriesKey)).size!==1) return {available:false, reason:'制度と集計範囲を一つずつ選ぶと、県別の増減を地図に表示します。', entries:[]};
+  const entries=prefectures.map(prefecture=>{
+    const matches=direct.filter(r=>r.prefecture===prefecture);
+    if (!matches.length) return {prefecture,row:null,pct:null,status:'表示条件に一致する県別行なし'};
+    if (matches.length!==1) return {prefecture,row:null,pct:null,status:'県別行が重複・要確認'};
+    const row=matches[0], c=change(row);
+    if(c.pct===null) return {prefecture,row,pct:null,status:c.label};
+    if(row.comparability!=='同範囲') return {prefecture,row,pct:null,status:`参考・比較条件を確認：${row.comparability}`};
+    if(!['amount2025','amount2026'].every(k=>row.original_verified_fields?.includes(k))) return {prefecture,row,pct:null,status:'両年度の原本数値照合が未完了'};
+    return {prefecture,row,pct:c.pct,status:c.label};
+  });
+  return {available:true, reason:null, entries};
+}
+
+export function changeColor(pct) {
+  if(pct===null || !Number.isFinite(pct)) return null;
+  const t=Math.min(Math.abs(pct)/10,1), neutral=[242,245,242];
+  const edge=pct<0 ? [191,62,72] : [21,125,91];
+  return `rgb(${neutral.map((v,i)=>Math.round(v+(edge[i]-v)*t)).join(',')})`;
+}

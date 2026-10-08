@@ -13,11 +13,11 @@
 <body>
   <a class="skip" href="#main">本文へ</a>
   <header>
-    <div><h1>国の予算・地域配分を比較する</h1><p>2025年度 → 2026年度 <span id="date"></span></p></div>
+    <div><p class="eyebrow">JAPAN BUDGET TRACKER</p><h1>予算の変化を、地域から見る。</h1><p class="header-meta"><span class="year-tag">2025 → 2026年度</span> <span id="date"></span></p></div>
     <a href="https://github.com/Shikinami-A/japan-budget-tracker" target="_blank" rel="noopener noreferrer">出典・調査方法 / GitHub ↗</a>
   </header>
   <main id="main">
-    <aside class="notice"><strong>調査継続中</strong> 全省庁の地域別配分を網羅した資料ではありません。増減は確認の入口で、政治的な働きかけの証拠ではありません。<button id="limitations-toggle" type="button">未確認の範囲を見る</button></aside>
+    <section class="research-strip" aria-label="調査の到達点"><div><span class="live-dot"></span><strong>調査継続中</strong><small>全省庁・全自治体の網羅は未完了</small></div><div><strong id="total-records">—</strong><span>収載した比較行</span></div><div><strong id="verified-records">—</strong><span>両年度の数値照合済み</span></div><div><strong id="total-sources">—</strong><span>公式出典</span></div><button id="limitations-toggle" type="button">残件・調査範囲 ↗</button></section>
     <details id="limitations"><summary>収録範囲・未確認事項</summary><ul id="limits-list"></ul><p id="coverage-summary"></p></details>
     <nav aria-label="表示する資料">
       <button type="button" data-view="regional" aria-pressed="true">地域配分</button>
@@ -33,43 +33,56 @@
       <div class="controls">
         <label>都道府県<select id="prefecture"><option value="">全国の地域</option></select></label>
         <label>所管<select id="ministry"><option value="">すべて</option></select></label>
-        <label>制度<select id="program"><option value="">すべて</option></select></label>
+        <label class="program-control">制度<select id="program"><option value="">すべて</option></select></label>
+        <label>集計範囲<select id="scope"><option value="">すべて</option></select></label>
         <label>地域・制度・議員を検索<input id="query" type="search" maxlength="120" placeholder="例：那珂川、愛知、簗"></label>
+        <button id="reset" type="button">条件をリセット</button>
       </div>
-      <div class="thresholds">
+      <details class="advanced"><summary>大きな増減を探す条件</summary><div class="thresholds">
         <label>増減率 <input id="pct" type="number" min="0" max="1000" value="30"> %以上</label>
         <label>増減額 <input id="amount" type="number" min="0" max="100000000" value="10"> 百万円以上</label>
         <label>同制度との差 <input id="gap" type="number" min="0" max="1000" value="20"> ポイント以上</label>
         <label><input id="candidate-only" type="checkbox"> 確認候補のみ</label>
-        <button id="reset" type="button">リセット</button>
+
       </div>
-      <p id="view-note" class="muted"></p>
+      </details>
+      <details class="view-method"><summary>この資料の比較範囲・注意点</summary><p id="view-note" class="muted"></p></details>
       <p id="annual-note" class="muted" hidden></p>
       <div class="metrics" aria-live="polite">
         <div><span>比較レコード</span><strong id="row-count">—</strong></div>
         <div><span>しきい値による確認候補</span><strong id="candidate-count">—</strong></div>
         <div><span>比較範囲・片年度の要確認</span><strong id="incomplete-count">—</strong></div>
       </div>
-      <section class="panel" id="context">
-        <h2>道路予算の集計範囲で結果が変わる</h2>
-        <p>那須烏山市の「64%減」は新規3事業を含まない値。全市町事業では26.2%減、地域内の県事業も含めると20.5%増です。那珂川町も市町事業は54.1%減、県事業を含む合計では22.0%増。以下ではそれぞれを別の行にしています。</p>
-        <a href="https://www.mlit.go.jp/road/content/002025983.pdf" target="_blank" rel="noopener noreferrer">国交省の精査結果（2026年10月6日） ↗</a>
+      <section id="map-panel" class="panel map-panel" aria-labelledby="map-heading">
+        <div class="section-title"><div><p class="eyebrow">PREFECTURE MAP</p><h2 id="map-heading">県ごとの前年比</h2></div><span class="map-badge">色の上限 ±10%</span></div>
+        <p id="map-subtitle" class="map-subtitle"></p>
+        <div class="map-layout">
+          <div class="map-canvas"><div id="japan-map"></div><p id="map-empty" hidden></p><div class="map-legend"><div class="gradient"></div><div class="legend-labels"><span>−10%以下<br>減少</span><span>0%</span><span>+10%以上<br>増加</span></div><p><span class="missing-swatch"></span> 増減率を表示しない県は斜線 <span>色は増減の方向を示し、良し悪しを表しません。</span></p></div></div>
+          <aside class="map-sidebar"><div id="map-inspector" aria-live="polite"></div><div id="map-distribution" class="map-distribution"></div><p class="muted">県をクリック・タップすると詳細を表示。県別の原表掲載行だけを使用し、市町村や管内額の合算はしません。</p><label>県名で選択<select id="map-prefecture"></select></label></aside>
+        </div>
+        <details class="map-values"><summary>47都道府県の値を一覧で見る</summary><div id="map-value-list"></div></details>
+        <p class="map-credit">地図形状：<a href="https://github.com/geolonia/japanese-prefectures" target="_blank" rel="noopener noreferrer">Geolonia / Wikipedia</a>（GFDL・加工。一部離島を省略、沖縄は左上に移動） <a href="./map/README.md">地図の出典・利用条件</a></p>
       </section>
-      <section class="panel">
+      <details class="panel ranking-panel" id="ranking-panel"><summary>増減ランキングを見る</summary>
         <div class="section-title"><h2 id="chart-title">増減の大きい比較</h2><span>比較条件は各行の出典で確認</span></div>
         <div id="chart" class="chart" aria-label="増減率の比較"></div>
-      </section>
-      <section class="panel">
+      </details>
+      <details class="panel" id="comparison-table"><summary>比較表・CSV・地域の国会議員を見る</summary>
         <div class="section-title"><h2>金額・比較条件・その地域の国会議員</h2><div><label>並べ替え <select id="sort"><option value="absolute">増減率の絶対値</option><option value="delta">増減額の絶対値</option><option value="region">地域順</option></select></label><button id="export" type="button">表示行をCSV保存</button></div></div>
         <p class="muted">金額は百万円。区割りを原本で確認した市町村だけ、小選挙区を絞ります。未照合の市町村は県内一覧と明示します。党名・会派・地域対応は別に確認し、配分決定時点の関係者や党籍を示すものではありません。</p>
         <div class="table-wrap"><table><thead><tr><th>地域 / 制度・範囲</th><th>2025年度</th><th>2026年度</th><th>増減</th><th>確認状況</th><th>衆議院 / 参議院・対応状態</th><th>詳細</th></tr></thead><tbody id="rows"></tbody></table></div>
         <div class="pagination"><button id="prev" type="button">前へ</button><span id="page-status" aria-live="polite"></span><button id="next" type="button">次へ</button></div>
-      </section>
+      </details>
+      <details class="panel context-panel" id="context"><summary>増減を読む前に：集計範囲で結果が変わる例</summary>
+        <h2>道路予算の集計範囲で結果が変わる</h2>
+        <p>那須烏山市の「64%減」は新規3事業を含まない値。全市町事業では26.2%減、地域内の県事業も含めると20.5%増です。那珂川町も市町事業は54.1%減、県事業を含む合計では22.0%増。以下ではそれぞれを別の行にしています。</p>
+        <a href="https://www.mlit.go.jp/road/content/002025983.pdf" target="_blank" rel="noopener noreferrer">国交省の精査結果（2026年10月6日） ↗</a>
+      </details>
     </section>
     <section id="coverage-view" class="panel" hidden><h2>省庁別の調査状況</h2><p>所管総額を確認できても、地域別の裁量的な配分を確認できたとは限りません。「未収載」はゼロでも問題なしでもありません。</p><div id="coverage"></div></section>
-    <section id="legislator-view" class="panel"><h2>議員名簿を地域で見る</h2><label>都道府県 <select id="member-pref"><option value="栃木県">栃木県</option></select></label><label><input id="proportional" type="checkbox" checked> 比例代表も表示（地域選択時は公的な関係資料がある人のみ）</label><p class="muted">資料基準日が異なる保存名簿です。逝去確認者は全国表示で履歴を保持し、地域への対応から除外します。小選挙区・参議院選挙区と、比例代表の地域との関係は別表示。参議院の全国比例を特定地域の代表とは扱いません。</p><p id="party-coverage" class="muted"></p><div id="members" class="member-grid"></div><div id="held-members"></div></section>
+    <details id="legislator-view" class="panel"><summary>議員名簿・党籍の確認状況を見る</summary><h2>議員名簿を地域で見る</h2><label>都道府県 <select id="member-pref"><option value="栃木県">栃木県</option></select></label><label><input id="proportional" type="checkbox" checked> 比例代表も表示（地域選択時は公的な関係資料がある人のみ）</label><p class="muted">資料基準日が異なる保存名簿です。逝去確認者は全国表示で履歴を保持し、地域への対応から除外します。小選挙区・参議院選挙区と、比例代表の地域との関係は別表示。参議院の全国比例を特定地域の代表とは扱いません。</p><p id="party-coverage" class="muted"></p><div id="members" class="member-grid"></div><div id="held-members"></div></details>
     <p id="error" role="alert" hidden></p>
-    <footer>出典に戻って確かめるための調査資料。<span id="source-count"></span> <a href="./data.json" download>出典付きJSON</a> / <a href="https://github.com/Shikinami-A/japan-budget-tracker/blob/work/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">比較方法</a></footer>
+    <footer>増減は調査の入口であり、金額だけで政治的圧力を認定しません。<br>出典に戻って確かめるための調査資料。<span id="source-count"></span> <a href="./data.json" download>出典付きJSON</a> / <a href="https://github.com/Shikinami-A/japan-budget-tracker/blob/work/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">比較方法</a></footer>
   </main>
   <dialog id="detail"><button id="close-detail" type="button">閉じる</button><div id="detail-content"></div></dialog>
 </body>

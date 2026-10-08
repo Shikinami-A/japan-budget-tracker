@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {change,screen,peerChange,membersFor,membersForRow,safeURL,csvCell} from '../public/analysis.mjs';
+import {change,screen,peerChange,membersFor,membersForRow,safeURL,csvCell,prefectureMap,changeColor} from '../public/analysis.mjs';
 const data=JSON.parse(readFileSync(new URL('../public/data.json',import.meta.url)));
 const get=id=>data.rows.find(r=>r.id===id);
 test('Rounded MLIT published ratios remain distinct from displayed-amount calculations',()=>{
@@ -102,4 +102,39 @@ test('Public UI has restrictive CSP and no HTML interpretation of source text',(
   const js=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');
   assert.ok(html.includes("default-src 'none'"));
   assert.ok(!js.includes('innerHTML')&&!js.includes('eval('));
+});
+test('Map refuses mixed scopes and duplicate prefecture rows rather than aggregating',()=>{
+  const tax=data.rows.filter(r=>r.program==='普通交付税');
+  assert.equal(prefectureMap(tax,data.prefectures).available,false);
+  const rows=tax.filter(r=>r.scope==='道府県分');
+  const projected=prefectureMap(rows,data.prefectures);
+  assert.equal(projected.entries.length,47);
+  assert.equal(projected.entries.find(e=>e.prefecture==='愛知県').pct,change(rows.find(r=>r.prefecture==='愛知県')).pct);
+  assert.equal(projected.entries.find(e=>e.prefecture==='東京都').pct,null);
+  const duplicate=prefectureMap([...rows,rows[0]],data.prefectures).entries.find(e=>e.prefecture===rows[0].prefecture);
+  assert.equal(duplicate.pct,null);assert.equal(duplicate.status,'県別行が重複・要確認');
+  for(const key of ['basis','account','period2026','unit','agency'])assert.equal(prefectureMap([...rows,{...rows[0],[key]:'another'}],data.prefectures).available,false);
+});
+test('Map distinguishes missing, printed dashes, unverified values and reference comparisons',()=>{
+  const water=data.rows.filter(r=>r.program==='上下水道関係補助事業（事業費・国費ではない）');
+  const projected=prefectureMap(water,data.prefectures);
+  assert.equal(projected.entries.filter(e=>e.pct===null).length,10);
+  assert.ok(projected.entries.some(e=>e.status==='原本ダッシュあり'));
+  const tax=data.rows.find(r=>r.program==='普通交付税'&&r.prefecture==='栃木県');
+  const map=(r)=>prefectureMap([r],data.prefectures).entries.find(e=>e.prefecture==='栃木県');
+  assert.equal(map({...tax,comparability:'参考・期間差'}).pct,null);
+  assert.equal(map({...tax,original_verified_fields:['amount2025']}).pct,null);
+  assert.equal(map({...tax,amount2025:null,comparability:'片年度未収載'}).status,'片年度未収載');
+  assert.equal(prefectureMap([{...tax,region:'宇都宮市'}],data.prefectures).available,false);
+});
+test('Map colors are continuous and saturate at ±10%, preserving unknown and zero',()=>{
+  assert.equal(changeColor(null),null);assert.equal(changeColor(NaN),null);
+  assert.equal(changeColor(0),'rgb(242,245,242)');
+  assert.equal(changeColor(-10),'rgb(191,62,72)');assert.equal(changeColor(-100),changeColor(-10));
+  assert.equal(changeColor(10),'rgb(21,125,91)');assert.equal(changeColor(100),changeColor(10));
+  assert.notEqual(changeColor(5),changeColor(10));assert.notEqual(changeColor(-5),changeColor(5));
+  const geometry=JSON.parse(readFileSync(new URL('../public/map/japan.json',import.meta.url)));
+  assert.deepEqual(geometry.prefectures.map(p=>p.name),data.prefectures);
+  assert.deepEqual(geometry.prefectures.map(p=>p.code),Array.from({length:47},(_,i)=>String(i+1).padStart(2,'0')));
+  assert.ok(geometry.prefectures.every(p=>p.path.length>0 && /^matrix\([0-9. -]+\)$/.test(p.transform)));
 });

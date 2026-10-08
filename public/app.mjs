@@ -1,8 +1,9 @@
-import { change, screen, membersFor, membersForRow, safeURL, csvCell } from './analysis.mjs';
+import { change, screen, membersFor, membersForRow, safeURL, csvCell, prefectureMap, changeColor } from './analysis.mjs';
 
 const $ = id => document.getElementById(id);
 const number = new Intl.NumberFormat('ja-JP', { maximumFractionDigits: 3 });
 let data, view = 'regional', page = 0, visible = [];
+let geometry, mapError, mapResult, selectedMapPref = '栃木県';
 const pageSize = 20;
 const el = (tag, text, cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
 const amount = n => n === null ? '未取得' : number.format(n);
@@ -51,9 +52,11 @@ function render() {
   $('prefecture').disabled = !regional;
   options('ministry', [...new Set(base.map(r => r.ministry))], 'すべて');
   options('program', [...new Set(base.filter(r => !$('ministry').value || r.ministry === $('ministry').value).map(r => r.program))], 'すべて');
+  options('scope', [...new Set(base.filter(r => (!$('ministry').value || r.ministry === $('ministry').value) && (!$('program').value || r.program === $('program').value)).map(r => r.scope ?? '範囲記載なし'))], 'すべて');
   const q = $('query').value.trim().toLocaleLowerCase('ja-JP');
   let scoped = base.filter(r => (!regional || !$('prefecture').value || r.prefecture === $('prefecture').value) &&
     (!$('ministry').value || r.ministry === $('ministry').value) && (!$('program').value || r.program === $('program').value) &&
+    (!$('scope').value || (r.scope ?? '範囲記載なし') === $('scope').value) &&
     (!q || [r.region,r.ministry,r.program,r.scope,...rowMembers(r).map(memberLine)].join(' ').toLocaleLowerCase('ja-JP').includes(q)));
   const t = thresholds();
   scoped = scoped.map(r => ({ ...r, analysis: screen(r, data.rows, t) }));
@@ -80,7 +83,68 @@ function render() {
   $('annual-note').hidden = view !== 'execution';
   const annualSource=data.sources.find(s=>s.id===data.annual2025.source_id);
   $('annual-note').replaceChildren(document.createTextNode(`年間決算（別枠）：2025年度一般会計の支出済歳出額は129兆4,661億円。${data.annual2025.note} `),link('決算概要の出典 ↗',annualSource.url));
-  renderChart(); renderRows();
+  renderMap(); renderChart(); renderRows();
+}
+
+const svgEl=(tag,attrs={})=>{const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);return n;};
+function renderMap() {
+  const regional=['regional','reference'].includes(view);
+  $('map-panel').hidden=!regional;
+  if(!regional) { $('comparison-table').open=true; $('ranking-panel').open=true; return; }
+  mapResult=geometry ? prefectureMap(visible,data.prefectures) : {available:false,reason:mapError};
+  const host=$('japan-map');host.replaceChildren();
+  $('map-empty').hidden=mapResult.available;
+  document.querySelector('.map-legend').hidden=!mapResult.available;
+  document.querySelector('.map-values').hidden=!mapResult.available;
+  document.querySelector('.map-sidebar').hidden=!mapResult.available;
+  document.querySelector('.map-layout').classList.toggle('map-unavailable',!mapResult.available);
+  $('map-empty').textContent=mapResult.reason ?? '';
+  $('map-inspector').replaceChildren();$('map-distribution').replaceChildren();$('map-value-list').replaceChildren();
+  $('map-prefecture').disabled=!mapResult.available;
+  if(!mapResult.available) { $('map-subtitle').textContent='異なる制度・財源・段階・範囲を一枚の地図に合算しません。';return; }
+  const first=mapResult.entries.find(e=>e.row).row;
+  $('map-subtitle').textContent=`${first.program} / ${first.scope ?? '範囲記載なし'} ・ ${first.basis} ・ 百万円`;
+  const svg=svgEl('svg',{viewBox:geometry.viewBox,'aria-label':'都道府県別の前年比。県を選ぶと金額と確認状態を表示します。',role:'group'});
+  const defs=svgEl('defs'), pattern=svgEl('pattern',{id:'missing-pattern',width:8,height:8,patternUnits:'userSpaceOnUse'});
+  pattern.append(svgEl('rect',{width:8,height:8,fill:'#e8edf0'}),svgEl('path',{d:'M0 8L8 0',stroke:'#bdc9d0','stroke-width':1.5}));defs.append(pattern);svg.append(defs);
+  const boundary=svgEl('path',{d:'M40 180L340 180L450 280',class:'inset-line'});svg.append(boundary);
+  const inset=svgEl('text',{x:50,y:170,class:'inset-label'});inset.textContent='沖縄（位置を移動）';svg.append(inset);
+  for(const pref of geometry.prefectures) {
+    const entry=mapResult.entries.find(e=>e.prefecture===pref.name);
+    const path=svgEl('path',{d:pref.path,transform:pref.transform,fill:changeColor(entry.pct) ?? 'url(#missing-pattern)',class:'prefecture-shape',tabindex:0,role:'button','data-prefecture':pref.name,'aria-label':`${pref.name}：${entry.status}`});
+    const title=svgEl('title');title.textContent=`${pref.name}：${entry.status}`;path.append(title);
+    const select=()=>{selectedMapPref=pref.name;renderMapInspector();};
+    path.addEventListener('click',select);path.addEventListener('focus',select);
+    path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select();}});
+    svg.append(path);
+  }
+  host.append(svg);
+  const comparable=mapResult.entries.filter(e=>e.pct!==null);
+  for(const [name,value,cls] of [['増加',comparable.filter(e=>e.pct>0).length,'increase'],['減少',comparable.filter(e=>e.pct<0).length,'decrease'],['増減なし',comparable.filter(e=>e.pct===0).length,''],['率を表示しない',47-comparable.length,'']]) {
+    const item=el('div');item.append(el('strong',String(value),cls),el('span',`${name} / 県`));$('map-distribution').append(item);
+  }
+  for(const entry of mapResult.entries) {
+    const b=el('button',undefined,'map-value');b.type='button';b.append(el('span',entry.prefecture),el('strong',entry.status,entry.pct===null?'muted':entry.pct<0?'decrease':'increase'));
+    b.onclick=()=>{selectedMapPref=entry.prefecture;renderMapInspector();$('map-inspector').scrollIntoView({block:'nearest',behavior:'smooth'});};$('map-value-list').append(b);
+  }
+  renderMapInspector();
+}
+function renderMapInspector() {
+  if(!mapResult?.available)return;
+  const entry=mapResult.entries.find(e=>e.prefecture===selectedMapPref), host=$('map-inspector');host.replaceChildren();
+  $('map-prefecture').value=selectedMapPref;
+  document.querySelectorAll('.prefecture-shape').forEach(p=>p.setAttribute('aria-pressed',String(p.dataset.prefecture===selectedMapPref)));
+  host.append(el('p','SELECTED PREFECTURE','eyebrow'),el('h3',selectedMapPref),el('div',entry.pct===null?'—':change(entry.row).label,`map-rate ${entry.pct===null?'':entry.pct<0?'decrease':'increase'}`));
+  if(!entry.row) {host.append(el('p',entry.status,'muted'));return;}
+  const r=entry.row;
+  if(entry.pct===null)host.append(el('p',entry.status,'map-status'));
+  const amounts=el('div',undefined,'year-amounts');
+  for(const year of [2025,2026]) {const d=el('div');d.append(el('span',`${year}年度`),el('strong',rowAmount(r,year)),el('small','百万円'));amounts.append(d);}
+  host.append(amounts);
+  const c=change(r);host.append(el('p',c.delta===null?'増減額は算出しません':`増減額 ${c.delta>=0?'+':''}${amount(c.delta)} 百万円`,'map-delta'));
+  host.append(el('small',`比較条件：${r.comparability}`),el('small',`2025：${r.amount_status2025} / 2026：${r.amount_status2026}`));
+  const actions=el('div',undefined,'map-actions'),detail=el('button','出典・比較条件を見る');detail.type='button';detail.onclick=()=>showDetail(r);
+  const filter=el('button','この県で絞る');filter.type='button';filter.onclick=()=>{$('prefecture').value=selectedMapPref;page=0;render();};actions.append(detail,filter);host.append(actions);
 }
 function renderChart() {
   const chart = $('chart'); chart.replaceChildren();
@@ -320,20 +384,35 @@ async function start() {
   try {
     const response=await fetch('./data.json',{credentials:'omit'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
     data=await response.json();if(data.schema_version!==1||!Array.isArray(data.rows))throw new Error('データ形式が一致しません');
+    try {
+      const mapResponse=await fetch('./map/japan.json',{credentials:'omit'});
+      if(!mapResponse.ok)throw new Error('地図を取得できません');
+      const parsed=await mapResponse.json();
+      if(parsed.prefectures?.length!==47 || parsed.prefectures.some((p,i)=>p.name!==data.prefectures[i]))throw new Error('地図の形式が一致しません');
+      geometry=parsed;
+    } catch {
+      mapError='地図データを読み込めませんでした。比較表で金額・増減・出典を確認できます。';
+      $('comparison-table').open=true;
+    }
     $('date').textContent=`/ 調査日 ${data.as_of}`;
     options('prefecture',data.prefectures,'全国の地域');options('member-pref',data.prefectures,'全国の議員');$('member-pref').value='栃木県';
+    options('map-prefecture',data.prefectures);
+    $('total-records').textContent=number.format(data.rows.length);
+    $('verified-records').textContent=number.format(data.original_coverage.fully_verified_comparison_rows);
+    $('total-sources').textContent=number.format(data.sources.length);
     $('limits-list').replaceChildren(...data.limitations.map(t=>el('li',t)));
     const parties=data.legislators.filter(m=>m.party!==null).length;
     $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、保存名簿${data.legislators.length}人（衆議院464人、参議院247人、在職終了確認${data.service_end_count ?? 0}人を含む）。旧名簿へ自動追加しない別原本記録${data.held_roster_records?.length ?? 0}人。選挙区未取得${data.legislators.filter(m=>!m.district).length}人。所属党の一次資料照合：${parties}人。`;
     $('source-count').textContent=`公式出典 ${data.sources.length}件。両年度の原本数値照合 ${data.original_coverage.fully_verified_comparison_rows} / ${data.rows.length}行。`;
-    for(const id of ['prefecture','ministry','program','query','pct','amount','gap','candidate-only','sort'])$(id).addEventListener(id==='query'?'input':'change',()=>{page=0;render();});
+    for(const id of ['prefecture','ministry','program','scope','query','pct','amount','gap','candidate-only','sort'])$(id).addEventListener(id==='query'?'input':'change',()=>{if(['ministry','program'].includes(id))$('scope').value='';page=0;render();});
     document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;page=0;$('candidate-only').checked=false;render();});
     $('prev').onclick=()=>{page--;renderRows();};$('next').onclick=()=>{page++;renderRows();};
     $('export').onclick=exportCSV;$('close-detail').onclick=()=>$('detail').close();
     $('limitations-toggle').onclick=()=>{$('limitations').open=!$('limitations').open;};
-    $('reset').onclick=()=>{for(const id of ['prefecture','ministry','program','query'])$(id).value='';$('pct').value=30;$('amount').value=10;$('gap').value=20;$('candidate-only').checked=false;page=0;render();};
+    $('reset').onclick=()=>{for(const id of ['prefecture','ministry','program','scope','query'])$(id).value='';$('pct').value=30;$('amount').value=10;$('gap').value=20;$('candidate-only').checked=false;page=0;render();};
+    $('map-prefecture').onchange=()=>{selectedMapPref=$('map-prefecture').value;renderMapInspector();};
     $('member-pref').onchange=renderMembers;$('proportional').onchange=renderMembers;
-    render();renderMembers();
+    render();$('program').value='道路関係補助事業（事業費・国費ではない）';render();$('scope').value='都道府県別配分額（事業費）';render();renderMembers();
   }catch(error){$('error').hidden=false;$('error').textContent=`データを読み込めませんでした：${error.message}。READMEの手順でHTTPサーバーを起動してください。`;}
 }
 start();
