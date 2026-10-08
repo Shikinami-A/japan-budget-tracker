@@ -66,6 +66,23 @@ with sync_playwright() as p:
     page.click('#reset')
     page.click('[data-view=national]')
     assert page.locator('#row-count').inner_text()=='19'
+    page.click('[data-view=programs]')
+    assert page.locator('#row-count').inner_text()=='859'
+    assert '制度の連続性は未確認' in page.locator('#view-note').inner_text()
+    with page.expect_download() as download:
+        page.click('#export')
+    download.value.save_as(str(OUT/'program-export.csv'))
+    program_export=(OUT/'program-export.csv').read_text(encoding='utf-8-sig')
+    assert '片年度非掲載' in program_export and '制度連続性未確認' in program_export
+    page.check('#candidate-only')
+    assert page.locator('#candidate-count').inner_text()=='0'
+    page.click('#reset')
+    page.click('[data-view=institutions]')
+    assert page.locator('#row-count').inner_text()=='86' and page.locator('#prefecture').is_disabled()
+    page.locator('#rows button').first.click()
+    assert '交付決定額' in page.locator('#detail-content').inner_text()
+    assert '地域への割当なし' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
     page.click('[data-view=special]')
     assert page.locator('#row-count').inner_text()=='34'
     page.click('[data-view=execution]')
@@ -74,10 +91,21 @@ with sync_playwright() as p:
     assert page.locator('#row-count').inner_text()=='18'
     assert '4〜7月' in page.locator('#rows').inner_text()
     page.click('[data-view=reference]')
+    page.select_option('#program','子ども・子育て支援施設整備交付金')
+    assert page.locator('#row-count').inner_text()=='330'
+    missing_cfa=next(r for r in json.loads((ROOT/'public/data.json').read_text())['rows']
+                     if r['program']=='子ども・子育て支援施設整備交付金' and r['amount2025'] is None)
+    page.fill('#query',missing_cfa['region'])
+    assert '非掲載' in page.locator('#rows').inner_text()
+    page.fill('#query','')
+    page.select_option('#program','循環型社会形成推進交付金等（4月内示掲載額合計）')
+    assert page.locator('#row-count').inner_text()=='47'
     page.check('#candidate-only')
     assert page.locator('#candidate-count').inner_text()=='0'
     page.click('[data-view=coverage]')
     assert '復興庁' in page.locator('#coverage').inner_text()
+    assert '通知段階差で未比較' in page.locator('#coverage').inner_text()
+    assert '通信が拒否' in page.locator('#coverage').inner_text()
     page.select_option('#member-pref','鳥取県')
     assert '鳥取' in page.locator('#members').inner_text() and '島根' in page.locator('#members').inner_text()
     page.select_option('#member-pref','山形県')

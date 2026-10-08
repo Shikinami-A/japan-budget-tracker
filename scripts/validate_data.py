@@ -5,7 +5,7 @@ import math
 import re
 from pathlib import Path
 from urllib.parse import urlsplit
-from party_sources import PARTIES, reviewed_profiles
+from party_sources import PARTIES, reviewed_profiles, reviewed_expansion
 
 ROOT=Path(__file__).resolve().parents[1]
 d=json.loads((ROOT/'public/data.json').read_text())
@@ -14,8 +14,10 @@ assert len(d['prefectures'])==47 and len(set(d['prefectures']))==47
 sources={s['id']:s for s in d['sources']}
 assert len(sources)==len(d['sources'])
 profiles=reviewed_profiles(ROOT/'data/source-text')
+expansion=reviewed_expansion(ROOT/'data/source-text')
 approved_party_urls={url for party,url in PARTIES.values()}
 approved_party_urls.update(e['url'] for e in profiles['sources'])
+approved_party_urls.update(e['url'] for e in expansion['sources'])
 for s in sources.values():
     u=urlsplit(s['url'])
     assert u.scheme=='https' and u.hostname and not u.username and not u.password
@@ -63,6 +65,37 @@ def reconcile(basis, field, expected, tolerance=0.002):
     return len(rows)
 assert reconcile('当初予算','amount2025',115197845.248)==19
 assert reconcile('当初予算','amount2026',122309247.035)==19
+# Item subtotals must exhaust each ministry, without adding the parent totals.
+items=[r for r in d['rows'] if r.get('view_group')=='programs']
+assert len(items)==859 and len({r['ministry'] for r in items})==19
+assert sum(r['amount2025'] is not None and r['amount2026'] is not None for r in items)==771
+for year in (2025,2026):
+    for parent in [r for r in d['rows'] if r['basis']=='当初予算' and r['account']=='一般会計']:
+        children=[r for r in items if r['ministry']==parent['ministry']]
+        actual=sum(r[f'amount_thousand_yen{year}'] or 0 for r in children)
+        assert round(parent[f'amount{year}']*1000)==actual,(year,parent['ministry'])
+    for r in items:
+        assert r['prefecture'] is None and r['region']=='全国'
+        assert r['comparability']!='同範囲'
+        value=r[f'amount{year}'];exact=r[f'amount_thousand_yen{year}']
+        assert (value is None and exact is None) or value is not None and round(value*1000)==exact
+institutions=[r for r in d['rows'] if r.get('view_group')=='institutions']
+assert len(institutions)==86
+for year,total in [(2025,1078350085),(2026,1097136487)]:
+    assert sum(round(r[f'amount{year}']*1000) for r in institutions)==total
+assert all(r['prefecture'] is None and r['region']=='全国' and r.get('geography_status') for r in institutions)
+assert sum(r.get('institution') is not None for r in institutions)==85
+for year,total,count in [(2025,10039796,214),(2026,9699402,198)]:
+    rows=[r for r in d['rows'] if r['program']=='子ども・子育て支援施設整備交付金']
+    assert len(rows)==330 and sum(r[f'amount{year}'] is not None for r in rows)==count
+    assert sum(round(r[f'amount{year}']*1000) for r in rows if r[f'amount{year}'] is not None)==total
+    assert all(r['view_group']=='reference' and r['comparability']!='同範囲' for r in rows)
+for year,total in [(2025,135995055),(2026,35123366)]:
+    rows=[r for r in d['rows'] if r['ministry']=='環境省' and r.get('view_group')=='reference']
+    assert len(rows)==47 and sum(round(r[f'amount{year}']*1000) for r in rows)==total
+    assert all(r['comparability']!='同範囲' for r in rows)
+for c in d['coverage']:
+    assert all(all(sid in sources for sid in n['source_ids']) for n in c.get('research_notes',[]))
 # Each ministry and the overall total are independently truncated below 1,000 yen.
 assert reconcile('執行額（4〜6月）','amount2025',36532534.837,0.020)==18
 assert reconcile('執行額（4〜6月）','amount2026',39047272.046,0.020)==18
@@ -96,4 +129,9 @@ for e in profiles['entries']:
     assert (m['name'],m['chamber'],m['district'])==(e['member_name'],e['chamber'],e['district'])
     assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
                for p in m['party_evidence'])
+for e in expansion['entries']:
+    m=members_by_id[e['member_id']]
+    assert (m['name'],m['chamber'],m['district'])==(e['member_name'],e['chamber'],e['district'])
+    assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
+               and p['checked_at']==e['checked_at'] and p['original_location']==e['original_location'] for p in m['party_evidence'])
 print(f"Data verified: {len(d['rows'])} rows, {len(d['sources'])} official sources, {len(d['legislators'])} legislators. National totals reconciled; rounded regional totals checked.")

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [],
+  "originals": [],
+  "rows": [],
+  "research_notes": [
+    {
+      "ministry": "経済産業省",
+      "status": "地域事業概要の公式原本への通信が拒否",
+      "source_ids": [],
+      "requested_url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "note": "電源立地地域対策交付金の事業概要一覧は検索結果では2024年度まで。FY2025/FY2026同条件の地域一覧は未確認。資源エネルギー庁www.enecho.meti.go.jpは環境の許可ホストに未掲載で、原本取得はプロキシCONNECT段階の403。別経路での原本取得に置き換えず、全国予算内訳と地域交付を分けて未比較。",
+      "checked_at": "2026-10-09"
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "checked_at": "2026-10-09",
+      "status": "blocked_or_failed",
+      "error_type": "URLError",
+      "failure_category": "proxy_connect_denied",
+      "http_status": 403
+    }
+  ]
+}

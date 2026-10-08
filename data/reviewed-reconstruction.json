@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "reconstruction-fukushima-notification-64",
+      "title": "福島再生加速化交付金 第64回交付可能額通知（通知回単独・年度比較不可）",
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20250401_fukushimasaiseikasoku_No64_kanougaku.pdf",
+      "locator": "PDF1頁（通知全体の国費）、PDF20〜21頁（浜通り事業本文・福島県別紙）",
+      "kind": "交付可能額通知・比較条件調査",
+      "accessed": "2026-10-09",
+      "published": "2025-04-01",
+      "retrieved_via": "公式PDF原本取得、pdftotext -layoutによる対象頁抽出",
+      "sha256_extracted_text": "6e24da949ed844561dc430dd2fe53fff8dceaa697c44975bb3de218a7dd0e9b0",
+      "excerpt": "記 者 発 表 資 料\n                               令和７年４月１日\n                               復    興      庁\n\n 福島再生加速化交付金（第６４回）の交付可能額通知について\n\n\n「福島再生加速化交付金」について、本日、以下のとおり交付可能額を通知します。\n\n  ① 帰還・移住等環境整備（第５０回）・・・・・・・・・・・別添１\n\n  ② 福島定住等緊急支援 【福島健康不安対策事業（第６回）】\n                              ・別添２\n\n  ③ 福島定住等緊急支援 【地域魅力向上・発信支援事業（第１５回）】\n                       ・・・・・・・・別添３\n\n  ④ 既存ストック活用まちづくり支援（第１１回）\n                        ・・・・・・別添４\n\n  ⑤ 浜通り地域等産業発展環境整備事業（第５回）・・・・・・別添５\n\n  ⑥ 水産業共同利用施設復興促進整備事業（第９回）・・・・・別添６\n\n\n◆交付可能額について\n\n  福島県及び市町村等から提出された事業計画に対して行う交付可能額\n は以下のとおりです。\n\n    事業費   ５０，５５７百万円、国費      ３７，８１０百万円\n\n   うち、帰還・移住等環境整備\n    事業費 ４７，７２８百万円、国費 ３６，１８１百万円\n   うち、福島定住等緊急支援 【福島健康不安対策事業】\n    事業費    １９９百万円、国費    １９９百万円\n   うち、福島定住等緊急支援【地域魅力向上・発信支援事業】\n    事業費  １，６６８百万円、国費    ８３４百万円\n   うち、既存ストック活用まちづくり支援\n    事業費      １百万円、国費      １百万円\n   うち、浜通り地域等産業発展環境整備事業\n    事業費    ４８９百万円、国費    ２４４百万円\n   うち、水産業共同利用施設復興促進整備事業\n    事業費    ４７２百万円、国費    ３５０百万円\n    ※計数は精査の結果、今後変動があり得ます。\n\n（別添５）\n\n\n                                          記 者 発 表 資 料\n                                          令和７年４月１日\n                                          復    興    庁\n\n\n\n\n   福島再生加速化交付金（第６４回）《浜通り地域等産業発展\n   環境整備事業第５回》の交付可能額通知について\n\n\n                             」に\n 「福島再生加速化交付金（浜通り地域等産業発展環境整備事業）\nついて、本日、以下のとおり交付可能額を通知します。\n\n\n１．交付可能額\n 事業費 ４８９百万円、国費 ２４４百万円\n ※福島県に対する交付可能額。\n ※計数は精査の結果、今後変動があり得ます。\n\n\n２．交付対象事業\n\n 福島県において、イノベ構想の取り組みに関する情報発信や交流人口\nや関係人口の拡大に向けた事業を実施するとともに、浜通り地域等での\nイノベーション創出を促進するための起業・創業を支援します。\n\n\n\n\n《別紙資料》\n\n                                       （第５回）≫市町村等別交付可能額\n ・別紙１：福島再生加速化交付金（第６４回）≪浜通り地域等産業発展環境整備事業）\n\n ・別紙２：福島再生加速化交付金（浜通り地域等産業発展環境整備事業）事業の概要\n\n【別紙１】\n\n\n\n  福島再生加速化交付金（第６４回）≪浜通り地域等産業発展環境整\n  備事業（第５回）≫市町村等別交付可能額\n\n\n                           （単位：百万円）\n  県及び市町村名         事業費    交付可能額【国費】\n  福   島   県       ４８９      ２４４\n      計           ４８９      ２４４\n注）計数は精査の結果、今後変動があり得ます。"
+    },
+    {
+      "id": "reconstruction-fukushima-notification-68",
+      "title": "福島再生加速化交付金 第68回交付可能額通知（通知回単独・年度比較不可）",
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260401_fukushimasaiseikasoku_No68_kanougaku.pdf",
+      "locator": "PDF1頁（通知全体の国費）、PDF11〜12頁（浜通り事業本文・福島県別紙）",
+      "kind": "交付可能額通知・比較条件調査",
+      "accessed": "2026-10-09",
+      "published": "2026-04-01",
+      "retrieved_via": "公式PDF原本取得、pdftotext -layoutによる対象頁抽出",
+      "sha256_extracted_text": "6dad2bf825073103fe5a55120da587fdb1bd9da087791febadd1d8a2e62a45c8",
+      "excerpt": "令和８年４月１日\n                             復   興  庁\n\n 福島再生加速化交付金（第６８回）の交付可能額通知について\n\n\n「福島再生加速化交付金」について、本日、以下のとおり交付可能額を通知します。\n\n  ① 帰還・移住等環境整備（第５４回）・・・・・・・・・・・・別添１\n\n  ② 福島定住等緊急支援 【地域魅力向上・発信支援事業（第１９回）】\n    ・・・・・・・・・・・・・・・・・・・・・・・・・・・・別添２\n\n  ③ 浜通り地域等産業発展環境整備事業（第６回）・・・・・・・別添３\n\n\n◆交付可能額について\n\n  福島県及び市町村等から提出された事業計画に対して行う交付可能額\n は以下のとおりです。\n\n      事業費   ５，８９５百万円、国費   １２７百万円\n\n   うち、帰還・移住等環境整備\n      事業費 ４，１５７百万円、国費 １０４百万円\n   うち、福島定住等緊急支援（地域魅力向上・発信支援事業）\n      事業費 １，２３６百万円、 国費 １８百万円\n   うち、浜通り地域等産業発展環境整備事業\n      事業費   ５０２百万円、 国費  ５百万円\n  ※計数は精査の結果、今後変動があり得ます。\n\n（別添３）\n\n\n\n\n                                          令和８年４月１日\n                                          復   興  庁\n\n\n\n\n    福島再生加速化交付金（第６８回）《浜通り地域等産業発展\n    環境整備事業第６回》の交付可能額通知について\n\n\n 「福島再生加速化交付金（浜通り地域等産業発展環境整備事業）」に\nついて、本日、以下のとおり交付可能額を通知します。\n 今回の交付可能額については、令和８年度暫定予算期間中に対応が必\n要な事業（令和７年度からの継続事業であって令和８年４月１日から引\nき続き事業を実施することが必要なもの）のみを計上します。\n\n\n１．交付可能額\n 事業費 ５０２百万円、国費 ５百万円\n ※国費は、福島県に対する交付可能額のうち、令和８年度暫定予算期間中に必要な額。\n ※計数は精査の結果、今後変動があり得ます。\n\n\n２．交付対象事業\n\n 福島県において、イノベ構想の取り組みに関する情報発信や担い手の\n拡大に向けた事業を実施するとともに、浜通り地域等でのイノベーショ\nン創出を促進するための起業・創業を支援します。\n\n３．今後の予定について\n\n  暫定予算で対応した事業の交付可能額の残額については、令和８年\n 度予算成立後速やかに交付可能額を通知する予定。\n\n 《別紙資料》\n ・別紙１：福島再生加速化交付金（第６８回）≪浜通り地域等産業発展環境整備事業）\n                                       （第６回）≫市町村等別交付可能額\n\n ・別紙２：福島再生加速化交付金（浜通り地域等産業発展環境整備事業）事業の概要\n\n【別紙１】\n\n\n\n  福島再生加速化交付金（第６８回）≪浜通り地域等産業発展環境整\n  備事業（第６回）≫市町村等別交付可能額\n\n\n                           （単位：百万円）\n  県及び市町村名         事業費    交付可能額【国費】\n  福   島   県       ５０２       ５\n      計           ５０２       ５\n注）計数は精査の結果、今後変動があり得ます。"
+    },
+    {
+      "id": "reconstruction-fukushima-notification-69",
+      "title": "福島再生加速化交付金 第69回交付可能額通知（通知回単独・年度比較不可）",
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_fukushimasaiseikasoku_No69_kanougaku.pdf",
+      "locator": "PDF1頁（通知全体の国費）、PDF16〜17頁（浜通り事業本文・福島県別紙）",
+      "kind": "交付可能額通知・比較条件調査",
+      "accessed": "2026-10-09",
+      "published": "2026-04-08",
+      "retrieved_via": "公式PDF原本取得、pdftotext -layoutによる対象頁抽出",
+      "sha256_extracted_text": "2351f356dedfc663501f223ecc3c05ae6ba34c8e68a5eb9d7ba3588aa8a75849",
+      "excerpt": "記 者 発 表 資 料\n                            令和８年４月８日\n                            復    興     庁\n\n 福島再生加速化交付金（第６９回）の交付可能額通知について\n\n\n「福島再生加速化交付金」について、本日、以下のとおり交付可能額を通知します。\n\n  ① 帰還・移住等環境整備（第５５回）・・・・・・・・・・・・別添１\n\n  ② 福島定住等緊急支援 【地域魅力向上・発信支援事業（第２０回）】\n    ・・・・・・・・・・・・・・・・・・・・・・・・・・・・別添２\n\n  ③ 既存ストック活用まちづくり支援（第１３回）\n                        ・・・・・・・別添３\n\n  ④ 浜通り地域等産業発展環境整備事業（第７回）\n                        ・・・・・・・別添４\n\n\n◆交付可能額について\n\n  福島県及び市町村等から提出された事業計画に対して行う交付可能額\n は以下のとおりです。\n\n    事業費   ２３，３０７百万円、国費   １７，１１０百万円\n\n うち、帰還・移住等環境整備\n    事業費 ２０，１１０百万円、国費     １５，５３４百万円\n\n うち、福島定住等緊急支援（地域魅力向上・発信支援事業）\n    事業費  ２，６９３百万円、国費  １，３２８百万円\n\n うち、既存ストック活用まちづくり支援\n    事業費      ２百万円、国費          ２百万円\n\n うち、浜通り地域等産業発展環境整備事業\n    事業費    ５０２百万円、国費        ２４６百万円\n ※計数は精査の結果、今後変動があり得ます。\n\n（別添４）\n\n\n                                          記 者 発 表 資 料\n                                          令和８年４月８日\n                                          復    興    庁\n\n\n\n\n   福島再生加速化交付金（第６９回）《浜通り地域等産業発展\n   環境整備事業第７回》の交付可能額通知について\n\n\n                             」に\n 「福島再生加速化交付金（浜通り地域等産業発展環境整備事業）\nついて、本日、以下のとおり交付可能額を通知します。\n\n\n１．交付可能額\n 事業費 ５０２百万円、国費 ２４６百万円\n ※福島県に対する交付可能額。\n ※計数は精査の結果、今後変動があり得ます。\n\n\n２．交付対象事業\n\n 福島県において、イノベ構想の取り組みに関する情報発信や担い手の\n拡大に向けた事業を実施するとともに、浜通り地域等でのイノベーショ\nン創出を促進するための起業・創業を支援します。\n\n\n\n\n《別紙資料》\n\n                                       （第７回）≫市町村等別交付可能額\n ・別紙１：福島再生加速化交付金（第６９回）≪浜通り地域等産業発展環境整備事業）\n\n ・別紙２：福島再生加速化交付金（浜通り地域等産業発展環境整備事業）事業の概要\n\n【別紙１】\n\n\n\n  福島再生加速化交付金（第６９回）≪浜通り地域等産業発展環境整\n  備事業（第７回）≫市町村等別交付可能額\n\n\n                           （単位：百万円）\n  県及び市町村名         事業費    交付可能額【国費】\n  福   島   県       ５０２      ２４６\n      計           ５０２      ２４６\n注）計数は精査の結果、今後変動があり得ます。"
+    },
+    {
+      "id": "reconstruction-fukushima-overview-2026",
+      "title": "福島再生加速化交付金の概要（2026年版）",
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_kasokuka-gaiyou.pdf",
+      "locator": "PDF1頁、制度メニューと第3期復興・創生期間",
+      "kind": "制度説明",
+      "accessed": "2026-10-09",
+      "published": null,
+      "document_date_inferred_from_filename": "2026-04-08",
+      "retrieved_via": "公式PDF原本取得、pdftotext -layout",
+      "sha256_extracted_text": "e86d1e357ebd66f69c2aa9fb574e207e3838e629d2fa63ae4489bb69d3ba110e",
+      "excerpt": "福島再生加速化交付金\n    事業概要・目的                             事業イメージ・具体例\n○    福島の復興・再生に向けた課題を 第３期復興・創生期間で何      〇 対象区域\n    としても解決していくという強い決意の下、本格的な復興・再生に       避難指示を受けた１２市町村等（各事業に応じて対象地域を設定）\n    向けた取組を支援。\n                                        交付金の対象           交付金の対象\n                                                              主な事業内容\n（参考）「第２期復興・創生期間」以降における東日本大震災から\n の復興の基本方針（令和７年６月20日）（抄）                帰還・移住等環境    ○被災１２市町村等への早期帰還・移住等の促進、地域の再生加速化\n                                       整備           ・生活拠点等の整備（災害公営住宅、市街地の整備等）\n     それぞれの地域の実情や特殊性を踏まえながら、特定復興再生拠                  ・放射線への健康不安・健康管理対策等（個人線量の管理等）\n    点区域を含め避難指示が解除された地域における生活環境の整備、                  ・営農・商工業再開に向けた環境整備（農地・農業用施設、産業団地\n                                                     の整備等）\n    長期避難者への支援、特定帰還居住区域を始めとする帰還困難区域                  ・新たな住民の移住等の促進に資する施策\n    の避難指示解除に向けた取組、帰還促進と新たな住民 の移住・定住\n    の促進、交流人口・関係人口の拡大、福島イノベーション・コースト構\n    想の推進、事業者・農林漁業者の再建、風評の払拭に向けた取組等\n                                       長期避難者生活拠点   ○長期避難者向けの公営住宅整備とコミュニティ支援\n    を行う。                                            ・長期避難者の生活拠点の形成及び関連基盤整備等（復興公営住宅の\n                                       形成\n                                                     家賃低廉化等）\n    期待される効果                                         ・復興公営住宅での生活支援（コミュニティ交流員の配置等）\n\n\n○    長期避難者の生活拠点整備、避難住民の帰還のための生         福島定住等緊急支援   ○子育て世帯が早期に帰還し安心して定住できる環境整備等\n    活拠点整備等に加え、移住・定住の促進、浜通り地域等に                      ・子どもの運動機会確保（遊具の更新、地域の運動施設の整備等）\n                                                    ・基幹事業と一体となって効果を増大するソフト施策（プレイリー\n    おける担い手拡大等に資する施策を一括して支援すること                       ダーの養成等）\n    により、被災地域の復興・再生を加速することができる。                     ○市町村等の創意工夫による風評払拭に向けた取組を支援\n\n\n    資金の流れ                              既存ストック活用    ○既存ストック（空き地・空き家等）を活用したまちづくり支援\n                                       まちづくり支援      ・既存ストックの有効活用による公的施設等の整備\n               交付                                   ・復興拠点６町村における既存ストック活用策を検討・協議するため\n                                                     の官民連携プラットフォームの構築、社会実験の実施\n\n     復\n     興         各         県・12市町村等      浜通り地域等産業    ○福島浜通り地域等における産業発展に向けた環境整備\n     庁   移替え   府    交付                 発展環境整備事業     ・福島イノベーション・コースト構想の推進に係る担い手拡大、取組\n                                                     の周知\n               省                                    ・新規の起業、創業に向けたハンズオン支援体制の構築に向けた支援\n               庁"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20250401_fukushimasaiseikasoku_No64_kanougaku.pdf",
+      "final_url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20250401_fukushimasaiseikasoku_No64_kanougaku.pdf",
+      "retrieved_at_utc": "2026-10-08T15:34:49Z",
+      "sha256_original": "016ec8db1ec2487f33ff113ba1346b3c31d95b721cbca7377a5e45ffc8d51f3f",
+      "bytes": 1862270,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "reconstruction-fukushima-notification-64"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "各通知回の表頭日付、総括の事業費・国費全組、浜通り事業福島県表の2欄を抽出し照合。公表比較行への金額照合はなく、年度比較額としては採用しない。",
+        "locator": "PDF1頁（通知全体の国費）、PDF20〜21頁（浜通り事業本文・福島県別紙）",
+        "row_ids": [],
+        "observation_ids": [
+          "reconstruction-notification-64-hamadori-fukushima"
+        ],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260401_fukushimasaiseikasoku_No68_kanougaku.pdf",
+      "final_url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260401_fukushimasaiseikasoku_No68_kanougaku.pdf",
+      "retrieved_at_utc": "2026-10-08T15:35:12Z",
+      "sha256_original": "3181b2f637e6a2b5c71cb162015eba3035a8304e009a50dcd7a9df7d1657dfdb",
+      "bytes": 1763524,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "reconstruction-fukushima-notification-68"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "各通知回の表頭日付、総括の事業費・国費全組、浜通り事業福島県表の2欄を抽出し照合。公表比較行への金額照合はなく、年度比較額としては採用しない。",
+        "locator": "PDF1頁（通知全体の国費）、PDF11〜12頁（浜通り事業本文・福島県別紙）",
+        "row_ids": [],
+        "observation_ids": [
+          "reconstruction-notification-68-hamadori-fukushima"
+        ],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_fukushimasaiseikasoku_No69_kanougaku.pdf",
+      "final_url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_fukushimasaiseikasoku_No69_kanougaku.pdf",
+      "retrieved_at_utc": "2026-10-08T15:35:10Z",
+      "sha256_original": "1fc46672fd59e44c0924f4d30ea66d2c82f1972e9734e7856593f2debfdf717a",
+      "bytes": 2364658,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "reconstruction-fukushima-notification-69"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "各通知回の表頭日付、総括の事業費・国費全組、浜通り事業福島県表の2欄を抽出し照合。公表比較行への金額照合はなく、年度比較額としては採用しない。",
+        "locator": "PDF1頁（通知全体の国費）、PDF16〜17頁（浜通り事業本文・福島県別紙）",
+        "row_ids": [],
+        "observation_ids": [
+          "reconstruction-notification-69-hamadori-fukushima"
+        ],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_kasokuka-gaiyou.pdf",
+      "final_url": "https://www.reconstruction.go.jp/files/user/topics/main-cat1/sub-cat1-17/20260408_kasokuka-gaiyou.pdf",
+      "retrieved_at_utc": "2026-10-08T15:35:13Z",
+      "sha256_original": "23fe5ea07462d42c93aa13e4597153a36bd8e915152f5c70c6032fc881ceab8c",
+      "bytes": 321129,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "reconstruction-fukushima-overview-2026"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "制度概要の第3期復興・創生期間とメニューを確認。資料本文に公表日なし。",
+        "locator": "PDF1頁",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.reconstruction.go.jp/topics/cat-11/sub-cat1-17/",
+      "final_url": "https://www.reconstruction.go.jp/topics/cat-11/sub-cat1-17/",
+      "retrieved_at_utc": "2026-10-08T15:34:49Z",
+      "sha256_original": "4b00a607034a705d6a641a6441aaa0f5db05ecc2e1ecd76ff3e5ef8f0baab39a",
+      "bytes": 91454,
+      "content_type": "text/html",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式制度入口原本のハッシュと3通知回・制度概要PDFリンクを照合",
+        "locator": "HTML",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "rows": [],
+  "research_notes": [
+    {
+      "ministry": "復興庁",
+      "status": "原本取得済・通知段階差で未比較",
+      "note": "福島再生加速化交付金の2025年4月第64回、2026年4月第68回・第69回と制度概要を原本取得。2026年第68回は暫定予算期間中の国費、第69回は成立後の通知であり、2025年初回と同条件の年度比較は未成立。浜通り事業費502百万円が第68・69回で重複し、通知回合算で年度額を作らない。",
+      "source_ids": [
+        "reconstruction-fukushima-notification-64",
+        "reconstruction-fukushima-notification-68",
+        "reconstruction-fukushima-notification-69",
+        "reconstruction-fukushima-overview-2026"
+      ],
+      "checked_at": "2026-10-09"
+    }
+  ],
+  "notification_observations": [
+    {
+      "id": "reconstruction-notification-64-hamadori-fukushima",
+      "fiscal_year": 2025,
+      "published": "2025-04-01",
+      "notification_round": 64,
+      "program": "福島再生加速化交付金（浜通り地域等産業発展環境整備事業）",
+      "prefecture": "福島県",
+      "recipient": "福島県",
+      "basis": "当該通知回の交付可能額",
+      "business_cost_million_yen": 489,
+      "national_cost_million_yen": 244,
+      "unit": "百万円",
+      "source_ids": [
+        "reconstruction-fukushima-notification-64"
+      ],
+      "is_annual_total": false,
+      "comparison_status": "比較条件未確定"
+    },
+    {
+      "id": "reconstruction-notification-68-hamadori-fukushima",
+      "fiscal_year": 2026,
+      "published": "2026-04-01",
+      "notification_round": 68,
+      "program": "福島再生加速化交付金（浜通り地域等産業発展環境整備事業）",
+      "prefecture": "福島県",
+      "recipient": "福島県",
+      "basis": "暫定予算期間の交付可能額",
+      "business_cost_million_yen": 502,
+      "national_cost_million_yen": 5,
+      "unit": "百万円",
+      "source_ids": [
+        "reconstruction-fukushima-notification-68"
+      ],
+      "is_annual_total": false,
+      "comparison_status": "比較条件未確定"
+    },
+    {
+      "id": "reconstruction-notification-69-hamadori-fukushima",
+      "fiscal_year": 2026,
+      "published": "2026-04-08",
+      "notification_round": 69,
+      "program": "福島再生加速化交付金（浜通り地域等産業発展環境整備事業）",
+      "prefecture": "福島県",
+      "recipient": "福島県",
+      "basis": "当該通知回の交付可能額",
+      "business_cost_million_yen": 502,
+      "national_cost_million_yen": 246,
+      "unit": "百万円",
+      "source_ids": [
+        "reconstruction-fukushima-notification-69"
+      ],
+      "is_annual_total": false,
+      "comparison_status": "比較条件未確定"
+    }
+  ],
+  "comparison_assessment": {
+    "status": "同条件の年度比較未成立",
+    "public_comparison_rows_added": 0,
+    "reasons": [
+      "2025年4月1日第64回と2026年4月1日第68回は同条件でない。第68回は暫定予算期間中に必要な国費だけを通知している。",
+      "2026年4月8日第69回を第64回と直接比較すると暫定期間の通知国費が含まれるか不明。メニュー構成・対象団体数も異なる。",
+      "第64回全体には福島健康不安対策事業・水産業共同利用施設復興促進整備事業が含まれるが、第69回全体には含まれない。未掲載をゼロに置き換えない。",
+      "浜通り事業の暫定通知は成立後に残額通知予定と明記。ただし第69回本文には暫定額控除後の残額との明示なし。5+246=251百万円は追加照合が必要な候補計算で、確定年度額として公表しない。",
+      "浜通りの事業費502百万円は第68回・第69回の双方に掲載される。事業費の合算は重複計上になるため禁止。"
+    ],
+    "next_steps": [
+      "2026年第68回・第69回の国費が排他的な暫定分・残額であることを県の交付決定資料・事業計画又は追加公式説明で照合する。",
+      "帰還・移住等環境整備は第64回・第68回・第69回の要素事業、年間計画、財源区分の対応を作成する。単に通知回全体を加算しない。",
+      "2025/2026の年度当初・補正・追加通知を分離した上で、同じ制度メニュー・受取団体・決定段階の比較を再判定する。"
+    ]
+  }
+}

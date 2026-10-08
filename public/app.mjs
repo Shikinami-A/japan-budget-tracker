@@ -6,6 +6,7 @@ let data, view = 'regional', page = 0, visible = [];
 const pageSize = 20;
 const el = (tag, text, cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
 const amount = n => n === null ? '未取得' : number.format(n);
+const rowAmount = (r,year) => r[`amount${year}`]===null && r.comparability==='片年度非掲載' ? '非掲載' : amount(r[`amount${year}`]);
 const link = (label, url) => {
   const u = safeURL(url); if (!u) return el('span', label);
   const a = el('a', label); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a;
@@ -17,10 +18,12 @@ const options = (id, values, empty) => {
   if ([...select.options].some(o => o.value === selected)) select.value = selected;
 };
 function baseRows() {
-  return data.rows.filter(r => view === 'national' ? r.basis === '当初予算' && r.account === '一般会計' :
+  return data.rows.filter(r => view === 'programs' || view === 'institutions' ? r.view_group === view :
+    view === 'national' ? r.basis === '当初予算' && r.account === '一般会計' :
     view === 'special' ? r.account === '特別会計' :
-    view === 'execution' ? r.basis.startsWith('執行額') : view === 'reference' ? r.comparability.startsWith('参考') :
-    r.region !== '全国' && !r.comparability.startsWith('参考'));
+    view === 'execution' ? r.basis.startsWith('執行額') : view === 'reference' ?
+    r.view_group==='reference' || !r.view_group && r.comparability.startsWith('参考') :
+    r.region !== '全国' && !r.view_group && !r.comparability.startsWith('参考'));
 }
 function thresholds() {
   const bounded = (id, fallback, max) => { const n = Number($(id).value); return $(id).value === '' || !Number.isFinite(n) ? fallback : Math.min(max, Math.max(0, n)); };
@@ -34,7 +37,7 @@ function render() {
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
   if (view === 'coverage') { renderCoverage(); return; }
   const base = baseRows();
-  const regional = base.some(r => r.region !== '全国');
+  const regional = base.some(r => r.prefecture !== null);
   $('prefecture').disabled = !regional;
   options('ministry', [...new Set(base.map(r => r.ministry))], 'すべて');
   options('program', [...new Set(base.filter(r => !$('ministry').value || r.ministry === $('ministry').value).map(r => r.program))], 'すべて');
@@ -57,9 +60,11 @@ function render() {
   const notes = {
     regional: '地域配分の収載制度は一部です。道路補助・直轄の事業費は地方負担を含み、交付金の国費と合算しません。同制度の合計増減率は比較可能な収載行を金額で加重して計算します。全国予算全体の増減率ではありません。合計・内訳の重複行は合算しません。',
     national: '一般会計の成立当初予算を比較。2025年度は修正成立後、2026年度は政府案どおり成立。所管総額には外局などを含み、地域の配分を直接示す値ではありません。特別会計は別表示。',
+    programs: '一般会計全19所管の859項を、所管・組織・項名で結合した全国内訳です。同名称でも制度の連続性は未確認のため参考比較とし、自動判定に使いません。名称変更や移管を新設・廃止と認定せず、片年度非掲載はゼロにしません。親の所管総額と合算しません。',
+    institutions: '国立大学法人等の当初予算積算内訳86区分。交付決定額・決算ではありません。複数キャンパスの地域帰属を確認していないため、大学名や本部所在地から県や議員を割り当てません。全国所管総額・事業内訳と重複するため合算しません。',
     special: '14特別会計の34勘定等を当初予算の歳出欄で比較。2025年度は括弧内の当初額を使用。繰入・国債償還などを含む総計で、一般会計や他の勘定と足すと二重計上になります。府省別・地域別の分解は未照合。',
     execution: '4〜6月と4〜7月累計を、それぞれ前年の同期間と比較します。7月末累計には第1四半期分が含まれるため合算しません。制度の絞り込みで期間を選べます。2026年度第2四半期は未収載。年間決算との比較・防災庁のダッシュのゼロ化は行いません。',
-    reference: '比較条件の異なる参考表です。2025補正後と2026当初、または公表時点の違う一次協議内示を並べています。これらを減額の確認候補の自動判定には使いません。'
+    reference: '比較条件の異なる参考表です。補正後対当初、厚労省の一次協議、環境省の会計区分が異なる4月内示、こども家庭庁の第1次内示を収載。対象・財源・通知段階や年度全体の確認が必要です。片年度非掲載も同じ制度内に表示し、自動判定には使いません。'
   };
   $('view-note').textContent = notes[view]; $('context').hidden = view !== 'regional';
   $('annual-note').hidden = view !== 'execution';
@@ -105,7 +110,7 @@ function renderRows() {
       }
     }
     const more = el('td'), b = el('button','出典・議員'); b.type='button';b.onclick=()=>showDetail(r);more.append(b);
-    tr.append(identity,el('td',amount(r.amount2025),'number'),el('td',amount(r.amount2026),'number'),delta,status,politicians,more);body.append(tr);
+    tr.append(identity,el('td',rowAmount(r,2025),'number'),el('td',rowAmount(r,2026),'number'),delta,status,politicians,more);body.append(tr);
   }
   if (!visible.length) { const tr=el('tr'), td=el('td','該当する収載データはありません。未収載は予算ゼロを意味しません。');td.colSpan=7;tr.append(td);body.append(tr); }
   $('prev').disabled = page===0; $('next').disabled = (page+1)*pageSize>=visible.length;
@@ -128,7 +133,7 @@ function sourceBlock(id) {
 function showDetail(row) {
   const r={...row,analysis:screen(row,data.rows,thresholds())}, content=$('detail-content');content.replaceChildren();
   content.append(el('h2',`${r.region} / ${r.program}`),el('p',`${r.ministry}・${r.account}・${r.basis}・${r.scope ?? ''}`),
-    el('p',`${r.period2025}：${amount(r.amount2025)} → ${r.period2026}：${amount(r.amount2026)} 百万円 / ${r.analysis.label}`),
+    el('p',`${r.period2025}：${rowAmount(r,2025)} → ${r.period2026}：${rowAmount(r,2026)} 百万円 / ${r.analysis.label}`),
     el('p',r.note),el('p',`比較条件：${r.comparability} / ${r.evidence_status} / 精度：${r.precision ?? '出典単位から換算'}`,'muted'));
   if (r.published_change_pct !== undefined) content.append(el('p','増減率は国交省の公表値。表示金額が丸められているため、表示金額からの計算と端数が異なります。','muted'));
   if (r.plans2025 !== undefined) content.append(el('p',`計画件数：${r.plans2025} → ${r.plans2026} 件`));
@@ -160,7 +165,13 @@ function renderMembers() {
 function renderCoverage() {
   $('coverage').replaceChildren(...data.coverage.map(c=>{
     const row=el('div',undefined,'coverage-item'),text=el('div');
-    text.append(el('div',c.status),el('small',`${c.national?'一般会計所管総額を比較済み / ':''}地域配分：${c.regional_rows}レコード${c.parent?` / 母省：${c.parent}`:''}`),el('small',c.note));row.append(el('strong',c.name),text);return row;
+    text.append(el('div',c.status),el('small',`${c.national?'一般会計所管総額を比較済み / ':''}組織・項別内訳：${c.national_item_rows??0} / 県へ対応する配分：${c.regional_rows} / 広域配分：${c.wide_area_rows??0} / 法人・枠別：${c.institution_rows??0}${c.parent?` / 母省：${c.parent}`:''}`),el('small',c.note));
+    for(const n of c.research_notes??[]) {
+      const detail=el('details');detail.append(el('summary',n.status),el('p',n.note));
+      if(n.requested_url)detail.append(link('確認対象の公式入口 ↗',n.requested_url));
+      for(const id of n.source_ids)detail.append(sourceBlock(id));text.append(detail);
+    }
+    row.append(el('strong',c.name),text);return row;
   }));
 }
 function exportCSV() {

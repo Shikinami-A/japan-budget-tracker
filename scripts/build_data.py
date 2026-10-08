@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
-from party_sources import apply_party_rosters
+from party_sources import apply_party_rosters, reviewed_expansion
 from original_sources import apply_originals
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -353,6 +353,22 @@ def main():
         if r['region']=='全国' and r['basis']=='当初予算':
             category='general' if r['account']=='一般会計' else 'special'
             r['source_ids'].extend(f'mof-csv-{category}-{year}' for year in (2025,2026))
+    research_notes=[]
+    for name,group in [('reviewed-mof-programs.json','programs'),('reviewed-mext.json','institutions'),
+                       ('reviewed-cfa.json','reference'),('reviewed-environment.json','reference'),
+                       ('reviewed-reconstruction.json',None),('reviewed-cabinet-regional.json',None),
+                       ('reviewed-meti-regional.json',None)]:
+        report=json.loads((ROOT/'data'/name).read_text())
+        SOURCES.extend(report.get('sources',[]))
+        for reviewed_row in report.get('rows',[]):
+            reviewed_row['view_group']=group
+            ROWS.append(reviewed_row)
+        research_notes.extend(report.get('research_notes',[]))
+    expansion=reviewed_expansion(RAW)
+    for s in SOURCES:
+        if s['id'] in {e['id'] for e in expansion['sources']}:
+            s['accessed']=expansion['checked_at']
+            s['retrieved_via']='党公式原本から現職ラベル・氏名・院・選挙区を照合'
     original_coverage=apply_originals(ROOT,SOURCES,ROWS)
     for s in SOURCES:
         if s['id']=='care-2026':
@@ -371,22 +387,33 @@ def main():
         '環境省':['原子力規制委員会'], '防衛省':['防衛装備庁']}
     coverage=[]
     for name in [r['ministry'] for r in ROWS if r['basis']=='当初予算' and r['account']=='一般会計']+['復興庁']:
-        regional=[r for r in ROWS if r['ministry']==name and r['region']!='全国']
+        regional=[r for r in ROWS if r['ministry']==name and r['prefecture'] is not None]
+        items=[r for r in ROWS if r['ministry']==name and r.get('view_group')=='programs']
+        institutions=[r for r in ROWS if r['ministry']==name and r.get('view_group')=='institutions']
+        wide_area=[r for r in ROWS if r['ministry']==name and r['prefecture'] is None and r['region']!='全国']
         coverage.append(dict(name=name,parent=None,national=name!='復興庁',regional_rows=len(regional),
-                             status='一部制度を収載・地域全体は未完了' if regional else '地域別・事業別は未収載',
+                             national_item_rows=len(items),institution_rows=len(institutions),wide_area_rows=len(wide_area),
+                             research_notes=[n for n in research_notes if n['ministry']==name and not n.get('agency')],
+                             status='一部制度を収載・地域全体は未完了' if regional else '全国内訳を収載・地域配分は未確認' if items or institutions else '地域別・事業別は未収載',
                              note='復興庁は特別会計のため一般会計表に含まれず。' if name=='復興庁' else '所管総額と個別制度の配分は別の調査段階。'))
         for child in agencies.get(name,[]):
-            coverage.append(dict(name=child,parent=name,national=False,regional_rows=0,
-                                 status='母省の総額に含む・単独比較未実施',note='所属機関ごとの事業・地域配分を別途照合する必要がある。'))
+            child_regions=[r for r in regional if r.get('agency')==child]
+            child_items=[r for r in items if r.get('organization')==child]
+            coverage.append(dict(name=child,parent=name,national=False,regional_rows=len(child_regions),
+                                 national_item_rows=len(child_items),institution_rows=0,
+                                 research_notes=[n for n in research_notes if n['ministry']==child or n.get('agency')==child],
+                                 status='一部制度を参考収載・地域全体は未完了' if child_regions else '母省の総額に含む・地域配分未確認',
+                                 note='所管・組織・項の名称一致は制度連続性の確認と別。所属機関ごとの地域配分を別途照合する必要がある。'))
     snapshot = dict(schema_version=1, as_of=DATE, prefectures=PREFS, rows=ROWS, coverage=coverage,
                     annual2025=dict(spent_million_yen=129466100,source_id='mof-annual-2025',
                                     note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期・月末累計執行額とは別扱い。'),
                     sources=SOURCES, legislators=legislators,party_roster_stats=party_roster_stats,
+                    party_expansion_stats=expansion['stats'],research_notes=research_notes,
                     original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[
                         '全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。',
-                        '一般会計19所管、特別会計14会計34勘定等、第1四半期・7月末累計支出、一部制度の地域配分を収載。道路の都道府県・地方整備局別事業費を追加。国費と事業費を合算しない。特別会計の府省別・地域別分解は未収載。',
+                        '一般会計19所管、組織・項別859区分、特別会計14会計34勘定等、第1四半期・7月末累計支出、一部地域配分、国立大学法人等86区分の積算内訳を収載。親の総額と内訳を合算しない。名称一致は制度連続性を証明しない。特別会計の府省別・地域別分解は未収載。',
                         f'原本数値を両年度照合した比較行は{original_coverage["fully_verified_comparison_rows"]}件。原本未掲載の値は欠損のまま残す。抽出本文と原本ファイルのハッシュは別に保存。議員名簿の統一時点での原本照合は未完了。',
                         f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])

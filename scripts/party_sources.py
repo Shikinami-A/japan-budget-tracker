@@ -91,6 +91,7 @@ def apply_party_rosters(members, root, source, checked_at):
                     roster_name=entry[0],roster_reading=entry[1]))
         stats[party]=dict(extracted=len(records),matched=len(matched))
     apply_reviewed_profiles(members, root, source, checked_at)
+    apply_party_expansion(members, root, source)
     for m in members:
         options={e['party'] for e in m['party_evidence']}
         if len(options)>1:
@@ -98,7 +99,7 @@ def apply_party_rosters(members, root, source, checked_at):
         elif options:
             e=m['party_evidence'][0]
             m.update(party=e['party'],party_source=e['url'],party_as_of=e['as_of'],
-                     party_checked_at=checked_at,party_status='一次資料照合')
+                     party_checked_at=max(p['checked_at'] for p in m['party_evidence']),party_status='一次資料照合')
         else:
             m.update(party_status='未照合')
     return stats
@@ -133,3 +134,33 @@ def apply_reviewed_profiles(members, root, source, checked_at):
         assert m['district']==e['district']
         m['party_evidence'].append(dict(party=e['party'],url=s['url'],as_of=None,
             checked_at=checked_at,source_id=s['id'],method=e['method'],roster_name=e['roster_name']))
+
+
+def reviewed_expansion(root):
+    registry=json.loads((root.parent/'reviewed-party-expansion.json').read_text())
+    for s in registry['sources']:
+        u=urlsplit(s['url'])
+        assert u.scheme=='https' and not u.username and not u.password and u.port in (None,443)
+        assert u.hostname in {'www.jimin.jp','cdp-japan.jp'}
+        assert re.fullmatch(r'party-[a-z0-9-]+\.txt',s['filename'])
+        assert s['as_of'] is None
+        assert hashlib.sha256((root/s['filename']).read_bytes()).hexdigest()==s['sha256']
+    return registry
+
+
+def apply_party_expansion(members, root, source):
+    registry=reviewed_expansion(root)
+    sources={s['id']:s for s in registry['sources']}
+    people={m['id']:m for m in members}
+    for s in sources.values():
+        source(s['id'],s['filename'],s['party']+'：公式全国現職一覧の原本照合',s['url'],
+               s['method']+'。資料日未確認。', (root/s['filename']).read_text(),kind='所属党')
+    for e in registry['entries']:
+        s=sources[e['source_id']]
+        assert e['party_source']==s['url'] and e['party_as_of'] is None
+        m=people.get(e['member_id'])
+        if m is None:continue
+        assert (m['name'],m['chamber'],m.get('district'))==(e['member_name'],e['chamber'],e['district'])
+        m['party_evidence'].append(dict(party=e['party'],url=s['url'],as_of=None,
+            checked_at=e['checked_at'],source_id=s['id'],method=e['method'],roster_name=e['roster_name'],
+            original_location=e['original_location'],excerpt_line=e['excerpt_line']))

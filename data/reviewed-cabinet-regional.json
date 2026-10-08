@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "cabinet-regional-2026-review",
+      "title": "2026年度内閣府行政事業レビュー：地域未来交付金（地域年次比較には未採用）",
+      "url": "https://www.cao.go.jp/yosan/pdf/r8/020891_kokai.pdf",
+      "locator": "PDF p.1制度創設時点、p.3年度別予算・執行、p.17資金の流れ、pp.23-27一部支出先",
+      "kind": "行政事業レビュー",
+      "accessed": "2026-10-09",
+      "published": null,
+      "document_date": "2026年度",
+      "document_date_precision": "fiscal_year",
+      "retrieved_via": "公式PDF原本をTLS検証付きHTTPSで取得、pdftotext -layoutで対象箇所確認",
+      "sha256_extracted_text": "97e5f40032f78548d06543b7bb6e3b56c1ec9c44a4ca0557f20239f80ee0d9b1",
+      "excerpt": "PDF p.1: 令和７年度第１次補正予算より、地域未来交付金（以下「交付金」という。）を創設。本交付金は、地方の大きな伸び代と地域の特性を最大限に活かすた事業の概要め、地方公共団体による地域独自の取組、デジタル技術を活用した地域の課題解決や魅力向上に資する取組及び避難生活環境を抜本的に改善するため、地方公共団体の先進的な防災の取組を支援するものであり、地方公共団体を交付対象者とする。事業概要URLhttps://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/index.html\nPDF p.3:\n予算・執行\n 予算額執行額表                                2024                  2025                        2026                              2027\n （単位：千円）   要求額                                         --                     --                 225,418,626                          --\n           当初予算                                        --            200,005,201                 160,006,474                          --\n           補正予算                                90,700,000             87,720,000                          --                          --\n           前年度から繰越し                                    --            132,464,808                 215,914,827                          --\n           予備費等                                        --                   650                           --                          --\n           計                                   90,700,000            420,190,659                 375,921,301                          --\n           執行額                                         --            183,150,017                          --                          --\n           執行率                                         --                 43.6%                           --                          --\n\n  予算内訳表    会計区分   会計               勘定                                          要望額                備考\n （単位：千円）   一般会計   一般会計             --                                                       --    --\n                  予算種別/歳出予算項目                                  備考                                        予算額                 翌年度要求額\n\n                  当初予算\n                  一般会計 / 内閣府 / 内閣本府 / 地方創生支援費 / 新しい地方経済・生活環    --                                         104,223,000                 --\n                  境創生交付金\n\n                  当初予算\n                  一般会計 /\nPDF p.17:\n支出先\n資金の流れ\n\n\n\n\n                                                            内閣府              間接経費: 4,022 千円\n                                                                             1. 諸謝金: 2,453 千円\n                                                            183,150,017 千円   2. 職員旅費: 1,569 千円\n\n\n\n\n           A. 農林水産省       B. 林野庁         C. 水産庁              D. 国土交通省                                         I. 地方公共団体\n                                                                                                 E. 環境省\n           3,983,750 千円   8,565,190 千円   2,054,968 千円        31,281,463 千円                                    136,922,461 千円\n                                                                                                 338,163 千円\n           支出先の数: 1       支出先の数: 1       支出先の数: 1            支出先の数: 1                                         支出先の数: 1516\n                                                                                                 支出先の数: 1\n           予算配分           予算配分           予算配分                予算配分                                             地域再生計画に基づく事業の実\n                                                                                                 予算配分\n                                                                                                              施\n\n\n\n\n      F. 地方農政局                                          G. 地方整備局\n\n      3,983,750 千円                                      31,281,463 千円\n\n      支出先の数: 7                                          支出先の数: 10\n\n      各地方公共団体へ交付金を交付                                    各地方公共団体へ交付金を交付\n\n\n\n\n                                                        H. 地方公共団体\n\n                                                        46,223,534 千円\n\n                                                        支出先の数: 46\n\n                                                        地域再生計画に基づく事業の実\n                                                        施\n"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.cao.go.jp/yosan/pdf/r8/020891_kokai.pdf",
+      "final_url": "https://www.cao.go.jp/yosan/pdf/r8/020891_kokai.pdf",
+      "retrieved_at_utc": "2026-10-08T15:36:33Z",
+      "sha256_original": "236f15a2a31ed38b576ec78a0c616fd17dce7d3257fb33aa92af2a9ae3396397",
+      "bytes": 5014607,
+      "content_type": "application/pdf",
+      "source_id": "cabinet-regional-2026-review",
+      "download_status": "downloaded",
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "行政レビューの制度・年度・執行表を確認。公開比較行との金額照合は対象なし。",
+        "locator": "PDF p.1制度創設時点、p.3年度別予算・執行、p.17資金の流れ、pp.23-27一部支出先",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "rows": [],
+  "research_notes": [
+    {
+      "ministry": "内閣府",
+      "status": "比較可能な地域原本未確認",
+      "source_ids": [
+        "cabinet-regional-2026-review"
+      ],
+      "note": "地域未来交付金は2025年度第1次補正から創設。取得済み2026年度行政レビューには2025年度執行額と2026年度当初・繰越予算が載るが、2026年度執行額は「--」。年度別地域配分・財源・同一採択回をそろえた比較は未成立。支出先一覧は一部を「その他」に集約し、他省庁への移替え・地方支分部局経由・直接交付の階層が混在するため重複加算しない。"
+    },
+    {
+      "ministry": "内閣官房",
+      "status": "公式原本取得失敗",
+      "source_ids": [],
+      "note": "新地方創生・第2世代交付金2025年度採択と地域未来推進型2026年1月募集の公式採択資料候補を探索。chisou.go.jp掲載頁・PDFおよびCAS採択概要は今回の直接取得で404。検索抽出では補正と当初・複数決定日を含む資料が示されたため、制度改称と財源・回次を未確認のまま地域前年比を作らない。"
+    }
+  ],
+  "verified_source_facts": {
+    "initial_budget2025_thousand_yen": 200005201,
+    "initial_budget2026_thousand_yen": 160006474,
+    "execution2025_thousand_yen": 183150017,
+    "execution2026_printed": "--",
+    "execution2026_value": null,
+    "regional_annual_comparison_validated": false
+  },
+  "unadopted_discoveries": [
+    {
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/index.html",
+      "evidence_status": "Exa公式掲載頁抽出のみ・原本未取得",
+      "finding": "2025年4月第1次R6補正、4月第2次R6補正＋R7当初、9月R6補正＋R7当初の別回次資料。"
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/index.html",
+      "evidence_status": "Exa公式掲載頁抽出のみ・原本未取得",
+      "finding": "2026年1月募集の採択結果。交付対象事業概要はR7当初・R7補正・R8当初を掲示。個別金額の財源分割を原本確認していない。"
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "source_id": "cabinet-regional-2025-index",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/index.html",
+      "retrieved_at_utc": "2026-10-08T15:39:27Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2026-index",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/index.html",
+      "retrieved_at_utc": "2026-10-08T15:39:28Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2025-april",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/dai2sedai/pdf/r7-dai2sedai_hosei2_tosyo.pdf",
+      "retrieved_at_utc": "2026-10-08T15:39:28Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2026-april",
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/pdf/r8_suishin_1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:39:28Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2025-summary",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/saitaku_hosei2_tosyo_r7.pdf",
+      "retrieved_at_utc": "2026-10-08T15:39:28Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2025-national-summary",
+      "url": "https://www.cas.go.jp/jp/seisaku/atarashii_chihousousei/honbukaigi/dai3/siryou1-1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:39:28Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2025-second-summary",
+      "url": "https://www.cas.go.jp/jp/seisaku/atarashii_chihousousei/honbukaigi/dai5/siryou2.pdf",
+      "retrieved_at_utc": "2026-10-08T15:39:29Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "cabinet-regional-2026-review",
+      "url": "https://www.cao.go.jp/yosan/pdf/r8/020891_kokai.pdf",
+      "retrieved_at_utc": "2026-10-08T15:36:33Z",
+      "status": "downloaded"
+    },
+    {
+      "source_id": "cabinet-regional-root",
+      "url": "https://www.chisou.go.jp/sousei/index.html",
+      "retrieved_at_utc": "2026-10-08T15:39:29Z",
+      "status": "blocked_or_failed",
+      "http_status": 404,
+      "error_type": "HTTPError"
+    }
+  ],
+  "search_provenance": {
+    "provider": "Exa",
+    "sources_reviewed_requested_results": 30,
+    "official_index_pages_fetched_as_extracted_text": 2,
+    "search_text_is_not_original": true
+  }
+}

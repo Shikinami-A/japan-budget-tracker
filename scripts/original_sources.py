@@ -8,7 +8,10 @@ def apply_originals(root, sources, rows):
     by_row = {r['id']: r for r in rows}
     for name in ('core-original-verification.json', 'maff-original-verification.json',
                  'grants-original-verification.json', 'reviewed-mlit.json',
-                 'mof-structured-verification.json', 'monthly-original-verification.json'):
+                 'mof-structured-verification.json', 'monthly-original-verification.json',
+                 'reviewed-mof-programs.json','reviewed-mext.json','reviewed-cfa.json',
+                 'reviewed-environment.json','reviewed-reconstruction.json',
+                 'reviewed-cabinet-regional.json','reviewed-party-expansion.json'):
         report = json.loads((root / 'data' / name).read_text())
         receipts.extend(report['originals'])
         for check in report.get('comparisons', []):

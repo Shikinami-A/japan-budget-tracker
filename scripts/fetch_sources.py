@@ -12,7 +12,10 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 ROOT=Path(__file__).resolve().parents[1]
 HOSTS={'www.mof.go.jp','www.bb.mof.go.jp','www.soumu.go.jp','www.maff.go.jp',
        'www.mlit.go.jp','www.mhlw.go.jp','www.mod.go.jp','www.pref.aichi.jp',
-       'www.pref.tochigi.lg.jp','www.shugiin.go.jp','www.sangiin.go.jp'}
+       'www.pref.tochigi.lg.jp','www.shugiin.go.jp','www.sangiin.go.jp',
+       'www.env.go.jp','www.reconstruction.go.jp','www.mext.go.jp',
+       'www.chisou.go.jp','www.cao.go.jp','www.cas.go.jp','www.cfa.go.jp',
+       'www.digital.go.jp','www.meti.go.jp','www.moj.go.jp','www.mofa.go.jp'}
 MAX_BYTES=16*1024*1024
 
 
