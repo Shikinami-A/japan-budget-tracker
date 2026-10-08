@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "note": "県選管の公式原本による市町と小選挙区の対応。市町村コードは未照合のためnull。2026年選挙時点と配分決定時点を区別。県内全議員の一覧を市町の担当議員とみなさない。",
+  "sources": [
+    {
+      "id": "municipality-tochigi-2026",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r08syugi/file/BH_KAIHYO.html",
+      "filename": "municipality-tochigi-2026.txt",
+      "as_of": "2026-02-08",
+      "checked_at": "2026-10-09",
+      "sha256": "3becf889513875856653c4fbe0e490c338d79a8add4bc87fc2f63762384d9606",
+      "original": {
+        "source_id": "tochigi-district-final",
+        "url": "https://www.pref.tochigi.lg.jp/senkyo/r08syugi/file/BH_KAIHYO.html",
+        "final_url": "https://www.pref.tochigi.lg.jp/senkyo/r08syugi/file/BH_KAIHYO.html",
+        "bytes": 62109,
+        "sha256_original": "aea25430efcddea6c7263d28c353c7ebf45ed3a3c7362907d27998ee2b1a2c87",
+        "retrieved_at_utc": "2026-10-08T16:19:21.453054+00:00",
+        "content_type": "text/html",
+        "download_status": "downloaded"
+      },
+      "title": "栃木県選管：2026年衆院選の市町・小選挙区対応",
+      "method": "確定結果表の選挙区・団体名欄"
+    },
+    {
+      "id": "municipality-tochigi-boundaries",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r05kengi/gaiyou/senkyomap.pdf",
+      "filename": "municipality-tochigi-boundaries.txt",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "502e9638819932dcc61c95ab9a04ca80bccb2152c53073ed7451ec6848b73375",
+      "original": {
+        "source_id": "tochigi-map",
+        "url": "https://www.pref.tochigi.lg.jp/senkyo/r05kengi/gaiyou/senkyomap.pdf",
+        "final_url": "https://www.pref.tochigi.lg.jp/senkyo/r05kengi/gaiyou/senkyomap.pdf",
+        "bytes": 802369,
+        "sha256_original": "be348ef058b42a3f6337c753a3f56820f25d24fdf02de9e3985a39a25ac73efc",
+        "retrieved_at_utc": "2026-10-08T16:15:54.214979+00:00",
+        "content_type": "application/pdf",
+        "download_status": "downloaded"
+      },
+      "title": "栃木県選管：選挙制度と小選挙区区域",
+      "method": "PDF第2頁の小選挙区区域表。人口集計日を境界の基準日にしない。"
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "tochigi-district-final",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r08syugi/file/BH_KAIHYO.html",
+      "final_url": "https://www.pref.tochigi.lg.jp/senkyo/r08syugi/file/BH_KAIHYO.html",
+      "bytes": 62109,
+      "sha256_original": "aea25430efcddea6c7263d28c353c7ebf45ed3a3c7362907d27998ee2b1a2c87",
+      "retrieved_at_utc": "2026-10-08T16:19:21.453054+00:00",
+      "content_type": "text/html",
+      "download_status": "downloaded"
+    },
+    {
+      "source_id": "tochigi-map",
+      "url": "https://www.pref.tochigi.lg.jp/senkyo/r05kengi/gaiyou/senkyomap.pdf",
+      "final_url": "https://www.pref.tochigi.lg.jp/senkyo/r05kengi/gaiyou/senkyomap.pdf",
+      "bytes": 802369,
+      "sha256_original": "be348ef058b42a3f6337c753a3f56820f25d24fdf02de9e3985a39a25ac73efc",
+      "retrieved_at_utc": "2026-10-08T16:15:54.214979+00:00",
+      "content_type": "application/pdf",
+      "download_status": "downloaded"
+    }
+  ],
+  "mappings": [
+    {
+      "prefecture": "栃木県",
+      "municipality": "宇都宮市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木1",
+        "栃木2"
+      ],
+      "coverage": "municipality_split",
+      "boundary_detail": [
+        {
+          "district": "栃木1",
+          "area": "旧宇都宮市の区域"
+        },
+        {
+          "district": "栃木2",
+          "area": "旧上河内町・旧河内町の区域"
+        }
+      ],
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 1,
+          "original_location": "HTML table tr[2] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "宇都宮市第１"
+        },
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 2,
+          "original_location": "HTML table tr[3] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "宇都宮市第２"
+        }
+      ],
+      "boundary_source_id": "municipality-tochigi-boundaries",
+      "boundary_excerpt_lines": [
+        1,
+        2
+      ],
+      "note": "市全体を一人に割り当てない。予算配分決定時点の議員・境界の確認とは別。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "足利市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木5"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 3,
+          "original_location": "HTML table tr[5] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "足利市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "栃木市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木5"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 4,
+          "original_location": "HTML table tr[6] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "栃木市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "佐野市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木5"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 5,
+          "original_location": "HTML table tr[7] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "佐野市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "鹿沼市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木2"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 6,
+          "original_location": "HTML table tr[8] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "鹿沼市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "日光市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木2"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 7,
+          "original_location": "HTML table tr[9] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "日光市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "小山市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 8,
+          "original_location": "HTML table tr[10] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "小山市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "真岡市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 9,
+          "original_location": "HTML table tr[11] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "真岡市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "大田原市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 10,
+          "original_location": "HTML table tr[12] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "大田原市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "矢板市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 11,
+          "original_location": "HTML table tr[13] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "矢板市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須塩原市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 12,
+          "original_location": "HTML table tr[14] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "那須塩原市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "さくら市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木2"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 13,
+          "original_location": "HTML table tr[15] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "さくら市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須烏山市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 14,
+          "original_location": "HTML table tr[16] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "那須烏山市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "下野市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 15,
+          "original_location": "HTML table tr[17] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "下野市"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "上三川町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木1"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 16,
+          "original_location": "HTML table tr[20] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "上三川町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "益子町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 17,
+          "original_location": "HTML table tr[23] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "益子町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "茂木町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 18,
+          "original_location": "HTML table tr[24] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "茂木町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "市貝町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 19,
+          "original_location": "HTML table tr[25] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "市貝町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "芳賀町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 20,
+          "original_location": "HTML table tr[26] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "芳賀町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "壬生町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 21,
+          "original_location": "HTML table tr[29] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "壬生町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "野木町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木4"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 22,
+          "original_location": "HTML table tr[30] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "野木町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "塩谷町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木2"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 23,
+          "original_location": "HTML table tr[33] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "塩谷町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "高根沢町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木2"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 24,
+          "original_location": "HTML table tr[34] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "高根沢町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那須町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 25,
+          "original_location": "HTML table tr[37] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "那須町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    },
+    {
+      "prefecture": "栃木県",
+      "municipality": "那珂川町",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "栃木3"
+      ],
+      "coverage": "municipality_whole",
+      "boundary_detail": null,
+      "as_of": "2026-02-08",
+      "source_id": "municipality-tochigi-2026",
+      "evidence": [
+        {
+          "source_id": "municipality-tochigi-2026",
+          "excerpt_line": 26,
+          "original_location": "HTML table tr[38] cells[0:3] 選挙区/団体名/確定表示",
+          "municipality_label": "那珂川町"
+        }
+      ],
+      "boundary_source_id": null,
+      "boundary_excerpt_lines": [],
+      "note": "2026年衆院選時点の市町域対応。予算配分決定時点の議員との一致は未確認。"
+    }
+  ],
+  "issues": [
+    {
+      "status": "未照合",
+      "scope": "栃木県以外の市町村・自治体コード・2025/2026予算配分決定時点",
+      "reason": "今回確認した公式原本の範囲外"
+    }
+  ],
+  "stats": {
+    "municipalities": 25,
+    "whole_municipalities": 24,
+    "split_municipalities": 1
+  }
+}

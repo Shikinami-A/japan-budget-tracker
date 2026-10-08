@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "method": "原本画像の県名と上下水道・水道欄の全188セルを主転記/OCR値の閲覧前に独立目視転記。上下水道は独立した掲載列として扱い、水道・下水道の親総額と扱わない。判読不確実だった2025三重県上下水道を画像拡大して295と確認。",
+  "primary_values_seen_before_transcription": false,
+  "unit": "百万円",
+  "column_order": [
+    "上下水道",
+    "水道"
+  ],
+  "dash_policy": "原本ダッシュはnull。行列和から欠けた数字を補わない。",
+  "tables": [
+    {
+      "fiscal_year": 2025,
+      "url": "https://www.mlit.go.jp/report/press/content/001881401.pdf",
+      "pdf_page": 9,
+      "sha256_original": "2c8394141b69d9d9572b0950fc2a99993f8b217998bf8eab9c61deb527eb158a",
+      "rows": [
+        {
+          "printed_row_index": 1,
+          "prefecture": "北海道",
+          "prefecture_code": "01",
+          "amounts": [
+            139,
+            7839
+          ]
+        },
+        {
+          "printed_row_index": 2,
+          "prefecture": "青森県",
+          "prefecture_code": "02",
+          "amounts": [
+            null,
+            96
+          ]
+        },
+        {
+          "printed_row_index": 3,
+          "prefecture": "岩手県",
+          "prefecture_code": "03",
+          "amounts": [
+            48,
+            793
+          ]
+        },
+        {
+          "printed_row_index": 4,
+          "prefecture": "宮城県",
+          "prefecture_code": "04",
+          "amounts": [
+            244,
+            355
+          ]
+        },
+        {
+          "printed_row_index": 5,
+          "prefecture": "秋田県",
+          "prefecture_code": "05",
+          "amounts": [
+            8,
+            715
+          ]
+        },
+        {
+          "printed_row_index": 6,
+          "prefecture": "山形県",
+          "prefecture_code": "06",
+          "amounts": [
+            39,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 7,
+          "prefecture": "福島県",
+          "prefecture_code": "07",
+          "amounts": [
+            125,
+            457
+          ]
+        },
+        {
+          "printed_row_index": 8,
+          "prefecture": "茨城県",
+          "prefecture_code": "08",
+          "amounts": [
+            117,
+            5963
+          ]
+        },
+        {
+          "printed_row_index": 9,
+          "prefecture": "栃木県",
+          "prefecture_code": "09",
+          "amounts": [
+            50,
+            1108
+          ]
+        },
+        {
+          "printed_row_index": 10,
+          "prefecture": "群馬県",
+          "prefecture_code": "10",
+          "amounts": [
+            36,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 11,
+          "prefecture": "埼玉県",
+          "prefecture_code": "11",
+          "amounts": [
+            37,
+            2594
+          ]
+        },
+        {
+          "printed_row_index": 12,
+          "prefecture": "千葉県",
+          "prefecture_code": "12",
+          "amounts": [
+            71,
+            1505
+          ]
+        },
+        {
+          "printed_row_index": 13,
+          "prefecture": "東京都",
+          "prefecture_code": "13",
+          "amounts": [
+            3131,
+            1945
+          ]
+        },
+        {
+          "printed_row_index": 14,
+          "prefecture": "神奈川県",
+          "prefecture_code": "14",
+          "amounts": [
+            29,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 15,
+          "prefecture": "山梨県",
+          "prefecture_code": "19",
+          "amounts": [
+            25,
+            150
+          ]
+        },
+        {
+          "printed_row_index": 16,
+          "prefecture": "長野県",
+          "prefecture_code": "20",
+          "amounts": [
+            160,
+            735
+          ]
+        },
+        {
+          "printed_row_index": 17,
+          "prefecture": "新潟県",
+          "prefecture_code": "15",
+          "amounts": [
+            47,
+            689
+          ]
+        },
+        {
+          "printed_row_index": 18,
+          "prefecture": "富山県",
+          "prefecture_code": "16",
+          "amounts": [
+            42,
+            15
+          ]
+        },
+        {
+          "printed_row_index": 19,
+          "prefecture": "石川県",
+          "prefecture_code": "17",
+          "amounts": [
+            57,
+            357
+          ]
+        },
+        {
+          "printed_row_index": 20,
+          "prefecture": "岐阜県",
+          "prefecture_code": "21",
+          "amounts": [
+            40,
+            1133
+          ]
+        },
+        {
+          "printed_row_index": 21,
+          "prefecture": "静岡県",
+          "prefecture_code": "22",
+          "amounts": [
+            197,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 22,
+          "prefecture": "愛知県",
+          "prefecture_code": "23",
+          "amounts": [
+            228,
+            2378
+          ]
+        },
+        {
+          "printed_row_index": 23,
+          "prefecture": "三重県",
+          "prefecture_code": "24",
+          "amounts": [
+            295,
+            1430
+          ]
+        },
+        {
+          "printed_row_index": 24,
+          "prefecture": "福井県",
+          "prefecture_code": "18",
+          "amounts": [
+            55,
+            380
+          ]
+        },
+        {
+          "printed_row_index": 25,
+          "prefecture": "滋賀県",
+          "prefecture_code": "25",
+          "amounts": [
+            70,
+            154
+          ]
+        },
+        {
+          "printed_row_index": 26,
+          "prefecture": "京都府",
+          "prefecture_code": "26",
+          "amounts": [
+            108,
+            475
+          ]
+        },
+        {
+          "printed_row_index": 27,
+          "prefecture": "大阪府",
+          "prefecture_code": "27",
+          "amounts": [
+            44,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 28,
+          "prefecture": "兵庫県",
+          "prefecture_code": "28",
+          "amounts": [
+            83,
+            194
+          ]
+        },
+        {
+          "printed_row_index": 29,
+          "prefecture": "奈良県",
+          "prefecture_code": "29",
+          "amounts": [
+            60,
+            673
+          ]
+        },
+        {
+          "printed_row_index": 30,
+          "prefecture": "和歌山県",
+          "prefecture_code": "30",
+          "amounts": [
+            null,
+            417
+          ]
+        },
+        {
+          "printed_row_index": 31,
+          "prefecture": "鳥取県",
+          "prefecture_code": "31",
+          "amounts": [
+            40,
+            449
+          ]
+        },
+        {
+          "printed_row_index": 32,
+          "prefecture": "島根県",
+          "prefecture_code": "32",
+          "amounts": [
+            335,
+            925
+          ]
+        },
+        {
+          "printed_row_index": 33,
+          "prefecture": "岡山県",
+          "prefecture_code": "33",
+          "amounts": [
+            4,
+            437
+          ]
+        },
+        {
+          "printed_row_index": 34,
+          "prefecture": "広島県",
+          "prefecture_code": "34",
+          "amounts": [
+            99,
+            733
+          ]
+        },
+        {
+          "printed_row_index": 35,
+          "prefecture": "山口県",
+          "prefecture_code": "35",
+          "amounts": [
+            56,
+            7
+          ]
+        },
+        {
+          "printed_row_index": 36,
+          "prefecture": "徳島県",
+          "prefecture_code": "36",
+          "amounts": [
+            null,
+            403
+          ]
+        },
+        {
+          "printed_row_index": 37,
+          "prefecture": "香川県",
+          "prefecture_code": "37",
+          "amounts": [
+            null,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 38,
+          "prefecture": "愛媛県",
+          "prefecture_code": "38",
+          "amounts": [
+            63,
+            481
+          ]
+        },
+        {
+          "printed_row_index": 39,
+          "prefecture": "高知県",
+          "prefecture_code": "39",
+          "amounts": [
+            null,
+            967
+          ]
+        },
+        {
+          "printed_row_index": 40,
+          "prefecture": "福岡県",
+          "prefecture_code": "40",
+          "amounts": [
+            37,
+            256
+          ]
+        },
+        {
+          "printed_row_index": 41,
+          "prefecture": "佐賀県",
+          "prefecture_code": "41",
+          "amounts": [
+            50,
+            312
+          ]
+        },
+        {
+          "printed_row_index": 42,
+          "prefecture": "長崎県",
+          "prefecture_code": "42",
+          "amounts": [
+            53,
+            1486
+          ]
+        },
+        {
+          "printed_row_index": 43,
+          "prefecture": "熊本県",
+          "prefecture_code": "43",
+          "amounts": [
+            108,
+            519
+          ]
+        },
+        {
+          "printed_row_index": 44,
+          "prefecture": "大分県",
+          "prefecture_code": "44",
+          "amounts": [
+            49,
+            418
+          ]
+        },
+        {
+          "printed_row_index": 45,
+          "prefecture": "宮崎県",
+          "prefecture_code": "45",
+          "amounts": [
+            20,
+            170
+          ]
+        },
+        {
+          "printed_row_index": 46,
+          "prefecture": "鹿児島県",
+          "prefecture_code": "46",
+          "amounts": [
+            393,
+            1137
+          ]
+        },
+        {
+          "printed_row_index": 47,
+          "prefecture": "沖縄県",
+          "prefecture_code": "47",
+          "amounts": [
+            38,
+            6171
+          ]
+        }
+      ],
+      "printed_subtotal": [
+        6929,
+        47422
+      ],
+      "printed_total": [
+        6929,
+        47422
+      ],
+      "row_sums_excluding_dash": [
+        6930,
+        47421
+      ],
+      "sum_minus_printed_subtotal": [
+        1,
+        -1
+      ],
+      "excluded_non_prefectural_recipient": {
+        "printed_label": "日本下水道事業団",
+        "amounts": [
+          null,
+          null
+        ]
+      },
+      "note": "小計と合計が上下水道/水道の両列で同じ。丸め注記があり、合計差を理由に個別原本セルを変更しない。"
+    },
+    {
+      "fiscal_year": 2026,
+      "url": "https://www.mlit.go.jp/report/press/content/001994793.pdf",
+      "pdf_page": 8,
+      "sha256_original": "16056bb2f5b11c4df7333bf3f21396453b9b908cfa092923c23a0c75e3f61379",
+      "rows": [
+        {
+          "printed_row_index": 1,
+          "prefecture": "北海道",
+          "prefecture_code": "01",
+          "amounts": [
+            80,
+            8649
+          ]
+        },
+        {
+          "printed_row_index": 2,
+          "prefecture": "青森県",
+          "prefecture_code": "02",
+          "amounts": [
+            28,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 3,
+          "prefecture": "岩手県",
+          "prefecture_code": "03",
+          "amounts": [
+            67,
+            778
+          ]
+        },
+        {
+          "printed_row_index": 4,
+          "prefecture": "宮城県",
+          "prefecture_code": "04",
+          "amounts": [
+            446,
+            320
+          ]
+        },
+        {
+          "printed_row_index": 5,
+          "prefecture": "秋田県",
+          "prefecture_code": "05",
+          "amounts": [
+            50,
+            450
+          ]
+        },
+        {
+          "printed_row_index": 6,
+          "prefecture": "山形県",
+          "prefecture_code": "06",
+          "amounts": [
+            null,
+            1111
+          ]
+        },
+        {
+          "printed_row_index": 7,
+          "prefecture": "福島県",
+          "prefecture_code": "07",
+          "amounts": [
+            442,
+            504
+          ]
+        },
+        {
+          "printed_row_index": 8,
+          "prefecture": "茨城県",
+          "prefecture_code": "08",
+          "amounts": [
+            131,
+            4970
+          ]
+        },
+        {
+          "printed_row_index": 9,
+          "prefecture": "栃木県",
+          "prefecture_code": "09",
+          "amounts": [
+            42,
+            758
+          ]
+        },
+        {
+          "printed_row_index": 10,
+          "prefecture": "群馬県",
+          "prefecture_code": "10",
+          "amounts": [
+            2,
+            62
+          ]
+        },
+        {
+          "printed_row_index": 11,
+          "prefecture": "埼玉県",
+          "prefecture_code": "11",
+          "amounts": [
+            175,
+            1245
+          ]
+        },
+        {
+          "printed_row_index": 12,
+          "prefecture": "千葉県",
+          "prefecture_code": "12",
+          "amounts": [
+            90,
+            851
+          ]
+        },
+        {
+          "printed_row_index": 13,
+          "prefecture": "東京都",
+          "prefecture_code": "13",
+          "amounts": [
+            1402,
+            1686
+          ]
+        },
+        {
+          "printed_row_index": 14,
+          "prefecture": "神奈川県",
+          "prefecture_code": "14",
+          "amounts": [
+            106,
+            528
+          ]
+        },
+        {
+          "printed_row_index": 15,
+          "prefecture": "山梨県",
+          "prefecture_code": "19",
+          "amounts": [
+            null,
+            144
+          ]
+        },
+        {
+          "printed_row_index": 16,
+          "prefecture": "長野県",
+          "prefecture_code": "20",
+          "amounts": [
+            123,
+            885
+          ]
+        },
+        {
+          "printed_row_index": 17,
+          "prefecture": "新潟県",
+          "prefecture_code": "15",
+          "amounts": [
+            8,
+            1234
+          ]
+        },
+        {
+          "printed_row_index": 18,
+          "prefecture": "富山県",
+          "prefecture_code": "16",
+          "amounts": [
+            591,
+            60
+          ]
+        },
+        {
+          "printed_row_index": 19,
+          "prefecture": "石川県",
+          "prefecture_code": "17",
+          "amounts": [
+            25,
+            502
+          ]
+        },
+        {
+          "printed_row_index": 20,
+          "prefecture": "岐阜県",
+          "prefecture_code": "21",
+          "amounts": [
+            320,
+            1546
+          ]
+        },
+        {
+          "printed_row_index": 21,
+          "prefecture": "静岡県",
+          "prefecture_code": "22",
+          "amounts": [
+            146,
+            90
+          ]
+        },
+        {
+          "printed_row_index": 22,
+          "prefecture": "愛知県",
+          "prefecture_code": "23",
+          "amounts": [
+            371,
+            2132
+          ]
+        },
+        {
+          "printed_row_index": 23,
+          "prefecture": "三重県",
+          "prefecture_code": "24",
+          "amounts": [
+            796,
+            303
+          ]
+        },
+        {
+          "printed_row_index": 24,
+          "prefecture": "福井県",
+          "prefecture_code": "18",
+          "amounts": [
+            215,
+            282
+          ]
+        },
+        {
+          "printed_row_index": 25,
+          "prefecture": "滋賀県",
+          "prefecture_code": "25",
+          "amounts": [
+            32,
+            10
+          ]
+        },
+        {
+          "printed_row_index": 26,
+          "prefecture": "京都府",
+          "prefecture_code": "26",
+          "amounts": [
+            394,
+            372
+          ]
+        },
+        {
+          "printed_row_index": 27,
+          "prefecture": "大阪府",
+          "prefecture_code": "27",
+          "amounts": [
+            168,
+            12
+          ]
+        },
+        {
+          "printed_row_index": 28,
+          "prefecture": "兵庫県",
+          "prefecture_code": "28",
+          "amounts": [
+            68,
+            271
+          ]
+        },
+        {
+          "printed_row_index": 29,
+          "prefecture": "奈良県",
+          "prefecture_code": "29",
+          "amounts": [
+            269,
+            1112
+          ]
+        },
+        {
+          "printed_row_index": 30,
+          "prefecture": "和歌山県",
+          "prefecture_code": "30",
+          "amounts": [
+            null,
+            263
+          ]
+        },
+        {
+          "printed_row_index": 31,
+          "prefecture": "鳥取県",
+          "prefecture_code": "31",
+          "amounts": [
+            14,
+            248
+          ]
+        },
+        {
+          "printed_row_index": 32,
+          "prefecture": "島根県",
+          "prefecture_code": "32",
+          "amounts": [
+            72,
+            1090
+          ]
+        },
+        {
+          "printed_row_index": 33,
+          "prefecture": "岡山県",
+          "prefecture_code": "33",
+          "amounts": [
+            12,
+            297
+          ]
+        },
+        {
+          "printed_row_index": 34,
+          "prefecture": "広島県",
+          "prefecture_code": "34",
+          "amounts": [
+            29,
+            110
+          ]
+        },
+        {
+          "printed_row_index": 35,
+          "prefecture": "山口県",
+          "prefecture_code": "35",
+          "amounts": [
+            null,
+            174
+          ]
+        },
+        {
+          "printed_row_index": 36,
+          "prefecture": "徳島県",
+          "prefecture_code": "36",
+          "amounts": [
+            1,
+            311
+          ]
+        },
+        {
+          "printed_row_index": 37,
+          "prefecture": "香川県",
+          "prefecture_code": "37",
+          "amounts": [
+            66,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 38,
+          "prefecture": "愛媛県",
+          "prefecture_code": "38",
+          "amounts": [
+            null,
+            576
+          ]
+        },
+        {
+          "printed_row_index": 39,
+          "prefecture": "高知県",
+          "prefecture_code": "39",
+          "amounts": [
+            20,
+            1059
+          ]
+        },
+        {
+          "printed_row_index": 40,
+          "prefecture": "福岡県",
+          "prefecture_code": "40",
+          "amounts": [
+            9,
+            120
+          ]
+        },
+        {
+          "printed_row_index": 41,
+          "prefecture": "佐賀県",
+          "prefecture_code": "41",
+          "amounts": [
+            null,
+            null
+          ]
+        },
+        {
+          "printed_row_index": 42,
+          "prefecture": "長崎県",
+          "prefecture_code": "42",
+          "amounts": [
+            13,
+            1150
+          ]
+        },
+        {
+          "printed_row_index": 43,
+          "prefecture": "熊本県",
+          "prefecture_code": "43",
+          "amounts": [
+            46,
+            712
+          ]
+        },
+        {
+          "printed_row_index": 44,
+          "prefecture": "大分県",
+          "prefecture_code": "44",
+          "amounts": [
+            64,
+            803
+          ]
+        },
+        {
+          "printed_row_index": 45,
+          "prefecture": "宮崎県",
+          "prefecture_code": "45",
+          "amounts": [
+            34,
+            770
+          ]
+        },
+        {
+          "printed_row_index": 46,
+          "prefecture": "鹿児島県",
+          "prefecture_code": "46",
+          "amounts": [
+            20,
+            925
+          ]
+        },
+        {
+          "printed_row_index": 47,
+          "prefecture": "沖縄県",
+          "prefecture_code": "47",
+          "amounts": [
+            26,
+            6143
+          ]
+        }
+      ],
+      "printed_subtotal": [
+        7014,
+        45618
+      ],
+      "printed_total": [
+        7014,
+        45618
+      ],
+      "row_sums_excluding_dash": [
+        7013,
+        45618
+      ],
+      "sum_minus_printed_subtotal": [
+        -1,
+        0
+      ],
+      "excluded_non_prefectural_recipient": {
+        "printed_label": "日本下水道事業団",
+        "amounts": [
+          null,
+          null
+        ]
+      },
+      "note": "小計と合計が上下水道/水道の両列で同じ。丸め注記があり、合計差を理由に個別原本セルを変更しない。"
+    }
+  ],
+  "primary_comparison": {
+    "primary_evidence_path": "data/mlit-water-utilities-review.json",
+    "sha256_primary_evidence": "8ea0198316f1c34adc21a43b3e9e65ff4b842dbbfa79c34f94b7ea5da0118b97",
+    "compared_after_independent_transcription_saved": true,
+    "label_rows_matched": 94,
+    "cells_matched": 188,
+    "differences": [],
+    "status": "全県行名・行順・188セル一致"
+  }
+}

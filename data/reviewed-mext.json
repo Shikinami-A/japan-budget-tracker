@@ -1,0 +1,4175 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "mext-university-initial-2025",
+      "title": "2025年度文部科学省一般会計歳出予算各目明細書（修正成立）",
+      "url": "https://www.mext.go.jp/content/20250414-mxt_kaikesou01-000041735_1.pdf",
+      "locator": "PDF58〜61頁：国立大学法人運営費交付金の積算内訳。85法人は後半の年度計画予算見積りの交付金収入欄でも照合。単位千円。",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "40dac869816b6539c400cf765491c21ff6920aba1dd7bba75b8624939ca0d845",
+      "excerpt": "|法人・枠|当初予算積算額（千円）|\n|---|---:|\n|国立大学法人北海道大学|35,652,290|\n|国立大学法人北海道教育大学|6,313,806|\n|国立大学法人室蘭工業大学|2,445,820|\n|国立大学法人北海道国立大学機構|6,251,308|\n|国立大学法人旭川医科大学|4,907,858|\n|国立大学法人弘前大学|10,057,434|\n|国立大学法人岩手大学|6,300,225|\n|国立大学法人東北大学|45,154,320|\n|国立大学法人宮城教育大学|2,472,766|\n|国立大学法人秋田大学|8,869,659|\n|国立大学法人山形大学|10,529,036|\n|国立大学法人福島大学|3,544,888|\n|国立大学法人茨城大学|6,649,228|\n|国立大学法人筑波大学|34,772,581|\n|国立大学法人筑波技術大学|2,246,917|\n|国立大学法人宇都宮大学|5,310,221|\n|国立大学法人群馬大学|10,989,814|\n|国立大学法人埼玉大学|5,821,211|\n|国立大学法人千葉大学|17,730,649|\n|国立大学法人東京大学|79,045,237|\n|国立大学法人東京外国語大学|3,121,574|\n|国立大学法人東京科学大学|34,961,324|\n|国立大学法人東京学芸大学|7,609,209|\n|国立大学法人東京農工大学|6,147,945|\n|国立大学法人東京芸術大学|4,697,080|\n|国立大学法人東京海洋大学|5,258,975|\n|国立大学法人お茶の水女子大学|4,355,290|\n|国立大学法人電気通信大学|5,200,658|\n|国立大学法人一橋大学|5,192,549|\n|国立大学法人横浜国立大学|7,761,718|\n|国立大学法人新潟大学|14,980,008|\n|国立大学法人長岡技術科学大学|3,582,988|\n|国立大学法人上越教育大学|2,898,159|\n|国立大学法人富山大学|12,509,333|\n|国立大学法人金沢大学|15,056,497|\n|国立大学法人福井大学|9,408,320|\n|国立大学法人山梨大学|9,270,303|\n|国立大学法人信州大学|12,969,081|\n|国立大学法人静岡大学|8,949,433|\n|国立大学法人浜松医科大学|5,427,746|\n|国立大学法人東海国立大学機構|41,666,936|\n|国立大学法人愛知教育大学|4,416,179|\n|国立大学法人名古屋工業大学|4,689,426|\n|国立大学法人豊橋技術科学大学|3,879,659|\n|国立大学法人三重大学|10,674,340|\n|国立大学法人滋賀大学|3,103,241|\n|国立大学法人滋賀医科大学|5,377,859|\n|国立大学法人京都大学|54,202,178|\n|国立大学法人京都教育大学|3,574,126|\n|国立大学法人京都工芸繊維大学|4,667,308|\n|国立大学法人大阪大学|45,359,395|\n|国立大学法人大阪教育大学|5,990,884|\n|国立大学法人兵庫教育大学|3,400,852|\n|国立大学法人神戸大学|19,497,545|\n|国立大学法人奈良国立大学機構|5,650,772|\n|国立大学法人和歌山大学|3,694,317|\n|国立大学法人鳥取大学|10,147,677|\n|国立大学法人島根大学|9,437,866|\n|国立大学法人岡山大学|16,818,882|\n|国立大学法人広島大学|25,729,470|\n|国立大学法人山口大学|11,399,089|\n|国立大学法人徳島大学|11,462,999|\n|国立大学法人鳴門教育大学|3,378,706|\n|国立大学法人香川大学|9,768,469|\n|国立大学法人愛媛大学|12,086,612|\n|国立大学法人高知大学|9,236,500|\n|国立大学法人福岡教育大学|3,122,061|\n|国立大学法人九州大学|38,247,254|\n|国立大学法人九州工業大学|5,143,372|\n|国立大学法人佐賀大学|10,003,544|\n|国立大学法人長崎大学|16,181,254|\n|国立大学法人熊本大学|13,701,075|\n|国立大学法人大分大学|8,735,533|\n|国立大学法人宮崎大学|8,914,636|\n|国立大学法人鹿児島大学|14,418,696|\n|国立大学法人鹿屋体育大学|1,329,057|\n|国立大学法人琉球大学|11,037,861|\n|国立大学法人政策研究大学院大学|2,083,751|\n|国立大学法人総合研究大学院大学|1,942,263|\n|国立大学法人北陸先端科学技術大学院大学|5,402,623|\n|国立大学法人奈良先端科学技術大学院大学|5,461,114|\n|大学共同利用機関法人人間文化研究機構|11,432,183|\n|大学共同利用機関法人自然科学研究機構|25,153,307|\n|大学共同利用機関法人高エネルギー加速器研究機構|18,733,805|\n|大学共同利用機関法人情報・システム研究機構|18,927,393|\n|機能強化特別支援等事業|34,644,558|\n|国立大学法人運営費交付金計|1,078,350,085|"
+    },
+    {
+      "id": "mext-university-initial-2026",
+      "title": "2026年度文部科学省一般会計歳出予算各目明細書",
+      "url": "https://www.mext.go.jp/content/20260224-mxt_kaikesou01-000047641_1.pdf",
+      "locator": "PDF56〜59頁：国立大学法人運営費交付金の積算内訳。85法人は後半の年度計画予算見積りの交付金収入欄でも照合。単位千円。",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "7b4091e08fca75a3a8c060a269ca4973e8b99ec42be0b8c15290d12db8a91544",
+      "excerpt": "|法人・枠|当初予算積算額（千円）|\n|---|---:|\n|国立大学法人北海道大学|36,308,521|\n|国立大学法人北海道教育大学|6,387,587|\n|国立大学法人室蘭工業大学|2,539,202|\n|国立大学法人北海道国立大学機構|6,467,900|\n|国立大学法人旭川医科大学|4,868,734|\n|国立大学法人弘前大学|9,906,139|\n|国立大学法人岩手大学|6,649,803|\n|国立大学法人東北大学|45,485,368|\n|国立大学法人宮城教育大学|2,572,123|\n|国立大学法人秋田大学|8,999,570|\n|国立大学法人山形大学|10,542,413|\n|国立大学法人福島大学|3,625,964|\n|国立大学法人茨城大学|6,807,955|\n|国立大学法人筑波大学|35,386,601|\n|国立大学法人筑波技術大学|2,299,615|\n|国立大学法人宇都宮大学|5,627,289|\n|国立大学法人群馬大学|11,202,821|\n|国立大学法人埼玉大学|5,885,757|\n|国立大学法人千葉大学|17,966,214|\n|国立大学法人東京大学|81,206,973|\n|国立大学法人東京外国語大学|3,359,200|\n|国立大学法人東京科学大学|35,841,753|\n|国立大学法人東京学芸大学|7,921,233|\n|国立大学法人東京農工大学|6,445,767|\n|国立大学法人東京芸術大学|4,799,727|\n|国立大学法人東京海洋大学|5,372,330|\n|国立大学法人お茶の水女子大学|4,464,403|\n|国立大学法人電気通信大学|5,316,012|\n|国立大学法人一橋大学|5,624,079|\n|国立大学法人横浜国立大学|7,859,943|\n|国立大学法人新潟大学|15,379,095|\n|国立大学法人長岡技術科学大学|3,738,051|\n|国立大学法人上越教育大学|3,028,879|\n|国立大学法人富山大学|12,437,605|\n|国立大学法人金沢大学|15,446,953|\n|国立大学法人福井大学|9,397,802|\n|国立大学法人山梨大学|8,935,280|\n|国立大学法人信州大学|13,323,897|\n|国立大学法人静岡大学|8,960,406|\n|国立大学法人浜松医科大学|5,441,751|\n|国立大学法人東海国立大学機構|42,318,231|\n|国立大学法人愛知教育大学|4,444,678|\n|国立大学法人名古屋工業大学|4,826,426|\n|国立大学法人豊橋技術科学大学|3,879,086|\n|国立大学法人三重大学|11,056,820|\n|国立大学法人滋賀大学|3,155,688|\n|国立大学法人滋賀医科大学|5,847,141|\n|国立大学法人京都大学|55,642,365|\n|国立大学法人京都教育大学|3,541,785|\n|国立大学法人京都工芸繊維大学|4,831,803|\n|国立大学法人大阪大学|44,545,199|\n|国立大学法人大阪教育大学|5,899,356|\n|国立大学法人兵庫教育大学|3,471,236|\n|国立大学法人神戸大学|20,598,715|\n|国立大学法人奈良国立大学機構|5,894,514|\n|国立大学法人和歌山大学|3,856,943|\n|国立大学法人鳥取大学|10,486,586|\n|国立大学法人島根大学|9,943,517|\n|国立大学法人岡山大学|17,577,007|\n|国立大学法人広島大学|25,626,287|\n|国立大学法人山口大学|11,732,302|\n|国立大学法人徳島大学|11,818,396|\n|国立大学法人鳴門教育大学|3,511,076|\n|国立大学法人香川大学|9,872,673|\n|国立大学法人愛媛大学|12,190,623|\n|国立大学法人高知大学|9,371,165|\n|国立大学法人福岡教育大学|3,127,005|\n|国立大学法人九州大学|39,442,521|\n|国立大学法人九州工業大学|5,191,217|\n|国立大学法人佐賀大学|10,205,742|\n|国立大学法人長崎大学|16,531,855|\n|国立大学法人熊本大学|13,924,865|\n|国立大学法人大分大学|8,906,631|\n|国立大学法人宮崎大学|9,010,030|\n|国立大学法人鹿児島大学|14,655,608|\n|国立大学法人鹿屋体育大学|1,390,288|\n|国立大学法人琉球大学|11,564,898|\n|国立大学法人政策研究大学院大学|2,132,258|\n|国立大学法人総合研究大学院大学|1,927,591|\n|国立大学法人北陸先端科学技術大学院大学|5,571,800|\n|国立大学法人奈良先端科学技術大学院大学|5,536,939|\n|大学共同利用機関法人人間文化研究機構|11,560,225|\n|大学共同利用機関法人自然科学研究機構|25,507,425|\n|大学共同利用機関法人高エネルギー加速器研究機構|18,886,931|\n|大学共同利用機関法人情報・システム研究機構|19,319,566|\n|機能強化特別支援等事業|32,972,759|\n|国立大学法人運営費交付金計|1,097,136,487|"
+    },
+    {
+      "id": "mext-university-performance-2025",
+      "title": "2025年度成果を中心とする実績状況に基づく配分の説明",
+      "url": "https://www.mext.go.jp/content/20260603-mxt_hojinka-000024750_1.pdf",
+      "locator": "PDF1頁：配分対象経費1,000億円は運営費交付金の一部分。全ページは指標・算定方法等で法人別金額表ではない。",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "14ec833fb99eee22667c5cfc9fc1cd032fd921803d59961b1406e9d311b65466",
+      "excerpt": "           令和 7 年度国立大学法人運営費交付金\n        「成果を中心とする実績状況に基づく配分」について\n\n\n１．成果を中心とする実績状況に基づく配分の概要\n\n 国立大学法人及び大学共同利用機関法人（以下、「国立大学法人等」という。）にお\nけるマネジメント改革の推進や教育・研究の更なる質の向上を図るため、令和元年度予\n算から、各国立大学法人等の成果や実績を評価する「成果を中心とする実績状況に基づ\nく配分」の仕組みを導入している。\n 令和 7 年度においても、公正な競争環境を整備するため、規模や組織体制の観点から\n６グループに分類し、教育・研究・経営改革の 11 の指標により評価を行った。その際、\n学問分野ごとの特性を踏まえた評価となるよう、教育及び研究に係る指標については、\n各国立大学法人等の実績を学系※に分けて評価を行っている。\n その上で、配分対象経費及び配分率については、令和６年度予算と同額・同率の 1,000\n億円・75%～125％（指定国立大学については 70%～130%）に設定している。また、\n各機関の改革努力を適切に反映するため、研究の指標を中心に「実績」に加えて「伸び」\nを加味した評価を行っている（実績：伸び１：１）。\n\n\n ※学系…\n  国立大学法人評価の中で、（独）大学改革支援・学位授与機構が実施する教育研究に関す\n  る評価において実施される「現況分析」における評価単位（人文科学系、社会科学系、理\n  学系、工学系、農学系、保健系、教育系、総合文系、総合理系、総合融合系）。\n\n\n\n\n２．配分指標（11 指標）\n\n 令和 7 年度国立大学法人運営費交付金における「成果を中心とする実績状況に基づく\n配分」に活用する配分指標の概要は、次のとおり。なお、各配分指標の算定方法、デー\nタの定義等については、各項目の頁に詳細を記載している。\n\n\n\n【配分対象経費：1,000 億円（教育：170 億円、研究：470 億円、経営改革：360 億円）】\n\n  ○〔教育〕卒業・修了者の就職・進学等の状況（60 億円）\n    大学の教育による成果として、卒業・修了者がどれだけ就職あるいは進学しているかに\n    ついて、課程別の卒業・修了者数当たりの就職・進学等の状況に基づき、学系ごとに評価\n\n\n\n\n                        1\n"
+    },
+    {
+      "id": "mext-university-performance-2026",
+      "title": "2026年度成果を中心とする実績状況に基づく配分の説明",
+      "url": "https://www.mext.go.jp/content/20250603-mxt_hojinka-100014170_1.pdf",
+      "locator": "PDF1頁：配分対象経費1,000億円は運営費交付金の一部分。全ページは指標・算定方法等で法人別金額表ではない。",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "de69e0f5213039dde606f5df2539c89c049f197110b660223182170a9106a180",
+      "excerpt": "            令和８年度国立大学法人運営費交付金\n        「成果を中心とする実績状況に基づく配分」について\n\n\n１．成果を中心とする実績状況に基づく配分の概要\n\n 国立大学法人及び大学共同利用機関法人（以下、「国立大学法人等」という。）にお\nけるマネジメント改革の推進や教育・研究の更なる質の向上を図るため、令和元年度予\n算から、各国立大学法人等の成果や実績を評価する「成果を中心とする実績状況に基づ\nく配分」の仕組みを導入している。\n 令和８年度においても、公正な競争環境を整備するため、規模や組織体制の観点から\n６グループに分類し、教育・研究・経営改革の 11 の指標により評価を行った。その際、\n学問分野ごとの特性を踏まえた評価となるよう、教育及び研究に係る指標については、\n各国立大学法人等の実績を学系※に分けて評価を行っている。\n その上で、配分対象経費及び配分率については、令和７年度予算と同額・同率の 1,000\n億円・75%～125％（指定国立大学については 70%～130%）に設定している。また、\n各機関の改革努力を適切に反映するため、研究の指標を中心に「実績」に加えて「伸び」\nを加味した評価を行っている（実績：伸び１：１）。\n\n\n ※学系…\n  国立大学法人評価の中で、（独）大学改革支援・学位授与機構が実施する教育研究に関す\n  る評価において実施される「現況分析」における評価単位（人文科学系、社会科学系、理\n  学系、工学系、農学系、保健系、教育系、総合文系、総合理系、総合融合系）。\n\n\n\n\n２．配分指標（11 指標）\n\n 令和８年度国立大学法人運営費交付金における「成果を中心とする実績状況に基づく\n配分」に活用する配分指標の概要は、次のとおり。なお、各配分指標の算定方法、デー\nタの定義等については、各項目の頁に詳細を記載している。\n\n\n\n【配分対象経費：1,000 億円（教育：170 億円、研究：470 億円、経営改革：360 億円）】\n\n  ○〔教育〕卒業・修了者の就職・進学等の状況（60 億円）\n    大学の教育による成果として、卒業・修了者がどれだけ就職あるいは進学しているかに\n    ついて、課程別の卒業・修了者数当たりの就職・進学等の状況に基づき、学系ごとに評価\n"
+    },
+    {
+      "id": "mext-university-entry-2025",
+      "title": "文部科学省予算原本の公式入口・成立確認",
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00013.htm",
+      "locator": "当初予算／一般会計各目明細書欄",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "6af100f87a30e3a5c52955043cdad1490c86dd0694ec14b549e523961956af7f",
+      "excerpt": "〔一般会計〕 令和7年度 一般会計歳出予算各目明細書（修正成立） (PDF:632KB) 〔特別会計〕"
+    },
+    {
+      "id": "mext-university-entry-2026",
+      "title": "文部科学省予算原本の公式入口・成立確認",
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00018.htm",
+      "locator": "当初予算／一般会計各目明細書欄",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "1836f2b16bd7b45db22686f63343722803c8327e6a1c45b48e1c175d058dd3a8",
+      "excerpt": "〔一般会計〕 令和8年度 一般会計歳出予算各目明細書 （PDF:955KB） 〔特別会計〕"
+    },
+    {
+      "id": "mext-budget-enacted-2026",
+      "title": "文部科学省予算原本の公式入口・成立確認",
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1420672_00001.html",
+      "locator": "当初予算／一般会計各目明細書欄",
+      "kind": "予算・機関別資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "文部科学省公式原本をTLS検証付きHTTPSで取得、pdftotext -layoutで表を抽出",
+      "sha256_extracted_text": "7616642813216d44a7beb9bbd12de36525c858ca8eb056f62f6b87e3c99c738b",
+      "excerpt": "当初予算 ※本当初予算は、案のとおり成立いたしました（令和8年4月7日） （予算総論） 令和8年度予算のポイント (PDF:8.6"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.mext.go.jp/content/20260603-mxt_hojinka-000024750_1.pdf",
+      "final_url": "https://www.mext.go.jp/content/20260603-mxt_hojinka-000024750_1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:35:41.314623+00:00",
+      "sha256_original": "f015912f09104cbfe6407ed230aa1d66b48bd3f48fc928886dc7b688de866761",
+      "bytes": 941328,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-university-performance-2025"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "20260603-mxt_hojinka-000024750_1.pdf",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/content/20250603-mxt_hojinka-100014170_1.pdf",
+      "final_url": "https://www.mext.go.jp/content/20250603-mxt_hojinka-100014170_1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:35:50.015578+00:00",
+      "sha256_original": "3520a1812b038520c652ae2ce0e64551f10f8598ff44f295b8f5f16fc7199c14",
+      "bytes": 1651605,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-university-performance-2026"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "20250603-mxt_hojinka-100014170_1.pdf",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/content/20260224-mxt_kaikesou01-000047641_1.pdf",
+      "final_url": "https://www.mext.go.jp/content/20260224-mxt_kaikesou01-000047641_1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:36:26.478998+00:00",
+      "sha256_original": "08e4c5cbe348eaa8b71be8b261e62c7a6348fbf26e4e6a939c439816eba88574",
+      "bytes": 978313,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-university-initial-2026"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "81国立大学法人＋4大学共同利用機関法人＋未法人配分枠の86積算内訳を抽出。85法人を年度計画予算見積りの交付金収入欄でも照合。86額の合計を交付金目総額と照合。",
+        "locator": "PDF56〜59頁：国立大学法人運営費交付金の積算内訳。85法人は後半の年度計画予算見積りの交付金収入欄でも照合。単位千円。",
+        "row_ids": [
+          "mext-university-initial-0",
+          "mext-university-initial-1",
+          "mext-university-initial-2",
+          "mext-university-initial-3",
+          "mext-university-initial-4",
+          "mext-university-initial-5",
+          "mext-university-initial-6",
+          "mext-university-initial-7",
+          "mext-university-initial-8",
+          "mext-university-initial-9",
+          "mext-university-initial-10",
+          "mext-university-initial-11",
+          "mext-university-initial-12",
+          "mext-university-initial-13",
+          "mext-university-initial-14",
+          "mext-university-initial-15",
+          "mext-university-initial-16",
+          "mext-university-initial-17",
+          "mext-university-initial-18",
+          "mext-university-initial-19",
+          "mext-university-initial-20",
+          "mext-university-initial-21",
+          "mext-university-initial-22",
+          "mext-university-initial-23",
+          "mext-university-initial-24",
+          "mext-university-initial-25",
+          "mext-university-initial-26",
+          "mext-university-initial-27",
+          "mext-university-initial-28",
+          "mext-university-initial-29",
+          "mext-university-initial-30",
+          "mext-university-initial-31",
+          "mext-university-initial-32",
+          "mext-university-initial-33",
+          "mext-university-initial-34",
+          "mext-university-initial-35",
+          "mext-university-initial-36",
+          "mext-university-initial-37",
+          "mext-university-initial-38",
+          "mext-university-initial-39",
+          "mext-university-initial-40",
+          "mext-university-initial-41",
+          "mext-university-initial-42",
+          "mext-university-initial-43",
+          "mext-university-initial-44",
+          "mext-university-initial-45",
+          "mext-university-initial-46",
+          "mext-university-initial-47",
+          "mext-university-initial-48",
+          "mext-university-initial-49",
+          "mext-university-initial-50",
+          "mext-university-initial-51",
+          "mext-university-initial-52",
+          "mext-university-initial-53",
+          "mext-university-initial-54",
+          "mext-university-initial-55",
+          "mext-university-initial-56",
+          "mext-university-initial-57",
+          "mext-university-initial-58",
+          "mext-university-initial-59",
+          "mext-university-initial-60",
+          "mext-university-initial-61",
+          "mext-university-initial-62",
+          "mext-university-initial-63",
+          "mext-university-initial-64",
+          "mext-university-initial-65",
+          "mext-university-initial-66",
+          "mext-university-initial-67",
+          "mext-university-initial-68",
+          "mext-university-initial-69",
+          "mext-university-initial-70",
+          "mext-university-initial-71",
+          "mext-university-initial-72",
+          "mext-university-initial-73",
+          "mext-university-initial-74",
+          "mext-university-initial-75",
+          "mext-university-initial-76",
+          "mext-university-initial-77",
+          "mext-university-initial-78",
+          "mext-university-initial-79",
+          "mext-university-initial-80",
+          "mext-university-initial-81",
+          "mext-university-initial-82",
+          "mext-university-initial-83",
+          "mext-university-initial-84",
+          "mext-university-initial-85"
+        ],
+        "fields": [
+          "amount2026"
+        ],
+        "values": {
+          "mext-university-initial-0": {
+            "amount2026": 36308.521
+          },
+          "mext-university-initial-1": {
+            "amount2026": 6387.587
+          },
+          "mext-university-initial-2": {
+            "amount2026": 2539.202
+          },
+          "mext-university-initial-3": {
+            "amount2026": 6467.9
+          },
+          "mext-university-initial-4": {
+            "amount2026": 4868.734
+          },
+          "mext-university-initial-5": {
+            "amount2026": 9906.139
+          },
+          "mext-university-initial-6": {
+            "amount2026": 6649.803
+          },
+          "mext-university-initial-7": {
+            "amount2026": 45485.368
+          },
+          "mext-university-initial-8": {
+            "amount2026": 2572.123
+          },
+          "mext-university-initial-9": {
+            "amount2026": 8999.57
+          },
+          "mext-university-initial-10": {
+            "amount2026": 10542.413
+          },
+          "mext-university-initial-11": {
+            "amount2026": 3625.964
+          },
+          "mext-university-initial-12": {
+            "amount2026": 6807.955
+          },
+          "mext-university-initial-13": {
+            "amount2026": 35386.601
+          },
+          "mext-university-initial-14": {
+            "amount2026": 2299.615
+          },
+          "mext-university-initial-15": {
+            "amount2026": 5627.289
+          },
+          "mext-university-initial-16": {
+            "amount2026": 11202.821
+          },
+          "mext-university-initial-17": {
+            "amount2026": 5885.757
+          },
+          "mext-university-initial-18": {
+            "amount2026": 17966.214
+          },
+          "mext-university-initial-19": {
+            "amount2026": 81206.973
+          },
+          "mext-university-initial-20": {
+            "amount2026": 3359.2
+          },
+          "mext-university-initial-21": {
+            "amount2026": 35841.753
+          },
+          "mext-university-initial-22": {
+            "amount2026": 7921.233
+          },
+          "mext-university-initial-23": {
+            "amount2026": 6445.767
+          },
+          "mext-university-initial-24": {
+            "amount2026": 4799.727
+          },
+          "mext-university-initial-25": {
+            "amount2026": 5372.33
+          },
+          "mext-university-initial-26": {
+            "amount2026": 4464.403
+          },
+          "mext-university-initial-27": {
+            "amount2026": 5316.012
+          },
+          "mext-university-initial-28": {
+            "amount2026": 5624.079
+          },
+          "mext-university-initial-29": {
+            "amount2026": 7859.943
+          },
+          "mext-university-initial-30": {
+            "amount2026": 15379.095
+          },
+          "mext-university-initial-31": {
+            "amount2026": 3738.051
+          },
+          "mext-university-initial-32": {
+            "amount2026": 3028.879
+          },
+          "mext-university-initial-33": {
+            "amount2026": 12437.605
+          },
+          "mext-university-initial-34": {
+            "amount2026": 15446.953
+          },
+          "mext-university-initial-35": {
+            "amount2026": 9397.802
+          },
+          "mext-university-initial-36": {
+            "amount2026": 8935.28
+          },
+          "mext-university-initial-37": {
+            "amount2026": 13323.897
+          },
+          "mext-university-initial-38": {
+            "amount2026": 8960.406
+          },
+          "mext-university-initial-39": {
+            "amount2026": 5441.751
+          },
+          "mext-university-initial-40": {
+            "amount2026": 42318.231
+          },
+          "mext-university-initial-41": {
+            "amount2026": 4444.678
+          },
+          "mext-university-initial-42": {
+            "amount2026": 4826.426
+          },
+          "mext-university-initial-43": {
+            "amount2026": 3879.086
+          },
+          "mext-university-initial-44": {
+            "amount2026": 11056.82
+          },
+          "mext-university-initial-45": {
+            "amount2026": 3155.688
+          },
+          "mext-university-initial-46": {
+            "amount2026": 5847.141
+          },
+          "mext-university-initial-47": {
+            "amount2026": 55642.365
+          },
+          "mext-university-initial-48": {
+            "amount2026": 3541.785
+          },
+          "mext-university-initial-49": {
+            "amount2026": 4831.803
+          },
+          "mext-university-initial-50": {
+            "amount2026": 44545.199
+          },
+          "mext-university-initial-51": {
+            "amount2026": 5899.356
+          },
+          "mext-university-initial-52": {
+            "amount2026": 3471.236
+          },
+          "mext-university-initial-53": {
+            "amount2026": 20598.715
+          },
+          "mext-university-initial-54": {
+            "amount2026": 5894.514
+          },
+          "mext-university-initial-55": {
+            "amount2026": 3856.943
+          },
+          "mext-university-initial-56": {
+            "amount2026": 10486.586
+          },
+          "mext-university-initial-57": {
+            "amount2026": 9943.517
+          },
+          "mext-university-initial-58": {
+            "amount2026": 17577.007
+          },
+          "mext-university-initial-59": {
+            "amount2026": 25626.287
+          },
+          "mext-university-initial-60": {
+            "amount2026": 11732.302
+          },
+          "mext-university-initial-61": {
+            "amount2026": 11818.396
+          },
+          "mext-university-initial-62": {
+            "amount2026": 3511.076
+          },
+          "mext-university-initial-63": {
+            "amount2026": 9872.673
+          },
+          "mext-university-initial-64": {
+            "amount2026": 12190.623
+          },
+          "mext-university-initial-65": {
+            "amount2026": 9371.165
+          },
+          "mext-university-initial-66": {
+            "amount2026": 3127.005
+          },
+          "mext-university-initial-67": {
+            "amount2026": 39442.521
+          },
+          "mext-university-initial-68": {
+            "amount2026": 5191.217
+          },
+          "mext-university-initial-69": {
+            "amount2026": 10205.742
+          },
+          "mext-university-initial-70": {
+            "amount2026": 16531.855
+          },
+          "mext-university-initial-71": {
+            "amount2026": 13924.865
+          },
+          "mext-university-initial-72": {
+            "amount2026": 8906.631
+          },
+          "mext-university-initial-73": {
+            "amount2026": 9010.03
+          },
+          "mext-university-initial-74": {
+            "amount2026": 14655.608
+          },
+          "mext-university-initial-75": {
+            "amount2026": 1390.288
+          },
+          "mext-university-initial-76": {
+            "amount2026": 11564.898
+          },
+          "mext-university-initial-77": {
+            "amount2026": 2132.258
+          },
+          "mext-university-initial-78": {
+            "amount2026": 1927.591
+          },
+          "mext-university-initial-79": {
+            "amount2026": 5571.8
+          },
+          "mext-university-initial-80": {
+            "amount2026": 5536.939
+          },
+          "mext-university-initial-81": {
+            "amount2026": 11560.225
+          },
+          "mext-university-initial-82": {
+            "amount2026": 25507.425
+          },
+          "mext-university-initial-83": {
+            "amount2026": 18886.931
+          },
+          "mext-university-initial-84": {
+            "amount2026": 19319.566
+          },
+          "mext-university-initial-85": {
+            "amount2026": 32972.759
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/content/20250414-mxt_kaikesou01-000041735_1.pdf",
+      "final_url": "https://www.mext.go.jp/content/20250414-mxt_kaikesou01-000041735_1.pdf",
+      "retrieved_at_utc": "2026-10-08T15:37:20.726497+00:00",
+      "sha256_original": "c840b29c4414697934a795dc15255ec9019ab58f06dca2bfb718b17d0d027ce9",
+      "bytes": 647282,
+      "content_type": "application/pdf",
+      "source_ids": [
+        "mext-university-initial-2025"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "81国立大学法人＋4大学共同利用機関法人＋未法人配分枠の86積算内訳を抽出。85法人を年度計画予算見積りの交付金収入欄でも照合。86額の合計を交付金目総額と照合。",
+        "locator": "PDF58〜61頁：国立大学法人運営費交付金の積算内訳。85法人は後半の年度計画予算見積りの交付金収入欄でも照合。単位千円。",
+        "row_ids": [
+          "mext-university-initial-0",
+          "mext-university-initial-1",
+          "mext-university-initial-2",
+          "mext-university-initial-3",
+          "mext-university-initial-4",
+          "mext-university-initial-5",
+          "mext-university-initial-6",
+          "mext-university-initial-7",
+          "mext-university-initial-8",
+          "mext-university-initial-9",
+          "mext-university-initial-10",
+          "mext-university-initial-11",
+          "mext-university-initial-12",
+          "mext-university-initial-13",
+          "mext-university-initial-14",
+          "mext-university-initial-15",
+          "mext-university-initial-16",
+          "mext-university-initial-17",
+          "mext-university-initial-18",
+          "mext-university-initial-19",
+          "mext-university-initial-20",
+          "mext-university-initial-21",
+          "mext-university-initial-22",
+          "mext-university-initial-23",
+          "mext-university-initial-24",
+          "mext-university-initial-25",
+          "mext-university-initial-26",
+          "mext-university-initial-27",
+          "mext-university-initial-28",
+          "mext-university-initial-29",
+          "mext-university-initial-30",
+          "mext-university-initial-31",
+          "mext-university-initial-32",
+          "mext-university-initial-33",
+          "mext-university-initial-34",
+          "mext-university-initial-35",
+          "mext-university-initial-36",
+          "mext-university-initial-37",
+          "mext-university-initial-38",
+          "mext-university-initial-39",
+          "mext-university-initial-40",
+          "mext-university-initial-41",
+          "mext-university-initial-42",
+          "mext-university-initial-43",
+          "mext-university-initial-44",
+          "mext-university-initial-45",
+          "mext-university-initial-46",
+          "mext-university-initial-47",
+          "mext-university-initial-48",
+          "mext-university-initial-49",
+          "mext-university-initial-50",
+          "mext-university-initial-51",
+          "mext-university-initial-52",
+          "mext-university-initial-53",
+          "mext-university-initial-54",
+          "mext-university-initial-55",
+          "mext-university-initial-56",
+          "mext-university-initial-57",
+          "mext-university-initial-58",
+          "mext-university-initial-59",
+          "mext-university-initial-60",
+          "mext-university-initial-61",
+          "mext-university-initial-62",
+          "mext-university-initial-63",
+          "mext-university-initial-64",
+          "mext-university-initial-65",
+          "mext-university-initial-66",
+          "mext-university-initial-67",
+          "mext-university-initial-68",
+          "mext-university-initial-69",
+          "mext-university-initial-70",
+          "mext-university-initial-71",
+          "mext-university-initial-72",
+          "mext-university-initial-73",
+          "mext-university-initial-74",
+          "mext-university-initial-75",
+          "mext-university-initial-76",
+          "mext-university-initial-77",
+          "mext-university-initial-78",
+          "mext-university-initial-79",
+          "mext-university-initial-80",
+          "mext-university-initial-81",
+          "mext-university-initial-82",
+          "mext-university-initial-83",
+          "mext-university-initial-84",
+          "mext-university-initial-85"
+        ],
+        "fields": [
+          "amount2025"
+        ],
+        "values": {
+          "mext-university-initial-0": {
+            "amount2025": 35652.29
+          },
+          "mext-university-initial-1": {
+            "amount2025": 6313.806
+          },
+          "mext-university-initial-2": {
+            "amount2025": 2445.82
+          },
+          "mext-university-initial-3": {
+            "amount2025": 6251.308
+          },
+          "mext-university-initial-4": {
+            "amount2025": 4907.858
+          },
+          "mext-university-initial-5": {
+            "amount2025": 10057.434
+          },
+          "mext-university-initial-6": {
+            "amount2025": 6300.225
+          },
+          "mext-university-initial-7": {
+            "amount2025": 45154.32
+          },
+          "mext-university-initial-8": {
+            "amount2025": 2472.766
+          },
+          "mext-university-initial-9": {
+            "amount2025": 8869.659
+          },
+          "mext-university-initial-10": {
+            "amount2025": 10529.036
+          },
+          "mext-university-initial-11": {
+            "amount2025": 3544.888
+          },
+          "mext-university-initial-12": {
+            "amount2025": 6649.228
+          },
+          "mext-university-initial-13": {
+            "amount2025": 34772.581
+          },
+          "mext-university-initial-14": {
+            "amount2025": 2246.917
+          },
+          "mext-university-initial-15": {
+            "amount2025": 5310.221
+          },
+          "mext-university-initial-16": {
+            "amount2025": 10989.814
+          },
+          "mext-university-initial-17": {
+            "amount2025": 5821.211
+          },
+          "mext-university-initial-18": {
+            "amount2025": 17730.649
+          },
+          "mext-university-initial-19": {
+            "amount2025": 79045.237
+          },
+          "mext-university-initial-20": {
+            "amount2025": 3121.574
+          },
+          "mext-university-initial-21": {
+            "amount2025": 34961.324
+          },
+          "mext-university-initial-22": {
+            "amount2025": 7609.209
+          },
+          "mext-university-initial-23": {
+            "amount2025": 6147.945
+          },
+          "mext-university-initial-24": {
+            "amount2025": 4697.08
+          },
+          "mext-university-initial-25": {
+            "amount2025": 5258.975
+          },
+          "mext-university-initial-26": {
+            "amount2025": 4355.29
+          },
+          "mext-university-initial-27": {
+            "amount2025": 5200.658
+          },
+          "mext-university-initial-28": {
+            "amount2025": 5192.549
+          },
+          "mext-university-initial-29": {
+            "amount2025": 7761.718
+          },
+          "mext-university-initial-30": {
+            "amount2025": 14980.008
+          },
+          "mext-university-initial-31": {
+            "amount2025": 3582.988
+          },
+          "mext-university-initial-32": {
+            "amount2025": 2898.159
+          },
+          "mext-university-initial-33": {
+            "amount2025": 12509.333
+          },
+          "mext-university-initial-34": {
+            "amount2025": 15056.497
+          },
+          "mext-university-initial-35": {
+            "amount2025": 9408.32
+          },
+          "mext-university-initial-36": {
+            "amount2025": 9270.303
+          },
+          "mext-university-initial-37": {
+            "amount2025": 12969.081
+          },
+          "mext-university-initial-38": {
+            "amount2025": 8949.433
+          },
+          "mext-university-initial-39": {
+            "amount2025": 5427.746
+          },
+          "mext-university-initial-40": {
+            "amount2025": 41666.936
+          },
+          "mext-university-initial-41": {
+            "amount2025": 4416.179
+          },
+          "mext-university-initial-42": {
+            "amount2025": 4689.426
+          },
+          "mext-university-initial-43": {
+            "amount2025": 3879.659
+          },
+          "mext-university-initial-44": {
+            "amount2025": 10674.34
+          },
+          "mext-university-initial-45": {
+            "amount2025": 3103.241
+          },
+          "mext-university-initial-46": {
+            "amount2025": 5377.859
+          },
+          "mext-university-initial-47": {
+            "amount2025": 54202.178
+          },
+          "mext-university-initial-48": {
+            "amount2025": 3574.126
+          },
+          "mext-university-initial-49": {
+            "amount2025": 4667.308
+          },
+          "mext-university-initial-50": {
+            "amount2025": 45359.395
+          },
+          "mext-university-initial-51": {
+            "amount2025": 5990.884
+          },
+          "mext-university-initial-52": {
+            "amount2025": 3400.852
+          },
+          "mext-university-initial-53": {
+            "amount2025": 19497.545
+          },
+          "mext-university-initial-54": {
+            "amount2025": 5650.772
+          },
+          "mext-university-initial-55": {
+            "amount2025": 3694.317
+          },
+          "mext-university-initial-56": {
+            "amount2025": 10147.677
+          },
+          "mext-university-initial-57": {
+            "amount2025": 9437.866
+          },
+          "mext-university-initial-58": {
+            "amount2025": 16818.882
+          },
+          "mext-university-initial-59": {
+            "amount2025": 25729.47
+          },
+          "mext-university-initial-60": {
+            "amount2025": 11399.089
+          },
+          "mext-university-initial-61": {
+            "amount2025": 11462.999
+          },
+          "mext-university-initial-62": {
+            "amount2025": 3378.706
+          },
+          "mext-university-initial-63": {
+            "amount2025": 9768.469
+          },
+          "mext-university-initial-64": {
+            "amount2025": 12086.612
+          },
+          "mext-university-initial-65": {
+            "amount2025": 9236.5
+          },
+          "mext-university-initial-66": {
+            "amount2025": 3122.061
+          },
+          "mext-university-initial-67": {
+            "amount2025": 38247.254
+          },
+          "mext-university-initial-68": {
+            "amount2025": 5143.372
+          },
+          "mext-university-initial-69": {
+            "amount2025": 10003.544
+          },
+          "mext-university-initial-70": {
+            "amount2025": 16181.254
+          },
+          "mext-university-initial-71": {
+            "amount2025": 13701.075
+          },
+          "mext-university-initial-72": {
+            "amount2025": 8735.533
+          },
+          "mext-university-initial-73": {
+            "amount2025": 8914.636
+          },
+          "mext-university-initial-74": {
+            "amount2025": 14418.696
+          },
+          "mext-university-initial-75": {
+            "amount2025": 1329.057
+          },
+          "mext-university-initial-76": {
+            "amount2025": 11037.861
+          },
+          "mext-university-initial-77": {
+            "amount2025": 2083.751
+          },
+          "mext-university-initial-78": {
+            "amount2025": 1942.263
+          },
+          "mext-university-initial-79": {
+            "amount2025": 5402.623
+          },
+          "mext-university-initial-80": {
+            "amount2025": 5461.114
+          },
+          "mext-university-initial-81": {
+            "amount2025": 11432.183
+          },
+          "mext-university-initial-82": {
+            "amount2025": 25153.307
+          },
+          "mext-university-initial-83": {
+            "amount2025": 18733.805
+          },
+          "mext-university-initial-84": {
+            "amount2025": 18927.393
+          },
+          "mext-university-initial-85": {
+            "amount2025": 34644.558
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00013.htm",
+      "final_url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00013.htm",
+      "retrieved_at_utc": "2026-10-08T15:42:47.800356+00:00",
+      "sha256_original": "149ce02c7bcb8d00020aaf07c68f76667fdb583688015ae2f1bd0fd049bede51",
+      "bytes": 6843,
+      "content_type": "text/html",
+      "source_ids": [
+        "mext-university-entry-2025"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "1413361_00013.htm",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00018.htm",
+      "final_url": "https://www.mext.go.jp/a_menu/yosan/r01/1413361_00018.htm",
+      "retrieved_at_utc": "2026-10-08T15:42:48.775185+00:00",
+      "sha256_original": "96d6ee248af472b0f96f1bbbc0db18691795e3dc5bc9b14510f040b978b2e54f",
+      "bytes": 6735,
+      "content_type": "text/html",
+      "source_ids": [
+        "mext-university-entry-2026"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "1413361_00018.htm",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/yosan/r01/1420672_00001.html",
+      "final_url": "https://www.mext.go.jp/a_menu/yosan/r01/1420672_00001.html",
+      "retrieved_at_utc": "2026-10-08T15:42:50.544178+00:00",
+      "sha256_original": "fe7f0ee5234d9f4d6d99b5ade21c1b669fa6e0811e50c3a284f0de1efbaff1bf",
+      "bytes": 7734,
+      "content_type": "text/html",
+      "source_ids": [
+        "mext-budget-enacted-2026"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "1420672_00001.html",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/koutou/houjin/1417427.htm",
+      "final_url": "https://www.mext.go.jp/a_menu/koutou/houjin/1417427.htm",
+      "retrieved_at_utc": "2026-10-08T15:42:51.292500+00:00",
+      "sha256_original": "7b02d05d37927b9c7cc10514e7c5d044936ca08071a5760d7d6b5066ceafca7b",
+      "bytes": 5510,
+      "content_type": "text/html",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "1417427.htm",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.mext.go.jp/a_menu/koutou/houjin/mext_02008.html",
+      "final_url": "https://www.mext.go.jp/a_menu/koutou/houjin/mext_02008.html",
+      "retrieved_at_utc": "2026-10-08T15:42:52.326050+00:00",
+      "sha256_original": "3968e926cc63ccfb869eaefc28129928b63e96fb3d7adc158072cafaa989be9b",
+      "bytes": 6484,
+      "content_type": "text/html",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式原本・入口の取得とSHA-256検証。比較額の照合対象ではない。",
+        "locator": "mext_02008.html",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "mext-university-initial-0",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人北海道大学",
+      "institution": "国立大学法人北海道大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 35652.29,
+      "amount2026": 36308.521,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人北海道大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 35652290,
+          "appendix_pdf_page": 135
+        },
+        "2026": {
+          "name": "国立大学法人北海道大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 36308521,
+          "appendix_pdf_page": 133
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-1",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人北海道教育大学",
+      "institution": "国立大学法人北海道教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 6313.806,
+      "amount2026": 6387.587,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人北海道教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 6313806,
+          "appendix_pdf_page": 136
+        },
+        "2026": {
+          "name": "国立大学法人北海道教育大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 6387587,
+          "appendix_pdf_page": 134
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-2",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人室蘭工業大学",
+      "institution": "国立大学法人室蘭工業大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 2445.82,
+      "amount2026": 2539.202,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人室蘭工業大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 2445820,
+          "appendix_pdf_page": 137
+        },
+        "2026": {
+          "name": "国立大学法人室蘭工業大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 2539202,
+          "appendix_pdf_page": 135
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-3",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人北海道国立大学機構",
+      "institution": "国立大学法人北海道国立大学機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 6251.308,
+      "amount2026": 6467.9,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人北海道国立大学機構",
+          "pdf_page": 58,
+          "amount_thousand_yen": 6251308,
+          "appendix_pdf_page": 138
+        },
+        "2026": {
+          "name": "国立大学法人北海道国立大学機構",
+          "pdf_page": 56,
+          "amount_thousand_yen": 6467900,
+          "appendix_pdf_page": 136
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-4",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人旭川医科大学",
+      "institution": "国立大学法人旭川医科大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4907.858,
+      "amount2026": 4868.734,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人旭川医科大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 4907858,
+          "appendix_pdf_page": 139
+        },
+        "2026": {
+          "name": "国立大学法人旭川医科大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 4868734,
+          "appendix_pdf_page": 137
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-5",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人弘前大学",
+      "institution": "国立大学法人弘前大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10057.434,
+      "amount2026": 9906.139,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人弘前大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 10057434,
+          "appendix_pdf_page": 140
+        },
+        "2026": {
+          "name": "国立大学法人弘前大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 9906139,
+          "appendix_pdf_page": 138
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-6",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人岩手大学",
+      "institution": "国立大学法人岩手大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 6300.225,
+      "amount2026": 6649.803,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人岩手大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 6300225,
+          "appendix_pdf_page": 141
+        },
+        "2026": {
+          "name": "国立大学法人岩手大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 6649803,
+          "appendix_pdf_page": 139
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-7",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東北大学",
+      "institution": "国立大学法人東北大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 45154.32,
+      "amount2026": 45485.368,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東北大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 45154320,
+          "appendix_pdf_page": 142
+        },
+        "2026": {
+          "name": "国立大学法人東北大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 45485368,
+          "appendix_pdf_page": 140
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-8",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人宮城教育大学",
+      "institution": "国立大学法人宮城教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 2472.766,
+      "amount2026": 2572.123,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人宮城教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 2472766,
+          "appendix_pdf_page": 143
+        },
+        "2026": {
+          "name": "国立大学法人宮城教育大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 2572123,
+          "appendix_pdf_page": 141
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-9",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人秋田大学",
+      "institution": "国立大学法人秋田大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 8869.659,
+      "amount2026": 8999.57,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人秋田大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 8869659,
+          "appendix_pdf_page": 144
+        },
+        "2026": {
+          "name": "国立大学法人秋田大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 8999570,
+          "appendix_pdf_page": 142
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-10",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人山形大学",
+      "institution": "国立大学法人山形大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10529.036,
+      "amount2026": 10542.413,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人山形大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 10529036,
+          "appendix_pdf_page": 145
+        },
+        "2026": {
+          "name": "国立大学法人山形大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 10542413,
+          "appendix_pdf_page": 143
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-11",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人福島大学",
+      "institution": "国立大学法人福島大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3544.888,
+      "amount2026": 3625.964,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人福島大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 3544888,
+          "appendix_pdf_page": 146
+        },
+        "2026": {
+          "name": "国立大学法人福島大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 3625964,
+          "appendix_pdf_page": 144
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-12",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人茨城大学",
+      "institution": "国立大学法人茨城大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 6649.228,
+      "amount2026": 6807.955,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人茨城大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 6649228,
+          "appendix_pdf_page": 147
+        },
+        "2026": {
+          "name": "国立大学法人茨城大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 6807955,
+          "appendix_pdf_page": 145
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-13",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人筑波大学",
+      "institution": "国立大学法人筑波大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 34772.581,
+      "amount2026": 35386.601,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人筑波大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 34772581,
+          "appendix_pdf_page": 148
+        },
+        "2026": {
+          "name": "国立大学法人筑波大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 35386601,
+          "appendix_pdf_page": 146
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-14",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人筑波技術大学",
+      "institution": "国立大学法人筑波技術大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 2246.917,
+      "amount2026": 2299.615,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人筑波技術大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 2246917,
+          "appendix_pdf_page": 149
+        },
+        "2026": {
+          "name": "国立大学法人筑波技術大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 2299615,
+          "appendix_pdf_page": 147
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-15",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人宇都宮大学",
+      "institution": "国立大学法人宇都宮大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5310.221,
+      "amount2026": 5627.289,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人宇都宮大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5310221,
+          "appendix_pdf_page": 150
+        },
+        "2026": {
+          "name": "国立大学法人宇都宮大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 5627289,
+          "appendix_pdf_page": 148
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-16",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人群馬大学",
+      "institution": "国立大学法人群馬大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10989.814,
+      "amount2026": 11202.821,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人群馬大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 10989814,
+          "appendix_pdf_page": 151
+        },
+        "2026": {
+          "name": "国立大学法人群馬大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 11202821,
+          "appendix_pdf_page": 149
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-17",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人埼玉大学",
+      "institution": "国立大学法人埼玉大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5821.211,
+      "amount2026": 5885.757,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人埼玉大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5821211,
+          "appendix_pdf_page": 152
+        },
+        "2026": {
+          "name": "国立大学法人埼玉大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 5885757,
+          "appendix_pdf_page": 150
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-18",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人千葉大学",
+      "institution": "国立大学法人千葉大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 17730.649,
+      "amount2026": 17966.214,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人千葉大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 17730649,
+          "appendix_pdf_page": 153
+        },
+        "2026": {
+          "name": "国立大学法人千葉大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 17966214,
+          "appendix_pdf_page": 151
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-19",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京大学",
+      "institution": "国立大学法人東京大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 79045.237,
+      "amount2026": 81206.973,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 79045237,
+          "appendix_pdf_page": 154
+        },
+        "2026": {
+          "name": "国立大学法人東京大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 81206973,
+          "appendix_pdf_page": 152
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-20",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京外国語大学",
+      "institution": "国立大学法人東京外国語大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3121.574,
+      "amount2026": 3359.2,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京外国語大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 3121574,
+          "appendix_pdf_page": 155
+        },
+        "2026": {
+          "name": "国立大学法人東京外国語大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 3359200,
+          "appendix_pdf_page": 153
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-21",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京科学大学",
+      "institution": "国立大学法人東京科学大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 34961.324,
+      "amount2026": 35841.753,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京科学大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 34961324,
+          "appendix_pdf_page": 156
+        },
+        "2026": {
+          "name": "国立大学法人東京科学大学",
+          "pdf_page": 56,
+          "amount_thousand_yen": 35841753,
+          "appendix_pdf_page": 154
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-22",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京学芸大学",
+      "institution": "国立大学法人東京学芸大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 7609.209,
+      "amount2026": 7921.233,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京学芸大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 7609209,
+          "appendix_pdf_page": 157
+        },
+        "2026": {
+          "name": "国立大学法人東京学芸大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 7921233,
+          "appendix_pdf_page": 155
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-23",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京農工大学",
+      "institution": "国立大学法人東京農工大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 6147.945,
+      "amount2026": 6445.767,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京農工大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 6147945,
+          "appendix_pdf_page": 158
+        },
+        "2026": {
+          "name": "国立大学法人東京農工大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 6445767,
+          "appendix_pdf_page": 156
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-24",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京芸術大学",
+      "institution": "国立大学法人東京芸術大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4697.08,
+      "amount2026": 4799.727,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京芸術大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 4697080,
+          "appendix_pdf_page": 159
+        },
+        "2026": {
+          "name": "国立大学法人東京芸術大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 4799727,
+          "appendix_pdf_page": 157
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-25",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東京海洋大学",
+      "institution": "国立大学法人東京海洋大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5258.975,
+      "amount2026": 5372.33,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東京海洋大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 5258975,
+          "appendix_pdf_page": 160
+        },
+        "2026": {
+          "name": "国立大学法人東京海洋大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 5372330,
+          "appendix_pdf_page": 158
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-26",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人お茶の水女子大学",
+      "institution": "国立大学法人お茶の水女子大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4355.29,
+      "amount2026": 4464.403,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人お茶の水女子大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 4355290,
+          "appendix_pdf_page": 161
+        },
+        "2026": {
+          "name": "国立大学法人お茶の水女子大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 4464403,
+          "appendix_pdf_page": 159
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-27",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人電気通信大学",
+      "institution": "国立大学法人電気通信大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5200.658,
+      "amount2026": 5316.012,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人電気通信大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 5200658,
+          "appendix_pdf_page": 162
+        },
+        "2026": {
+          "name": "国立大学法人電気通信大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 5316012,
+          "appendix_pdf_page": 160
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-28",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人一橋大学",
+      "institution": "国立大学法人一橋大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5192.549,
+      "amount2026": 5624.079,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人一橋大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 5192549,
+          "appendix_pdf_page": 163
+        },
+        "2026": {
+          "name": "国立大学法人一橋大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 5624079,
+          "appendix_pdf_page": 161
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-29",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人横浜国立大学",
+      "institution": "国立大学法人横浜国立大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 7761.718,
+      "amount2026": 7859.943,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人横浜国立大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 7761718,
+          "appendix_pdf_page": 164
+        },
+        "2026": {
+          "name": "国立大学法人横浜国立大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 7859943,
+          "appendix_pdf_page": 162
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-30",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人新潟大学",
+      "institution": "国立大学法人新潟大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 14980.008,
+      "amount2026": 15379.095,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人新潟大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 14980008,
+          "appendix_pdf_page": 165
+        },
+        "2026": {
+          "name": "国立大学法人新潟大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 15379095,
+          "appendix_pdf_page": 163
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-31",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人長岡技術科学大学",
+      "institution": "国立大学法人長岡技術科学大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3582.988,
+      "amount2026": 3738.051,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人長岡技術科学大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 3582988,
+          "appendix_pdf_page": 166
+        },
+        "2026": {
+          "name": "国立大学法人長岡技術科学大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 3738051,
+          "appendix_pdf_page": 164
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-32",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人上越教育大学",
+      "institution": "国立大学法人上越教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 2898.159,
+      "amount2026": 3028.879,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人上越教育大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 2898159,
+          "appendix_pdf_page": 167
+        },
+        "2026": {
+          "name": "国立大学法人上越教育大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 3028879,
+          "appendix_pdf_page": 165
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-33",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人富山大学",
+      "institution": "国立大学法人富山大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 12509.333,
+      "amount2026": 12437.605,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人富山大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 12509333,
+          "appendix_pdf_page": 168
+        },
+        "2026": {
+          "name": "国立大学法人富山大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 12437605,
+          "appendix_pdf_page": 166
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-34",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人金沢大学",
+      "institution": "国立大学法人金沢大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 15056.497,
+      "amount2026": 15446.953,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人金沢大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 15056497,
+          "appendix_pdf_page": 169
+        },
+        "2026": {
+          "name": "国立大学法人金沢大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 15446953,
+          "appendix_pdf_page": 167
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-35",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人福井大学",
+      "institution": "国立大学法人福井大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 9408.32,
+      "amount2026": 9397.802,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人福井大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 9408320,
+          "appendix_pdf_page": 170
+        },
+        "2026": {
+          "name": "国立大学法人福井大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 9397802,
+          "appendix_pdf_page": 168
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-36",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人山梨大学",
+      "institution": "国立大学法人山梨大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 9270.303,
+      "amount2026": 8935.28,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人山梨大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 9270303,
+          "appendix_pdf_page": 171
+        },
+        "2026": {
+          "name": "国立大学法人山梨大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 8935280,
+          "appendix_pdf_page": 169
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-37",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人信州大学",
+      "institution": "国立大学法人信州大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 12969.081,
+      "amount2026": 13323.897,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人信州大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 12969081,
+          "appendix_pdf_page": 172
+        },
+        "2026": {
+          "name": "国立大学法人信州大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 13323897,
+          "appendix_pdf_page": 170
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-38",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人静岡大学",
+      "institution": "国立大学法人静岡大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 8949.433,
+      "amount2026": 8960.406,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人静岡大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 8949433,
+          "appendix_pdf_page": 173
+        },
+        "2026": {
+          "name": "国立大学法人静岡大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 8960406,
+          "appendix_pdf_page": 171
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-39",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人浜松医科大学",
+      "institution": "国立大学法人浜松医科大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5427.746,
+      "amount2026": 5441.751,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人浜松医科大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 5427746,
+          "appendix_pdf_page": 174
+        },
+        "2026": {
+          "name": "国立大学法人浜松医科大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 5441751,
+          "appendix_pdf_page": 172
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-40",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人東海国立大学機構",
+      "institution": "国立大学法人東海国立大学機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 41666.936,
+      "amount2026": 42318.231,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人東海国立大学機構",
+          "pdf_page": 59,
+          "amount_thousand_yen": 41666936,
+          "appendix_pdf_page": 175
+        },
+        "2026": {
+          "name": "国立大学法人東海国立大学機構",
+          "pdf_page": 57,
+          "amount_thousand_yen": 42318231,
+          "appendix_pdf_page": 173
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-41",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人愛知教育大学",
+      "institution": "国立大学法人愛知教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4416.179,
+      "amount2026": 4444.678,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人愛知教育大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 4416179,
+          "appendix_pdf_page": 176
+        },
+        "2026": {
+          "name": "国立大学法人愛知教育大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 4444678,
+          "appendix_pdf_page": 174
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-42",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人名古屋工業大学",
+      "institution": "国立大学法人名古屋工業大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4689.426,
+      "amount2026": 4826.426,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人名古屋工業大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 4689426,
+          "appendix_pdf_page": 177
+        },
+        "2026": {
+          "name": "国立大学法人名古屋工業大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 4826426,
+          "appendix_pdf_page": 175
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-43",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人豊橋技術科学大学",
+      "institution": "国立大学法人豊橋技術科学大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3879.659,
+      "amount2026": 3879.086,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人豊橋技術科学大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 3879659,
+          "appendix_pdf_page": 178
+        },
+        "2026": {
+          "name": "国立大学法人豊橋技術科学大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 3879086,
+          "appendix_pdf_page": 176
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-44",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人三重大学",
+      "institution": "国立大学法人三重大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10674.34,
+      "amount2026": 11056.82,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人三重大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 10674340,
+          "appendix_pdf_page": 179
+        },
+        "2026": {
+          "name": "国立大学法人三重大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 11056820,
+          "appendix_pdf_page": 177
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-45",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人滋賀大学",
+      "institution": "国立大学法人滋賀大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3103.241,
+      "amount2026": 3155.688,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人滋賀大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 3103241,
+          "appendix_pdf_page": 180
+        },
+        "2026": {
+          "name": "国立大学法人滋賀大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 3155688,
+          "appendix_pdf_page": 178
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-46",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人滋賀医科大学",
+      "institution": "国立大学法人滋賀医科大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5377.859,
+      "amount2026": 5847.141,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人滋賀医科大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 5377859,
+          "appendix_pdf_page": 181
+        },
+        "2026": {
+          "name": "国立大学法人滋賀医科大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 5847141,
+          "appendix_pdf_page": 179
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-47",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人京都大学",
+      "institution": "国立大学法人京都大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 54202.178,
+      "amount2026": 55642.365,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人京都大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 54202178,
+          "appendix_pdf_page": 182
+        },
+        "2026": {
+          "name": "国立大学法人京都大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 55642365,
+          "appendix_pdf_page": 180
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-48",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人京都教育大学",
+      "institution": "国立大学法人京都教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3574.126,
+      "amount2026": 3541.785,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人京都教育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 3574126,
+          "appendix_pdf_page": 183
+        },
+        "2026": {
+          "name": "国立大学法人京都教育大学",
+          "pdf_page": 57,
+          "amount_thousand_yen": 3541785,
+          "appendix_pdf_page": 181
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-49",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人京都工芸繊維大学",
+      "institution": "国立大学法人京都工芸繊維大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 4667.308,
+      "amount2026": 4831.803,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人京都工芸繊維大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 4667308,
+          "appendix_pdf_page": 184
+        },
+        "2026": {
+          "name": "国立大学法人京都工芸繊維大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 4831803,
+          "appendix_pdf_page": 182
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-50",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人大阪大学",
+      "institution": "国立大学法人大阪大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 45359.395,
+      "amount2026": 44545.199,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人大阪大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 45359395,
+          "appendix_pdf_page": 185
+        },
+        "2026": {
+          "name": "国立大学法人大阪大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 44545199,
+          "appendix_pdf_page": 183
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-51",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人大阪教育大学",
+      "institution": "国立大学法人大阪教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5990.884,
+      "amount2026": 5899.356,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人大阪教育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 5990884,
+          "appendix_pdf_page": 186
+        },
+        "2026": {
+          "name": "国立大学法人大阪教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5899356,
+          "appendix_pdf_page": 184
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-52",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人兵庫教育大学",
+      "institution": "国立大学法人兵庫教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3400.852,
+      "amount2026": 3471.236,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人兵庫教育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 3400852,
+          "appendix_pdf_page": 187
+        },
+        "2026": {
+          "name": "国立大学法人兵庫教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 3471236,
+          "appendix_pdf_page": 185
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-53",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人神戸大学",
+      "institution": "国立大学法人神戸大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 19497.545,
+      "amount2026": 20598.715,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人神戸大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 19497545,
+          "appendix_pdf_page": 188
+        },
+        "2026": {
+          "name": "国立大学法人神戸大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 20598715,
+          "appendix_pdf_page": 186
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-54",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人奈良国立大学機構",
+      "institution": "国立大学法人奈良国立大学機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5650.772,
+      "amount2026": 5894.514,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人奈良国立大学機構",
+          "pdf_page": 60,
+          "amount_thousand_yen": 5650772,
+          "appendix_pdf_page": 189
+        },
+        "2026": {
+          "name": "国立大学法人奈良国立大学機構",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5894514,
+          "appendix_pdf_page": 187
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-55",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人和歌山大学",
+      "institution": "国立大学法人和歌山大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3694.317,
+      "amount2026": 3856.943,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人和歌山大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 3694317,
+          "appendix_pdf_page": 190
+        },
+        "2026": {
+          "name": "国立大学法人和歌山大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 3856943,
+          "appendix_pdf_page": 188
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-56",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人鳥取大学",
+      "institution": "国立大学法人鳥取大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10147.677,
+      "amount2026": 10486.586,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人鳥取大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 10147677,
+          "appendix_pdf_page": 191
+        },
+        "2026": {
+          "name": "国立大学法人鳥取大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 10486586,
+          "appendix_pdf_page": 189
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-57",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人島根大学",
+      "institution": "国立大学法人島根大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 9437.866,
+      "amount2026": 9943.517,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人島根大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 9437866,
+          "appendix_pdf_page": 192
+        },
+        "2026": {
+          "name": "国立大学法人島根大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 9943517,
+          "appendix_pdf_page": 190
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-58",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人岡山大学",
+      "institution": "国立大学法人岡山大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 16818.882,
+      "amount2026": 17577.007,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人岡山大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 16818882,
+          "appendix_pdf_page": 193
+        },
+        "2026": {
+          "name": "国立大学法人岡山大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 17577007,
+          "appendix_pdf_page": 191
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-59",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人広島大学",
+      "institution": "国立大学法人広島大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 25729.47,
+      "amount2026": 25626.287,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人広島大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 25729470,
+          "appendix_pdf_page": 194
+        },
+        "2026": {
+          "name": "国立大学法人広島大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 25626287,
+          "appendix_pdf_page": 192
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-60",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人山口大学",
+      "institution": "国立大学法人山口大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 11399.089,
+      "amount2026": 11732.302,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人山口大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 11399089,
+          "appendix_pdf_page": 195
+        },
+        "2026": {
+          "name": "国立大学法人山口大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 11732302,
+          "appendix_pdf_page": 193
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-61",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人徳島大学",
+      "institution": "国立大学法人徳島大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 11462.999,
+      "amount2026": 11818.396,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人徳島大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 11462999,
+          "appendix_pdf_page": 196
+        },
+        "2026": {
+          "name": "国立大学法人徳島大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 11818396,
+          "appendix_pdf_page": 194
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-62",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人鳴門教育大学",
+      "institution": "国立大学法人鳴門教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3378.706,
+      "amount2026": 3511.076,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人鳴門教育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 3378706,
+          "appendix_pdf_page": 197
+        },
+        "2026": {
+          "name": "国立大学法人鳴門教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 3511076,
+          "appendix_pdf_page": 195
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-63",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人香川大学",
+      "institution": "国立大学法人香川大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 9768.469,
+      "amount2026": 9872.673,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人香川大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 9768469,
+          "appendix_pdf_page": 198
+        },
+        "2026": {
+          "name": "国立大学法人香川大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 9872673,
+          "appendix_pdf_page": 196
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-64",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人愛媛大学",
+      "institution": "国立大学法人愛媛大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 12086.612,
+      "amount2026": 12190.623,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人愛媛大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 12086612,
+          "appendix_pdf_page": 199
+        },
+        "2026": {
+          "name": "国立大学法人愛媛大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 12190623,
+          "appendix_pdf_page": 197
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-65",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人高知大学",
+      "institution": "国立大学法人高知大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 9236.5,
+      "amount2026": 9371.165,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人高知大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 9236500,
+          "appendix_pdf_page": 200
+        },
+        "2026": {
+          "name": "国立大学法人高知大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 9371165,
+          "appendix_pdf_page": 198
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-66",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人福岡教育大学",
+      "institution": "国立大学法人福岡教育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 3122.061,
+      "amount2026": 3127.005,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人福岡教育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 3122061,
+          "appendix_pdf_page": 201
+        },
+        "2026": {
+          "name": "国立大学法人福岡教育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 3127005,
+          "appendix_pdf_page": 199
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-67",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人九州大学",
+      "institution": "国立大学法人九州大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 38247.254,
+      "amount2026": 39442.521,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人九州大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 38247254,
+          "appendix_pdf_page": 202
+        },
+        "2026": {
+          "name": "国立大学法人九州大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 39442521,
+          "appendix_pdf_page": 200
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-68",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人九州工業大学",
+      "institution": "国立大学法人九州工業大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5143.372,
+      "amount2026": 5191.217,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人九州工業大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 5143372,
+          "appendix_pdf_page": 203
+        },
+        "2026": {
+          "name": "国立大学法人九州工業大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5191217,
+          "appendix_pdf_page": 201
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-69",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人佐賀大学",
+      "institution": "国立大学法人佐賀大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 10003.544,
+      "amount2026": 10205.742,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人佐賀大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 10003544,
+          "appendix_pdf_page": 204
+        },
+        "2026": {
+          "name": "国立大学法人佐賀大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 10205742,
+          "appendix_pdf_page": 202
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-70",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人長崎大学",
+      "institution": "国立大学法人長崎大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 16181.254,
+      "amount2026": 16531.855,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人長崎大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 16181254,
+          "appendix_pdf_page": 205
+        },
+        "2026": {
+          "name": "国立大学法人長崎大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 16531855,
+          "appendix_pdf_page": 203
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-71",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人熊本大学",
+      "institution": "国立大学法人熊本大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 13701.075,
+      "amount2026": 13924.865,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人熊本大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 13701075,
+          "appendix_pdf_page": 206
+        },
+        "2026": {
+          "name": "国立大学法人熊本大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 13924865,
+          "appendix_pdf_page": 204
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-72",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人大分大学",
+      "institution": "国立大学法人大分大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 8735.533,
+      "amount2026": 8906.631,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人大分大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 8735533,
+          "appendix_pdf_page": 207
+        },
+        "2026": {
+          "name": "国立大学法人大分大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 8906631,
+          "appendix_pdf_page": 205
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-73",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人宮崎大学",
+      "institution": "国立大学法人宮崎大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 8914.636,
+      "amount2026": 9010.03,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人宮崎大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 8914636,
+          "appendix_pdf_page": 208
+        },
+        "2026": {
+          "name": "国立大学法人宮崎大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 9010030,
+          "appendix_pdf_page": 206
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-74",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人鹿児島大学",
+      "institution": "国立大学法人鹿児島大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 14418.696,
+      "amount2026": 14655.608,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人鹿児島大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 14418696,
+          "appendix_pdf_page": 209
+        },
+        "2026": {
+          "name": "国立大学法人鹿児島大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 14655608,
+          "appendix_pdf_page": 207
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-75",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人鹿屋体育大学",
+      "institution": "国立大学法人鹿屋体育大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 1329.057,
+      "amount2026": 1390.288,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人鹿屋体育大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 1329057,
+          "appendix_pdf_page": 210
+        },
+        "2026": {
+          "name": "国立大学法人鹿屋体育大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 1390288,
+          "appendix_pdf_page": 208
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-76",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人琉球大学",
+      "institution": "国立大学法人琉球大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 11037.861,
+      "amount2026": 11564.898,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人琉球大学",
+          "pdf_page": 60,
+          "amount_thousand_yen": 11037861,
+          "appendix_pdf_page": 211
+        },
+        "2026": {
+          "name": "国立大学法人琉球大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 11564898,
+          "appendix_pdf_page": 209
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-77",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人政策研究大学院大学",
+      "institution": "国立大学法人政策研究大学院大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 2083.751,
+      "amount2026": 2132.258,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人政策研究大学院大学",
+          "pdf_page": 61,
+          "amount_thousand_yen": 2083751,
+          "appendix_pdf_page": 212
+        },
+        "2026": {
+          "name": "国立大学法人政策研究大学院大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 2132258,
+          "appendix_pdf_page": 210
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-78",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人総合研究大学院大学",
+      "institution": "国立大学法人総合研究大学院大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 1942.263,
+      "amount2026": 1927.591,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人総合研究大学院大学",
+          "pdf_page": 61,
+          "amount_thousand_yen": 1942263,
+          "appendix_pdf_page": 213
+        },
+        "2026": {
+          "name": "国立大学法人総合研究大学院大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 1927591,
+          "appendix_pdf_page": 211
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-79",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人北陸先端科学技術大学院大学",
+      "institution": "国立大学法人北陸先端科学技術大学院大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5402.623,
+      "amount2026": 5571.8,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人北陸先端科学技術大学院大学",
+          "pdf_page": 61,
+          "amount_thousand_yen": 5402623,
+          "appendix_pdf_page": 214
+        },
+        "2026": {
+          "name": "国立大学法人北陸先端科学技術大学院大学",
+          "pdf_page": 58,
+          "amount_thousand_yen": 5571800,
+          "appendix_pdf_page": 212
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-80",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／国立大学法人奈良先端科学技術大学院大学",
+      "institution": "国立大学法人奈良先端科学技術大学院大学",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 5461.114,
+      "amount2026": 5536.939,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "国立大学法人奈良先端科学技術大学院大学",
+          "pdf_page": 61,
+          "amount_thousand_yen": 5461114,
+          "appendix_pdf_page": 215
+        },
+        "2026": {
+          "name": "国立大学法人奈良先端科学技術大学院大学",
+          "pdf_page": 59,
+          "amount_thousand_yen": 5536939,
+          "appendix_pdf_page": 213
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-81",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／大学共同利用機関法人人間文化研究機構",
+      "institution": "大学共同利用機関法人人間文化研究機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 11432.183,
+      "amount2026": 11560.225,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "大学共同利用機関法人人間文化研究機構",
+          "pdf_page": 61,
+          "amount_thousand_yen": 11432183,
+          "appendix_pdf_page": 216
+        },
+        "2026": {
+          "name": "大学共同利用機関法人人間文化研究機構",
+          "pdf_page": 59,
+          "amount_thousand_yen": 11560225,
+          "appendix_pdf_page": 214
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-82",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／大学共同利用機関法人自然科学研究機構",
+      "institution": "大学共同利用機関法人自然科学研究機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 25153.307,
+      "amount2026": 25507.425,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "大学共同利用機関法人自然科学研究機構",
+          "pdf_page": 61,
+          "amount_thousand_yen": 25153307,
+          "appendix_pdf_page": 217
+        },
+        "2026": {
+          "name": "大学共同利用機関法人自然科学研究機構",
+          "pdf_page": 59,
+          "amount_thousand_yen": 25507425,
+          "appendix_pdf_page": 215
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-83",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／大学共同利用機関法人高エネルギー加速器研究機構",
+      "institution": "大学共同利用機関法人高エネルギー加速器研究機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 18733.805,
+      "amount2026": 18886.931,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "大学共同利用機関法人高エネルギー加速器研究機構",
+          "pdf_page": 61,
+          "amount_thousand_yen": 18733805,
+          "appendix_pdf_page": 218
+        },
+        "2026": {
+          "name": "大学共同利用機関法人高エネルギー加速器研究機構",
+          "pdf_page": 59,
+          "amount_thousand_yen": 18886931,
+          "appendix_pdf_page": 216
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-84",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／大学共同利用機関法人情報・システム研究機構",
+      "institution": "大学共同利用機関法人情報・システム研究機構",
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 18927.393,
+      "amount2026": 19319.566,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "法人別・地域帰属未確認",
+      "note": "国立大学法人運営費交付金の当初予算積算内訳。交付決定額・支出済額ではない。年度計画予算見積りは法人で予算決定前等のため相当に異動する場合がある旨、原本に明記。法人単位であり複数大学・キャンパス等の地域配分は未確認。県への帰属を推定しない。",
+      "source_locators": {
+        "2025": {
+          "name": "大学共同利用機関法人情報・システム研究機構",
+          "pdf_page": 61,
+          "amount_thousand_yen": 18927393,
+          "appendix_pdf_page": 219
+        },
+        "2026": {
+          "name": "大学共同利用機関法人情報・システム研究機構",
+          "pdf_page": 59,
+          "amount_thousand_yen": 19319566,
+          "appendix_pdf_page": 217
+        }
+      }
+    },
+    {
+      "id": "mext-university-initial-85",
+      "ministry": "文部科学省",
+      "program": "国立大学法人運営費交付金（当初予算積算内訳）／機能強化特別支援等事業",
+      "institution": null,
+      "region": "全国",
+      "prefecture": null,
+      "basis": "当初予算積算内訳（法人・枠別）",
+      "account": "一般会計",
+      "unit": "百万円",
+      "amount2025": 34644.558,
+      "amount2026": 32972.759,
+      "period2025": "2025年度",
+      "period2026": "2026年度",
+      "comparability": "同範囲",
+      "evidence_status": "原本数値照合済み",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ],
+      "geography_status": "未法人配分枠",
+      "note": "機能強化特別支援等事業の未法人配分枠。個別法人配分済額として扱わない。年度計画予算見積りとの法人別照合対象外。",
+      "source_locators": {
+        "2025": {
+          "name": "機能強化特別支援等事業",
+          "pdf_page": 61,
+          "amount_thousand_yen": 34644558
+        },
+        "2026": {
+          "name": "機能強化特別支援等事業",
+          "pdf_page": 59,
+          "amount_thousand_yen": 32972759
+        }
+      }
+    }
+  ],
+  "verification_summary": {
+    "comparison_rows": 86,
+    "university_corporations": 81,
+    "inter_university_corporations": 4,
+    "unallocated_pool_rows": 1,
+    "initial_appropriation_thousand_yen": {
+      "2025": 1078350085,
+      "2026": 1097136487
+    },
+    "appendix_checked_entity_values": 170
+  },
+  "research_notes": [
+    {
+      "ministry": "文部科学省",
+      "status": "法人別当初予算積算内訳を原本照合・地域帰属未確認",
+      "note": "81国立大学法人・4大学共同利用機関法人と未法人配分枠の両年度86区分を確認。交付決定額・決算と区別。法人名・本部所在地で県に割り当てない。",
+      "source_ids": [
+        "mext-university-initial-2025",
+        "mext-university-initial-2026"
+      ]
+    },
+    {
+      "ministry": "文部科学省",
+      "status": "成果指標説明は法人別金額比較に不採用",
+      "note": "成果に基づく配分資料は運営費交付金のうち1,000億円の配分指標・算式の説明であり、85法人の交付金総額表ではない。指標値や配分率から金額を推定しない。URL内の年月と資料の対象年度が異なるためPDF本文と公式入口で年度を確定。",
+      "source_ids": [
+        "mext-university-performance-2025",
+        "mext-university-performance-2026"
+      ]
+    }
+  ],
+  "limitations": [
+    "国立大学法人運営費交付金の積算内訳のみ。文科省の他制度・地域配分を網羅しない。",
+    "一般会計所管総額に含まれる内訳のため、所管総額や成果配分対象経費1,000億円と足し合わせない。",
+    "県別配分・キャンパス別配分・交付決定額・2026年度決算は未確認。"
+  ]
+}

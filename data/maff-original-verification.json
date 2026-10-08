@@ -1,0 +1,4589 @@
+{
+  "verified_at_utc": "2026-10-08T15:13:50.002038+00:00",
+  "method": "Official index links; original PDF SHA-256; pdftotext -layout; explicit grant-table rows",
+  "scope": "当初配分予定国費、百万円に四捨五入。執行額ではない。県別PDFの交付金表への掲載のみを対象とし、未掲載はゼロとしない。",
+  "indexes": [
+    {
+      "year": 2025,
+      "title": "令和7年度当初予算に係る公共事業の箇所別予算額について（令和7年4月1日）：農林水産省",
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/index.html",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/index.html",
+      "status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T15:05:41.479980+00:00",
+      "sha256_original": "3b2d5835adc144837d144566e934fe50e08b49ec754cda3b38e274ee7d5bf3d1",
+      "bytes": 44683,
+      "content_type": "text/html"
+    },
+    {
+      "year": 2026,
+      "title": "令和8年度当初予算に係る公共事業の箇所別予算額について（令和8年4月7日）：農林水産省",
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/index.html",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/index.html",
+      "status": "downloaded",
+      "retrieved_at_utc": "2026-10-08T15:05:42.288631+00:00",
+      "sha256_original": "a24ea03394fbab48b00d0305fd2624de54532dacdbd643e109bccf10e2ce167c",
+      "bytes": 44722,
+      "content_type": "text/html"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-1.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-1.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:22.277913+00:00",
+      "sha256_original": "04698c930bb64e28a0685751ebcf1f780f142785fb899574d20a279e907141e3",
+      "bytes": 447277,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "北海道",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 8818,
+          "unit": "百万円",
+          "pdf_page": 61,
+          "row_text": "1    北海道    農山漁村地域整備交付金                  8,818"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 42,
+          "unit": "百万円",
+          "pdf_page": 61,
+          "row_text": "2    北海道    美しい森林づくり基盤整備交付金                  42"
+        }
+      },
+      "source_ids": [
+        "maff-2025-1"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 61頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-北海道-美しい森林づくり基盤整備交付金",
+          "maff-北海道-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-2.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-2.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:22.656504+00:00",
+      "sha256_original": "2a5f4df704f16a89609db9b9b172ab3cf9efff1a075e194420fbddd124b32b9e",
+      "bytes": 222258,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "青森県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1515,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1   青森県     農山漁村地域整備交付金                  1,515"
+        }
+      },
+      "source_ids": [
+        "maff-2025-2"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-青森県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-3.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-3.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:22.735423+00:00",
+      "sha256_original": "21f00a6e3e70e16c4cda3e349c19db3d706dce7adb36c053cf449cbecb2a8bc6",
+      "bytes": 218624,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "岩手県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2868,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    岩手県    農山漁村地域整備交付金                  2,868"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 1,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "2    岩手県    美しい森林づくり基盤整備交付金                  1"
+        }
+      },
+      "source_ids": [
+        "maff-2025-3"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岩手県-美しい森林づくり基盤整備交付金",
+          "maff-岩手県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-4.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-4.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:22.673397+00:00",
+      "sha256_original": "2fca67319dd4d03d1f95090f5894d75f03dc1adc8bdacc1c8582fa46769590af",
+      "bytes": 181694,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "宮城県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1020,
+          "unit": "百万円",
+          "pdf_page": 14,
+          "row_text": "1    宮城県    農山漁村地域整備交付金                  1,020"
+        }
+      },
+      "source_ids": [
+        "maff-2025-4"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 14頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-宮城県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-5.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-5.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:23.539406+00:00",
+      "sha256_original": "ef2110cff8b7ff33ccc0e92f4f8aed7e9ef2ed4d1c2042fa81526815d6880875",
+      "bytes": 231950,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "秋田県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2528,
+          "unit": "百万円",
+          "pdf_page": 21,
+          "row_text": "1    秋田県    農山漁村地域整備交付金                  2,528"
+        }
+      },
+      "source_ids": [
+        "maff-2025-5"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 21頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-秋田県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-6.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-6.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:23.859711+00:00",
+      "sha256_original": "127a908c9cb129515efe617bdaa0b904c273c7cd5ae403aecd28d69f0226d799",
+      "bytes": 212697,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "山形県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1047,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1   山形県     農山漁村地域整備交付金                  1,047"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 140,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2   山形県     美しい森林づくり基盤整備交付金                  140"
+        }
+      },
+      "source_ids": [
+        "maff-2025-6"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山形県-美しい森林づくり基盤整備交付金",
+          "maff-山形県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-7.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-7.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:23.862755+00:00",
+      "sha256_original": "daa743e6cefa12940c089427edbb52136701b5ffdcc205c8ac171748d972aeb5",
+      "bytes": 208891,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "福島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1258,
+          "unit": "百万円",
+          "pdf_page": 15,
+          "row_text": "1    福島県    農山漁村地域整備交付金                  1,258"
+        }
+      },
+      "source_ids": [
+        "maff-2025-7"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 15頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-8.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-8.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:23.855531+00:00",
+      "sha256_original": "9f6beaed9ac277cbe36d813225a405b943e9dba9bfc192b29bfaec16614ac9c1",
+      "bytes": 190504,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "茨城県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 628,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    茨城県    農山漁村地域整備交付金                      628"
+        }
+      },
+      "source_ids": [
+        "maff-2025-8"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-茨城県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-9.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-9.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:24.267058+00:00",
+      "sha256_original": "c9721e772746452ac336b48a5f2195d23bdaa0b91373783cf0a4a8b11ce55da8",
+      "bytes": 178962,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "栃木県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 831,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1    栃木県    農山漁村地域整備交付金                      831"
+        }
+      },
+      "source_ids": [
+        "maff-2025-9"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-栃木県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-10.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-10.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:24.484533+00:00",
+      "sha256_original": "f631e22ba7e38a4398a831f8cc18b04ce5a6647e6397acc688b2ce4618e3e9f0",
+      "bytes": 168881,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "群馬県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1270,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    群馬県    農山漁村地域整備交付金                  1,270"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 26,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "2    群馬県    美しい森林づくり基盤整備交付金                  26"
+        }
+      },
+      "source_ids": [
+        "maff-2025-10"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-群馬県-美しい森林づくり基盤整備交付金",
+          "maff-群馬県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-11.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-11.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:24.624460+00:00",
+      "sha256_original": "746551209e8dde01f8762040a28832f525a89eb5f27692de32e16f09f9751554",
+      "bytes": 157021,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "埼玉県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 862,
+          "unit": "百万円",
+          "pdf_page": 8,
+          "row_text": "1    埼玉県    農山漁村地域整備交付金                      862"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 25,
+          "unit": "百万円",
+          "pdf_page": 8,
+          "row_text": "2    埼玉県    美しい森林づくり基盤整備交付金                   25"
+        }
+      },
+      "source_ids": [
+        "maff-2025-11"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 8頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-埼玉県-美しい森林づくり基盤整備交付金",
+          "maff-埼玉県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-12.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-12.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:24.646019+00:00",
+      "sha256_original": "be816e72124309446c31927e11580a559f5797aacd1e1b7e8c69452a5fea5f9b",
+      "bytes": 173470,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "千葉県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1268,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    千葉県    農山漁村地域整備交付金                  1,268"
+        }
+      },
+      "source_ids": [
+        "maff-2025-12"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-千葉県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-13.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-13.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:24.894467+00:00",
+      "sha256_original": "8ef3af47cc24011615ecd8ddbc92a23ba5481cf4b9f7a43c8ae1babd3f4a54ef",
+      "bytes": 101947,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "東京都",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 243,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "1   東京都     農山漁村地域整備交付金                      243"
+        }
+      },
+      "source_ids": [
+        "maff-2025-13"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 6頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-東京都-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-14.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-14.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:25.388302+00:00",
+      "sha256_original": "ef62a698b3e8f06704d4d9e512a7e1a4215be747ce0c444d3bde5f85d37da2ce",
+      "bytes": 128470,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "神奈川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 527,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "1   神奈川県    農山漁村地域整備交付金                      527"
+        }
+      },
+      "source_ids": [
+        "maff-2025-14"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 6頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-神奈川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-47.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-47.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:25.644805+00:00",
+      "sha256_original": "5c3180f63a13f0510b0aba5b417f33180120d9ba2fc438510b35837635dc871d",
+      "bytes": 282366,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "新潟県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2109,
+          "unit": "百万円",
+          "pdf_page": 33,
+          "row_text": "1    新潟県    農山漁村地域整備交付金                  2,109"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 1,
+          "unit": "百万円",
+          "pdf_page": 33,
+          "row_text": "2    新潟県    美しい森林づくり基盤整備交付金                  1"
+        }
+      },
+      "source_ids": [
+        "maff-2025-47"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 33頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-新潟県-美しい森林づくり基盤整備交付金",
+          "maff-新潟県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-16.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-16.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:25.215771+00:00",
+      "sha256_original": "5990945bfd9f022abc2b89409846b19c7b72724d0ce5b7b39df9438868246718",
+      "bytes": 176950,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "富山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1932,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    富山県    農山漁村地域整備交付金                  1,932"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 6,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "2    富山県    美しい森林づくり基盤整備交付金                  6"
+        }
+      },
+      "source_ids": [
+        "maff-2025-16"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-富山県-美しい森林づくり基盤整備交付金",
+          "maff-富山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-15.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-15.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:25.995900+00:00",
+      "sha256_original": "b4aacca3dcc66501828c6a93806d8b9af5a26dd822848e85c59af072b55b6162",
+      "bytes": 210178,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "石川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1713,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    石川県    農山漁村地域整備交付金                  1,713"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 25,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    石川県    美しい森林づくり基盤整備交付金                  25"
+        }
+      },
+      "source_ids": [
+        "maff-2025-15"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-石川県-美しい森林づくり基盤整備交付金",
+          "maff-石川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-48.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-48.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:26.082754+00:00",
+      "sha256_original": "567920fa09d1678dc736d0e0176fc0448e11b08bbd3ac9c1ad3c4a927ade1cb4",
+      "bytes": 167161,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "福井県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1002,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    福井県    農山漁村地域整備交付金                  1,002"
+        }
+      },
+      "source_ids": [
+        "maff-2025-48"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福井県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-17.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-17.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:26.335479+00:00",
+      "sha256_original": "c36005d5f0a28307acd40b075b3dfea1920e86d9f9c9a6548fc55ccf33a536ea",
+      "bytes": 177750,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "山梨県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1645,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    山梨県    農山漁村地域整備交付金                  1,645"
+        }
+      },
+      "source_ids": [
+        "maff-2025-17"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山梨県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-18.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-18.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:26.765030+00:00",
+      "sha256_original": "96408e8d0cb889672fafa092adbe4b7d4374541b9b0c135e789d2e6457a734e4",
+      "bytes": 211568,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "長野県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2107,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    長野県    農山漁村地域整備交付金                  2,107"
+        }
+      },
+      "source_ids": [
+        "maff-2025-18"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-長野県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-19.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-19.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:27.020135+00:00",
+      "sha256_original": "e5fa797f427b9bf522ec89dc3d0c82558f0fbdf27da143959f2e0c79502eea32",
+      "bytes": 229867,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "岐阜県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1698,
+          "unit": "百万円",
+          "pdf_page": 20,
+          "row_text": "1    岐阜県    農山漁村地域整備交付金                  1,698"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 2,
+          "unit": "百万円",
+          "pdf_page": 20,
+          "row_text": "2    岐阜県    美しい森林づくり基盤整備交付金                  2"
+        }
+      },
+      "source_ids": [
+        "maff-2025-19"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 20頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岐阜県-美しい森林づくり基盤整備交付金",
+          "maff-岐阜県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-20.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-20.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:26.644946+00:00",
+      "sha256_original": "f7e01925b35b77d66558debe7ff53e50e935c64a503c400bbc575ef4e984a374",
+      "bytes": 233116,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "静岡県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2416,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    静岡県    農山漁村地域整備交付金                  2,416"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 38,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2    静岡県    美しい森林づくり基盤整備交付金                  38"
+        }
+      },
+      "source_ids": [
+        "maff-2025-20"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-静岡県-美しい森林づくり基盤整備交付金",
+          "maff-静岡県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-21.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-21.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:27.430776+00:00",
+      "sha256_original": "2ea388c174b3159652aaba99347590618c1431e25ed65a73834cafca0c4d9fce",
+      "bytes": 246346,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "愛知県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2108,
+          "unit": "百万円",
+          "pdf_page": 22,
+          "row_text": "1    愛知県    農山漁村地域整備交付金                  2,108"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 26,
+          "unit": "百万円",
+          "pdf_page": 22,
+          "row_text": "2    愛知県    美しい森林づくり基盤整備交付金                  26"
+        }
+      },
+      "source_ids": [
+        "maff-2025-21"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 22頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-愛知県-美しい森林づくり基盤整備交付金",
+          "maff-愛知県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-22.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-22.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:27.750283+00:00",
+      "sha256_original": "2d3bdbebbe8a833997ab4d8f27f38778fb5c27dd3436a03506381b6add5927eb",
+      "bytes": 194694,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "三重県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 569,
+          "unit": "百万円",
+          "pdf_page": 14,
+          "row_text": "1   三重県     農山漁村地域整備交付金                      569"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 27,
+          "unit": "百万円",
+          "pdf_page": 14,
+          "row_text": "2   三重県     美しい森林づくり基盤整備交付金                  27"
+        }
+      },
+      "source_ids": [
+        "maff-2025-22"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 14頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-三重県-美しい森林づくり基盤整備交付金",
+          "maff-三重県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-23.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-23.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:27.886744+00:00",
+      "sha256_original": "32b812bf667b4de3784edac4c5747ffd3b4e749d2226d5827d10c90704f3257e",
+      "bytes": 184668,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "滋賀県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 744,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1   滋賀県     農山漁村地域整備交付金                      744"
+        }
+      },
+      "source_ids": [
+        "maff-2025-23"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-滋賀県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-24.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-24.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:27.894925+00:00",
+      "sha256_original": "9b2e5a7ce6fb9799ec0d14007a81c6405c5e6c2a79b3b9f2a5095519df2495ae",
+      "bytes": 134355,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "京都府",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 496,
+          "unit": "百万円",
+          "pdf_page": 8,
+          "row_text": "1    京都府    農山漁村地域整備交付金                      496"
+        }
+      },
+      "source_ids": [
+        "maff-2025-24"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 8頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-京都府-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-25.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-25.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:28.321028+00:00",
+      "sha256_original": "b434d1b05a924b49c8fc9ba7cdc5223d1361e05975bd7017b299594ff74d6251",
+      "bytes": 145047,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "大阪府",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 456,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "1    大阪府    農山漁村地域整備交付金                      456"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 35,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "2    大阪府    美しい森林づくり基盤整備交付金                   35"
+        }
+      },
+      "source_ids": [
+        "maff-2025-25"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 7頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-大阪府-美しい森林づくり基盤整備交付金",
+          "maff-大阪府-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-26.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-26.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:28.751860+00:00",
+      "sha256_original": "c3b47e639242ac3cc2b0cff0c74dda559e7daac4b27e6258852f15edd8d9424c",
+      "bytes": 228607,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "兵庫県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1623,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    兵庫県    農山漁村地域整備交付金                  1,623"
+        }
+      },
+      "source_ids": [
+        "maff-2025-26"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-兵庫県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-27.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-27.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:28.792701+00:00",
+      "sha256_original": "da9a1883fc339b5d98624c7be352c931c753986322ff3cdd13c60c41dba4f087",
+      "bytes": 147681,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "奈良県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 358,
+          "unit": "百万円",
+          "pdf_page": 5,
+          "row_text": "1   奈良県     農山漁村地域整備交付金                      358"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 336,
+          "unit": "百万円",
+          "pdf_page": 5,
+          "row_text": "2   奈良県     美しい森林づくり基盤整備交付金                  336"
+        }
+      },
+      "source_ids": [
+        "maff-2025-27"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 5頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-奈良県-美しい森林づくり基盤整備交付金",
+          "maff-奈良県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-28.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-28.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:29.033783+00:00",
+      "sha256_original": "1ec6d75fba067f3d1807071444ca92ca8cf97522887fab18df4af98027a37669",
+      "bytes": 179162,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "和歌山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 706,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1   和歌山県    農山漁村地域整備交付金                      706"
+        }
+      },
+      "source_ids": [
+        "maff-2025-28"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-和歌山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-29.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-29.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:29.295182+00:00",
+      "sha256_original": "051512b1725b714078c134d78ea9580ddbe6cbeea354a8efafe1bf89be03c931",
+      "bytes": 166945,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "鳥取県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 664,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1    鳥取県    農山漁村地域整備交付金                      664"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 37,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "2    鳥取県    美しい森林づくり基盤整備交付金                   37"
+        }
+      },
+      "source_ids": [
+        "maff-2025-29"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-鳥取県-美しい森林づくり基盤整備交付金",
+          "maff-鳥取県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-30.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-30.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:29.580671+00:00",
+      "sha256_original": "961bd1fa72abc3f507466706b7948c460fc6b41aaa89b21f41f921640a3efcb6",
+      "bytes": 189828,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "島根県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1702,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    島根県    農山漁村地域整備交付金                  1,702"
+        }
+      },
+      "source_ids": [
+        "maff-2025-30"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-島根県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-31.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-31.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:29.710487+00:00",
+      "sha256_original": "fb5e4589a575ddfcd2b2d149e4c0302968cbba6df3eb8d86a6d77960b7986d95",
+      "bytes": 172694,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "岡山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1168,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    岡山県    農山漁村地域整備交付金                  1,168"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 5,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "2    岡山県    美しい森林づくり基盤整備交付金                  5"
+        }
+      },
+      "source_ids": [
+        "maff-2025-31"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岡山県-美しい森林づくり基盤整備交付金",
+          "maff-岡山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-32.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-32.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:30.002864+00:00",
+      "sha256_original": "a16d728342dd4c808abfd3aa6422a2ccb8687a9f5674dbf112f3e644a707287e",
+      "bytes": 144523,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "広島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1454,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    広島県    農山漁村地域整備交付金                  1,454"
+        }
+      },
+      "source_ids": [
+        "maff-2025-32"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-広島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-33.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-33.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:30.227088+00:00",
+      "sha256_original": "140ebb55289054b30ecf97fcac943c38a2d560f759943141b7303a520ae6e5ca",
+      "bytes": 176028,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "山口県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1781,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    山口県    農山漁村地域整備交付金                  1,781"
+        }
+      },
+      "source_ids": [
+        "maff-2025-33"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山口県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-34.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-34.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:30.595771+00:00",
+      "sha256_original": "0e5c90d8de8c09c50ac85a54141219433d5790239b5831312b4362ed987d4a67",
+      "bytes": 195564,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "徳島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 795,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    徳島県    農山漁村地域整備交付金                      795"
+        }
+      },
+      "source_ids": [
+        "maff-2025-34"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-徳島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-35.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-35.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:30.591150+00:00",
+      "sha256_original": "a3a50d86ae342d3e128c3ff2b11c3e6ae4285499973231c0c4f84dbf14c8cdf3",
+      "bytes": 155377,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "香川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 781,
+          "unit": "百万円",
+          "pdf_page": 9,
+          "row_text": "1    香川県    農山漁村地域整備交付金                      781"
+        }
+      },
+      "source_ids": [
+        "maff-2025-35"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 9頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-香川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-36.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-36.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:31.021028+00:00",
+      "sha256_original": "d3c9ca58dd0997ae0372cfae12ba8de99dbcd62a05570937e223fb151a637c13",
+      "bytes": 213139,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "愛媛県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1614,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1   愛媛県     農山漁村地域整備交付金                  1,614"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 121,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2   愛媛県     美しい森林づくり基盤整備交付金                  121"
+        }
+      },
+      "source_ids": [
+        "maff-2025-36"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-愛媛県-美しい森林づくり基盤整備交付金",
+          "maff-愛媛県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-37.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-37.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:31.103960+00:00",
+      "sha256_original": "0e90921772ccd50f493565c08152092f9137e3a2b02f2bbb982ac00b8bc21b98",
+      "bytes": 165937,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "高知県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1451,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    高知県    農山漁村地域整備交付金                  1,451"
+        }
+      },
+      "source_ids": [
+        "maff-2025-37"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-高知県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-38.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-38.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:31.632551+00:00",
+      "sha256_original": "99afd0e5b3790e59148c64fa32375b863f91720d255c56b10f3f756a5daf179c",
+      "bytes": 223487,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "福岡県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1863,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    福岡県    農山漁村地域整備交付金                  1,863"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 1,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2    福岡県    美しい森林づくり基盤整備交付金                  1"
+        }
+      },
+      "source_ids": [
+        "maff-2025-38"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福岡県-美しい森林づくり基盤整備交付金",
+          "maff-福岡県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-39.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-39.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:31.539794+00:00",
+      "sha256_original": "c2aa7ebf464cc8eb6c45d69e842baa7bdf52ed05e4e5855c8e4ef3f9a2b873b5",
+      "bytes": 162846,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "佐賀県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 760,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    佐賀県    農山漁村地域整備交付金                      760"
+        }
+      },
+      "source_ids": [
+        "maff-2025-39"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-佐賀県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-40.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-40.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:32.055348+00:00",
+      "sha256_original": "6fa3db20516aa63b6241093eef5281a7a44432c40ab7eb128b48f51951e3823d",
+      "bytes": 191924,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "長崎県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1888,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    長崎県    農山漁村地域整備交付金                  1,888"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 24,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    長崎県    美しい森林づくり基盤整備交付金                  24"
+        }
+      },
+      "source_ids": [
+        "maff-2025-40"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-長崎県-美しい森林づくり基盤整備交付金",
+          "maff-長崎県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-41.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-41.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:32.212509+00:00",
+      "sha256_original": "f78d86cdc4987d3d47fa834da5afc820c9c6f82c47b184e697e209ef6699c153",
+      "bytes": 213833,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "熊本県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2958,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    熊本県    農山漁村地域整備交付金                  2,958"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 8,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    熊本県    美しい森林づくり基盤整備交付金                  8"
+        }
+      },
+      "source_ids": [
+        "maff-2025-41"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-熊本県-美しい森林づくり基盤整備交付金",
+          "maff-熊本県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-42.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-42.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:32.611764+00:00",
+      "sha256_original": "8a47c6ed83549aeab314519143804607cddc33705f889c9f0c53321fbe01f280",
+      "bytes": 208028,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "大分県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1955,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    大分県    農山漁村地域整備交付金                  1,955"
+        }
+      },
+      "source_ids": [
+        "maff-2025-42"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-大分県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-43.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-43.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:32.727623+00:00",
+      "sha256_original": "ad36a33ee6be42ac389669dd5c0f8cdc2c7875e76bebf03e5ca499b978a657fd",
+      "bytes": 209720,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "宮崎県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1040,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    宮崎県    農山漁村地域整備交付金                  1,040"
+        }
+      },
+      "source_ids": [
+        "maff-2025-43"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-宮崎県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-44.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-44.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:33.132056+00:00",
+      "sha256_original": "4c3b4c0d0706ed0ba9e492e58a39c05170bb5221244a612b5533418a049b413b",
+      "bytes": 260111,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "鹿児島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 5009,
+          "unit": "百万円",
+          "pdf_page": 26,
+          "row_text": "1   鹿児島県    農山漁村地域整備交付金                               5,009"
+        }
+      },
+      "source_ids": [
+        "maff-2025-44"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 26頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-鹿児島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-45.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/7tousyo/attach/pdf/index-45.pdf",
+      "status": "grant_table_not_listed",
+      "retrieved_at_utc": "2026-10-08T15:06:33.125080+00:00",
+      "sha256_original": "deaf129b893ab936ad4027825203a7b2a720d0ddf0bf914cc84896ed951e1eaa",
+      "bytes": 155591,
+      "content_type": "application/pdf",
+      "year": 2025,
+      "published": "2025-04-01",
+      "prefecture": "沖縄県",
+      "amounts": {},
+      "source_ids": [],
+      "verification": {
+        "status": "table_not_listed",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 頁、交付金表（国費、百万円）",
+        "row_ids": [],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-1.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-1.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:33.922577+00:00",
+      "sha256_original": "54515ec4c1cd423256d80136f2600f033ea3567bfb66ecf1bdfcafd026faa4b4",
+      "bytes": 1131951,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "北海道",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 8818,
+          "unit": "百万円",
+          "pdf_page": 59,
+          "row_text": "1    北海道    農山漁村地域整備交付金                  8,818"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 39,
+          "unit": "百万円",
+          "pdf_page": 59,
+          "row_text": "2    北海道    美しい森林づくり基盤整備交付金                  39"
+        }
+      },
+      "source_ids": [
+        "maff-2026-1"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 59頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-北海道-美しい森林づくり基盤整備交付金",
+          "maff-北海道-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-2.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-2.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:33.816604+00:00",
+      "sha256_original": "23d4f7474715053ce0ee8da5a9748a0fba595fccddedfa6869081f16487f362a",
+      "bytes": 352092,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "青森県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1515,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    青森県    農山漁村地域整備交付金                  1,515"
+        }
+      },
+      "source_ids": [
+        "maff-2026-2"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-青森県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-3.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-3.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:34.376502+00:00",
+      "sha256_original": "737dfd3fc6a2268a894fa2d5419fe9bef202aafe2fbd3168125f5e3d6569bc73",
+      "bytes": 355218,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "岩手県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2868,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    岩手県    農山漁村地域整備交付金                  2,868"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 3,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2    岩手県    美しい森林づくり基盤整備交付金                  3"
+        }
+      },
+      "source_ids": [
+        "maff-2026-3"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岩手県-美しい森林づくり基盤整備交付金",
+          "maff-岩手県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-4.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-4.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:33.642480+00:00",
+      "sha256_original": "02e2385afa78f7305c0a39545a4f1b4c57dcbf600b9d7fa425e4a5f74b796ccb",
+      "bytes": 328776,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "宮城県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1031,
+          "unit": "百万円",
+          "pdf_page": 14,
+          "row_text": "1    宮城県    農山漁村地域整備交付金                  1,031"
+        }
+      },
+      "source_ids": [
+        "maff-2026-4"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 14頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-宮城県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-5.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-5.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:34.764632+00:00",
+      "sha256_original": "4ded9229f0749ac711c9202322f643720a74ec046d3e404c0871f27411d9faf6",
+      "bytes": 391317,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "秋田県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2260,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    秋田県    農山漁村地域整備交付金                  2,260"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 39,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "2    秋田県    美しい森林づくり基盤整備交付金                  39"
+        }
+      },
+      "source_ids": [
+        "maff-2026-5"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-秋田県-美しい森林づくり基盤整備交付金",
+          "maff-秋田県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-6.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-6.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:34.854163+00:00",
+      "sha256_original": "e238c32c544b7d27bbc8dec7503fdd1bdaaca2e594b69f1ab57bf771355ede50",
+      "bytes": 368944,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "山形県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 991,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    山形県    農山漁村地域整備交付金                      991"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 238,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "2    山形県    美しい森林づくり基盤整備交付金                  238"
+        }
+      },
+      "source_ids": [
+        "maff-2026-6"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山形県-美しい森林づくり基盤整備交付金",
+          "maff-山形県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-7.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-7.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:35.146688+00:00",
+      "sha256_original": "77c3e77d9a0715844d18df6c04eb22282d98bc88c9bd5878180988946a1f4c41",
+      "bytes": 309093,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "福島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1184,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    福島県    農山漁村地域整備交付金                  1,184"
+        }
+      },
+      "source_ids": [
+        "maff-2026-7"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-8.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-8.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:35.465000+00:00",
+      "sha256_original": "9c7db119d7e574b1a926e152dc9a74955518ddac75195207d4405ac6f017b0a9",
+      "bytes": 279968,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "茨城県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 653,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    茨城県    農山漁村地域整備交付金                      653"
+        }
+      },
+      "source_ids": [
+        "maff-2026-8"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-茨城県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-9.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-9.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:35.446881+00:00",
+      "sha256_original": "3ee766d99da743b5936c4b132b6517bc0bc1f95a366e1edb00fbed7f9085c65c",
+      "bytes": 250893,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "栃木県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 839,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1    栃木県    農山漁村地域整備交付金                      839"
+        }
+      },
+      "source_ids": [
+        "maff-2026-9"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-栃木県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-10.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-10.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:35.862656+00:00",
+      "sha256_original": "1947201c2253c8eeaa9a07ca7c6625cdf78fd2fdb4c2d127e32a66e71da3c12d",
+      "bytes": 267273,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "群馬県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1268,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    群馬県    農山漁村地域整備交付金                  1,268"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 15,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "2    群馬県    美しい森林づくり基盤整備交付金                  15"
+        }
+      },
+      "source_ids": [
+        "maff-2026-10"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-群馬県-美しい森林づくり基盤整備交付金",
+          "maff-群馬県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-11.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-11.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:36.021816+00:00",
+      "sha256_original": "b746839310b58eaa6326d4e10b7c08b86328f362ab4335ff22ffb57d2532372f",
+      "bytes": 164122,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "埼玉県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 871,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "1    埼玉県    農山漁村地域整備交付金                      871"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 23,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "2    埼玉県    美しい森林づくり基盤整備交付金                   23"
+        }
+      },
+      "source_ids": [
+        "maff-2026-11"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 7頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-埼玉県-美しい森林づくり基盤整備交付金",
+          "maff-埼玉県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-12.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-12.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:36.480548+00:00",
+      "sha256_original": "51cceeb4b096db62f8b6c86a3b1f9e80b78a1aca69bc0862da6c66f974fb8db6",
+      "bytes": 274096,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "千葉県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1255,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    千葉県    農山漁村地域整備交付金                  1,255"
+        }
+      },
+      "source_ids": [
+        "maff-2026-12"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-千葉県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-13.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-13.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:36.336800+00:00",
+      "sha256_original": "1931c3841d89e73d95e4b81f2cfdba768c6b44054126f3ceb347bce09c80a03e",
+      "bytes": 105707,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "東京都",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 246,
+          "unit": "百万円",
+          "pdf_page": 5,
+          "row_text": "1    東京都    農山漁村地域整備交付金                      246"
+        }
+      },
+      "source_ids": [
+        "maff-2026-13"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 5頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-東京都-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-14.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-14.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:36.727452+00:00",
+      "sha256_original": "cfa90bac4ebe0f8700953ca6e523c4dd60152eef9a7f1ea1a3d4930ce30fa89e",
+      "bytes": 144749,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "神奈川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 532,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "1   神奈川県    農山漁村地域整備交付金                      532"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 4,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "2   神奈川県    美しい森林づくり基盤整備交付金                    4"
+        }
+      },
+      "source_ids": [
+        "maff-2026-14"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 6頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-神奈川県-美しい森林づくり基盤整備交付金",
+          "maff-神奈川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-15.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-15.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:37.266823+00:00",
+      "sha256_original": "c48b1abeab7da90f7f068147d2bc50a18efae62819ee63ad19f4b4aae04adb20",
+      "bytes": 624727,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "新潟県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2252,
+          "unit": "百万円",
+          "pdf_page": 31,
+          "row_text": "1    新潟県    農山漁村地域整備交付金                  2,252"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 1,
+          "unit": "百万円",
+          "pdf_page": 31,
+          "row_text": "2    新潟県    美しい森林づくり基盤整備交付金                  1"
+        }
+      },
+      "source_ids": [
+        "maff-2026-15"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 31頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-新潟県-美しい森林づくり基盤整備交付金",
+          "maff-新潟県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-16.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-16.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:37.403197+00:00",
+      "sha256_original": "c0faf00384c631ca23feb59c54f59928742485ee279d6fd51dd85a859f2784d1",
+      "bytes": 311671,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "富山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1885,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    富山県    農山漁村地域整備交付金                  1,885"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 6,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "2    富山県    美しい森林づくり基盤整備交付金                  6"
+        }
+      },
+      "source_ids": [
+        "maff-2026-16"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-富山県-美しい森林づくり基盤整備交付金",
+          "maff-富山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-17.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-17.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:37.461015+00:00",
+      "sha256_original": "89536ea4a955fe977a3343b24c5d2c9b8fc8a9d58130302915575f9a8ec570d0",
+      "bytes": 370153,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "石川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1713,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    石川県    農山漁村地域整備交付金                  1,713"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 24,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "2    石川県    美しい森林づくり基盤整備交付金                  24"
+        }
+      },
+      "source_ids": [
+        "maff-2026-17"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-石川県-美しい森林づくり基盤整備交付金",
+          "maff-石川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-18.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-18.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:37.701941+00:00",
+      "sha256_original": "bef70094004db5a96d496a24b6729f9bd68265ccb3eff92fa29ca88dd2171a72",
+      "bytes": 229142,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "福井県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1022,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    福井県    農山漁村地域整備交付金                  1,022"
+        }
+      },
+      "source_ids": [
+        "maff-2026-18"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福井県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-19.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-19.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:38.337247+00:00",
+      "sha256_original": "a7ff83beaaef1d5ee5f87824f27a8890f80e1c9467d8f2bd47d208b723cc667d",
+      "bytes": 259670,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "山梨県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1642,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    山梨県    農山漁村地域整備交付金                  1,642"
+        }
+      },
+      "source_ids": [
+        "maff-2026-19"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山梨県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-20.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-20.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:38.420899+00:00",
+      "sha256_original": "3c0188e98988b4be91ed3ff15f7f2b87a84054a30605e4924caf35ef97a6ae33",
+      "bytes": 352492,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "長野県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2102,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    長野県    農山漁村地域整備交付金                  2,102"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 3,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "2    長野県    美しい森林づくり基盤整備交付金                  3"
+        }
+      },
+      "source_ids": [
+        "maff-2026-20"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-長野県-美しい森林づくり基盤整備交付金",
+          "maff-長野県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-21.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-21.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:38.197447+00:00",
+      "sha256_original": "716f2d5ef626180d8b9092335f1a135928cc56027f13e73c215e99a97e96b1fa",
+      "bytes": 369597,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "岐阜県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1698,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    岐阜県    農山漁村地域整備交付金                  1,698"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 3,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    岐阜県    美しい森林づくり基盤整備交付金                  3"
+        }
+      },
+      "source_ids": [
+        "maff-2026-21"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岐阜県-美しい森林づくり基盤整備交付金",
+          "maff-岐阜県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-49.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-49.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:38.601297+00:00",
+      "sha256_original": "f5640d924a1b89df30844a41a66f4f7cd0bcfdc3e27a1fa230c153832c40a9ff",
+      "bytes": 137881,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "静岡県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2376,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    静岡県    農山漁村地域整備交付金                  2,376"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 45,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "2    静岡県    美しい森林づくり基盤整備交付金                  45"
+        }
+      },
+      "source_ids": [
+        "maff-2026-49"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-静岡県-美しい森林づくり基盤整備交付金",
+          "maff-静岡県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-23.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-23.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:39.436783+00:00",
+      "sha256_original": "a1961724382aad1c9999f89ca62839e5a58adfc279f1786b784c27b7014163d7",
+      "bytes": 401208,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "愛知県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2171,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "1    愛知県    農山漁村地域整備交付金                  2,171"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 39,
+          "unit": "百万円",
+          "pdf_page": 19,
+          "row_text": "2    愛知県    美しい森林づくり基盤整備交付金                  39"
+        }
+      },
+      "source_ids": [
+        "maff-2026-23"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 19頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-愛知県-美しい森林づくり基盤整備交付金",
+          "maff-愛知県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-24.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-24.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:39.447821+00:00",
+      "sha256_original": "b336722c63c5981d061ae7703f260e5a1501a6d92d4096d2485c71fd12c0bc65",
+      "bytes": 309629,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "三重県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 577,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    三重県    農山漁村地域整備交付金                      577"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 41,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "2    三重県    美しい森林づくり基盤整備交付金                   41"
+        }
+      },
+      "source_ids": [
+        "maff-2026-24"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-三重県-美しい森林づくり基盤整備交付金",
+          "maff-三重県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-25.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-25.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:39.442682+00:00",
+      "sha256_original": "f60f327a5f63b86612bbd9337e666ff1dff7fadfac47548aebcb701a18342dd0",
+      "bytes": 261950,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "滋賀県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 767,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    滋賀県    農山漁村地域整備交付金                      767"
+        }
+      },
+      "source_ids": [
+        "maff-2026-25"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-滋賀県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-26.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-26.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:39.591155+00:00",
+      "sha256_original": "e3ab0f5e6c93339178f34f25a5db7e5d3768d6e62aad4612897055d6e9625ca6",
+      "bytes": 203800,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "京都府",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 501,
+          "unit": "百万円",
+          "pdf_page": 9,
+          "row_text": "1    京都府    農山漁村地域整備交付金                      501"
+        }
+      },
+      "source_ids": [
+        "maff-2026-26"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 9頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-京都府-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-27.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-27.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:40.390103+00:00",
+      "sha256_original": "723016f0c646141f9b66d81c79c43d619743ca30375ce3886c055d2c9f31ab1f",
+      "bytes": 142332,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "大阪府",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 451,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "1    大阪府    農山漁村地域整備交付金                      451"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 33,
+          "unit": "百万円",
+          "pdf_page": 7,
+          "row_text": "2    大阪府    美しい森林づくり基盤整備交付金                   33"
+        }
+      },
+      "source_ids": [
+        "maff-2026-27"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 7頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-大阪府-美しい森林づくり基盤整備交付金",
+          "maff-大阪府-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-28.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-28.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:40.625044+00:00",
+      "sha256_original": "cc6470429b6779ab8abd46016f67314c795474177a71027ff6af51db427c9b90",
+      "bytes": 416106,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "兵庫県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1735,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    兵庫県    農山漁村地域整備交付金                  1,735"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 5,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2    兵庫県    美しい森林づくり基盤整備交付金                  5"
+        }
+      },
+      "source_ids": [
+        "maff-2026-28"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-兵庫県-美しい森林づくり基盤整備交付金",
+          "maff-兵庫県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-29.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-29.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:40.350168+00:00",
+      "sha256_original": "cc46ee8ee265499baf52301b475c0cc6fbd09ccd94b537d32fdf932ea2ed8110",
+      "bytes": 157500,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "奈良県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 329,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "1    奈良県    農山漁村地域整備交付金                      329"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 328,
+          "unit": "百万円",
+          "pdf_page": 6,
+          "row_text": "2    奈良県    美しい森林づくり基盤整備交付金                  328"
+        }
+      },
+      "source_ids": [
+        "maff-2026-29"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 6頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-奈良県-美しい森林づくり基盤整備交付金",
+          "maff-奈良県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-30.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-30.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:40.577698+00:00",
+      "sha256_original": "dd30082d677537a22743a83ba735b2ad6f8bcad9ed13b8bd9d99b5d30f18d2c9",
+      "bytes": 250571,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "和歌山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 706,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1   和歌山県    農山漁村地域整備交付金                      706"
+        }
+      },
+      "source_ids": [
+        "maff-2026-30"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-和歌山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-31.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-31.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:41.370397+00:00",
+      "sha256_original": "9bb6863168faafd113a6e18416ada5335d82c05c7fb301d0a9e67a3e4edb356a",
+      "bytes": 212193,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "鳥取県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 662,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    鳥取県    農山漁村地域整備交付金                      662"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 39,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "2    鳥取県    美しい森林づくり基盤整備交付金                   39"
+        }
+      },
+      "source_ids": [
+        "maff-2026-31"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-鳥取県-美しい森林づくり基盤整備交付金",
+          "maff-鳥取県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-32.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-32.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:41.530755+00:00",
+      "sha256_original": "ca3913bf93739d3ff887f6fc0487e46f52a996a79b00b72d828f7fae4a4f9dda",
+      "bytes": 348570,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "島根県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1596,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    島根県    農山漁村地域整備交付金                  1,596"
+        }
+      },
+      "source_ids": [
+        "maff-2026-32"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-島根県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-33.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-33.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:41.582350+00:00",
+      "sha256_original": "0efd0be02a5f40beb91ee829e8db3533eb81821befb5a150b4637a67a5a85279",
+      "bytes": 280295,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "岡山県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1180,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "1    岡山県    農山漁村地域整備交付金                  1,180"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 5,
+          "unit": "百万円",
+          "pdf_page": 12,
+          "row_text": "2    岡山県    美しい森林づくり基盤整備交付金                  5"
+        }
+      },
+      "source_ids": [
+        "maff-2026-33"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 12頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-岡山県-美しい森林づくり基盤整備交付金",
+          "maff-岡山県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-34.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-34.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:41.660553+00:00",
+      "sha256_original": "1303e15229ef58065781f0206c5b35bf4fbadb365b2b4b308522c0c2dd7d230b",
+      "bytes": 247612,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "広島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1426,
+          "unit": "百万円",
+          "pdf_page": 9,
+          "row_text": "1    広島県    農山漁村地域整備交付金                  1,426"
+        }
+      },
+      "source_ids": [
+        "maff-2026-34"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 9頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-広島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-35.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-35.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:42.387783+00:00",
+      "sha256_original": "56d0f4ac3835b4e215be9781fda1661422ecc94699c711a84c7ab09f655543f8",
+      "bytes": 275070,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "山口県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1800,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    山口県    農山漁村地域整備交付金                  1,800"
+        }
+      },
+      "source_ids": [
+        "maff-2026-35"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-山口県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-36.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-36.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:42.517252+00:00",
+      "sha256_original": "173d0547c6779ac9d0eb78d41a904571508f7118b2d9e244805a31d66cec18bb",
+      "bytes": 320574,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "徳島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 749,
+          "unit": "百万円",
+          "pdf_page": 15,
+          "row_text": "1    徳島県    農山漁村地域整備交付金                      749"
+        }
+      },
+      "source_ids": [
+        "maff-2026-36"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 15頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-徳島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-37.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-37.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:42.577199+00:00",
+      "sha256_original": "3beb5b87aea406bc42911141e2eb56c05b2104d97fbc47c5d138726d473b5981",
+      "bytes": 225747,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "香川県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 779,
+          "unit": "百万円",
+          "pdf_page": 10,
+          "row_text": "1    香川県    農山漁村地域整備交付金                      779"
+        }
+      },
+      "source_ids": [
+        "maff-2026-37"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 10頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-香川県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-38.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-38.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:42.702681+00:00",
+      "sha256_original": "a0438f3c2b745c6eab7c87ac83e7d3d43125ee49dcbd355fab5592ac22873ff7",
+      "bytes": 344686,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "愛媛県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1569,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    愛媛県    農山漁村地域整備交付金                  1,569"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 138,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    愛媛県    美しい森林づくり基盤整備交付金                  138"
+        }
+      },
+      "source_ids": [
+        "maff-2026-38"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-愛媛県-美しい森林づくり基盤整備交付金",
+          "maff-愛媛県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-39.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-39.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:43.431661+00:00",
+      "sha256_original": "4a5ee159fb593ca3db23ec637309d574b373072cb77a2e1a9c526b4d00ceefc6",
+      "bytes": 275862,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "高知県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1424,
+          "unit": "百万円",
+          "pdf_page": 13,
+          "row_text": "1    高知県    農山漁村地域整備交付金                  1,424"
+        }
+      },
+      "source_ids": [
+        "maff-2026-39"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 13頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-高知県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-40.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-40.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:43.619350+00:00",
+      "sha256_original": "d7295dd4738bbe76d8b9efccf7c704fccc84dd5b10e6051aad0445e22ae7c6a0",
+      "bytes": 356919,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "福岡県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1786,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    福岡県    農山漁村地域整備交付金                  1,786"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 1,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    福岡県    美しい森林づくり基盤整備交付金                  1"
+        }
+      },
+      "source_ids": [
+        "maff-2026-40"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-福岡県-美しい森林づくり基盤整備交付金",
+          "maff-福岡県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-41.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-41.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:43.588743+00:00",
+      "sha256_original": "c11627d492d9d06ac3caada1ca9e18006bbeb022dfa63f5680f77d19e78c54cb",
+      "bytes": 216265,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "佐賀県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 760,
+          "unit": "百万円",
+          "pdf_page": 11,
+          "row_text": "1    佐賀県    農山漁村地域整備交付金                      760"
+        }
+      },
+      "source_ids": [
+        "maff-2026-41"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 11頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-佐賀県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-42.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-42.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:43.860196+00:00",
+      "sha256_original": "576000d7c29028e771ce6156d8c294df60b503c2f8f73e818df5a74b797f9717",
+      "bytes": 336952,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "長崎県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2176,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "1    長崎県    農山漁村地域整備交付金                  2,176"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 26,
+          "unit": "百万円",
+          "pdf_page": 17,
+          "row_text": "2    長崎県    美しい森林づくり基盤整備交付金                  26"
+        }
+      },
+      "source_ids": [
+        "maff-2026-42"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 17頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-長崎県-美しい森林づくり基盤整備交付金",
+          "maff-長崎県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-43.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-43.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:44.501236+00:00",
+      "sha256_original": "4c6590a0618820d3678387725a91a33115440298e09b16f9a8a85c062382632a",
+      "bytes": 366202,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "熊本県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2982,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "1    熊本県    農山漁村地域整備交付金                  2,982"
+        },
+        "美しい森林づくり基盤整備交付金": {
+          "amount": 7,
+          "unit": "百万円",
+          "pdf_page": 18,
+          "row_text": "2    熊本県    美しい森林づくり基盤整備交付金                  7"
+        }
+      },
+      "source_ids": [
+        "maff-2026-43"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 18頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-熊本県-美しい森林づくり基盤整備交付金",
+          "maff-熊本県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-44.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-44.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:44.733408+00:00",
+      "sha256_original": "fff4f388fe976a9aa49657f3fc1a2177ec89d608b1c6f981910ef0c42ba32e62",
+      "bytes": 342628,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "大分県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 2117,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    大分県    農山漁村地域整備交付金                  2,117"
+        }
+      },
+      "source_ids": [
+        "maff-2026-44"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-大分県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-45.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-45.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:44.677946+00:00",
+      "sha256_original": "f5e2d2d13a0b4a602602702c444be5ac0c0d344558b43775b694e6c2c7e6f9b6",
+      "bytes": 320393,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "宮崎県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 1038,
+          "unit": "百万円",
+          "pdf_page": 16,
+          "row_text": "1    宮崎県    農山漁村地域整備交付金                  1,038"
+        }
+      },
+      "source_ids": [
+        "maff-2026-45"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 16頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-宮崎県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-46.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-46.pdf",
+      "status": "verified",
+      "retrieved_at_utc": "2026-10-08T15:06:45.035093+00:00",
+      "sha256_original": "d9ca2e76fdb276bb3daaa8b451e42b5d18cf29c5f684a7529db5c835ae2d4fa6",
+      "bytes": 504452,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "鹿児島県",
+      "amounts": {
+        "農山漁村地域整備交付金": {
+          "amount": 5045,
+          "unit": "百万円",
+          "pdf_page": 26,
+          "row_text": "1   鹿児島県    農山漁村地域整備交付金                  5,045"
+        }
+      },
+      "source_ids": [
+        "maff-2026-46"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 26頁、交付金表（国費、百万円）",
+        "row_ids": [
+          "maff-鹿児島県-農山漁村地域整備交付金"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-47.pdf",
+      "final_url": "https://www.maff.go.jp/j/budget/kasyo/8tousyo/attach/pdf/index-47.pdf",
+      "status": "grant_table_not_listed",
+      "retrieved_at_utc": "2026-10-08T15:06:45.556317+00:00",
+      "sha256_original": "a5df31d3c9debae05b7146434d4e6c4c6e964b3fa0350888edc5faaae8df8c43",
+      "bytes": 249043,
+      "content_type": "application/pdf",
+      "year": 2026,
+      "published": "2026-04-07",
+      "prefecture": "沖縄県",
+      "amounts": {},
+      "source_ids": [],
+      "verification": {
+        "status": "table_not_listed",
+        "checked_at": "2026-10-09",
+        "method": "pdftotext -layout; explicit grant-table rows",
+        "locator": "PDF 頁、交付金表（国費、百万円）",
+        "row_ids": [],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "row_id": "maff-三重県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 27,
+      "original_amount": 27,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-三重県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 41,
+      "original_amount": 41,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-三重県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 569,
+      "original_amount": 569,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-三重県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 577,
+      "original_amount": 577,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-京都府-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 496,
+      "original_amount": 496,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-京都府-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 501,
+      "original_amount": 501,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-佐賀県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 760,
+      "original_amount": 760,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-佐賀県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 760,
+      "original_amount": 760,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-兵庫県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": null,
+      "original_amount": null,
+      "status": "not_listed_in_grant_table"
+    },
+    {
+      "row_id": "maff-兵庫県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 5,
+      "original_amount": 5,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-兵庫県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1623,
+      "original_amount": 1623,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-兵庫県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1735,
+      "original_amount": 1735,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-北海道-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 42,
+      "original_amount": 42,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-北海道-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 39,
+      "original_amount": 39,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-北海道-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 8818,
+      "original_amount": 8818,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-北海道-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 8818,
+      "original_amount": 8818,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-千葉県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1268,
+      "original_amount": 1268,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-千葉県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1255,
+      "original_amount": 1255,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-和歌山県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 706,
+      "original_amount": 706,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-和歌山県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 706,
+      "original_amount": 706,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-埼玉県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 25,
+      "original_amount": 25,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-埼玉県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 23,
+      "original_amount": 23,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-埼玉県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 862,
+      "original_amount": 862,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-埼玉県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 871,
+      "original_amount": 871,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大分県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1955,
+      "original_amount": 1955,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大分県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2117,
+      "original_amount": 2117,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大阪府-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 35,
+      "original_amount": 35,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大阪府-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 33,
+      "original_amount": 33,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大阪府-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 456,
+      "original_amount": 456,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-大阪府-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 451,
+      "original_amount": 451,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-奈良県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 336,
+      "original_amount": 336,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-奈良県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 328,
+      "original_amount": 328,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-奈良県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 358,
+      "original_amount": 358,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-奈良県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 329,
+      "original_amount": 329,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-宮城県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1020,
+      "original_amount": 1020,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-宮城県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1031,
+      "original_amount": 1031,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-宮崎県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1040,
+      "original_amount": 1040,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-宮崎県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1038,
+      "original_amount": 1038,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-富山県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 6,
+      "original_amount": 6,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-富山県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 6,
+      "original_amount": 6,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-富山県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1932,
+      "original_amount": 1932,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-富山県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1885,
+      "original_amount": 1885,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山口県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1781,
+      "original_amount": 1781,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山口県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1800,
+      "original_amount": 1800,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山形県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 140,
+      "original_amount": 140,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山形県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 238,
+      "original_amount": 238,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山形県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1047,
+      "original_amount": 1047,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山形県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 991,
+      "original_amount": 991,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山梨県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1645,
+      "original_amount": 1645,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-山梨県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1642,
+      "original_amount": 1642,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岐阜県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 2,
+      "original_amount": 2,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岐阜県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 3,
+      "original_amount": 3,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岐阜県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1698,
+      "original_amount": 1698,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岐阜県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1698,
+      "original_amount": 1698,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岡山県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 5,
+      "original_amount": 5,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岡山県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 5,
+      "original_amount": 5,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岡山県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1168,
+      "original_amount": 1168,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岡山県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1180,
+      "original_amount": 1180,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岩手県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 1,
+      "original_amount": 1,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岩手県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 3,
+      "original_amount": 3,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岩手県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2868,
+      "original_amount": 2868,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-岩手県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2868,
+      "original_amount": 2868,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-島根県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1702,
+      "original_amount": 1702,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-島根県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1596,
+      "original_amount": 1596,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-広島県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1454,
+      "original_amount": 1454,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-広島県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1426,
+      "original_amount": 1426,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-徳島県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 795,
+      "original_amount": 795,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-徳島県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 749,
+      "original_amount": 749,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛媛県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 121,
+      "original_amount": 121,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛媛県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 138,
+      "original_amount": 138,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛媛県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1614,
+      "original_amount": 1614,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛媛県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1569,
+      "original_amount": 1569,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛知県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 26,
+      "original_amount": 26,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛知県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 39,
+      "original_amount": 39,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛知県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2108,
+      "original_amount": 2108,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-愛知県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2171,
+      "original_amount": 2171,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-新潟県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 1,
+      "original_amount": 1,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-新潟県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 1,
+      "original_amount": 1,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-新潟県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2109,
+      "original_amount": 2109,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-新潟県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2252,
+      "original_amount": 2252,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-東京都-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 243,
+      "original_amount": 243,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-東京都-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 246,
+      "original_amount": 246,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-栃木県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 831,
+      "original_amount": 831,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-栃木県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 839,
+      "original_amount": 839,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-滋賀県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 744,
+      "original_amount": 744,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-滋賀県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 767,
+      "original_amount": 767,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-熊本県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 8,
+      "original_amount": 8,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-熊本県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 7,
+      "original_amount": 7,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-熊本県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2958,
+      "original_amount": 2958,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-熊本県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2982,
+      "original_amount": 2982,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-石川県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 25,
+      "original_amount": 25,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-石川県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 24,
+      "original_amount": 24,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-石川県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1713,
+      "original_amount": 1713,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-石川県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1713,
+      "original_amount": 1713,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-神奈川県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": null,
+      "original_amount": null,
+      "status": "not_listed_in_grant_table"
+    },
+    {
+      "row_id": "maff-神奈川県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 4,
+      "original_amount": 4,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-神奈川県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 527,
+      "original_amount": 527,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-神奈川県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 532,
+      "original_amount": 532,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福井県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1002,
+      "original_amount": 1002,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福井県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1022,
+      "original_amount": 1022,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福岡県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 1,
+      "original_amount": 1,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福岡県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 1,
+      "original_amount": 1,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福岡県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1863,
+      "original_amount": 1863,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福岡県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1786,
+      "original_amount": 1786,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福島県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1258,
+      "original_amount": 1258,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-福島県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1184,
+      "original_amount": 1184,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-秋田県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": null,
+      "original_amount": null,
+      "status": "not_listed_in_grant_table"
+    },
+    {
+      "row_id": "maff-秋田県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 39,
+      "original_amount": 39,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-秋田県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2528,
+      "original_amount": 2528,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-秋田県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2260,
+      "original_amount": 2260,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-群馬県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 26,
+      "original_amount": 26,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-群馬県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 15,
+      "original_amount": 15,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-群馬県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1270,
+      "original_amount": 1270,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-群馬県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1268,
+      "original_amount": 1268,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-茨城県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 628,
+      "original_amount": 628,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-茨城県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 653,
+      "original_amount": 653,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長崎県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 24,
+      "original_amount": 24,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長崎県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 26,
+      "original_amount": 26,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長崎県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1888,
+      "original_amount": 1888,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長崎県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2176,
+      "original_amount": 2176,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長野県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": null,
+      "original_amount": null,
+      "status": "not_listed_in_grant_table"
+    },
+    {
+      "row_id": "maff-長野県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 3,
+      "original_amount": 3,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長野県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2107,
+      "original_amount": 2107,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-長野県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2102,
+      "original_amount": 2102,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-青森県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1515,
+      "original_amount": 1515,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-青森県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1515,
+      "original_amount": 1515,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-静岡県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 38,
+      "original_amount": 38,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-静岡県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 45,
+      "original_amount": 45,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-静岡県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 2416,
+      "original_amount": 2416,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-静岡県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 2376,
+      "original_amount": 2376,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-香川県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 781,
+      "original_amount": 781,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-香川県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 779,
+      "original_amount": 779,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-高知県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 1451,
+      "original_amount": 1451,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-高知県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 1424,
+      "original_amount": 1424,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鳥取県-美しい森林づくり基盤整備交付金",
+      "year": 2025,
+      "current_amount": 37,
+      "original_amount": 37,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鳥取県-美しい森林づくり基盤整備交付金",
+      "year": 2026,
+      "current_amount": 39,
+      "original_amount": 39,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鳥取県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 664,
+      "original_amount": 664,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鳥取県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 662,
+      "original_amount": 662,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鹿児島県-農山漁村地域整備交付金",
+      "year": 2025,
+      "current_amount": 5009,
+      "original_amount": 5009,
+      "status": "matches"
+    },
+    {
+      "row_id": "maff-鹿児島県-農山漁村地域整備交付金",
+      "year": 2026,
+      "current_amount": 5045,
+      "original_amount": 5045,
+      "status": "matches"
+    }
+  ]
+}

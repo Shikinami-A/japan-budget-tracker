@@ -1,0 +1,1 @@
+{"chamber": "参議院", "district": "全国比例", "name": "辻元清美", "name_normalization": "空白・NFKCと字形セレクタU+E0100〜U+E01EFのみ除去。漢字・読みの置換なし", "original_location": "HTML .member-name span[0]/.house-type[0]/.district[0]", "original_name": "辻󠄀元清美", "party": "立憲民主党"}

@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "note": "党の現職JSONと国会の原本を独立確認し、正式名・院・現職選挙区が一意一致する追加分だけを収載。旧抽出で選挙区が欠けた議員の地域を党資料から推定しない。党資料日はnull。会派や取得日から党籍を推定せず、不一致は解消しない。",
+  "sources": [
+    {
+      "id": "party-ldp-third-stage",
+      "url": "https://www.jimin.jp/member/data/member.json",
+      "filename": "party-ldp-third-stage.txt",
+      "party": "自由民主党",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "743201fa8d16b6e0e76ec5c5fd0b1db7c55b2956802829aa0af22549a90d604c",
+      "original": {
+        "source_id": "party-ldp-third-stage",
+        "url": "https://www.jimin.jp/member/data/member.json",
+        "final_url": "https://www.jimin.jp/member/data/member.json",
+        "bytes": 143687,
+        "sha256_original": "3d16bea0e55f6409bed959b0cc37e5f746b4ea404dce0945a48e0c4392127d6b",
+        "retrieved_at_utc": "2026-10-08T16:38:21.119586+00:00",
+        "content_type": "application/json",
+        "download_status": "downloaded"
+      },
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "supporting_source_ids": [
+        "roster-house-roster-1-original",
+        "roster-house-roster-3-original",
+        "roster-house-roster-5-original",
+        "roster-house-roster-6-original",
+        "roster-house-roster-7-original"
+      ]
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "party-ldp-third-stage",
+      "url": "https://www.jimin.jp/member/data/member.json",
+      "final_url": "https://www.jimin.jp/member/data/member.json",
+      "bytes": 143687,
+      "sha256_original": "3d16bea0e55f6409bed959b0cc37e5f746b4ea404dce0945a48e0c4392127d6b",
+      "retrieved_at_utc": "2026-10-08T16:38:21.119586+00:00",
+      "content_type": "application/json",
+      "download_status": "downloaded"
+    }
+  ],
+  "entries": [
+    {
+      "member_id": "house-衛藤博昭",
+      "member_name": "衛藤博昭",
+      "chamber": "衆議院",
+      "district": "大分1",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "衛藤博昭",
+      "roster_reading": "えとうひろあき",
+      "roster_district": "大分県第1区",
+      "profile_url": "https://www.jimin.jp/member/209066.html",
+      "original_location": "JSON array[75] id=209066",
+      "excerpt_line": 1,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-1-original",
+        "excerpt_line": 79,
+        "original_location": "HTML table tr[80] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-遠藤寛明",
+      "member_name": "遠藤寛明",
+      "chamber": "衆議院",
+      "district": "山形1",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "遠藤寛明",
+      "roster_reading": "えんどうひろあき",
+      "roster_district": "山形県第1区",
+      "profile_url": "https://www.jimin.jp/member/212404.html",
+      "original_location": "JSON array[36] id=212404",
+      "excerpt_line": 2,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-1-original",
+        "excerpt_line": 82,
+        "original_location": "HTML table tr[83] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-大岡敏孝",
+      "member_name": "大岡敏孝",
+      "chamber": "衆議院",
+      "district": "滋賀1",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "大岡敏孝",
+      "roster_reading": "おおおかとしたか",
+      "roster_district": "滋賀県第1区",
+      "profile_url": "https://www.jimin.jp/member/116703.html",
+      "original_location": "JSON array[246] id=116703",
+      "excerpt_line": 3,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-1-original",
+        "excerpt_line": 83,
+        "original_location": "HTML table tr[84] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-鈴木憲和",
+      "member_name": "鈴木憲和",
+      "chamber": "衆議院",
+      "district": "山形2",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "鈴木憲和",
+      "roster_reading": "すずきのりかず",
+      "roster_district": "山形県第2区",
+      "profile_url": "https://www.jimin.jp/member/116248.html",
+      "original_location": "JSON array[247] id=116248",
+      "excerpt_line": 4,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-3-original",
+        "excerpt_line": 37,
+        "original_location": "HTML table tr[38] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-関芳弘",
+      "member_name": "関芳弘",
+      "chamber": "衆議院",
+      "district": "兵庫3",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "関芳弘",
+      "roster_reading": "せきよしひろ",
+      "roster_district": "兵庫県第3区",
+      "profile_url": "https://www.jimin.jp/member/102134.html",
+      "original_location": "JSON array[275] id=102134",
+      "excerpt_line": 5,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-3-original",
+        "excerpt_line": 44,
+        "original_location": "HTML table tr[45] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-新田章文",
+      "member_name": "新田章文",
+      "chamber": "衆議院",
+      "district": "神奈川2",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "新田章文",
+      "roster_reading": "にったしょうぶん",
+      "roster_district": "神奈川県第2区",
+      "profile_url": "https://www.jimin.jp/member/212478.html",
+      "original_location": "JSON array[2] id=212478",
+      "excerpt_line": 6,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-5-original",
+        "excerpt_line": 40,
+        "original_location": "HTML table tr[41] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-根本拓",
+      "member_name": "根本拓",
+      "chamber": "衆議院",
+      "district": "福島2",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "根本拓",
+      "roster_reading": "ねもとたく",
+      "roster_district": "福島県第2区",
+      "profile_url": "https://www.jimin.jp/member/209168.html",
+      "original_location": "JSON array[69] id=209168",
+      "excerpt_line": 7,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-5-original",
+        "excerpt_line": 44,
+        "original_location": "HTML table tr[45] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-野田聖子",
+      "member_name": "野田聖子",
+      "chamber": "衆議院",
+      "district": "岐阜1",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "野田聖子",
+      "roster_reading": "のだせいこ",
+      "roster_district": "岐阜県第1区",
+      "profile_url": "https://www.jimin.jp/member/100540.html",
+      "original_location": "JSON array[357] id=100540",
+      "excerpt_line": 8,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-5-original",
+        "excerpt_line": 46,
+        "original_location": "HTML table tr[47] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-広瀬建",
+      "member_name": "広瀬建",
+      "chamber": "衆議院",
+      "district": "大分2",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "広瀬建",
+      "roster_reading": "ひろせけん",
+      "roster_district": "大分県第2区",
+      "profile_url": "https://www.jimin.jp/member/209772.html",
+      "original_location": "JSON array[52] id=209772",
+      "excerpt_line": 9,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 23,
+        "original_location": "HTML table tr[24] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-藤田洋司",
+      "member_name": "藤田洋司",
+      "chamber": "衆議院",
+      "district": "（比）近畿",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "藤田洋司",
+      "roster_reading": "ふじたようじ",
+      "roster_district": "京都府第2区",
+      "profile_url": "https://www.jimin.jp/member/212427.html",
+      "original_location": "JSON array[15] id=212427",
+      "excerpt_line": 10,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 36,
+        "original_location": "HTML table tr[37] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-古屋圭司",
+      "member_name": "古屋圭司",
+      "chamber": "衆議院",
+      "district": "岐阜5",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "古屋圭司",
+      "roster_reading": "ふるやけいじ",
+      "roster_district": "岐阜県第5区",
+      "profile_url": "https://www.jimin.jp/member/100405.html",
+      "original_location": "JSON array[379] id=100405",
+      "excerpt_line": 11,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 47,
+        "original_location": "HTML table tr[48] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-穂坂泰",
+      "member_name": "穂坂泰",
+      "chamber": "衆議院",
+      "district": "埼玉4",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "穂坂泰",
+      "roster_reading": "ほさかやすし",
+      "roster_district": "埼玉県第4区",
+      "profile_url": "https://www.jimin.jp/member/135832.html",
+      "original_location": "JSON array[181] id=135832",
+      "excerpt_line": 12,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 48,
+        "original_location": "HTML table tr[49] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-星野剛士",
+      "member_name": "星野剛士",
+      "chamber": "衆議院",
+      "district": "神奈川12",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "星野剛士",
+      "roster_reading": "ほしのつよし",
+      "roster_district": "神奈川県第12区",
+      "profile_url": "https://www.jimin.jp/member/102079.html",
+      "original_location": "JSON array[307] id=102079",
+      "excerpt_line": 13,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-6-original",
+        "excerpt_line": 49,
+        "original_location": "HTML table tr[50] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    },
+    {
+      "member_id": "house-盛山正仁",
+      "member_name": "盛山正仁",
+      "chamber": "衆議院",
+      "district": "兵庫1",
+      "baseline_district": null,
+      "party": "自由民主党",
+      "party_source": "https://www.jimin.jp/member/data/member.json",
+      "party_as_of": null,
+      "checked_at": "2026-10-09",
+      "source_id": "party-ldp-third-stage",
+      "method": "党公式全国現職JSONの正式名・院・選挙区一意一致＋衆議院HTML原本で欠落選挙区を独立補完",
+      "roster_name": "盛山正仁",
+      "roster_reading": "もりやままさひと",
+      "roster_district": "兵庫県第1区",
+      "profile_url": "https://www.jimin.jp/member/102135.html",
+      "original_location": "JSON array[274] id=102135",
+      "excerpt_line": 14,
+      "parliamentary_roster_evidence": {
+        "source_id": "roster-house-roster-7-original",
+        "excerpt_line": 43,
+        "original_location": "HTML table tr[44] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数"
+      },
+      "parliamentary_roster_as_of": "2026-09-28"
+    }
+  ],
+  "issues": [
+    {
+      "member_id": "house-上野賢一郎",
+      "member_name": "上野賢一郎",
+      "status": "保留",
+      "roster_names": [
+        "うえの賢一郎"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-内山こう",
+      "member_name": "内山こう",
+      "status": "保留",
+      "roster_names": [
+        "内山航"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-こうらい啓一郎",
+      "member_name": "こうらい啓一郎",
+      "status": "保留",
+      "roster_names": [
+        "高麗啓一郎"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-中川こういち",
+      "member_name": "中川こういち",
+      "status": "保留",
+      "roster_names": [
+        "中川紘一"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-藤井比早之",
+      "member_name": "藤井比早之",
+      "status": "保留",
+      "roster_names": [
+        "藤井ひさゆき"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-丸尾なつ子",
+      "member_name": "丸尾なつ子",
+      "status": "保留",
+      "roster_names": [
+        "丸尾南都子"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "house-水野よしひこ",
+      "member_name": "水野よしひこ",
+      "status": "保留",
+      "roster_names": [
+        "水野良彦"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "senate-櫻井充",
+      "member_name": "櫻井充",
+      "status": "保留",
+      "roster_names": [
+        "桜井充"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    },
+    {
+      "member_id": "senate-磯崎仁彦",
+      "member_name": "磯崎仁彦",
+      "status": "保留",
+      "roster_names": [
+        "いそざき仁彦"
+      ],
+      "reason": "党の正式氏名完全一致または議会原本照合が未完了。読みだけで同一人物と確定しない。"
+    }
+  ],
+  "stats": {
+    "additional_exact_name_matches": 14,
+    "held_name_or_roster_variants": 9
+  }
+}

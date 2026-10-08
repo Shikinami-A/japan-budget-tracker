@@ -1,0 +1,1 @@
+{"as_of": "2026-09-28", "caucus": "中道", "chamber": "衆議院", "district": "（比）南関東", "name": "笠浩史", "original_location": "HTML table tr[2] cells[0:5] 氏名/ふりがな/会派/選挙区/当選回数", "profile_url": "https://www.shugiin.go.jp/Internet/itdb_giinprof.nsf/html/profile/451.html", "reading": "りゅうひろふみ"}

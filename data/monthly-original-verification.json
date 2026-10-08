@@ -1,0 +1,1472 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "generated_at_utc": "2026-10-08T15:25:33.809586+00:00",
+  "download_status_is_separate_from_verification": true,
+  "originals": [
+    {
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707b.html",
+      "final_url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707b.html",
+      "retrieved_at_utc": "2026-10-08T15:21:05Z",
+      "sha256_original": "456d7dce6713a9c6aebb07e1f45458309debf68e744af555a26f0763ea8fc340",
+      "bytes": 31585,
+      "content_type": "text/html",
+      "source_id": "mof-july-2025",
+      "download_status": "downloaded",
+      "missing_rows": [],
+      "printed_total_thousand_yen": 42254458573,
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Python HTMLParser; preserve td cells and validate expenditure subheader 本月分 / 前月までの累計 / 計; select fifth cell (計)",
+        "locator": "一般会計（2）歳出 table tbody, 支出済歳出額・計 column; printed unit 千円（千円未満切捨）",
+        "row_ids": [
+          "july-デジタル庁",
+          "july-会計検査院",
+          "july-内閣",
+          "july-内閣府",
+          "july-厚生労働省",
+          "july-国会",
+          "july-国土交通省",
+          "july-外務省",
+          "july-文部科学省",
+          "july-法務省",
+          "july-環境省",
+          "july-皇室費",
+          "july-経済産業省",
+          "july-総務省",
+          "july-裁判所",
+          "july-財務省",
+          "july-農林水産省",
+          "july-防衛省"
+        ],
+        "fields": [
+          "amount2025"
+        ],
+        "values": {
+          "july-デジタル庁": {
+            "amount2025": 25917.612
+          },
+          "july-会計検査院": {
+            "amount2025": 5054.779
+          },
+          "july-内閣": {
+            "amount2025": 30380.472
+          },
+          "july-内閣府": {
+            "amount2025": 1700169.807
+          },
+          "july-厚生労働省": {
+            "amount2025": 12428853.89
+          },
+          "july-国会": {
+            "amount2025": 41099.967
+          },
+          "july-国土交通省": {
+            "amount2025": 844196.271
+          },
+          "july-外務省": {
+            "amount2025": 344697.137
+          },
+          "july-文部科学省": {
+            "amount2025": 2512040.147
+          },
+          "july-法務省": {
+            "amount2025": 258826.853
+          },
+          "july-環境省": {
+            "amount2025": 76259.536
+          },
+          "july-皇室費": {
+            "amount2025": 2727.781
+          },
+          "july-経済産業省": {
+            "amount2025": 263413.465
+          },
+          "july-総務省": {
+            "amount2025": 13460749.866
+          },
+          "july-裁判所": {
+            "amount2025": 104816.053
+          },
+          "july-財務省": {
+            "amount2025": 6763946.159
+          },
+          "july-農林水産省": {
+            "amount2025": 648398.987
+          },
+          "july-防衛省": {
+            "amount2025": 2742909.782
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707a.html",
+      "final_url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2025/0707a.html",
+      "retrieved_at_utc": "2026-10-08T15:21:04Z",
+      "sha256_original": "6517dd07ba781b6393699c79666e89c1956a38cf2c9b89edbaaf4715a6380d6f",
+      "bytes": 44377,
+      "content_type": "text/html",
+      "source_id": "mof-july-announcement-2025",
+      "download_status": "downloaded",
+      "printed_date": "令和7年9月19日",
+      "period_statement": "令和7年度の令和7年7月末における国庫歳入歳出状況",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Official HTML text date and fiscal-year / July-end statement",
+        "locator": "国庫歳入歳出状況 heading and right-aligned announcement-date paragraph",
+        "row_ids": [],
+        "fields": [
+          "published"
+        ],
+        "published": "2025-09-19"
+      }
+    },
+    {
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807b.html",
+      "final_url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807b.html",
+      "retrieved_at_utc": "2026-10-08T15:21:08Z",
+      "sha256_original": "2a34babbd5d950df6c3b143ff028fa19f7c7b0a809208e12d7d90bf108d5cb4e",
+      "bytes": 31935,
+      "content_type": "text/html",
+      "source_id": "mof-july-2026",
+      "download_status": "downloaded",
+      "missing_rows": [
+        {
+          "ministry": "防災庁",
+          "printed_value": "-",
+          "status": "not_numeric; do not replace with zero"
+        }
+      ],
+      "printed_total_thousand_yen": 45665915744,
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Python HTMLParser; preserve td cells and validate expenditure subheader 本月分 / 前月までの累計 / 計; select fifth cell (計)",
+        "locator": "一般会計（2）歳出 table tbody, 支出済歳出額・計 column; printed unit 千円（千円未満切捨）",
+        "row_ids": [
+          "july-デジタル庁",
+          "july-会計検査院",
+          "july-内閣",
+          "july-内閣府",
+          "july-厚生労働省",
+          "july-国会",
+          "july-国土交通省",
+          "july-外務省",
+          "july-文部科学省",
+          "july-法務省",
+          "july-環境省",
+          "july-皇室費",
+          "july-経済産業省",
+          "july-総務省",
+          "july-裁判所",
+          "july-財務省",
+          "july-農林水産省",
+          "july-防衛省"
+        ],
+        "fields": [
+          "amount2026"
+        ],
+        "values": {
+          "july-デジタル庁": {
+            "amount2026": 34791.085
+          },
+          "july-会計検査院": {
+            "amount2026": 5307.777
+          },
+          "july-内閣": {
+            "amount2026": 30124.887
+          },
+          "july-内閣府": {
+            "amount2026": 2281534.625
+          },
+          "july-厚生労働省": {
+            "amount2026": 13386013.701
+          },
+          "july-国会": {
+            "amount2026": 42730.984
+          },
+          "july-国土交通省": {
+            "amount2026": 837243.873
+          },
+          "july-外務省": {
+            "amount2026": 324507.753
+          },
+          "july-文部科学省": {
+            "amount2026": 2913468.76
+          },
+          "july-法務省": {
+            "amount2026": 271196.206
+          },
+          "july-環境省": {
+            "amount2026": 51665.454
+          },
+          "july-皇室費": {
+            "amount2026": 2479.536
+          },
+          "july-経済産業省": {
+            "amount2026": 351979.987
+          },
+          "july-総務省": {
+            "amount2026": 14850006.481
+          },
+          "july-裁判所": {
+            "amount2026": 111165.027
+          },
+          "july-財務省": {
+            "amount2026": 7309918.966
+          },
+          "july-農林水産省": {
+            "amount2026": 661055.015
+          },
+          "july-防衛省": {
+            "amount2026": 2200725.619
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807a.html",
+      "final_url": "https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy2026/0807a.html",
+      "retrieved_at_utc": "2026-10-08T15:21:06Z",
+      "sha256_original": "5c24ae3477cf28ce453d777ab79c21b67a9b0b5ae8b62b48f0c72a18023ada00",
+      "bytes": 45179,
+      "content_type": "text/html",
+      "source_id": "mof-july-announcement-2026",
+      "download_status": "downloaded",
+      "printed_date": "令和8年9月18日",
+      "period_statement": "令和8年度の令和8年7月末における国庫歳入歳出状況",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Official HTML text date and fiscal-year / July-end statement",
+        "locator": "国庫歳入歳出状況 heading and right-aligned announcement-date paragraph",
+        "row_ids": [],
+        "fields": [
+          "published"
+        ],
+        "published": "2026-09-18"
+      }
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/hard2025-1_00003.html",
+      "final_url": "https://www.mhlw.go.jp/stf/hard2025-1_00003.html",
+      "retrieved_at_utc": "2026-10-08T15:21:09Z",
+      "sha256_original": "efed499040bc68240d76a68664f11984c663a5940f914c86ac669ff182426ef7",
+      "bytes": 46975,
+      "content_type": "text/html",
+      "source_id": "care-announcement-2025",
+      "download_status": "downloaded",
+      "linked_pdf_urls": [
+        "https://www.mhlw.go.jp/content/12300000/001585303.pdf"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Official HTML time[datetime] attribute; date belongs to announcement page",
+        "locator": "m-boxInfo__date > time[datetime]",
+        "row_ids": [],
+        "fields": [
+          "published"
+        ],
+        "published": "2025-10-24"
+      }
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/hard2026-1_00001.html",
+      "final_url": "https://www.mhlw.go.jp/stf/hard2026-1_00001.html",
+      "retrieved_at_utc": "2026-10-08T15:21:09Z",
+      "sha256_original": "7ce51d6bab3ece0ee2a5690f67b3ccd251cc89ed0cf1732fb504f616a925ac84",
+      "bytes": 46929,
+      "content_type": "text/html",
+      "source_id": "care-announcement-2026",
+      "download_status": "downloaded",
+      "linked_pdf_urls": [
+        "https://www.mhlw.go.jp/content/12300000/001715725.pdf"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Official HTML time[datetime] attribute; date belongs to announcement page",
+        "locator": "m-boxInfo__date > time[datetime]",
+        "row_ids": [],
+        "fields": [
+          "published"
+        ],
+        "published": "2026-06-26"
+      }
+    },
+    {
+      "url": "https://www.mhlw.go.jp/content/12300000/001715725.pdf",
+      "final_url": "https://www.mhlw.go.jp/content/12300000/001715725.pdf",
+      "retrieved_at_utc": "2026-10-08T15:22:08Z",
+      "sha256_original": "d6d3662fa139c20e31cd20f7d1366973521c9e51e11b5503dc4d0d12d098f57b",
+      "bytes": 264634,
+      "content_type": "application/pdf",
+      "source_id": "care-2026-announced-pdf",
+      "download_status": "downloaded",
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "Poppler pdftotext -bbox-layout table coordinate extraction",
+        "locator": "PDF p.2 prefecture columns, plan count and 計画額（千円）",
+        "row_ids": [
+          "care-北海道",
+          "care-青森県",
+          "care-岩手県",
+          "care-宮城県",
+          "care-秋田県",
+          "care-山形県",
+          "care-福島県",
+          "care-茨城県",
+          "care-栃木県",
+          "care-群馬県",
+          "care-埼玉県",
+          "care-千葉県",
+          "care-東京都",
+          "care-神奈川県",
+          "care-新潟県",
+          "care-富山県",
+          "care-石川県",
+          "care-福井県",
+          "care-山梨県",
+          "care-長野県",
+          "care-岐阜県",
+          "care-静岡県",
+          "care-愛知県",
+          "care-三重県",
+          "care-滋賀県",
+          "care-京都府",
+          "care-大阪府",
+          "care-兵庫県",
+          "care-奈良県",
+          "care-和歌山県",
+          "care-鳥取県",
+          "care-島根県",
+          "care-岡山県",
+          "care-広島県",
+          "care-山口県",
+          "care-徳島県",
+          "care-香川県",
+          "care-愛媛県",
+          "care-高知県",
+          "care-福岡県",
+          "care-佐賀県",
+          "care-長崎県",
+          "care-熊本県",
+          "care-大分県",
+          "care-宮崎県",
+          "care-鹿児島県",
+          "care-沖縄県"
+        ],
+        "fields": [
+          "amount2026"
+        ],
+        "values": {
+          "care-北海道": {
+            "amount2026": 178.295,
+            "plans2026": 17
+          },
+          "care-青森県": {
+            "amount2026": 59.745,
+            "plans2026": 10
+          },
+          "care-岩手県": {
+            "amount2026": 86.843,
+            "plans2026": 7
+          },
+          "care-宮城県": {
+            "amount2026": 82.986,
+            "plans2026": 6
+          },
+          "care-秋田県": {
+            "amount2026": 39.292,
+            "plans2026": 7
+          },
+          "care-山形県": {
+            "amount2026": 87.321,
+            "plans2026": 9
+          },
+          "care-福島県": {
+            "amount2026": 102.428,
+            "plans2026": 13
+          },
+          "care-茨城県": {
+            "amount2026": 62.587,
+            "plans2026": 7
+          },
+          "care-栃木県": {
+            "amount2026": 77.304,
+            "plans2026": 8
+          },
+          "care-群馬県": {
+            "amount2026": 69.894,
+            "plans2026": 9
+          },
+          "care-埼玉県": {
+            "amount2026": 93.036,
+            "plans2026": 14
+          },
+          "care-千葉県": {
+            "amount2026": 129.907,
+            "plans2026": 15
+          },
+          "care-東京都": {
+            "amount2026": 238.136,
+            "plans2026": 14
+          },
+          "care-神奈川県": {
+            "amount2026": 157.93,
+            "plans2026": 13
+          },
+          "care-新潟県": {
+            "amount2026": 42.531,
+            "plans2026": 5
+          },
+          "care-富山県": {
+            "amount2026": 20.946,
+            "plans2026": 5
+          },
+          "care-石川県": {
+            "amount2026": 71.455,
+            "plans2026": 9
+          },
+          "care-福井県": {
+            "amount2026": 83.918,
+            "plans2026": 9
+          },
+          "care-山梨県": {
+            "amount2026": 98.071,
+            "plans2026": 7
+          },
+          "care-長野県": {
+            "amount2026": 63.793,
+            "plans2026": 8
+          },
+          "care-岐阜県": {
+            "amount2026": 109.149,
+            "plans2026": 9
+          },
+          "care-静岡県": {
+            "amount2026": 83.325,
+            "plans2026": 10
+          },
+          "care-愛知県": {
+            "amount2026": 182.244,
+            "plans2026": 15
+          },
+          "care-三重県": {
+            "amount2026": 89.384,
+            "plans2026": 8
+          },
+          "care-滋賀県": {
+            "amount2026": 156.471,
+            "plans2026": 15
+          },
+          "care-京都府": {
+            "amount2026": 10.539,
+            "plans2026": 2
+          },
+          "care-大阪府": {
+            "amount2026": 143.345,
+            "plans2026": 10
+          },
+          "care-兵庫県": {
+            "amount2026": 133.298,
+            "plans2026": 15
+          },
+          "care-奈良県": {
+            "amount2026": 101.753,
+            "plans2026": 9
+          },
+          "care-和歌山県": {
+            "amount2026": 1.528,
+            "plans2026": 1
+          },
+          "care-鳥取県": {
+            "amount2026": 110.657,
+            "plans2026": 14
+          },
+          "care-島根県": {
+            "amount2026": 9.922,
+            "plans2026": 2
+          },
+          "care-岡山県": {
+            "amount2026": 59.635,
+            "plans2026": 6
+          },
+          "care-広島県": {
+            "amount2026": 70.12,
+            "plans2026": 9
+          },
+          "care-山口県": {
+            "amount2026": 95.068,
+            "plans2026": 9
+          },
+          "care-徳島県": {
+            "amount2026": 39.625,
+            "plans2026": 3
+          },
+          "care-香川県": {
+            "amount2026": 20.774,
+            "plans2026": 4
+          },
+          "care-愛媛県": {
+            "amount2026": 12.955,
+            "plans2026": 2
+          },
+          "care-高知県": {
+            "amount2026": 41.631,
+            "plans2026": 8
+          },
+          "care-福岡県": {
+            "amount2026": 68.191,
+            "plans2026": 9
+          },
+          "care-佐賀県": {
+            "amount2026": 65.912,
+            "plans2026": 8
+          },
+          "care-長崎県": {
+            "amount2026": 78.259,
+            "plans2026": 7
+          },
+          "care-熊本県": {
+            "amount2026": 65.944,
+            "plans2026": 7
+          },
+          "care-大分県": {
+            "amount2026": 51.047,
+            "plans2026": 6
+          },
+          "care-宮崎県": {
+            "amount2026": 85.483,
+            "plans2026": 10
+          },
+          "care-鹿児島県": {
+            "amount2026": 164.252,
+            "plans2026": 13
+          },
+          "care-沖縄県": {
+            "amount2026": 68.891,
+            "plans2026": 8
+          }
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-デジタル庁",
+      "field": "amount2025",
+      "public_amount": 25917.612,
+      "original": {
+        "cells": [
+          "デジタル庁",
+          "232,353,396",
+          "5,250,028",
+          "20,667,583",
+          "25,917,612",
+          "206,435,783",
+          "11.1"
+        ],
+        "printed_amount_thousand_yen": 25917612,
+        "amount_million_yen": 25917.612,
+        "previous_cumulative_thousand_yen": 20667583
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-会計検査院",
+      "field": "amount2025",
+      "public_amount": 5054.779,
+      "original": {
+        "cells": [
+          "会計検査院",
+          "17,378,570",
+          "914,179",
+          "4,140,599",
+          "5,054,779",
+          "12,323,791",
+          "29.0"
+        ],
+        "printed_amount_thousand_yen": 5054779,
+        "amount_million_yen": 5054.779,
+        "previous_cumulative_thousand_yen": 4140599
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-内閣",
+      "field": "amount2025",
+      "public_amount": 30380.472,
+      "original": {
+        "cells": [
+          "内閣",
+          "165,461,703",
+          "10,093,643",
+          "20,286,828",
+          "30,380,472",
+          "135,081,230",
+          "18.3"
+        ],
+        "printed_amount_thousand_yen": 30380472,
+        "amount_million_yen": 30380.472,
+        "previous_cumulative_thousand_yen": 20286828
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-内閣府",
+      "field": "amount2025",
+      "public_amount": 1700169.807,
+      "original": {
+        "cells": [
+          "内閣府",
+          "5,110,561,658",
+          "233,515,539",
+          "1,466,654,268",
+          "1,700,169,807",
+          "3,410,391,851",
+          "33.2"
+        ],
+        "printed_amount_thousand_yen": 1700169807,
+        "amount_million_yen": 1700169.807,
+        "previous_cumulative_thousand_yen": 1466654268
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-厚生労働省",
+      "field": "amount2025",
+      "public_amount": 12428853.89,
+      "original": {
+        "cells": [
+          "厚生労働省",
+          "35,058,488,190",
+          "2,105,868,735",
+          "10,322,985,155",
+          "12,428,853,890",
+          "22,629,634,299",
+          "35.4"
+        ],
+        "printed_amount_thousand_yen": 12428853890,
+        "amount_million_yen": 12428853.89,
+        "previous_cumulative_thousand_yen": 10322985155
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-国会",
+      "field": "amount2025",
+      "public_amount": 41099.967,
+      "original": {
+        "cells": [
+          "国会",
+          "136,723,343",
+          "8,236,605",
+          "32,863,362",
+          "41,099,967",
+          "95,623,375",
+          "30.0"
+        ],
+        "printed_amount_thousand_yen": 41099967,
+        "amount_million_yen": 41099.967,
+        "previous_cumulative_thousand_yen": 32863362
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-国土交通省",
+      "field": "amount2025",
+      "public_amount": 844196.271,
+      "original": {
+        "cells": [
+          "国土交通省",
+          "9,925,833,405",
+          "278,699,012",
+          "565,497,258",
+          "844,196,271",
+          "9,081,637,134",
+          "8.5"
+        ],
+        "printed_amount_thousand_yen": 844196271,
+        "amount_million_yen": 844196.271,
+        "previous_cumulative_thousand_yen": 565497258
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-外務省",
+      "field": "amount2025",
+      "public_amount": 344697.137,
+      "original": {
+        "cells": [
+          "外務省",
+          "886,514,990",
+          "34,924,346",
+          "309,772,791",
+          "344,697,137",
+          "541,817,852",
+          "38.8"
+        ],
+        "printed_amount_thousand_yen": 344697137,
+        "amount_million_yen": 344697.137,
+        "previous_cumulative_thousand_yen": 309772791
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-文部科学省",
+      "field": "amount2025",
+      "public_amount": 2512040.147,
+      "original": {
+        "cells": [
+          "文部科学省",
+          "6,857,775,804",
+          "652,711,992",
+          "1,859,328,154",
+          "2,512,040,147",
+          "4,345,735,656",
+          "36.6"
+        ],
+        "printed_amount_thousand_yen": 2512040147,
+        "amount_million_yen": 2512040.147,
+        "previous_cumulative_thousand_yen": 1859328154
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-法務省",
+      "field": "amount2025",
+      "public_amount": 258826.853,
+      "original": {
+        "cells": [
+          "法務省",
+          "886,574,497",
+          "58,504,422",
+          "200,322,431",
+          "258,826,853",
+          "627,747,643",
+          "29.1"
+        ],
+        "printed_amount_thousand_yen": 258826853,
+        "amount_million_yen": 258826.853,
+        "previous_cumulative_thousand_yen": 200322431
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-環境省",
+      "field": "amount2025",
+      "public_amount": 76259.536,
+      "original": {
+        "cells": [
+          "環境省",
+          "533,971,811",
+          "21,543,071",
+          "54,716,464",
+          "76,259,536",
+          "457,712,275",
+          "14.2"
+        ],
+        "printed_amount_thousand_yen": 76259536,
+        "amount_million_yen": 76259.536,
+        "previous_cumulative_thousand_yen": 54716464
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-皇室費",
+      "field": "amount2025",
+      "public_amount": 2727.781,
+      "original": {
+        "cells": [
+          "皇室費",
+          "13,430,532",
+          "317,484",
+          "2,410,296",
+          "2,727,781",
+          "10,702,751",
+          "20.3"
+        ],
+        "printed_amount_thousand_yen": 2727781,
+        "amount_million_yen": 2727.781,
+        "previous_cumulative_thousand_yen": 2410296
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-経済産業省",
+      "field": "amount2025",
+      "public_amount": 263413.465,
+      "original": {
+        "cells": [
+          "経済産業省",
+          "1,658,047,725",
+          "51,586,437",
+          "211,827,028",
+          "263,413,465",
+          "1,394,634,259",
+          "15.8"
+        ],
+        "printed_amount_thousand_yen": 263413465,
+        "amount_million_yen": 263413.465,
+        "previous_cumulative_thousand_yen": 211827028
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-総務省",
+      "field": "amount2025",
+      "public_amount": 13460749.866,
+      "original": {
+        "cells": [
+          "総務省",
+          "20,712,334,872",
+          "976,705,084",
+          "12,484,044,781",
+          "13,460,749,866",
+          "7,251,585,006",
+          "64.9"
+        ],
+        "printed_amount_thousand_yen": 13460749866,
+        "amount_million_yen": 13460749.866,
+        "previous_cumulative_thousand_yen": 12484044781
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-裁判所",
+      "field": "amount2025",
+      "public_amount": 104816.053,
+      "original": {
+        "cells": [
+          "裁判所",
+          "361,086,867",
+          "18,561,363",
+          "86,254,690",
+          "104,816,053",
+          "256,270,813",
+          "29.0"
+        ],
+        "printed_amount_thousand_yen": 104816053,
+        "amount_million_yen": 104816.053,
+        "previous_cumulative_thousand_yen": 86254690
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-財務省",
+      "field": "amount2025",
+      "public_amount": 6763946.159,
+      "original": {
+        "cells": [
+          "財務省",
+          "29,935,154,663",
+          "262,677,843",
+          "6,501,268,315",
+          "6,763,946,159",
+          "23,171,208,504",
+          "22.5"
+        ],
+        "printed_amount_thousand_yen": 6763946159,
+        "amount_million_yen": 6763946.159,
+        "previous_cumulative_thousand_yen": 6501268315
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-農林水産省",
+      "field": "amount2025",
+      "public_amount": 648398.987,
+      "original": {
+        "cells": [
+          "農林水産省",
+          "3,275,834,359",
+          "325,073,541",
+          "323,325,446",
+          "648,398,987",
+          "2,627,435,372",
+          "19.7"
+        ],
+        "printed_amount_thousand_yen": 648398987,
+        "amount_million_yen": 648398.987,
+        "previous_cumulative_thousand_yen": 323325446
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2025",
+      "row_id": "july-防衛省",
+      "field": "amount2025",
+      "public_amount": 2742909.782,
+      "original": {
+        "cells": [
+          "防衛省",
+          "9,673,584,875",
+          "676,740,404",
+          "2,066,169,378",
+          "2,742,909,782",
+          "6,930,675,093",
+          "28.3"
+        ],
+        "printed_amount_thousand_yen": 2742909782,
+        "amount_million_yen": 2742909.782,
+        "previous_cumulative_thousand_yen": 2066169378
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-デジタル庁",
+      "field": "amount2026",
+      "public_amount": 34791.085,
+      "original": {
+        "cells": [
+          "デジタル庁",
+          "292,883,426",
+          "8,249,234",
+          "26,541,850",
+          "34,791,085",
+          "258,092,340",
+          "11.8"
+        ],
+        "printed_amount_thousand_yen": 34791085,
+        "amount_million_yen": 34791.085,
+        "previous_cumulative_thousand_yen": 26541850
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-会計検査院",
+      "field": "amount2026",
+      "public_amount": 5307.777,
+      "original": {
+        "cells": [
+          "会計検査院",
+          "18,106,659",
+          "1,016,255",
+          "4,291,521",
+          "5,307,777",
+          "12,798,881",
+          "29.3"
+        ],
+        "printed_amount_thousand_yen": 5307777,
+        "amount_million_yen": 5307.777,
+        "previous_cumulative_thousand_yen": 4291521
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-内閣",
+      "field": "amount2026",
+      "public_amount": 30124.887,
+      "original": {
+        "cells": [
+          "内閣",
+          "175,403,568",
+          "10,957,237",
+          "19,167,650",
+          "30,124,887",
+          "145,278,680",
+          "17.1"
+        ],
+        "printed_amount_thousand_yen": 30124887,
+        "amount_million_yen": 30124.887,
+        "previous_cumulative_thousand_yen": 19167650
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-内閣府",
+      "field": "amount2026",
+      "public_amount": 2281534.625,
+      "original": {
+        "cells": [
+          "内閣府",
+          "5,140,617,840",
+          "794,469,765",
+          "1,487,064,859",
+          "2,281,534,625",
+          "2,859,083,215",
+          "44.3"
+        ],
+        "printed_amount_thousand_yen": 2281534625,
+        "amount_million_yen": 2281534.625,
+        "previous_cumulative_thousand_yen": 1487064859
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-厚生労働省",
+      "field": "amount2026",
+      "public_amount": 13386013.701,
+      "original": {
+        "cells": [
+          "厚生労働省",
+          "36,532,840,596",
+          "2,107,736,665",
+          "11,278,277,035",
+          "13,386,013,701",
+          "23,146,826,894",
+          "36.6"
+        ],
+        "printed_amount_thousand_yen": 13386013701,
+        "amount_million_yen": 13386013.701,
+        "previous_cumulative_thousand_yen": 11278277035
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-国会",
+      "field": "amount2026",
+      "public_amount": 42730.984,
+      "original": {
+        "cells": [
+          "国会",
+          "145,773,232",
+          "8,565,129",
+          "34,165,854",
+          "42,730,984",
+          "103,042,247",
+          "29.3"
+        ],
+        "printed_amount_thousand_yen": 42730984,
+        "amount_million_yen": 42730.984,
+        "previous_cumulative_thousand_yen": 34165854
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-国土交通省",
+      "field": "amount2026",
+      "public_amount": 837243.873,
+      "original": {
+        "cells": [
+          "国土交通省",
+          "9,952,298,221",
+          "288,009,767",
+          "549,234,105",
+          "837,243,873",
+          "9,115,054,348",
+          "8.4"
+        ],
+        "printed_amount_thousand_yen": 837243873,
+        "amount_million_yen": 837243.873,
+        "previous_cumulative_thousand_yen": 549234105
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-外務省",
+      "field": "amount2026",
+      "public_amount": 324507.753,
+      "original": {
+        "cells": [
+          "外務省",
+          "889,281,550",
+          "44,809,812",
+          "279,697,941",
+          "324,507,753",
+          "564,773,796",
+          "36.4"
+        ],
+        "printed_amount_thousand_yen": 324507753,
+        "amount_million_yen": 324507.753,
+        "previous_cumulative_thousand_yen": 279697941
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-文部科学省",
+      "field": "amount2026",
+      "public_amount": 2913468.76,
+      "original": {
+        "cells": [
+          "文部科学省",
+          "7,726,609,065",
+          "700,743,191",
+          "2,212,725,569",
+          "2,913,468,760",
+          "4,813,140,304",
+          "37.7"
+        ],
+        "printed_amount_thousand_yen": 2913468760,
+        "amount_million_yen": 2913468.76,
+        "previous_cumulative_thousand_yen": 2212725569
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-法務省",
+      "field": "amount2026",
+      "public_amount": 271196.206,
+      "original": {
+        "cells": [
+          "法務省",
+          "944,651,583",
+          "60,222,190",
+          "210,974,015",
+          "271,196,206",
+          "673,455,377",
+          "28.7"
+        ],
+        "printed_amount_thousand_yen": 271196206,
+        "amount_million_yen": 271196.206,
+        "previous_cumulative_thousand_yen": 210974015
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-環境省",
+      "field": "amount2026",
+      "public_amount": 51665.454,
+      "original": {
+        "cells": [
+          "環境省",
+          "566,119,509",
+          "20,191,125",
+          "31,474,328",
+          "51,665,454",
+          "514,454,054",
+          "9.1"
+        ],
+        "printed_amount_thousand_yen": 51665454,
+        "amount_million_yen": 51665.454,
+        "previous_cumulative_thousand_yen": 31474328
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-皇室費",
+      "field": "amount2026",
+      "public_amount": 2479.536,
+      "original": {
+        "cells": [
+          "皇室費",
+          "13,648,753",
+          "252,445",
+          "2,227,090",
+          "2,479,536",
+          "11,169,217",
+          "18.1"
+        ],
+        "printed_amount_thousand_yen": 2479536,
+        "amount_million_yen": 2479.536,
+        "previous_cumulative_thousand_yen": 2227090
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-経済産業省",
+      "field": "amount2026",
+      "public_amount": 351979.987,
+      "original": {
+        "cells": [
+          "経済産業省",
+          "2,005,811,572",
+          "45,357,951",
+          "306,622,035",
+          "351,979,987",
+          "1,653,831,584",
+          "17.5"
+        ],
+        "printed_amount_thousand_yen": 351979987,
+        "amount_million_yen": 351979.987,
+        "previous_cumulative_thousand_yen": 306622035
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-総務省",
+      "field": "amount2026",
+      "public_amount": 14850006.481,
+      "original": {
+        "cells": [
+          "総務省",
+          "23,187,723,844",
+          "1,325,478,041",
+          "13,524,528,439",
+          "14,850,006,481",
+          "8,337,717,362",
+          "64.0"
+        ],
+        "printed_amount_thousand_yen": 14850006481,
+        "amount_million_yen": 14850006.481,
+        "previous_cumulative_thousand_yen": 13524528439
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-裁判所",
+      "field": "amount2026",
+      "public_amount": 111165.027,
+      "original": {
+        "cells": [
+          "裁判所",
+          "387,221,498",
+          "19,840,680",
+          "91,324,347",
+          "111,165,027",
+          "276,056,470",
+          "28.7"
+        ],
+        "printed_amount_thousand_yen": 111165027,
+        "amount_million_yen": 111165.027,
+        "previous_cumulative_thousand_yen": 91324347
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-財務省",
+      "field": "amount2026",
+      "public_amount": 7309918.966,
+      "original": {
+        "cells": [
+          "財務省",
+          "36,327,294,004",
+          "315,024,073",
+          "6,994,894,892",
+          "7,309,918,966",
+          "29,017,375,038",
+          "20.1"
+        ],
+        "printed_amount_thousand_yen": 7309918966,
+        "amount_million_yen": 7309918.966,
+        "previous_cumulative_thousand_yen": 6994894892
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-農林水産省",
+      "field": "amount2026",
+      "public_amount": 661055.015,
+      "original": {
+        "cells": [
+          "農林水産省",
+          "3,373,528,120",
+          "352,325,991",
+          "308,729,024",
+          "661,055,015",
+          "2,712,473,105",
+          "19.5"
+        ],
+        "printed_amount_thousand_yen": 661055015,
+        "amount_million_yen": 661055.015,
+        "previous_cumulative_thousand_yen": 308729024
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    },
+    {
+      "source_id": "mof-july-2026",
+      "row_id": "july-防衛省",
+      "field": "amount2026",
+      "public_amount": 2200725.619,
+      "original": {
+        "cells": [
+          "防衛省",
+          "9,919,530,135",
+          "515,394,136",
+          "1,685,331,482",
+          "2,200,725,619",
+          "7,718,804,516",
+          "22.1"
+        ],
+        "printed_amount_thousand_yen": 2200725619,
+        "amount_million_yen": 2200725.619,
+        "previous_cumulative_thousand_yen": 1685331482
+      },
+      "checks": {
+        "public_amount_matches": true,
+        "saved_text_amount_matches": true
+      },
+      "status": "matched"
+    }
+  ],
+  "issues": [],
+  "observations": [
+    {
+      "source_id": "care-2026",
+      "finding": "2026-06-26 announcement links /content/12300000/001715725.pdf, not existing /content/001715704.pdf. Linked PDF p.1 prints 令和８年６月26日 and 内示（１回目）; p.2 contains the same 47 prefecture amounts and plan counts as existing table-only PDF. This verifies announcement date and matching values, not the version/publication date of the other PDF URL.",
+      "existing_pdf_publication_date_verified": false,
+      "full_table_text_matches_ignoring_whitespace": true,
+      "announced_pdf_matching_prefectures": 47
+    }
+  ]
+}

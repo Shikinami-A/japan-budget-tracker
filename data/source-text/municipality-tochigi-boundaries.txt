@@ -1,0 +1,5 @@
+{"area": "宇都宮市のうち旧宇都宮市の区域、河内郡", "district": "栃木1", "original_location": "PDF p.2 小選挙区選挙 第1〜5区の区域表"}
+{"area": "宇都宮市のうち旧上河内町・旧河内町の区域、鹿沼市、日光市、さくら市、塩谷郡", "district": "栃木2", "original_location": "PDF p.2 小選挙区選挙 第1〜5区の区域表"}
+{"area": "大田原市、矢板市、那須塩原市、那須烏山市、那須郡", "district": "栃木3", "original_location": "PDF p.2 小選挙区選挙 第1〜5区の区域表"}
+{"area": "小山市、真岡市、下野市、芳賀郡、下都賀郡", "district": "栃木4", "original_location": "PDF p.2 小選挙区選挙 第1〜5区の区域表"}
+{"area": "足利市、栃木市、佐野市", "district": "栃木5", "original_location": "PDF p.2 小選挙区選挙 第1〜5区の区域表"}

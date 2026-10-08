@@ -1,0 +1,1 @@
+{"chamber": "衆議院", "name": "河村たかし", "original_location": "HTML .positionと代表本人あいさつ冒頭（連絡先除外）", "party": "減税日本", "role": "代表"}

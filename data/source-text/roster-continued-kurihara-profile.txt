@@ -1,0 +1,1 @@
+{"as_of": "2026-09-18", "chamber": "衆議院", "district": "福岡5", "name": "栗原渉", "original_location": "HTML h2#TopContents・小選挙区選出段落・現在日", "reading": "くりはらわたる"}

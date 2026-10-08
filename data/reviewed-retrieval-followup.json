@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "retrieval-followup-cao-policy",
+      "title": "内閣府の政策：地方創生の現行案内（今回再確認）",
+      "url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "locator": "地方創生（内閣官房・内閣府 総合サイト）へのリンク",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "公式HTML原本を既存プロキシ・TLS検証で取得",
+      "excerpt": "地方創生（内閣官房・内閣府 総合サイト）\nhttps://www.chisou.go.jp/sousei/index.html",
+      "sha256_extracted_text": "4427b340e94d9345240d720986f85d2474ea1701bb22c522d00efefa97544269"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "final_url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "retrieved_at_utc": "2026-10-08T17:06:01Z",
+      "sha256_original": "00e9164eeb49a7496229e2eec686972ca0397bc7d5859600e0e7971475d0382e",
+      "bytes": 16731,
+      "content_type": "text/html",
+      "source_ids": [
+        "retrieval-followup-cao-policy"
+      ],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "HTMLParserで現行政策ページの案内名とhrefを抽出。採択原本・予算金額の照合ではない。",
+        "locator": "地方創生のリンク",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "rows": [],
+  "research_notes": [
+    {
+      "ministry": "経済産業省",
+      "agency": "資源エネルギー庁",
+      "status": "今回の変更環境でもHTTP 403・原本未取得",
+      "source_ids": [],
+      "requested_url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "note": "仕様3・unrestricted/unknownの環境で事業概要とトップを各1回確認しHTTP応答403。経産省2026予算入口も403。前回仕様5・enforcedの試行と別観測。検索は従来の公式掲載先を示すが、原本の掲載年度や地域金額は未確認。403の応答主体を確定しない。",
+      "retrieval_attempts": [
+        {
+          "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+          "retrieved_at_utc": "2026-10-08T17:05:59Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/",
+          "retrieved_at_utc": "2026-10-08T17:06:00Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        },
+        {
+          "url": "https://www.meti.go.jp/main/yosan/yosan_fy2026/index.html",
+          "retrieved_at_utc": "2026-10-08T17:06:03Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        }
+      ],
+      "next_steps": [
+        "同条件で再試行せず、環境条件や公式掲載先の変更を確認した場合に再調査する。",
+        "2025/2026年度の交付決定・実績・評価を区別して原本照合する。"
+      ],
+      "checked_at": "2026-10-09",
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "ministry": "内閣府",
+      "status": "今回の現行案内は従来サイト・採択候補404継続",
+      "source_ids": [
+        "retrieval-followup-cao-policy"
+      ],
+      "requested_url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "note": "現行政策ページは取得成功し、地方創生リンクが従来のchisou総合サイトを案内すると原本確認。案内先と2025/2026採択候補を各1回確認し404。移転・非公表・地域配分ゼロを認定せず、URL推測や同条件の再試行を打ち切った。",
+      "retrieval_attempts": [
+        {
+          "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/pdf/r8_suishin_1.pdf",
+          "retrieved_at_utc": "2026-10-08T17:06:00Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 404,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        },
+        {
+          "url": "https://www.cao.go.jp/seisaku/seisaku.html",
+          "retrieved_at_utc": "2026-10-08T17:06:01Z",
+          "status": "downloaded",
+          "http_status": 200,
+          "final_url": "https://www.cao.go.jp/seisaku/seisaku.html",
+          "bytes": 16731,
+          "sha256_original": "00e9164eeb49a7496229e2eec686972ca0397bc7d5859600e0e7971475d0382e",
+          "content_type": "text/html",
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        },
+        {
+          "url": "https://www.chisou.go.jp/sousei/index.html",
+          "retrieved_at_utc": "2026-10-08T17:07:03Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 404,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        },
+        {
+          "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/saitaku_hosei2_tosyo_r7.pdf",
+          "retrieved_at_utc": "2026-10-08T17:07:04Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 404,
+          "network_observation": {
+            "observed_at_utc": null,
+            "spec_revision": "3",
+            "observed_spec_revision": "3",
+            "observations_current": true,
+            "network_policy_mode": "unrestricted",
+            "network_policy_state": "unknown",
+            "runtime_http_policy_type": "unrestricted",
+            "proxy_and_tls_preserved": true
+          }
+        }
+      ],
+      "next_steps": [
+        "現行公式ページに新しい原本リンクが確認できた場合に取得する。",
+        "採択原本到達後も補正・当初、採択回、国費・事業費、支出階層を分離する。"
+      ],
+      "checked_at": "2026-10-09",
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "retrieved_at_utc": "2026-10-08T17:05:59Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/",
+      "retrieved_at_utc": "2026-10-08T17:06:00Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/about/chiikimiraikoufukin/suishin/pdf/r8_suishin_1.pdf",
+      "retrieved_at_utc": "2026-10-08T17:06:00Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 404,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "retrieved_at_utc": "2026-10-08T17:06:01Z",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.cao.go.jp/seisaku/seisaku.html",
+      "bytes": 16731,
+      "sha256_original": "00e9164eeb49a7496229e2eec686972ca0397bc7d5859600e0e7971475d0382e",
+      "content_type": "text/html",
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.meti.go.jp/main/yosan/yosan_fy2026/index.html",
+      "retrieved_at_utc": "2026-10-08T17:06:03Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/index.html",
+      "retrieved_at_utc": "2026-10-08T17:07:03Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 404,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/saitaku_hosei2_tosyo_r7.pdf",
+      "retrieved_at_utc": "2026-10-08T17:07:04Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 404,
+      "network_observation": {
+        "observed_at_utc": null,
+        "spec_revision": "3",
+        "observed_spec_revision": "3",
+        "observations_current": true,
+        "network_policy_mode": "unrestricted",
+        "network_policy_state": "unknown",
+        "runtime_http_policy_type": "unrestricted",
+        "proxy_and_tls_preserved": true
+      }
+    }
+  ],
+  "network_observation": {
+    "observed_at_utc": null,
+    "spec_revision": "3",
+    "observed_spec_revision": "3",
+    "observations_current": true,
+    "network_policy_mode": "unrestricted",
+    "network_policy_state": "unknown",
+    "runtime_http_policy_type": "unrestricted",
+    "proxy_and_tls_preserved": true
+  },
+  "search_provenance": {
+    "provider": "Exa",
+    "checked_at": "2026-10-09",
+    "purpose": "現行公式掲載先の探索のみ。検索結果は数値照合・原本未掲載の証明に使わない。",
+    "original_substitution": false
+  },
+  "limitations": [
+    "ポリシー適用状態unknownは適用済みと認定しない。実際の取得成功・失敗を別記録にする。"
+  ],
+  "subsequent_network_observation": {
+    "observed_at_utc": "2026-10-08T17:08:18Z",
+    "spec_revision": "3",
+    "observed_spec_revision": "3",
+    "observations_current": true,
+    "network_policy_mode": "unrestricted",
+    "network_policy_state": "enforced",
+    "runtime_http_policy_type": "unrestricted",
+    "note": "取得試行後の状態確認。先行unknown状態の取得に遡及しない。同じunrestricted設定で取得実測は既にあるため追加再試行を行わない。"
+  }
+}

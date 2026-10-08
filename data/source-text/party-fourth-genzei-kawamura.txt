@@ -1,0 +1,1 @@
+{"chamber": "衆議院", "district": "愛知1", "name": "河村たかし", "original_location": "HTML .name ruby（rt除外）/.position/主な役職/党代表表示", "party": "減税日本", "role": "代表"}

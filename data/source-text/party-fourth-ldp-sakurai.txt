@@ -1,0 +1,1 @@
+{"chamber": "参議院", "district": "宮城県", "identity_excerpt": "「思い出の一枚」櫻井充参議院議員", "name": "櫻井充", "original_location": "党本人プロフィール h1・選挙区表・本人関連記事 h3正式名/参議院議員", "party": "自由民主党", "profile_heading": "桜井充"}

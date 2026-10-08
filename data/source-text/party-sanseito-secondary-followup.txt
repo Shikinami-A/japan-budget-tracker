@@ -1,0 +1,1 @@
+{"chamber": "参議院", "current_chamber_field": "参議院議員（全国比例）", "elected_district": "全国比例", "name": "神谷 宗幣", "original_key": "sanseito-secondary", "original_location": "JSON array[0] id=board01 所属議会/選挙区分/名前大", "party": "参政党"}

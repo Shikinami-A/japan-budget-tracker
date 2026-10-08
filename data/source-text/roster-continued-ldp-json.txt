@@ -1,0 +1,2 @@
+{"chamber": "衆議院", "name": "栗原渉", "original_location": "JSON array[77] id=209063", "party": "自由民主党", "prefecture": "福岡県第5区", "profile_url": "https://www.jimin.jp/member/209063.html", "prs": "", "reading": "くりはらわたる", "status_label": "衆議院議員"}
+{"chamber": "衆議院", "name": "藤井ひさゆき", "original_location": "JSON array[276] id=102132", "party": "自由民主党", "prefecture": "兵庫県第4区", "profile_url": "https://www.jimin.jp/member/102132.html", "prs": "", "reading": "ふじいひさゆき", "status_label": "衆議院議員"}

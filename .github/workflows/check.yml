@@ -1,0 +1,22 @@
+name: Validate public budget data
+on:
+  pull_request:
+  push:
+    branches: [main, work]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6; verified 2026-10-08
+        with:
+          persist-credentials: false
+      - name: Rebuild and validate without network or dependencies
+        run: |
+          python3 scripts/build_data.py
+          git diff --exit-code -- public/data.json
+          node --test tests/*.test.mjs
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          python3 scripts/validate_data.py

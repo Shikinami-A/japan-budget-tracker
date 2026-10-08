@@ -1,0 +1,1172 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "note": "総務省の現行区割り入口と公式PDF。郡内町村の個別所属は推定しない。配分決定時点の境界・議員・党籍は別確認。",
+  "sources": [
+    {
+      "id": "roster-continued-mic-boundaries",
+      "url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/shu_kuwari/shu_kuwari_4.html",
+      "filename": "roster-continued-mic-boundaries.txt",
+      "title": "総務省：衆院小選挙区改定法と愛知県区域原本",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "4dd54ab0bedad461077c7676a6aa9a55cbe1c9081c2510a3757952d279ef9f35",
+      "original": {
+        "source_id": "mic-boundaries",
+        "url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/shu_kuwari/shu_kuwari_4.html",
+        "final_url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/shu_kuwari/shu_kuwari_4.html",
+        "retrieved_at_utc": "2026-10-08T17:08:43.369880+00:00",
+        "bytes": 62757,
+        "sha256_original": "78d1e9245a7c4e0a796a29d4945e7bb5c7da8fbe14410132ee39282294ec10a5",
+        "content_type": "text/html",
+        "download_status": "downloaded"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    },
+    {
+      "id": "roster-continued-mic-aichi-boundaries",
+      "url": "https://www.soumu.go.jp/main_content/000853828.pdf",
+      "filename": "roster-continued-mic-aichi-boundaries.txt",
+      "title": "総務省公式PDF：愛知県16小選挙区の区域",
+      "as_of": null,
+      "checked_at": "2026-10-09",
+      "sha256": "7dbd8580b890bdaf0e343d9b210e68d0fe326b8b85074437390e84f65232f806",
+      "original": {
+        "source_id": "mic-aichi-boundaries",
+        "url": "https://www.soumu.go.jp/main_content/000853828.pdf",
+        "final_url": "https://www.soumu.go.jp/main_content/000853828.pdf",
+        "retrieved_at_utc": "2026-10-08T17:09:15.457476+00:00",
+        "bytes": 620496,
+        "sha256_original": "046039d270b1435e49f8b9a488201c2447aa4e299bb9f80cb1483865c0d2d470",
+        "content_type": "application/pdf",
+        "download_status": "downloaded"
+      },
+      "method": "公式原本の氏名・院・選挙区・事象を独立抽出。会派は党籍に読み替えない。"
+    }
+  ],
+  "originals": [
+    {
+      "source_id": "mic-boundaries",
+      "url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/shu_kuwari/shu_kuwari_4.html",
+      "final_url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/senkyo/shu_kuwari/shu_kuwari_4.html",
+      "retrieved_at_utc": "2026-10-08T17:08:43.369880+00:00",
+      "bytes": 62757,
+      "sha256_original": "78d1e9245a7c4e0a796a29d4945e7bb5c7da8fbe14410132ee39282294ec10a5",
+      "content_type": "text/html",
+      "download_status": "downloaded"
+    },
+    {
+      "source_id": "mic-aichi-boundaries",
+      "url": "https://www.soumu.go.jp/main_content/000853828.pdf",
+      "final_url": "https://www.soumu.go.jp/main_content/000853828.pdf",
+      "retrieved_at_utc": "2026-10-08T17:09:15.457476+00:00",
+      "bytes": 620496,
+      "sha256_original": "046039d270b1435e49f8b9a488201c2447aa4e299bb9f80cb1483865c0d2d470",
+      "content_type": "application/pdf",
+      "download_status": "downloaded"
+    }
+  ],
+  "mappings": [
+    {
+      "prefecture": "愛知県",
+      "municipality": "名古屋市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知1",
+        "愛知2",
+        "愛知3",
+        "愛知4",
+        "愛知5"
+      ],
+      "coverage": "municipality_split",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": [
+        {
+          "district": "愛知1",
+          "area": "名古屋市東区、名古屋市北区、名古屋市西区、名古屋市中区"
+        },
+        {
+          "district": "愛知2",
+          "area": "名古屋市千種区、名古屋市守山区、名古屋市名東区"
+        },
+        {
+          "district": "愛知3",
+          "area": "名古屋市昭和区、名古屋市緑区、名古屋市天白区"
+        },
+        {
+          "district": "愛知4",
+          "area": "名古屋市瑞穂区、名古屋市熱田区、名古屋市港区、名古屋市南区"
+        },
+        {
+          "district": "愛知5",
+          "area": "名古屋市中村区、名古屋市中川区"
+        }
+      ],
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 1,
+          "original_location": "PDF p.1 第１区 区域列",
+          "municipality_label": "名古屋市東区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 1,
+          "original_location": "PDF p.1 第１区 区域列",
+          "municipality_label": "名古屋市北区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 1,
+          "original_location": "PDF p.1 第１区 区域列",
+          "municipality_label": "名古屋市西区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 1,
+          "original_location": "PDF p.1 第１区 区域列",
+          "municipality_label": "名古屋市中区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 2,
+          "original_location": "PDF p.1 第２区 区域列",
+          "municipality_label": "名古屋市千種区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 2,
+          "original_location": "PDF p.1 第２区 区域列",
+          "municipality_label": "名古屋市守山区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 2,
+          "original_location": "PDF p.1 第２区 区域列",
+          "municipality_label": "名古屋市名東区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 3,
+          "original_location": "PDF p.1 第３区 区域列",
+          "municipality_label": "名古屋市昭和区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 3,
+          "original_location": "PDF p.1 第３区 区域列",
+          "municipality_label": "名古屋市緑区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 3,
+          "original_location": "PDF p.1 第３区 区域列",
+          "municipality_label": "名古屋市天白区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 4,
+          "original_location": "PDF p.1 第４区 区域列",
+          "municipality_label": "名古屋市瑞穂区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 4,
+          "original_location": "PDF p.1 第４区 区域列",
+          "municipality_label": "名古屋市熱田区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 4,
+          "original_location": "PDF p.1 第４区 区域列",
+          "municipality_label": "名古屋市港区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 4,
+          "original_location": "PDF p.1 第４区 区域列",
+          "municipality_label": "名古屋市南区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 5,
+          "original_location": "PDF p.1 第５区 区域列",
+          "municipality_label": "名古屋市中村区"
+        },
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 5,
+          "original_location": "PDF p.1 第５区 区域列",
+          "municipality_label": "名古屋市中川区"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "清須市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知5"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 5,
+          "original_location": "PDF p.1 第５区 区域列",
+          "municipality_label": "清須市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "瀬戸市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知6"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 6,
+          "original_location": "PDF p.1 第６区 区域列",
+          "municipality_label": "瀬戸市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "春日井市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知6"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 6,
+          "original_location": "PDF p.1 第６区 区域列",
+          "municipality_label": "春日井市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "大府市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知7"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 7,
+          "original_location": "PDF p.1 第７区 区域列",
+          "municipality_label": "大府市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "尾張旭市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知7"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 7,
+          "original_location": "PDF p.1 第７区 区域列",
+          "municipality_label": "尾張旭市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "豊明市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知7"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 7,
+          "original_location": "PDF p.1 第７区 区域列",
+          "municipality_label": "豊明市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "日進市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知7"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 7,
+          "original_location": "PDF p.1 第７区 区域列",
+          "municipality_label": "日進市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "長久手市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知7"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 7,
+          "original_location": "PDF p.1 第７区 区域列",
+          "municipality_label": "長久手市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "半田市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知8"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 8,
+          "original_location": "PDF p.1 第８区 区域列",
+          "municipality_label": "半田市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "常滑市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知8"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 8,
+          "original_location": "PDF p.1 第８区 区域列",
+          "municipality_label": "常滑市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "東海市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知8"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 8,
+          "original_location": "PDF p.1 第８区 区域列",
+          "municipality_label": "東海市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "知多市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知8"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 8,
+          "original_location": "PDF p.1 第８区 区域列",
+          "municipality_label": "知多市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "津島市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知9"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 9,
+          "original_location": "PDF p.1 第９区 区域列",
+          "municipality_label": "津島市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "稲沢市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知9"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 9,
+          "original_location": "PDF p.1 第９区 区域列",
+          "municipality_label": "稲沢市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "愛西市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知9"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 9,
+          "original_location": "PDF p.1 第９区 区域列",
+          "municipality_label": "愛西市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "弥富市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知9"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 9,
+          "original_location": "PDF p.1 第９区 区域列",
+          "municipality_label": "弥富市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "あま市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知9"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 9,
+          "original_location": "PDF p.1 第９区 区域列",
+          "municipality_label": "あま市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "一宮市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知10"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 10,
+          "original_location": "PDF p.1 第10区 区域列",
+          "municipality_label": "一宮市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "岩倉市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知10"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 10,
+          "original_location": "PDF p.1 第10区 区域列",
+          "municipality_label": "岩倉市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "豊田市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知11"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 11,
+          "original_location": "PDF p.1 第11区 区域列",
+          "municipality_label": "豊田市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "みよし市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知11"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 11,
+          "original_location": "PDF p.1 第11区 区域列",
+          "municipality_label": "みよし市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "岡崎市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知12"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 12,
+          "original_location": "PDF p.1 第12区 区域列",
+          "municipality_label": "岡崎市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "西尾市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知12"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 12,
+          "original_location": "PDF p.1 第12区 区域列",
+          "municipality_label": "西尾市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "碧南市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知13"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 13,
+          "original_location": "PDF p.1 第13区 区域列",
+          "municipality_label": "碧南市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "刈谷市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知13"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 13,
+          "original_location": "PDF p.1 第13区 区域列",
+          "municipality_label": "刈谷市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "安城市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知13"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 13,
+          "original_location": "PDF p.1 第13区 区域列",
+          "municipality_label": "安城市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "知立市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知13"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 13,
+          "original_location": "PDF p.1 第13区 区域列",
+          "municipality_label": "知立市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "高浜市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知13"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 13,
+          "original_location": "PDF p.1 第13区 区域列",
+          "municipality_label": "高浜市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "豊川市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知14"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 14,
+          "original_location": "PDF p.1 第14区 区域列",
+          "municipality_label": "豊川市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "蒲郡市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知14"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 14,
+          "original_location": "PDF p.1 第14区 区域列",
+          "municipality_label": "蒲郡市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "新城市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知14"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 14,
+          "original_location": "PDF p.1 第14区 区域列",
+          "municipality_label": "新城市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "豊橋市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知15"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 15,
+          "original_location": "PDF p.1 第15区 区域列",
+          "municipality_label": "豊橋市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "田原市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知15"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 15,
+          "original_location": "PDF p.1 第15区 区域列",
+          "municipality_label": "田原市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "犬山市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知16"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 16,
+          "original_location": "PDF p.1 第16区 区域列",
+          "municipality_label": "犬山市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "江南市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知16"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 16,
+          "original_location": "PDF p.1 第16区 区域列",
+          "municipality_label": "江南市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "小牧市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知16"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 16,
+          "original_location": "PDF p.1 第16区 区域列",
+          "municipality_label": "小牧市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    },
+    {
+      "prefecture": "愛知県",
+      "municipality": "北名古屋市",
+      "municipality_code": null,
+      "chamber": "衆議院",
+      "election_type": "小選挙区",
+      "districts": [
+        "愛知16"
+      ],
+      "coverage": "municipality_whole",
+      "as_of": null,
+      "effective_from": "2022-12-28",
+      "source_id": "roster-continued-mic-aichi-boundaries",
+      "boundary_detail": null,
+      "evidence": [
+        {
+          "source_id": "roster-continued-mic-aichi-boundaries",
+          "excerpt_line": 16,
+          "original_location": "PDF p.1 第16区 区域列",
+          "municipality_label": "北名古屋市"
+        }
+      ],
+      "note": "総務省現行区域原本。市全体配分を区へ按分しない。配分決定時点の境界と議員は未照合。"
+    }
+  ],
+  "issues": [
+    {
+      "status": "原本に町村個別非掲載",
+      "county_observations": [
+        {
+          "county": "愛知郡",
+          "district": "愛知7",
+          "excerpt_line": 7
+        },
+        {
+          "county": "知多郡",
+          "district": "愛知8",
+          "excerpt_line": 8
+        },
+        {
+          "county": "海部郡",
+          "district": "愛知9",
+          "excerpt_line": 9
+        },
+        {
+          "county": "額田郡",
+          "district": "愛知14",
+          "excerpt_line": 14
+        },
+        {
+          "county": "北設楽郡",
+          "district": "愛知14",
+          "excerpt_line": 14
+        },
+        {
+          "county": "西春日井郡",
+          "district": "愛知16",
+          "excerpt_line": 16
+        },
+        {
+          "county": "丹羽郡",
+          "district": "愛知16",
+          "excerpt_line": 16
+        }
+      ],
+      "reason": "区域表は郡名まで。郡内町村所属の独立資料未照合のため各町村へ展開しない。"
+    },
+    {
+      "status": "取得不能",
+      "source_url": "https://www.pref.aichi.jp/soshiki/senkyo/0000022887.html",
+      "retrieval_attempt_source_id": "aichi-boundaries",
+      "http_status": 302,
+      "prior_observation": {
+        "http_status": 403,
+        "retrieved_at_utc": null,
+        "policy_enforcement_state": "unknown",
+        "note": "通信適用状態更新前の観測。正確な取得時刻は未保存のためnull。"
+      },
+      "reason": "通信状態の更新前はHTTP403、更新後の一巡はHTTP302で取得未完了。302の原因は未確定。総務省別原本の取得成功と区別し、県原本との相互照合は未完了。"
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "source_id": "aichi-boundaries",
+      "url": "https://www.pref.aichi.jp/soshiki/senkyo/0000022887.html",
+      "retrieved_at_utc": "2026-10-08T17:13:53.746035+00:00",
+      "download_status": "blocked_or_failed",
+      "failure_category": "http_error",
+      "http_status": 302
+    }
+  ],
+  "stats": {
+    "municipalities": 38,
+    "whole_municipalities": 37,
+    "split_municipalities": 1,
+    "wards": 16,
+    "district_records": 16,
+    "unexpanded_counties": 7
+  }
+}
