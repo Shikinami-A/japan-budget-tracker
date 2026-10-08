@@ -55,7 +55,7 @@ function render() {
       (b.analysis.pct === null ? -1 : Math.abs(b.analysis.pct)) - (a.analysis.pct === null ? -1 : Math.abs(a.analysis.pct))));
   page = Math.min(page, Math.max(0, Math.ceil(visible.length / pageSize)-1));
   const notes = {
-    regional: '地域配分の収載制度は一部です。同制度の合計増減率は、比較可能な収載行を金額で加重して計算します。全国予算全体の増減率ではありません。合計・内訳の重複行は合算しません。',
+    regional: '地域配分の収載制度は一部です。道路補助・直轄の事業費は地方負担を含み、交付金の国費と合算しません。同制度の合計増減率は比較可能な収載行を金額で加重して計算します。全国予算全体の増減率ではありません。合計・内訳の重複行は合算しません。',
     national: '一般会計の成立当初予算を比較。2025年度は修正成立後、2026年度は政府案どおり成立。所管総額には外局などを含み、地域の配分を直接示す値ではありません。特別会計は別表示。',
     special: '14特別会計の34勘定等を当初予算の歳出欄で比較。2025年度は括弧内の当初額を使用。繰入・国債償還などを含む総計で、一般会計や他の勘定と足すと二重計上になります。府省別・地域別の分解は未照合。',
     execution: '両年度の4〜6月の支出済歳出額を比較。2026年度第2四半期の表は今回確認した公表資料にありません。年間決算と四半期の執行額は比較しません。防災庁のダッシュはゼロとして収載していません。',
@@ -91,6 +91,7 @@ function renderRows() {
     const delta = el('td',r.analysis.label,`number ${r.analysis.pct < 0 ? 'decrease' : 'increase'}`);
     delta.append(el('small',r.analysis.delta === null ? '' : `${r.analysis.delta >= 0 ? '+' : ''}${amount(r.analysis.delta)} 百万円`));
     const status = el('td'); status.append(el('span',r.analysis.candidate ? '確認候補' : r.comparability === '同範囲' ? 'しきい値未満' : '比較条件を確認',`badge ${r.analysis.candidate ? 'candidate' : ''}`));
+    status.append(el('small',r.evidence_status));
     if (r.explanation) status.append(el('small',r.explanation_status));
     if (r.analysis.peer !== null) status.append(el('small',`同制度合計：${r.analysis.peer.toFixed(1)}%`));
     const politicians = el('td'); const all = rowMembers(r);
@@ -113,14 +114,22 @@ function renderRows() {
 function sourceBlock(id) {
   const s = data.sources.find(v=>v.id===id); const block=el('section');
   if (!s) { block.append(el('p','出典未取得'));return block; }
-  block.append(link(s.title+' ↗',s.url),el('p',`${s.locator} / 公表日：${s.published ?? '未確認'} / 本文取得：${s.accessed}`,'muted'));
-  const detail=el('details');detail.append(el('summary','確認した本文・抽出テキストのハッシュ'),el('pre',s.excerpt),el('small',`SHA-256（原本ファイルのハッシュではありません）：${s.sha256_extracted_text}`));block.append(detail);return block;
+  block.append(link(s.title+' ↗',s.url),el('p',`${s.locator} / 公表日：${s.published ?? '未確認'} / 本文取得：${s.accessed} / ${s.retrieved_via}`,'muted'));
+  if(s.published_verification)block.append(el('small',`公表日の確認範囲：${s.published_verification}`));
+  const detail=el('details');detail.append(el('summary','確認した本文・抽出テキストのハッシュ'),el('pre',s.excerpt),el('small',`SHA-256（原本ファイルのハッシュではありません）：${s.sha256_extracted_text}`));block.append(detail);
+  if (s.original) {
+    const o=s.original, receipt=el('details');receipt.className='original-receipt';
+    receipt.append(el('summary','原本の取得・照合記録'),el('p',`取得日時（UTC）：${o.retrieved_at_utc} / ${number.format(o.bytes)} bytes / ${o.content_type}`),el('small',`SHA-256（原本ファイル）：${o.sha256_original}`));
+    for(const v of o.verifications)receipt.append(el('p',`${v.status==='matched'?'指定範囲を照合済み':'取得済み・数値照合なし'} / ${v.locator} / 照合日：${v.checked_at}`),el('small',v.method));
+    block.append(receipt);
+  } else block.append(el('small','原本取得・照合記録は未収載。'));
+  return block;
 }
 function showDetail(row) {
   const r={...row,analysis:screen(row,data.rows,thresholds())}, content=$('detail-content');content.replaceChildren();
   content.append(el('h2',`${r.region} / ${r.program}`),el('p',`${r.ministry}・${r.account}・${r.basis}・${r.scope ?? ''}`),
     el('p',`${r.period2025}：${amount(r.amount2025)} → ${r.period2026}：${amount(r.amount2026)} 百万円 / ${r.analysis.label}`),
-    el('p',r.note),el('p',`比較条件：${r.comparability} / 精度：${r.precision ?? '出典単位から換算'}`,'muted'));
+    el('p',r.note),el('p',`比較条件：${r.comparability} / ${r.evidence_status} / 精度：${r.precision ?? '出典単位から換算'}`,'muted'));
   if (r.published_change_pct !== undefined) content.append(el('p','増減率は国交省の公表値。表示金額が丸められているため、表示金額からの計算と端数が異なります。','muted'));
   if (r.plans2025 !== undefined) content.append(el('p',`計画件数：${r.plans2025} → ${r.plans2026} 件`));
   content.append(el('h3','次に確認すること'),el('p',r.analysis.reasons.join(' / ')||'設定したしきい値に達していません。'));
@@ -155,12 +164,13 @@ function renderCoverage() {
   }));
 }
 function exportCSV() {
-  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','unit','comparability'];
-  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence']).map(csvCell).join(',')];
+  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','unit','comparability','evidence_status','note'];
+  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence']).map(csvCell).join(',')];
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
     csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell([...r.source_ids,...r.explanation_source_ids??[]].map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
-    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,roster_as_of:m.as_of,roster_url:m.source_url,party_status:m.party_status,party_evidence:m.party_evidence}))))]).join(','));
+    csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,roster_as_of:m.as_of,roster_url:m.source_url,party_status:m.party_status,party_evidence:m.party_evidence})))),
+    csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]}))))]).join(','));
   const blob=new Blob(['\uFEFF',lines.join('\r\n')],{type:'text/csv;charset=utf-8'}),u=URL.createObjectURL(blob),a=el('a');a.href=u;a.download=`budget-${view}-${data.as_of}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 async function start() {
@@ -172,7 +182,7 @@ async function start() {
     $('limits-list').replaceChildren(...data.limitations.map(t=>el('li',t)));
     const parties=data.legislators.filter(m=>m.party!==null).length;
     $('coverage-summary').textContent=`収載：${data.rows.length}比較レコード、議員名簿${data.legislators.length}人（衆議院464人、参議院247人の抽出本文）。選挙区未取得23人。所属党の一次資料照合：${parties}人。`;
-    $('source-count').textContent=`公式出典 ${data.sources.length}件。`;
+    $('source-count').textContent=`公式出典 ${data.sources.length}件。両年度の原本数値照合 ${data.original_coverage.fully_verified_comparison_rows} / ${data.rows.length}行。`;
     for(const id of ['prefecture','ministry','program','query','pct','amount','gap','candidate-only','sort'])$(id).addEventListener(id==='query'?'input':'change',()=>{page=0;render();});
     document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;page=0;$('candidate-only').checked=false;render();});
     $('prev').onclick=()=>{page--;renderRows();};$('next').onclick=()=>{page++;renderRows();};

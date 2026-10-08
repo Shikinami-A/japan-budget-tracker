@@ -28,6 +28,9 @@ with sync_playwright() as p:
     assert '渡辺真太朗' in page.locator('#detail-content').inner_text()
     page.locator('#detail-content details summary').first.click()
     assert '原本ファイルのハッシュではありません' in page.locator('#detail-content').inner_text()
+    page.locator('#detail-content .original-receipt summary').first.click()
+    assert 'SHA-256（原本ファイル）' in page.locator('#detail-content').inner_text()
+    assert '原本数値照合済み' in page.locator('#detail-content').inner_text()
     page.keyboard.press('Escape')
     page.click('#reset')
     page.select_option('#prefecture','愛知県')
@@ -40,6 +43,27 @@ with sync_playwright() as p:
     downloaded=download.value;downloaded.save_as(str(OUT/'export.csv'))
     assert 'aichi.jp' in (OUT/'export.csv').read_text(encoding='utf-8-sig')
     assert 'legislator_evidence' in (OUT/'export.csv').read_text(encoding='utf-8-sig')
+    page.click('#reset')
+    page.select_option('#prefecture','静岡県')
+    page.select_option('#program','農山漁村地域整備交付金')
+    assert page.locator('#row-count').inner_text()=='1'
+    assert '2,376' in page.locator('#rows').inner_text()
+    page.click('#reset')
+    page.select_option('#program','道路関係補助事業（事業費・国費ではない）')
+    assert page.locator('#row-count').inner_text()=='47'
+    with page.expect_download() as download:
+        page.click('#export')
+    download.value.save_as(str(OUT/'road-export.csv'))
+    exported=(OUT/'road-export.csv').read_text(encoding='utf-8-sig')
+    assert 'sha256_original' in exported and '地方負担' in exported
+    assert '道路関係直轄事業' not in exported
+    page.select_option('#program','道路関係直轄事業（事業費・国費ではない）')
+    assert page.locator('#row-count').inner_text()=='10'
+    page.locator('#rows button').first.click()
+    assert '地域への割当なし' in page.locator('#detail-content').inner_text()
+    assert '原本数値照合済み' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
+    page.click('#reset')
     page.click('[data-view=national]')
     assert page.locator('#row-count').inner_text()=='19'
     page.click('[data-view=special]')

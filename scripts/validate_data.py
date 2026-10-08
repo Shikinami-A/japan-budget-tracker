@@ -2,6 +2,7 @@
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 from urllib.parse import urlsplit
 from party_sources import PARTIES
@@ -20,6 +21,13 @@ for s in sources.values():
     else:
         assert u.hostname.endswith(('.go.jp','.lg.jp')) or u.hostname=='www.pref.aichi.jp', s['url']
     assert hashlib.sha256(s['excerpt'].encode()).hexdigest()==s['sha256_extracted_text']
+    if 'original' in s:
+        o=s['original']
+        assert o['url']==s['url'] and o['status']=='downloaded'
+        assert re.fullmatch(r'[0-9a-f]{64}',o['sha256_original'])
+        assert o['sha256_original']!=s['sha256_extracted_text']
+        assert isinstance(o['bytes'],int) and o['bytes']>0
+        assert o['retrieved_at_utc'] and o['final_url'].startswith('https://')
 assert len({r['id'] for r in d['rows']})==len(d['rows'])
 for r in d['rows']:
     assert r['unit']=='百万円'
@@ -30,6 +38,20 @@ for r in d['rows']:
     if r['comparability']=='同範囲':
         assert r['amount2025'] is not None and r['amount2026'] is not None
     if r['prefecture'] is not None: assert r['prefecture'] in d['prefectures']
+    verified=set()
+    for sid in r['source_ids']:
+        for v in sources[sid].get('original',{}).get('verifications',[]):
+            if v['status']=='matched' and r['id'] in v['row_ids']:verified.update(v['fields'])
+    assert set(r.get('original_verified_fields',[]))==verified & {'amount2025','amount2026'},r['id']
+    if r['evidence_status']=='原本数値照合済み':
+        assert {'amount2025','amount2026'}<=verified and r['amount2025'] is not None and r['amount2026'] is not None,r['id']
+    if r['basis']=='当初配分（事業費）':
+        assert '事業費' in r['program'] and '国費' in r['note']
+        assert r['account']=='会計別未分解'
+        if r['scope'].startswith('地方支分部局'):assert r['prefecture'] is None
+
+assert d['original_coverage']['sources_with_original']==sum('original' in s for s in sources.values())
+assert d['original_coverage']['fully_verified_comparison_rows']==sum(r['evidence_status']=='原本数値照合済み' for r in d['rows'])
 
 def reconcile(basis, field, expected, tolerance=0.002):
     rows=[r for r in d['rows'] if r['region']=='全国' and r['account']=='一般会計' and r['basis']==basis]

@@ -4,10 +4,12 @@ import json
 import re
 from pathlib import Path
 from party_sources import apply_party_rosters
+from original_sources import apply_originals
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / 'data' / 'source-text'
-DATE = '2026-10-08'
+DATE = '2026-10-09'
+EXTRACT_DATE = '2026-10-08'
 PREFS = '北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県'.split()
 SHORT = {p if p == '北海道' else p[:-1]: p for p in PREFS}
 SOURCES = []
@@ -19,8 +21,8 @@ def source(id, file, title, url, locator, excerpt=None, published=None, kind='�
     text = excerpt if excerpt is not None else raw
     # Only selected public evidence, not entire reports, personal contacts or news copies.
     SOURCES.append(dict(id=id, title=title, url=url, locator=locator, kind=kind,
-                        accessed=DATE, published=published,
-                        retrieved_via='Exaによる公式本文抽出',
+                        accessed=DATE if id=='maff-2026-49' else EXTRACT_DATE, published=published,
+                        retrieved_via='公式原本PDFから該当表を抽出' if id=='maff-2026-49' else 'Exaによる公式本文抽出',
                         sha256_extracted_text=hashlib.sha256(text.encode()).hexdigest(),
                         excerpt=text))
     return raw
@@ -70,7 +72,8 @@ def main():
             row(f'national-{len(ROWS)}', name, '所管総額', '全国', basis,
                 old / 1000, vals[0] / 1000, ['mof-initial', 'mof-enacted'],
                 comparability='同範囲' if basis == '当初予算' else '参考・非対称比較',
-                note='一般会計のみ。内閣府にはこども家庭庁などを含む。特別会計・地域配分は別枠。')
+                note='一般会計のみ。内閣府にはこども家庭庁などを含む。特別会計・地域配分は別枠。'+
+                     (' 2025年度は防災庁の独立所管項目がないため前年0。防災施策全体の予算や支出が0という意味ではない。' if name=='防災庁' else ''))
     special=(RAW/'special-accounts.txt').read_text()
     source('mof-special','special-accounts.txt','2026年度予算説明：特別会計歳入歳出予算',
            'https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/tousyoyosetsu.pdf',
@@ -198,7 +201,7 @@ def main():
         t=(RAW/file).read_text(); start=t.index('|')
         id=f'care-{year}';url=f'https://www.mhlw.go.jp/content/{"12300000/001585303" if year==2025 else "001715704"}.pdf'
         source(id,file,f'{year}年度地域介護・福祉空間整備等施設整備交付金：一次協議',url,
-               '都道府県分、計画数・内示額（千円）。指定都市・中核市は別枠。',t[start:],
+               '都道府県分、計画数と'+('内示額' if year==2025 else '計画額')+'（千円）。指定都市・中核市は別枠。',t[start:],
                '2025-10-24' if year==2025 else '2026-06-26')
         out={}
         for l in t[start:].splitlines():
@@ -213,10 +216,10 @@ def main():
     a=care('source-9-2.txt',2025);b=care('source-9-1.txt',2026)
     for p in PREFS:
         row(f'care-{p}','厚生労働省','地域介護・福祉空間整備等施設整備交付金',p,
-            '一次協議内示（公表時点差）',a[p][0],b[p][0],['care-2025','care-2026'],
+            '一次協議内示（公表・更新時点差）',a[p][0],b[p][0],['care-2025','care-2026'],
             scope='都道府県分（指定都市・中核市を除く）',plans2025=a[p][1],plans2026=b[p][1],
             comparability='参考・更新時点差',
-            note='2025年10月24日更新と2026年6月26日公表。補正予算・国土強靱化対策を含むため、当初予算比較には使わない。計画件数・採択段階・完了の確認が必要。')
+            note='2025年10月24日更新の内示額と2026年度一次協議の計画額を参考比較。2025原本は従前内示からの変更箇所を明記。2026原本は国土強靱化対策分を内数として掲載。金額列の名称と更新時点が異なり、当初予算額や執行額として扱わない。計画件数・採択段階・完了の確認が必要。')
 
     def defense(file,year):
         t=(RAW/file).read_text();id=f'defense-{year}'
@@ -235,7 +238,7 @@ def main():
     a=defense('source-11-1.txt',2025);b=defense('source-11-0.txt',2026)
     for (p,city) in sorted(a.keys()|b.keys()):
         row(f'defense-{p}-{city}','防衛省','特定防衛施設周辺整備調整交付金',city,
-            '当初実施計画',a.get((p,city)),b.get((p,city)),['defense-2025','defense-2026'],
+            '実施計画',a.get((p,city)),b.get((p,city)),['defense-2025','defense-2026'],
             prefecture=p,scope='市町村分',precision='百万円に丸めた表示値',
             comparability='同範囲' if (p,city) in a and (p,city) in b else '片年度未取得',
             note='防衛施設周辺の実施計画額。新設・施設追加、算定要因、実施計画改定の確認が必要。国会議員の所在と交付金決定の因果は未検証。')
@@ -300,9 +303,24 @@ def main():
             if r['election_type']=='比例代表':
                 r['related_prefectures']=['栃木県']
 
-    party_roster_stats=apply_party_rosters(legislators,RAW,source,DATE)
+    party_roster_stats=apply_party_rosters(legislators,RAW,source,EXTRACT_DATE)
     party_count=sum(m['party'] is not None for m in legislators)
     party_conflicts=sum(m['party_status']=='資料間不一致' for m in legislators)
+
+    # Reviewed source-backed additions and receipts are committed, not inferred
+    # from whatever happens to be present in a local cache.
+    mlit=json.loads((ROOT/'data/reviewed-mlit.json').read_text())
+    SOURCES.extend(mlit['sources']);ROWS.extend(mlit['rows'])
+    structured=json.loads((ROOT/'data/mof-structured-verification.json').read_text())
+    SOURCES.extend(structured['sources'])
+    for r in ROWS:
+        if r['region']=='全国' and r['basis']=='当初予算':
+            category='general' if r['account']=='一般会計' else 'special'
+            r['source_ids'].extend(f'mof-csv-{category}-{year}' for year in (2025,2026))
+    original_coverage=apply_originals(ROOT,SOURCES,ROWS)
+    for s in SOURCES:
+        if s['id'] in ('care-2026','mlit-inquiry'):
+            s['published_verification']='検索抽出時の記録。公表日の掲載頁原本照合は未実施。'
 
     agencies = {
         '内閣':['内閣官房','内閣法制局','人事院'],
@@ -326,11 +344,12 @@ def main():
                     annual2025=dict(spent_million_yen=129466100,source_id='mof-annual-2025',
                                     note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期執行額とは別扱い。'),
                     sources=SOURCES, legislators=legislators,party_roster_stats=party_roster_stats,
+                    original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[
                         '全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。',
-                        '一般会計19所管、特別会計14会計34勘定等、第1四半期支出、一部制度の地域配分を収載。特別会計の府省別・地域別分解は未収載。',
-                        '検索本文は原本ファイルではない。PDF/CSVの原本照合と最新議員名簿の統一時点での取得は未完了。',
+                        '一般会計19所管、特別会計14会計34勘定等、第1四半期支出、一部制度の地域配分を収載。道路の都道府県・地方整備局別事業費を追加。国費と事業費を合算しない。特別会計の府省別・地域別分解は未収載。',
+                        f'原本数値を両年度照合した比較行は{original_coverage["fully_verified_comparison_rows"]}件。原本未掲載の値は欠損のまま残す。抽出本文と原本ファイルのハッシュは別に保存。議員名簿の統一時点での原本照合は未完了。',
                         f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])
     (ROOT/'public'/'data.json').write_text(json.dumps(snapshot, ensure_ascii=False, indent=2)+'\n')

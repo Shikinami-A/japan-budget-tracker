@@ -1,0 +1,1514 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-09",
+  "sources": [
+    {
+      "id": "mof-csv-general-2025",
+      "title": "2025年度一般会計当初予算・歳出CSV（修正成立）",
+      "url": "https://www.bb.mof.go.jp/server/2025/csv/DL202511001.zip",
+      "locator": "DL202511001b.csv、令和7年度要求額(千円)。ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。所管で集計。2025防災庁の0は独立所管の項目不存在を表し、防災施策全体の支出ゼロを示さない。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "財務省公式CSV ZIP原本を直接取得し目別明細から独立集計",
+      "sha256_extracted_text": "2b0c3114463e22f7ccc9cb6e33fcc2435526c0b5e4f4944981f93b60dee3ed7c",
+      "excerpt": "|所管／会計・勘定|歳出（千円）|目別明細数|\n|---|---:|---:|\n|皇室費|11,371,993|11|\n|国会|131,538,232|143|\n|裁判所|335,192,439|79|\n|会計検査院|16,342,468|40|\n|内閣|121,549,836|101|\n|内閣府|5,276,836,463|1024|\n|デジタル庁|475,249,835|38|\n|総務省|19,386,124,379|348|\n|法務省|743,637,952|332|\n|外務省|744,800,654|260|\n|財務省|30,142,573,759|259|\n|文部科学省|5,509,364,688|502|\n|厚生労働省|34,306,422,595|907|\n|農林水産省|2,095,674,574|667|\n|経済産業省|850,598,303|231|\n|国土交通省|6,071,916,829|1325|\n|環境省|309,593,651|295|\n|防衛省|8,669,056,598|218|\n|防災庁（独立所管の項目なし）|0（表示上）|0|\n|計（会計間重複未控除）|115,197,845,248|6780|"
+    },
+    {
+      "id": "mof-csv-special-2025",
+      "title": "2025年度特別会計当初予算・歳出CSV",
+      "url": "https://www.bb.mof.go.jp/server/2025/csv/DL202512001.zip",
+      "locator": "DL202512001b.csv、令和7年度予定額(千円)。ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。特別会計・勘定で集計（勘定空欄は会計総額）。会計間の重複を控除しない歳出総額。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "財務省公式CSV ZIP原本を直接取得し目別明細から独立集計",
+      "sha256_extracted_text": "017783106f7b108b468ea7386782ee708394aa864346aa6d04de92de90437d7e",
+      "excerpt": "|所管／会計・勘定|歳出（千円）|目別明細数|\n|---|---:|---:|\n|交付税及び譲与税配付金|50,719,300,171|22|\n|地震再保険|117,427,430|15|\n|国債整理基金|222,118,500,012|16|\n|外国為替資金|1,545,794,724|23|\n|財政投融資・財政融資資金勘定|21,638,208,346|30|\n|財政投融資・投資勘定|851,790,046|22|\n|財政投融資・特定国有財産整備勘定|4,072,404|13|\n|エネルギー対策・エネルギー需給勘定|2,984,637,341|71|\n|エネルギー対策・電源開発促進勘定|420,929,444|61|\n|エネルギー対策・原子力損害賠償支援勘定|12,169,336,286|3|\n|エネルギー対策・先端半導体・人工知能関連技術勘定|332,800,000|5|\n|労働保険・労災勘定|1,106,427,217|102|\n|労働保険・雇用勘定|2,191,667,055|149|\n|労働保険・徴収勘定|4,257,725,436|33|\n|年金・基礎年金勘定|28,557,395,255|8|\n|年金・国民年金勘定|4,312,450,059|9|\n|年金・厚生年金勘定|52,432,946,234|10|\n|年金・健康勘定|13,768,540,281|4|\n|年金・業務勘定|1,246,216,154|40|\n|子ども・子育て支援・子ども・子育て支援勘定|4,711,372,242|39|\n|子ども・子育て支援・育児休業等給付勘定|1,068,697,363|30|\n|食料安定供給・農業経営安定勘定|247,250,231|5|\n|食料安定供給・食糧管理勘定|939,840,290|10|\n|食料安定供給・農業再保険勘定|96,801,256|6|\n|食料安定供給・漁船再保険勘定|6,878,861|5|\n|食料安定供給・漁業共済保険勘定|11,501,857|6|\n|食料安定供給・業務勘定|24,114,989|26|\n|食料安定供給・国営土地改良事業勘定|8,419,830|25|\n|国有林野事業債務管理|334,695,285|1|\n|特許|154,397,913|51|\n|自動車安全・自動車事故対策勘定|22,290,127|10|\n|自動車安全・自動車検査登録勘定|43,579,760|32|\n|自動車安全・空港整備勘定|388,981,361|88|\n|東日本大震災復興|646,243,623|280|\n|計（会計間重複未控除）|429,481,228,883|1250|"
+    },
+    {
+      "id": "mof-csv-general-2026",
+      "title": "2026年度一般会計当初予算・歳出CSV",
+      "url": "https://www.bb.mof.go.jp/server/2026/csv/DL202611001.zip",
+      "locator": "DL202611001b.csv、令和8年度要求額(千円)。ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。所管で集計。2025防災庁の0は独立所管の項目不存在を表し、防災施策全体の支出ゼロを示さない。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "財務省公式CSV ZIP原本を直接取得し目別明細から独立集計",
+      "sha256_extracted_text": "bba806ac1cdb2ebe6858a2356505dae11e78fa4ec1cdad03576c72cdd60ef656",
+      "excerpt": "|所管／会計・勘定|歳出（千円）|目別明細数|\n|---|---:|---:|\n|皇室費|12,583,203|11|\n|国会|136,495,199|142|\n|裁判所|349,473,805|80|\n|会計検査院|16,927,629|39|\n|内閣|124,131,262|100|\n|内閣府|5,288,994,416|1035|\n|デジタル庁|519,802,203|37|\n|防災庁|2,414,573|16|\n|総務省|21,270,118,420|357|\n|法務省|788,144,531|334|\n|外務省|776,257,612|249|\n|財務省|33,611,603,647|258|\n|文部科学省|5,880,875,949|507|\n|厚生労働省|35,043,329,370|887|\n|農林水産省|2,119,529,574|682|\n|経済産業省|869,445,245|223|\n|国土交通省|6,199,307,524|1320|\n|環境省|315,469,971|300|\n|防衛省|8,984,342,902|213|\n|計（会計間重複未控除）|122,309,247,035|6790|"
+    },
+    {
+      "id": "mof-csv-special-2026",
+      "title": "2026年度特別会計当初予算・歳出CSV",
+      "url": "https://www.bb.mof.go.jp/server/2026/csv/DL202612001.zip",
+      "locator": "DL202612001b.csv、令和8年度予定額(千円)。ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。特別会計・勘定で集計（勘定空欄は会計総額）。会計間の重複を控除しない歳出総額。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+      "kind": "予算・議員資料",
+      "accessed": "2026-10-09",
+      "published": null,
+      "retrieved_via": "財務省公式CSV ZIP原本を直接取得し目別明細から独立集計",
+      "sha256_extracted_text": "bf3f715699a3af4a8458ff1c5f8177719184dd4461a4e86eeca659b253529b31",
+      "excerpt": "|所管／会計・勘定|歳出（千円）|目別明細数|\n|---|---:|---:|\n|交付税及び譲与税配付金|51,065,056,703|26|\n|地震再保険|126,339,766|15|\n|国債整理基金|224,828,567,066|16|\n|外国為替資金|1,973,396,598|23|\n|財政投融資・財政融資資金勘定|26,676,473,344|30|\n|財政投融資・投資勘定|758,500,041|22|\n|財政投融資・特定国有財産整備勘定|4,377,380|13|\n|エネルギー対策・エネルギー需給勘定|3,241,496,260|72|\n|エネルギー対策・電源開発促進勘定|473,227,391|61|\n|エネルギー対策・原子力損害賠償支援勘定|11,967,206,114|5|\n|エネルギー対策・先端半導体・人工知能関連技術勘定|1,239,004,417|9|\n|労働保険・労災勘定|1,122,144,571|102|\n|労働保険・雇用勘定|2,287,590,081|147|\n|労働保険・徴収勘定|4,224,165,321|33|\n|年金・基礎年金勘定|28,980,031,698|8|\n|年金・国民年金勘定|4,238,936,181|9|\n|年金・厚生年金勘定|53,781,662,807|10|\n|年金・健康勘定|14,640,093,254|4|\n|年金・業務勘定|1,285,836,031|40|\n|子ども・子育て支援・子ども・子育て支援勘定|4,796,876,921|41|\n|子ども・子育て支援・育児休業等給付勘定|1,104,257,967|30|\n|食料安定供給・農業経営安定勘定|239,451,358|5|\n|食料安定供給・食糧管理勘定|905,209,426|10|\n|食料安定供給・農業再保険勘定|93,361,649|6|\n|食料安定供給・漁船再保険勘定|6,681,619|5|\n|食料安定供給・漁業共済保険勘定|12,188,667|6|\n|食料安定供給・業務勘定|31,040,437|26|\n|食料安定供給・国営土地改良事業勘定|6,271,017|25|\n|国有林野事業債務管理|330,539,496|1|\n|特許|160,632,536|50|\n|自動車安全・自動車事故対策勘定|23,854,986|10|\n|自動車安全・自動車検査登録勘定|44,581,554|32|\n|自動車安全・空港整備勘定|423,591,419|87|\n|東日本大震災復興|633,368,369|260|\n|計（会計間重複未控除）|441,726,012,445|1239|"
+    }
+  ],
+  "originals": [
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/csv/DL202511001.zip",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/csv/DL202511001.zip",
+      "retrieved_at_utc": "2026-10-08T15:07:14.604299+00:00",
+      "sha256_original": "ad3e482a8c2102f29e8ccd1fc2484b4144650993781cd9c53e2b7a66166cdc2d",
+      "bytes": 163254,
+      "content_type": "application/zip",
+      "path": ".cache/originals/d2fd1273e5b07c21324b60ab52aebf35bf8c766c0184a7a0170f82db368c2993.bin",
+      "source_ids": [
+        "mof-csv-general-2025"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。所管で集計。2025防災庁の0は独立所管の項目不存在を表し、防災施策全体の支出ゼロを示さない。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+        "locator": "DL202511001b.csv / 令和7年度要求額(千円)",
+        "row_ids": [
+          "national-0",
+          "national-2",
+          "national-4",
+          "national-6",
+          "national-8",
+          "national-10",
+          "national-12",
+          "national-14",
+          "national-16",
+          "national-18",
+          "national-20",
+          "national-22",
+          "national-24",
+          "national-26",
+          "national-28",
+          "national-30",
+          "national-32",
+          "national-34",
+          "national-36"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/csv/DL202512001.zip",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/csv/DL202512001.zip",
+      "retrieved_at_utc": "2026-10-08T15:07:15.574320+00:00",
+      "sha256_original": "7332b8691a2fecf625338785d4972f879e45236698fe4a58ea60fdbd17982e15",
+      "bytes": 42492,
+      "content_type": "application/zip",
+      "path": ".cache/originals/8866186f4fc0c85803cff8702282d85f32ea1142aaf575d6d8c4823108b5a3f8.bin",
+      "source_ids": [
+        "mof-csv-special-2025"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。特別会計・勘定で集計（勘定空欄は会計総額）。会計間の重複を控除しない歳出総額。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+        "locator": "DL202512001b.csv / 令和7年度予定額(千円)",
+        "row_ids": [
+          "special-交付税及び譲与税配付金-総額",
+          "special-地震再保険-総額",
+          "special-国債整理基金-総額",
+          "special-外国為替資金-総額",
+          "special-財政投融資-財政融資資金勘定",
+          "special-財政投融資-投資勘定",
+          "special-財政投融資-特定国有財産整備勘定",
+          "special-エネルギー対策-エネルギー需給勘定",
+          "special-エネルギー対策-電源開発促進勘定",
+          "special-エネルギー対策-原子力損害賠償支援勘定",
+          "special-エネルギー対策-先端半導体・人工知能関連技術勘定",
+          "special-労働保険-労災勘定",
+          "special-労働保険-雇用勘定",
+          "special-労働保険-徴収勘定",
+          "special-年金-基礎年金勘定",
+          "special-年金-国民年金勘定",
+          "special-年金-厚生年金勘定",
+          "special-年金-健康勘定",
+          "special-年金-業務勘定",
+          "special-子ども・子育て支援-子ども・子育て支援勘定",
+          "special-子ども・子育て支援-育児休業等給付勘定",
+          "special-食料安定供給-農業経営安定勘定",
+          "special-食料安定供給-食糧管理勘定",
+          "special-食料安定供給-農業再保険勘定",
+          "special-食料安定供給-漁船再保険勘定",
+          "special-食料安定供給-漁業共済保険勘定",
+          "special-食料安定供給-業務勘定",
+          "special-食料安定供給-国営土地改良事業勘定",
+          "special-国有林野事業債務管理-総額",
+          "special-特許-総額",
+          "special-自動車安全-自動車事故対策勘定",
+          "special-自動車安全-自動車検査登録勘定",
+          "special-自動車安全-空港整備勘定",
+          "special-東日本大震災復興-総額"
+        ],
+        "fields": [
+          "amount2025"
+        ]
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/csv/DL202611001.zip",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/csv/DL202611001.zip",
+      "retrieved_at_utc": "2026-10-08T15:07:16.610873+00:00",
+      "sha256_original": "7d4ed867c12c82d4a9581aed6c951ec93527d9d353ec4292fa21f49aa01ab808",
+      "bytes": 154805,
+      "content_type": "application/zip",
+      "path": ".cache/originals/d87997c1631d9ba193ace9aaf8247a0ce0c4d99a61a2a615776a952eaed87072.bin",
+      "source_ids": [
+        "mof-csv-general-2026"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。所管で集計。2025防災庁の0は独立所管の項目不存在を表し、防災施策全体の支出ゼロを示さない。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+        "locator": "DL202611001b.csv / 令和8年度要求額(千円)",
+        "row_ids": [
+          "national-0",
+          "national-2",
+          "national-4",
+          "national-6",
+          "national-8",
+          "national-10",
+          "national-12",
+          "national-14",
+          "national-16",
+          "national-18",
+          "national-20",
+          "national-22",
+          "national-24",
+          "national-26",
+          "national-28",
+          "national-30",
+          "national-32",
+          "national-34",
+          "national-36"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/csv/DL202612001.zip",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/csv/DL202612001.zip",
+      "retrieved_at_utc": "2026-10-08T15:07:17.439667+00:00",
+      "sha256_original": "bead1d1305ced67d198e3ccae4a3091ef2ce5e2a5e284c6adc5deda3dca32fc6",
+      "bytes": 40949,
+      "content_type": "application/zip",
+      "path": ".cache/originals/cb7160d85a459781254706908f40912a6fef24de19b0f20a384a1ae63a151134.bin",
+      "source_ids": [
+        "mof-csv-special-2026"
+      ],
+      "verification": {
+        "status": "matched",
+        "checked_at": "2026-10-09",
+        "method": "ZIPの歳出b.csvのみをUTF-8で読み、目別明細の当該年度欄を整数千円で合計。特別会計・勘定で集計（勘定空欄は会計総額）。会計間の重複を控除しない歳出総額。歳入a.csv、前年度欄、比較欄を合計に使わず、目名だけで重複排除しない。総計・所管計・項計など上位集計行はCSVに含まれないため加算しない。",
+        "locator": "DL202612001b.csv / 令和8年度予定額(千円)",
+        "row_ids": [
+          "special-交付税及び譲与税配付金-総額",
+          "special-地震再保険-総額",
+          "special-国債整理基金-総額",
+          "special-外国為替資金-総額",
+          "special-財政投融資-財政融資資金勘定",
+          "special-財政投融資-投資勘定",
+          "special-財政投融資-特定国有財産整備勘定",
+          "special-エネルギー対策-エネルギー需給勘定",
+          "special-エネルギー対策-電源開発促進勘定",
+          "special-エネルギー対策-原子力損害賠償支援勘定",
+          "special-エネルギー対策-先端半導体・人工知能関連技術勘定",
+          "special-労働保険-労災勘定",
+          "special-労働保険-雇用勘定",
+          "special-労働保険-徴収勘定",
+          "special-年金-基礎年金勘定",
+          "special-年金-国民年金勘定",
+          "special-年金-厚生年金勘定",
+          "special-年金-健康勘定",
+          "special-年金-業務勘定",
+          "special-子ども・子育て支援-子ども・子育て支援勘定",
+          "special-子ども・子育て支援-育児休業等給付勘定",
+          "special-食料安定供給-農業経営安定勘定",
+          "special-食料安定供給-食糧管理勘定",
+          "special-食料安定供給-農業再保険勘定",
+          "special-食料安定供給-漁船再保険勘定",
+          "special-食料安定供給-漁業共済保険勘定",
+          "special-食料安定供給-業務勘定",
+          "special-食料安定供給-国営土地改良事業勘定",
+          "special-国有林野事業債務管理-総額",
+          "special-特許-総額",
+          "special-自動車安全-自動車事故対策勘定",
+          "special-自動車安全-自動車検査登録勘定",
+          "special-自動車安全-空港整備勘定",
+          "special-東日本大震災復興-総額"
+        ],
+        "fields": [
+          "amount2026"
+        ]
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/html/202511001Main.html",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/html/202511001Main.html",
+      "retrieved_at_utc": "2026-10-08T15:09:37.080916+00:00",
+      "sha256_original": "339389f593aeb61294b591420d9823abc0aad08d2c87a1477064ea5c1707da69",
+      "bytes": 995,
+      "content_type": "text/html",
+      "path": ".cache/originals/2f9d6aa39ab40b7a9f594e1e505702c3aa34cb2bffa6942d45ccaf7aaae473b8.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202511001Main.html",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/html/202511001menu.html",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/html/202511001menu.html",
+      "retrieved_at_utc": "2026-10-08T15:09:37.501047+00:00",
+      "sha256_original": "8f42d7a6b98b89259d44b40908ae9d5c51325236de6d552bed2b77ecdd3cd898",
+      "bytes": 37968,
+      "content_type": "text/html",
+      "path": ".cache/originals/586ea226582ce08323cc89ba9a8704f895ac50da99716f45ec1caa00951994a8.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202511001menu.html",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/xml/202511001910001a.xml",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/xml/202511001910001a.xml",
+      "retrieved_at_utc": "2026-10-08T15:09:37.747266+00:00",
+      "sha256_original": "7879ddf297e6ad1aeda4a15c687e42962ffb91aeed358f8934952a25f5da2822",
+      "bytes": 1081,
+      "content_type": "text/xml",
+      "path": ".cache/originals/ff4e09aba619c971c00a17a5de9fcde21d3c8abb4ab019261791320bb6c43bf5.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202511001910001a.xml",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2025/xml/202511001000041a.xml",
+      "final_url": "https://www.bb.mof.go.jp/server/2025/xml/202511001000041a.xml",
+      "retrieved_at_utc": "2026-10-08T15:09:39.020915+00:00",
+      "sha256_original": "86c14eb5fd7e9ce4aac4216e57f12f1552d0f91542a5d3928ceb7e746c441c6d",
+      "bytes": 197890,
+      "content_type": "text/xml",
+      "path": ".cache/originals/d5077197ca98f6cb77edbec50f6cb577f431634f55916b1b43317a5ee42e6d78.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202511001000041a.xml",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/html/202611001Main.html",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/html/202611001Main.html",
+      "retrieved_at_utc": "2026-10-08T15:09:39.703708+00:00",
+      "sha256_original": "0fa95303e414cc1f664194dabdbd6d83caaf542a0748323313a00985776cb52a",
+      "bytes": 995,
+      "content_type": "text/html",
+      "path": ".cache/originals/b44b379dc17426d71acfceecf763e769f4abfcebc40b30237d32897bf5dd4e54.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202611001Main.html",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/html/202611001menu.html",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/html/202611001menu.html",
+      "retrieved_at_utc": "2026-10-08T15:09:40.429298+00:00",
+      "sha256_original": "10566d90b7e1e284ab62dbdfa271525e6b740051900515c6ef1226f2d225651b",
+      "bytes": 38847,
+      "content_type": "text/html",
+      "path": ".cache/originals/c98a87ccd84467ef2dd6cdb2c0ac0e0c31af9d5a904d63f0f88e7cdde4aefbd0.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202611001menu.html",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/xml/202611001910001a.xml",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/xml/202611001910001a.xml",
+      "retrieved_at_utc": "2026-10-08T15:09:41.076101+00:00",
+      "sha256_original": "7b785e2cffc68ce7da7a5da3eb2cb330f4ba0658a3960035780f0b53dab8540f",
+      "bytes": 1002,
+      "content_type": "text/xml",
+      "path": ".cache/originals/0024c69e74b0f419e95863566be1b470001b7c65a98424fd3ea80c5d63748e86.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202611001910001a.xml",
+        "row_ids": [],
+        "fields": []
+      }
+    },
+    {
+      "url": "https://www.bb.mof.go.jp/server/2026/xml/202611001000042a.xml",
+      "final_url": "https://www.bb.mof.go.jp/server/2026/xml/202611001000042a.xml",
+      "retrieved_at_utc": "2026-10-08T15:09:42.188267+00:00",
+      "sha256_original": "314f58758689e247c667fb3e5a9483ca2418eb7ab84b0dc0ffbda7006270ea43",
+      "bytes": 200946,
+      "content_type": "text/xml",
+      "path": ".cache/originals/1bc18455e698285a2b48a115d77d245755da496b93ced2752d4bad1e4e3c23b0.bin",
+      "source_ids": [],
+      "verification": {
+        "status": "downloaded_only",
+        "checked_at": "2026-10-09",
+        "method": "公式HTML入口・目次／XML表紙・甲号歳出実体を取得しハッシュ検証。金額の自動照合は未実施。",
+        "locator": "202611001000042a.xml",
+        "row_ids": [],
+        "fields": []
+      }
+    }
+  ],
+  "results": [
+    {
+      "source_id": "mof-csv-general-2025",
+      "year": 2025,
+      "account_category": "general",
+      "member": "DL202511001b.csv",
+      "value_column": "令和7年度要求額(千円)",
+      "original_group_count": 18,
+      "source_record_count": 6780,
+      "expenditure_thousand_yen": 115197845248,
+      "comparisons": [
+        {
+          "row_id": "national-0",
+          "field": "amount2025",
+          "ministry": "皇室費",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 11371993,
+          "leaf_records": 11,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-2",
+          "field": "amount2025",
+          "ministry": "国会",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 131538232,
+          "leaf_records": 143,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-4",
+          "field": "amount2025",
+          "ministry": "裁判所",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 335192439,
+          "leaf_records": 79,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-6",
+          "field": "amount2025",
+          "ministry": "会計検査院",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 16342468,
+          "leaf_records": 40,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-8",
+          "field": "amount2025",
+          "ministry": "内閣",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 121549836,
+          "leaf_records": 101,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-10",
+          "field": "amount2025",
+          "ministry": "内閣府",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 5276836463,
+          "leaf_records": 1024,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-12",
+          "field": "amount2025",
+          "ministry": "デジタル庁",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 475249835,
+          "leaf_records": 38,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-14",
+          "field": "amount2025",
+          "ministry": "防災庁",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 0,
+          "leaf_records": 0,
+          "status": "no_separate_appropriation"
+        },
+        {
+          "row_id": "national-16",
+          "field": "amount2025",
+          "ministry": "総務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 19386124379,
+          "leaf_records": 348,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-18",
+          "field": "amount2025",
+          "ministry": "法務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 743637952,
+          "leaf_records": 332,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-20",
+          "field": "amount2025",
+          "ministry": "外務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 744800654,
+          "leaf_records": 260,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-22",
+          "field": "amount2025",
+          "ministry": "財務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 30142573759,
+          "leaf_records": 259,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-24",
+          "field": "amount2025",
+          "ministry": "文部科学省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 5509364688,
+          "leaf_records": 502,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-26",
+          "field": "amount2025",
+          "ministry": "厚生労働省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 34306422595,
+          "leaf_records": 907,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-28",
+          "field": "amount2025",
+          "ministry": "農林水産省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 2095674574,
+          "leaf_records": 667,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-30",
+          "field": "amount2025",
+          "ministry": "経済産業省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 850598303,
+          "leaf_records": 231,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-32",
+          "field": "amount2025",
+          "ministry": "国土交通省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 6071916829,
+          "leaf_records": 1325,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-34",
+          "field": "amount2025",
+          "ministry": "環境省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 309593651,
+          "leaf_records": 295,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-36",
+          "field": "amount2025",
+          "ministry": "防衛省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 8669056598,
+          "leaf_records": 218,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "source_id": "mof-csv-special-2025",
+      "year": 2025,
+      "account_category": "special",
+      "member": "DL202512001b.csv",
+      "value_column": "令和7年度予定額(千円)",
+      "original_group_count": 34,
+      "source_record_count": 1250,
+      "expenditure_thousand_yen": 429481228883,
+      "comparisons": [
+        {
+          "row_id": "special-交付税及び譲与税配付金-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "交付税及び譲与税配付金",
+          "subaccount": "",
+          "amount_thousand_yen": 50719300171,
+          "leaf_records": 22,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-地震再保険-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "地震再保険",
+          "subaccount": "",
+          "amount_thousand_yen": 117427430,
+          "leaf_records": 15,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-国債整理基金-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "国債整理基金",
+          "subaccount": "",
+          "amount_thousand_yen": 222118500012,
+          "leaf_records": 16,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-外国為替資金-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "外国為替資金",
+          "subaccount": "",
+          "amount_thousand_yen": 1545794724,
+          "leaf_records": 23,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-財政融資資金勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "財政融資資金勘定",
+          "amount_thousand_yen": 21638208346,
+          "leaf_records": 30,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-投資勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "投資勘定",
+          "amount_thousand_yen": 851790046,
+          "leaf_records": 22,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-特定国有財産整備勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "特定国有財産整備勘定",
+          "amount_thousand_yen": 4072404,
+          "leaf_records": 13,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-エネルギー需給勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "エネルギー需給勘定",
+          "amount_thousand_yen": 2984637341,
+          "leaf_records": 71,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-電源開発促進勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "電源開発促進勘定",
+          "amount_thousand_yen": 420929444,
+          "leaf_records": 61,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-原子力損害賠償支援勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "原子力損害賠償支援勘定",
+          "amount_thousand_yen": 12169336286,
+          "leaf_records": 3,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-先端半導体・人工知能関連技術勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "先端半導体・人工知能関連技術勘定",
+          "amount_thousand_yen": 332800000,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-労災勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "労災勘定",
+          "amount_thousand_yen": 1106427217,
+          "leaf_records": 102,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-雇用勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "雇用勘定",
+          "amount_thousand_yen": 2191667055,
+          "leaf_records": 149,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-徴収勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "徴収勘定",
+          "amount_thousand_yen": 4257725436,
+          "leaf_records": 33,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-基礎年金勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "基礎年金勘定",
+          "amount_thousand_yen": 28557395255,
+          "leaf_records": 8,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-国民年金勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "国民年金勘定",
+          "amount_thousand_yen": 4312450059,
+          "leaf_records": 9,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-厚生年金勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "厚生年金勘定",
+          "amount_thousand_yen": 52432946234,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-健康勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "健康勘定",
+          "amount_thousand_yen": 13768540281,
+          "leaf_records": 4,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-業務勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "業務勘定",
+          "amount_thousand_yen": 1246216154,
+          "leaf_records": 40,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-子ども・子育て支援-子ども・子育て支援勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "子ども・子育て支援",
+          "subaccount": "子ども・子育て支援勘定",
+          "amount_thousand_yen": 4711372242,
+          "leaf_records": 39,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-子ども・子育て支援-育児休業等給付勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "子ども・子育て支援",
+          "subaccount": "育児休業等給付勘定",
+          "amount_thousand_yen": 1068697363,
+          "leaf_records": 30,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-農業経営安定勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "農業経営安定勘定",
+          "amount_thousand_yen": 247250231,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-食糧管理勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "食糧管理勘定",
+          "amount_thousand_yen": 939840290,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-農業再保険勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "農業再保険勘定",
+          "amount_thousand_yen": 96801256,
+          "leaf_records": 6,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-漁船再保険勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "漁船再保険勘定",
+          "amount_thousand_yen": 6878861,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-漁業共済保険勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "漁業共済保険勘定",
+          "amount_thousand_yen": 11501857,
+          "leaf_records": 6,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-業務勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "業務勘定",
+          "amount_thousand_yen": 24114989,
+          "leaf_records": 26,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-国営土地改良事業勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "国営土地改良事業勘定",
+          "amount_thousand_yen": 8419830,
+          "leaf_records": 25,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-国有林野事業債務管理-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "国有林野事業債務管理",
+          "subaccount": "",
+          "amount_thousand_yen": 334695285,
+          "leaf_records": 1,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-特許-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "特許",
+          "subaccount": "",
+          "amount_thousand_yen": 154397913,
+          "leaf_records": 51,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-自動車事故対策勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "自動車事故対策勘定",
+          "amount_thousand_yen": 22290127,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-自動車検査登録勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "自動車検査登録勘定",
+          "amount_thousand_yen": 43579760,
+          "leaf_records": 32,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-空港整備勘定",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "空港整備勘定",
+          "amount_thousand_yen": 388981361,
+          "leaf_records": 88,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-東日本大震災復興-総額",
+          "field": "amount2025",
+          "ministry": null,
+          "account": "東日本大震災復興",
+          "subaccount": "",
+          "amount_thousand_yen": 646243623,
+          "leaf_records": 280,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "source_id": "mof-csv-general-2026",
+      "year": 2026,
+      "account_category": "general",
+      "member": "DL202611001b.csv",
+      "value_column": "令和8年度要求額(千円)",
+      "original_group_count": 19,
+      "source_record_count": 6790,
+      "expenditure_thousand_yen": 122309247035,
+      "comparisons": [
+        {
+          "row_id": "national-0",
+          "field": "amount2026",
+          "ministry": "皇室費",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 12583203,
+          "leaf_records": 11,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-2",
+          "field": "amount2026",
+          "ministry": "国会",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 136495199,
+          "leaf_records": 142,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-4",
+          "field": "amount2026",
+          "ministry": "裁判所",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 349473805,
+          "leaf_records": 80,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-6",
+          "field": "amount2026",
+          "ministry": "会計検査院",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 16927629,
+          "leaf_records": 39,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-8",
+          "field": "amount2026",
+          "ministry": "内閣",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 124131262,
+          "leaf_records": 100,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-10",
+          "field": "amount2026",
+          "ministry": "内閣府",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 5288994416,
+          "leaf_records": 1035,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-12",
+          "field": "amount2026",
+          "ministry": "デジタル庁",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 519802203,
+          "leaf_records": 37,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-14",
+          "field": "amount2026",
+          "ministry": "防災庁",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 2414573,
+          "leaf_records": 16,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-16",
+          "field": "amount2026",
+          "ministry": "総務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 21270118420,
+          "leaf_records": 357,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-18",
+          "field": "amount2026",
+          "ministry": "法務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 788144531,
+          "leaf_records": 334,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-20",
+          "field": "amount2026",
+          "ministry": "外務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 776257612,
+          "leaf_records": 249,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-22",
+          "field": "amount2026",
+          "ministry": "財務省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 33611603647,
+          "leaf_records": 258,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-24",
+          "field": "amount2026",
+          "ministry": "文部科学省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 5880875949,
+          "leaf_records": 507,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-26",
+          "field": "amount2026",
+          "ministry": "厚生労働省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 35043329370,
+          "leaf_records": 887,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-28",
+          "field": "amount2026",
+          "ministry": "農林水産省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 2119529574,
+          "leaf_records": 682,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-30",
+          "field": "amount2026",
+          "ministry": "経済産業省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 869445245,
+          "leaf_records": 223,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-32",
+          "field": "amount2026",
+          "ministry": "国土交通省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 6199307524,
+          "leaf_records": 1320,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-34",
+          "field": "amount2026",
+          "ministry": "環境省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 315469971,
+          "leaf_records": 300,
+          "status": "matched"
+        },
+        {
+          "row_id": "national-36",
+          "field": "amount2026",
+          "ministry": "防衛省",
+          "account": "一般会計",
+          "subaccount": null,
+          "amount_thousand_yen": 8984342902,
+          "leaf_records": 213,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "source_id": "mof-csv-special-2026",
+      "year": 2026,
+      "account_category": "special",
+      "member": "DL202612001b.csv",
+      "value_column": "令和8年度予定額(千円)",
+      "original_group_count": 34,
+      "source_record_count": 1239,
+      "expenditure_thousand_yen": 441726012445,
+      "comparisons": [
+        {
+          "row_id": "special-交付税及び譲与税配付金-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "交付税及び譲与税配付金",
+          "subaccount": "",
+          "amount_thousand_yen": 51065056703,
+          "leaf_records": 26,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-地震再保険-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "地震再保険",
+          "subaccount": "",
+          "amount_thousand_yen": 126339766,
+          "leaf_records": 15,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-国債整理基金-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "国債整理基金",
+          "subaccount": "",
+          "amount_thousand_yen": 224828567066,
+          "leaf_records": 16,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-外国為替資金-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "外国為替資金",
+          "subaccount": "",
+          "amount_thousand_yen": 1973396598,
+          "leaf_records": 23,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-財政融資資金勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "財政融資資金勘定",
+          "amount_thousand_yen": 26676473344,
+          "leaf_records": 30,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-投資勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "投資勘定",
+          "amount_thousand_yen": 758500041,
+          "leaf_records": 22,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-財政投融資-特定国有財産整備勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "財政投融資",
+          "subaccount": "特定国有財産整備勘定",
+          "amount_thousand_yen": 4377380,
+          "leaf_records": 13,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-エネルギー需給勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "エネルギー需給勘定",
+          "amount_thousand_yen": 3241496260,
+          "leaf_records": 72,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-電源開発促進勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "電源開発促進勘定",
+          "amount_thousand_yen": 473227391,
+          "leaf_records": 61,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-原子力損害賠償支援勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "原子力損害賠償支援勘定",
+          "amount_thousand_yen": 11967206114,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-エネルギー対策-先端半導体・人工知能関連技術勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "エネルギー対策",
+          "subaccount": "先端半導体・人工知能関連技術勘定",
+          "amount_thousand_yen": 1239004417,
+          "leaf_records": 9,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-労災勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "労災勘定",
+          "amount_thousand_yen": 1122144571,
+          "leaf_records": 102,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-雇用勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "雇用勘定",
+          "amount_thousand_yen": 2287590081,
+          "leaf_records": 147,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-労働保険-徴収勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "労働保険",
+          "subaccount": "徴収勘定",
+          "amount_thousand_yen": 4224165321,
+          "leaf_records": 33,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-基礎年金勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "基礎年金勘定",
+          "amount_thousand_yen": 28980031698,
+          "leaf_records": 8,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-国民年金勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "国民年金勘定",
+          "amount_thousand_yen": 4238936181,
+          "leaf_records": 9,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-厚生年金勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "厚生年金勘定",
+          "amount_thousand_yen": 53781662807,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-健康勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "健康勘定",
+          "amount_thousand_yen": 14640093254,
+          "leaf_records": 4,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-年金-業務勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "年金",
+          "subaccount": "業務勘定",
+          "amount_thousand_yen": 1285836031,
+          "leaf_records": 40,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-子ども・子育て支援-子ども・子育て支援勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "子ども・子育て支援",
+          "subaccount": "子ども・子育て支援勘定",
+          "amount_thousand_yen": 4796876921,
+          "leaf_records": 41,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-子ども・子育て支援-育児休業等給付勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "子ども・子育て支援",
+          "subaccount": "育児休業等給付勘定",
+          "amount_thousand_yen": 1104257967,
+          "leaf_records": 30,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-農業経営安定勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "農業経営安定勘定",
+          "amount_thousand_yen": 239451358,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-食糧管理勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "食糧管理勘定",
+          "amount_thousand_yen": 905209426,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-農業再保険勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "農業再保険勘定",
+          "amount_thousand_yen": 93361649,
+          "leaf_records": 6,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-漁船再保険勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "漁船再保険勘定",
+          "amount_thousand_yen": 6681619,
+          "leaf_records": 5,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-漁業共済保険勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "漁業共済保険勘定",
+          "amount_thousand_yen": 12188667,
+          "leaf_records": 6,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-業務勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "業務勘定",
+          "amount_thousand_yen": 31040437,
+          "leaf_records": 26,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-食料安定供給-国営土地改良事業勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "食料安定供給",
+          "subaccount": "国営土地改良事業勘定",
+          "amount_thousand_yen": 6271017,
+          "leaf_records": 25,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-国有林野事業債務管理-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "国有林野事業債務管理",
+          "subaccount": "",
+          "amount_thousand_yen": 330539496,
+          "leaf_records": 1,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-特許-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "特許",
+          "subaccount": "",
+          "amount_thousand_yen": 160632536,
+          "leaf_records": 50,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-自動車事故対策勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "自動車事故対策勘定",
+          "amount_thousand_yen": 23854986,
+          "leaf_records": 10,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-自動車検査登録勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "自動車検査登録勘定",
+          "amount_thousand_yen": 44581554,
+          "leaf_records": 32,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-自動車安全-空港整備勘定",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "自動車安全",
+          "subaccount": "空港整備勘定",
+          "amount_thousand_yen": 423591419,
+          "leaf_records": 87,
+          "status": "matched"
+        },
+        {
+          "row_id": "special-東日本大震災復興-総額",
+          "field": "amount2026",
+          "ministry": null,
+          "account": "東日本大震災復興",
+          "subaccount": "",
+          "amount_thousand_yen": 633368369,
+          "leaf_records": 260,
+          "status": "matched"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2025原本はteishutsu（政府提出案）ディレクトリではなく成立予算。一般会計XML表紙は「(修正成立)」と明記。",
+    "CSV一般会計歳出の欄名「要求額」は配布原本の表記。金額は成立した当初予算の所管総額に一致。",
+    "XMLは表紙と甲号歳出実体を取得。XML金額欄の自動集計照合は未実施。",
+    "特別会計の歳出は会計間の資金移転を含む総額であり、一般会計と足し合わせて国の純支出にはできない。"
+  ]
+}

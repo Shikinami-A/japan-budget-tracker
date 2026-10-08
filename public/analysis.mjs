@@ -1,7 +1,7 @@
 // Pure screening functions. Thresholds prioritize document checks, not allegations.
 export function change(row) {
   const a = row.amount2025, b = row.amount2026;
-  if (a === null || b === null) return { delta: null, pct: null, label: '片年度未取得' };
+  if (a === null || b === null) return { delta: null, pct: null, label: row.comparability === '片年度非掲載' ? '片年度非掲載' : '片年度未取得' };
   const delta = b - a;
   if (a === 0) return { delta, pct: null, label: b === 0 ? '両年ゼロ' : '前年ゼロ・増減率なし' };
   const pct = row.published_change_pct ?? (delta / a * 100);
