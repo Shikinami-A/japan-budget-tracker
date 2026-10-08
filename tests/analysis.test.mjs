@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {change,screen,peerChange,membersFor,safeURL,csvCell} from '../public/analysis.mjs';
+import {change,screen,peerChange,membersFor,membersForRow,safeURL,csvCell} from '../public/analysis.mjs';
 const data=JSON.parse(readFileSync(new URL('../public/data.json',import.meta.url)));
 const get=id=>data.rows.find(r=>r.id===id);
 test('Rounded MLIT published ratios remain distinct from displayed-amount calculations',()=>{
@@ -32,6 +32,23 @@ test('A proportional legislator is never assigned to a local constituency',()=>{
   assert.equal(yana.district,'（比）北関東');
   assert.ok(!membersFor('栃木県',data.legislators).includes(yana));
   assert.ok(membersFor('栃木県',data.legislators,true).includes(yana));
+});
+test('Verified municipal boundaries restrict House constituencies while preserving Senate and proportional relationships',()=>{
+  const local=membersForRow(get('road-那珂川町-0'),data.legislators);
+  assert.ok(local.some(m=>m.name==='渡辺真太朗'));
+  assert.ok(local.some(m=>m.name==='簗和生'&&m.election_type==='比例代表'));
+  assert.ok(local.filter(m=>m.chamber==='衆議院'&&m.election_type==='小選挙区').every(m=>m.district==='栃木3'));
+  assert.ok(local.some(m=>m.chamber==='参議院'));
+  const split=data.municipality_mappings.find(m=>m.municipality==='宇都宮市');
+  const across=membersForRow({prefecture:'栃木県',municipality_mapping:split},data.legislators);
+  assert.deepEqual(new Set(across.filter(m=>m.chamber==='衆議院'&&m.election_type==='小選挙区').map(m=>m.district)),new Set(['栃木1','栃木2']));
+  assert.deepEqual(membersForRow({prefecture:'愛知県'},data.legislators),membersFor('愛知県',data.legislators,true));
+});
+test('Uncollected third-round allocations remain missing and never enter screening',()=>{
+  const rows=data.rows.filter(r=>r.program==='特定防衛施設周辺整備調整交付金（第3回）');
+  assert.equal(rows.length,122);
+  assert.ok(rows.every(r=>r.amount2025===null&&r.amount_status2025.startsWith('未収載')));
+  assert.ok(rows.every(r=>!screen(r,data.rows,{pct:0,amount:0,gap:0}).candidate));
 });
 test('Executable and credential-bearing URLs are rejected; spreadsheet formulas are neutralized',()=>{
   for(const u of ['javascript:alert(1)','data:text/html,abc','http://example.com','https://user:pass@example.com'])assert.equal(safeURL(u),null);

@@ -26,6 +26,9 @@ with sync_playwright() as p:
     assert page.locator('#detail').is_visible()
     assert '簗和生' in page.locator('#detail-content').inner_text()
     assert '渡辺真太朗' in page.locator('#detail-content').inner_text()
+    assert '区割り原本照合・市町村全域' in page.locator('#detail-content').inner_text()
+    assert '申請額：原本に非掲載' in page.locator('#detail-content').inner_text()
+    assert '増減理由と決定過程の確認状態' in page.locator('#detail-content').inner_text()
     page.locator('#detail-content details summary').first.click()
     assert '原本ファイルのハッシュではありません' in page.locator('#detail-content').inner_text()
     page.locator('#detail-content .original-receipt summary').first.click()
@@ -98,6 +101,19 @@ with sync_playwright() as p:
     page.fill('#query',missing_cfa['region'])
     assert '非掲載' in page.locator('#rows').inner_text()
     page.fill('#query','')
+    page.select_option('#program','特定防衛施設周辺整備調整交付金（第3回）')
+    assert page.locator('#row-count').inner_text()=='122'
+    assert '未収載・同回原本未確認' in page.locator('#rows').inner_text()
+    page.check('#candidate-only')
+    assert page.locator('#candidate-count').inner_text()=='0'
+    page.uncheck('#candidate-only')
+    page.fill('#query','宇都宮市')
+    page.locator('#rows button').first.click()
+    split_text=page.locator('#detail-content').inner_text()
+    assert '旧宇都宮市の区域' in split_text and '旧上河内町・旧河内町の区域' in split_text
+    assert '[object Object]' not in split_text
+    page.keyboard.press('Escape')
+    page.fill('#query','')
     page.select_option('#program','循環型社会形成推進交付金等（4月内示掲載額合計）')
     assert page.locator('#row-count').inner_text()=='47'
     page.check('#candidate-only')
@@ -105,7 +121,15 @@ with sync_playwright() as p:
     page.click('[data-view=coverage]')
     assert '復興庁' in page.locator('#coverage').inner_text()
     assert '通知段階差で未比較' in page.locator('#coverage').inner_text()
-    assert '通信が拒否' in page.locator('#coverage').inner_text()
+    assert 'HTTP 403・原本未取得' in page.locator('#coverage').inner_text()
+    assert '原本内不一致未解消' in page.locator('#coverage').inner_text()
+    assert '127観測' in page.locator('#coverage').inner_text()
+    page.get_by_text('年度比較に採用していない通知の原表：127観測',exact=True).click()
+    tamura=page.locator('#coverage tbody tr').filter(has_text='第64回').filter(has_text='田村市')
+    assert tamura.count()==1
+    tamura.locator('button').click()
+    assert '原本内部の整合性' in page.locator('#detail-content').inner_text()
+    page.keyboard.press('Escape')
     page.select_option('#member-pref','鳥取県')
     assert '鳥取' in page.locator('#members').inner_text() and '島根' in page.locator('#members').inner_text()
     page.select_option('#member-pref','山形県')

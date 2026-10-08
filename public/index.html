@@ -61,15 +61,15 @@
       </section>
       <section class="panel">
         <div class="section-title"><h2>金額・比較条件・その地域の国会議員</h2><div><label>並べ替え <select id="sort"><option value="absolute">増減率の絶対値</option><option value="delta">増減額の絶対値</option><option value="region">地域順</option></select></label><button id="export" type="button">表示行をCSV保存</button></div></div>
-        <p class="muted">金額は百万円。議員は県内選挙区の一覧です。市町村ごとの小選挙区対応は未照合。党名と会派は別に表示し、配分決定時点の所属党を示すものではありません。行を選ぶと出典と確認事項が開きます。</p>
-        <div class="table-wrap"><table><thead><tr><th>地域 / 制度・範囲</th><th>2025年度</th><th>2026年度</th><th>増減</th><th>確認状況</th><th>衆議院 / 参議院（県内）</th><th>詳細</th></tr></thead><tbody id="rows"></tbody></table></div>
+        <p class="muted">金額は百万円。区割りを原本で確認した市町村だけ、小選挙区を絞ります。未照合の市町村は県内一覧と明示します。党名・会派・地域対応は別に確認し、配分決定時点の関係者や党籍を示すものではありません。</p>
+        <div class="table-wrap"><table><thead><tr><th>地域 / 制度・範囲</th><th>2025年度</th><th>2026年度</th><th>増減</th><th>確認状況</th><th>衆議院 / 参議院・対応状態</th><th>詳細</th></tr></thead><tbody id="rows"></tbody></table></div>
         <div class="pagination"><button id="prev" type="button">前へ</button><span id="page-status" aria-live="polite"></span><button id="next" type="button">次へ</button></div>
       </section>
     </section>
     <section id="coverage-view" class="panel" hidden><h2>省庁別の調査状況</h2><p>所管総額を確認できても、地域別の裁量的な配分を確認できたとは限りません。「未収載」はゼロでも問題なしでもありません。</p><div id="coverage"></div></section>
     <section id="legislator-view" class="panel"><h2>議員名簿を地域で見る</h2><label>都道府県 <select id="member-pref"><option value="栃木県">栃木県</option></select></label><label><input id="proportional" type="checkbox" checked> 比例代表も表示（地域選択時は公的な関係資料がある人のみ）</label><p class="muted">小選挙区・参議院選挙区と、比例代表の地域との関係は別表示。参議院の全国比例を特定地域の代表とは扱いません。</p><p id="party-coverage" class="muted"></p><div id="members" class="member-grid"></div></section>
     <p id="error" role="alert" hidden></p>
-    <footer>出典に戻って確かめるための調査資料。<span id="source-count"></span> <a href="./data.json" download>出典付きJSON</a> / <a href="https://github.com/Shikinami-A/japan-budget-tracker/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">比較方法</a></footer>
+    <footer>出典に戻って確かめるための調査資料。<span id="source-count"></span> <a href="./data.json" download>出典付きJSON</a> / <a href="https://github.com/Shikinami-A/japan-budget-tracker/blob/work/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">比較方法</a></footer>
   </main>
   <dialog id="detail"><button id="close-detail" type="button">閉じる</button><div id="detail-content"></div></dialog>
 </body>

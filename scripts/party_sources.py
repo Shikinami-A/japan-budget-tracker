@@ -92,6 +92,8 @@ def apply_party_rosters(members, root, source, checked_at):
         stats[party]=dict(extracted=len(records),matched=len(matched))
     apply_reviewed_profiles(members, root, source, checked_at)
     apply_party_expansion(members, root, source)
+    from verify_party_followup import apply_party_followup
+    apply_party_followup(members, root, source)
     for m in members:
         options={e['party'] for e in m['party_evidence']}
         if len(options)>1:

@@ -6,6 +6,9 @@ import re
 from pathlib import Path
 from urllib.parse import urlsplit
 from party_sources import PARTIES, reviewed_profiles, reviewed_expansion
+from verify_party_followup import registry as reviewed_followup
+from verify_party_followup import validate as validate_party_followup
+from verify_municipality_districts import validate as validate_municipality_districts
 
 ROOT=Path(__file__).resolve().parents[1]
 d=json.loads((ROOT/'public/data.json').read_text())
@@ -15,9 +18,11 @@ sources={s['id']:s for s in d['sources']}
 assert len(sources)==len(d['sources'])
 profiles=reviewed_profiles(ROOT/'data/source-text')
 expansion=reviewed_expansion(ROOT/'data/source-text')
+followup=reviewed_followup(ROOT/'data/source-text')
 approved_party_urls={url for party,url in PARTIES.values()}
 approved_party_urls.update(e['url'] for e in profiles['sources'])
 approved_party_urls.update(e['url'] for e in expansion['sources'])
+approved_party_urls.update(e['url'] for e in followup['sources'])
 for s in sources.values():
     u=urlsplit(s['url'])
     assert u.scheme=='https' and u.hostname and not u.username and not u.password
@@ -38,11 +43,23 @@ for r in d['rows']:
     assert r['unit']=='百万円'
     assert r['source_ids'] and all(i in sources for i in r['source_ids'])
     assert all(i in sources for i in r.get('explanation_source_ids',[]))
+    for check in r.get('driver_checks', []):
+        assert all(i in sources for i in check['source_ids'])
+        assert isinstance(check['status'], str) and check['status'] and check['finding']
     for field in ['amount2025','amount2026']:
         assert r[field] is None or isinstance(r[field],(float,int)) and math.isfinite(r[field]) and r[field]>=0
     if r['comparability']=='同範囲':
         assert r['amount2025'] is not None and r['amount2026'] is not None
     if r['prefecture'] is not None: assert r['prefecture'] in d['prefectures']
+    assert r.get('legislator_mapping_status')
+    for year in (2025, 2026):
+        assert r.get(f'amount_status{year}')
+    if r.get('municipality_mapping'):
+        mapping=r['municipality_mapping']
+        assert mapping in d['municipality_mappings'] and mapping['prefecture']==r['prefecture']
+        assert mapping['municipality']==r['region'].removeprefix(r['prefecture'])
+        assert mapping['source_id'] in sources
+        if mapping['boundary_source_id']: assert mapping['boundary_source_id'] in sources
     verified=set()
     for sid in r['source_ids']:
         for v in sources[sid].get('original',{}).get('verifications',[]):
@@ -123,6 +140,14 @@ for m in d['legislators']:
     assert all(e.get('source_id') is None or e['source_id'] in sources for e in m['party_evidence'])
     if m['election_type']=='比例代表': assert m['prefectures']==[]
 assert d['party_coverage']['verified']==sum(m['party'] is not None for m in d['legislators'])
+assert len({o['id'] for o in d.get('research_observations', [])})==len(d.get('research_observations', []))
+for o in d.get('research_observations', []):
+    assert not o['is_annual_total']
+    assert o['source_ids'] and all(sid in sources for sid in o['source_ids'])
+    for key in ('national_cost_million_yen', 'business_cost_million_yen'):
+        assert o[key] is None or math.isfinite(o[key]) and o[key] >= 0
+    if o['notification_round'] in (64, 69): assert o['fiscal_year'] is None
+    if o['notification_round'] == 68: assert o['fiscal_year'] == 2026
 members_by_id={m['id']:m for m in d['legislators']}
 for e in profiles['entries']:
     m=members_by_id[e['member_id']]
@@ -134,4 +159,6 @@ for e in expansion['entries']:
     assert (m['name'],m['chamber'],m['district'])==(e['member_name'],e['chamber'],e['district'])
     assert any(p['source_id']==e['source_id'] and p['party']==e['party'] and p['as_of'] is None
                and p['checked_at']==e['checked_at'] and p['original_location']==e['original_location'] for p in m['party_evidence'])
+validate_party_followup()
+validate_municipality_districts()
 print(f"Data verified: {len(d['rows'])} rows, {len(d['sources'])} official sources, {len(d['legislators'])} legislators. National totals reconciled; rounded regional totals checked.")

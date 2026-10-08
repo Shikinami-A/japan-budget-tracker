@@ -1,4 +1,4 @@
-import { change, screen, membersFor, safeURL, csvCell } from './analysis.mjs';
+import { change, screen, membersFor, membersForRow, safeURL, csvCell } from './analysis.mjs';
 
 const $ = id => document.getElementById(id);
 const number = new Intl.NumberFormat('ja-JP', { maximumFractionDigits: 3 });
@@ -6,7 +6,8 @@ let data, view = 'regional', page = 0, visible = [];
 const pageSize = 20;
 const el = (tag, text, cls) => { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (cls) n.className = cls; return n; };
 const amount = n => n === null ? '未取得' : number.format(n);
-const rowAmount = (r,year) => r[`amount${year}`]===null && r.comparability==='片年度非掲載' ? '非掲載' : amount(r[`amount${year}`]);
+const rowAmount = (r,year) => r[`amount${year}`]===null ?
+  (r[`amount_status${year}`] ?? (r.comparability==='片年度非掲載' ? '非掲載' : '未取得')) : amount(r[`amount${year}`]);
 const link = (label, url) => {
   const u = safeURL(url); if (!u) return el('span', label);
   const a = el('a', label); a.href = u; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a;
@@ -29,7 +30,12 @@ function thresholds() {
   const bounded = (id, fallback, max) => { const n = Number($(id).value); return $(id).value === '' || !Number.isFinite(n) ? fallback : Math.min(max, Math.max(0, n)); };
   return { pct: bounded('pct', 30, 1000), amount: bounded('amount', 10, 1e8), gap: bounded('gap', 20, 1000) };
 }
-function rowMembers(r) { return membersFor(r.prefecture, data.legislators, true); }
+function rowMembers(r) { return membersForRow(r, data.legislators, true); }
+function rowSourceIDs(r) {
+  return [...new Set([...r.source_ids,...r.explanation_source_ids??[],
+    ...r.driver_checks?.flatMap(c=>c.source_ids)??[],
+    ...r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean) : []])];
+}
 function partyLabel(m) { return m.party ?? (m.party_status==='資料間不一致' ? `資料間不一致（${[...new Set(m.party_evidence.map(e=>e.party))].join('／')}）` : '未照合'); }
 function memberLine(m) { return `${m.name}（${m.district ?? '選挙区未取得'}） / 党：${partyLabel(m)} / 会派：${m.caucus ?? '未取得'}`; }
 function render() {
@@ -100,6 +106,7 @@ function renderRows() {
     if (r.explanation) status.append(el('small',r.explanation_status));
     if (r.analysis.peer !== null) status.append(el('small',`同制度合計：${r.analysis.peer.toFixed(1)}%`));
     const politicians = el('td'); const all = rowMembers(r);
+    politicians.append(el('small',r.legislator_mapping_status ?? '地域対応未確認'));
     if (!all.length) politicians.append(el('small',r.region === '全国' ? '全国総額（地域への割当なし）' : '地域の議員情報を未取得'));
     for (const chamber of ['衆議院','参議院']) {
       const ms = all.filter(m => m.chamber === chamber);
@@ -140,8 +147,22 @@ function showDetail(row) {
   content.append(el('h3','次に確認すること'),el('p',r.analysis.reasons.join(' / ')||'設定したしきい値に達していません。'));
   const ul=el('ul');for(const t of ['申請・要望額に対する配分率、採択基準と制度変更','完了・新規事業・工事進捗、災害復旧、人口や税収などの需要','配分決定時点の議員・首長、問い合わせ記録と決定過程']) ul.append(el('li',t));content.append(ul);
   if (r.explanation) { content.append(el('h3','公式の説明'),el('p',r.explanation));for(const id of r.explanation_source_ids)content.append(sourceBlock(id)); }
+  if (r.driver_checks?.length) {
+    content.append(el('h3','増減理由と決定過程の確認状態'));
+    for (const check of r.driver_checks) {
+      content.append(el('p',`${check.dimension}：${check.status}`),el('small',check.finding));
+    }
+    for (const id of [...new Set(r.driver_checks.flatMap(c=>c.source_ids))]) content.append(sourceBlock(id));
+  }
   content.append(el('h3','金額の出典'));for(const id of r.source_ids)content.append(sourceBlock(id));
   content.append(el('h3','地域の国会議員（公表時点）'));
+  content.append(el('p',`${r.legislator_mapping_status ?? '地域対応未確認'}。配分決定時点の議員・党籍は未確認。`,'muted'));
+  if (r.municipality_mapping) {
+    const mapping=r.municipality_mapping;
+    content.append(el('p',`区割りの資料基準日：${mapping.as_of ?? '未確認'} / 対応する小選挙区：${mapping.districts.join('・')}${mapping.boundary_detail ? ' / '+mapping.boundary_detail.map(b=>b.district+'：'+b.area).join('・') : ''}`));
+    content.append(sourceBlock(mapping.source_id));
+    if(mapping.boundary_source_id)content.append(sourceBlock(mapping.boundary_source_id));
+  }
   for(const m of rowMembers(r)) content.append(memberCard(m));
   if (!rowMembers(r).length) content.append(el('p','地域への割当なし、または議員情報が未取得。'));
   $('detail').showModal();
@@ -152,6 +173,11 @@ function memberCard(m) {
   for(const e of m.party_evidence??[]) {
     card.append(link(`${e.party}の確認資料 ↗`,e.url),el('small',`所属資料の基準日：${e.as_of??'未確認'} / 照合日：${e.checked_at}`));
     if(e.roster_name)card.append(el('small',`党の表記：${e.roster_name}`));
+    if(e.profile_url) {
+      card.append(link('党の個別プロフィール原本 ↗',e.profile_url));
+      const original=(data.party_originals ?? []).find(o=>o.source_id===e.supporting_original_id);
+      if(original)card.append(el('small',`原本取得（UTC）：${original.retrieved_at_utc} / SHA-256：${original.sha256_original}`));
+    }
   }
   return card;
 }
@@ -162,6 +188,31 @@ function renderMembers() {
   $('members').replaceChildren(...members.map(memberCard));
   if(!members.length)$('members').append(el('p','この地域に対応する議員を未取得。'));
 }
+function showObservation(observation) {
+  const content=$('detail-content');content.replaceChildren();
+  content.append(el('h2',`${observation.recipient} / 第${observation.notification_round}回`),
+    el('p',observation.program),el('p',`通知日：${observation.published} / 年度：${observation.fiscal_year ?? '未確認'} / ${observation.fiscal_year_status}`),
+    el('p',`${observation.basis} / 国費：${amount(observation.national_cost_million_yen)} / 事業費：${amount(observation.business_cost_million_yen)} 百万円`),
+    el('p',`${observation.numeric_verification} / ${observation.comparison_status}`),
+    el('p','通知回の観測値です。年間合計・支出済額・確定交付額として合算せず、年度の異なる原本とは比較しません。市町村と選挙区、配分決定時点の議員・党籍は未照合。'));
+  if(observation.internal_consistency_status)content.append(el('p',`原本内部の整合性：${observation.internal_consistency_status}`));
+  for(const id of observation.source_ids) content.append(sourceBlock(id));
+  $('detail').showModal();
+}
+function observationTable(observations) {
+  const detail=el('details');detail.append(el('summary',`年度比較に採用していない通知の原表：${observations.length}観測`));
+  detail.append(el('p','通知回ごとに数値を照合。年度欄未確認は通知日から推定せず、暫定分・成立後通知・再掲事業費を合算しません。'));
+  const wrap=el('div',undefined,'table-wrap'),table=el('table'),head=el('thead'),header=el('tr');
+  for(const title of ['通知日・回／年度確認','事業・主体','国費／事業費（百万円）','数値・比較条件','原本'])header.append(el('th',title));
+  head.append(header);table.append(head);const body=el('tbody');
+  for(const o of observations) {
+    const row=el('tr'),more=el('td'),button=el('button','原表・条件');button.type='button';button.onclick=()=>showObservation(o);more.append(button);
+    row.append(el('td',`${o.published} 第${o.notification_round}回 / 年度${o.fiscal_year ?? '未確認'}`),
+      el('td',`${o.recipient} / ${o.program}`),el('td',`${amount(o.national_cost_million_yen)} / ${amount(o.business_cost_million_yen)}`),
+      el('td',`${o.numeric_verification} / ${o.comparison_status}${o.internal_consistency_status ? ' / '+o.internal_consistency_status : ''}`),more);body.append(row);
+  }
+  table.append(body);wrap.append(table);detail.append(wrap);return detail;
+}
 function renderCoverage() {
   $('coverage').replaceChildren(...data.coverage.map(c=>{
     const row=el('div',undefined,'coverage-item'),text=el('div');
@@ -169,19 +220,33 @@ function renderCoverage() {
     for(const n of c.research_notes??[]) {
       const detail=el('details');detail.append(el('summary',n.status),el('p',n.note));
       if(n.requested_url)detail.append(link('確認対象の公式入口 ↗',n.requested_url));
+      if(n.retrieval_attempts?.length) {
+        const attempts=el('details');attempts.append(el('summary','原本の取得試行と失敗種別'));
+        for(const a of n.retrieval_attempts) {
+          attempts.append(el('p',`${a.retrieved_at_utc ?? a.checked_at ?? '日時未収録'} / ${a.status} / ${a.failure_category ?? a.error_type ?? '取得結果'}${a.http_status ? ' / HTTP '+a.http_status : ''}`),link('対象原本 ↗',a.url));
+        }
+        detail.append(attempts);
+      }
+      if(n.next_steps?.length) {const list=el('ul');for(const step of n.next_steps)list.append(el('li',step));detail.append(list);}
+      if(n.decision_checks?.length) for(const check of n.decision_checks)detail.append(el('p',`${check.dimension}：${check.status}`),el('small',check.finding));
       for(const id of n.source_ids)detail.append(sourceBlock(id));text.append(detail);
     }
+    const observations=(data.research_observations ?? []).filter(o=>o.ministry===c.name);
+    if(observations.length)text.append(observationTable(observations));
     row.append(el('strong',c.name),text);return row;
   }));
 }
 function exportCSV() {
-  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','unit','comparability','evidence_status','note'];
-  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence']).map(csvCell).join(',')];
+  const fields=['region','prefecture','ministry','account','program','scope','basis','period2025','period2026','amount2025','amount2026','amount_status2025','amount_status2026','unit','comparability','evidence_status','legislator_mapping_status','note'];
+  const lines=[fields.concat(['change_pct','candidate','screen_reasons','legislators','source_urls','legislator_evidence','original_evidence','municipality_mapping','geography_evidence','driver_checks']).map(csvCell).join(',')];
   for(const r of visible)lines.push(fields.map(f=>csvCell(r[f])).concat([
     csvCell(r.analysis.pct),csvCell(r.analysis.candidate),csvCell(r.analysis.reasons.join(' / ')),
-    csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell([...r.source_ids,...r.explanation_source_ids??[]].map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
+    csvCell(rowMembers(r).map(memberLine).join(' / ')),csvCell(rowSourceIDs(r).map(id=>data.sources.find(s=>s.id===id)?.url).join(' ')),
     csvCell(JSON.stringify(rowMembers(r).map(m=>({name:m.name,roster_as_of:m.as_of,roster_url:m.source_url,party_status:m.party_status,party_evidence:m.party_evidence})))),
-    csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]}))))]).join(','));
+    csvCell(JSON.stringify(r.source_ids.map(id=>data.sources.find(s=>s.id===id)).filter(s=>s.original).map(s=>({source_id:s.id,url:s.original.url,retrieved_at_utc:s.original.retrieved_at_utc,sha256_original:s.original.sha256_original,verified_fields:[...new Set(s.original.verifications.filter(v=>v.status==='matched'&&v.row_ids.includes(r.id)).flatMap(v=>v.fields))]})))),
+    csvCell(JSON.stringify(r.municipality_mapping ?? null)),
+    csvCell(JSON.stringify(r.municipality_mapping ? [r.municipality_mapping.source_id,r.municipality_mapping.boundary_source_id].filter(Boolean).map(id=>data.sources.find(s=>s.id===id)).map(s=>({source_id:s.id,url:s.url,sha256_extracted_text:s.sha256_extracted_text,original:s.original})) : [])),
+    csvCell(JSON.stringify(r.driver_checks ?? []))]).join(','));
   const blob=new Blob(['\uFEFF',lines.join('\r\n')],{type:'text/csv;charset=utf-8'}),u=URL.createObjectURL(blob),a=el('a');a.href=u;a.download=`budget-${view}-${data.as_of}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 async function start() {

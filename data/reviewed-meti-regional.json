@@ -7,11 +7,74 @@
   "research_notes": [
     {
       "ministry": "経済産業省",
-      "status": "地域事業概要の公式原本への通信が拒否",
+      "agency": "資源エネルギー庁",
+      "status": "許可ホスト追加後もHTTP 403・原本未取得",
       "source_ids": [],
       "requested_url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
-      "note": "電源立地地域対策交付金の事業概要一覧は検索結果では2024年度まで。FY2025/FY2026同条件の地域一覧は未確認。資源エネルギー庁www.enecho.meti.go.jpは環境の許可ホストに未掲載で、原本取得はプロキシCONNECT段階の403。別経路での原本取得に置き換えず、全国予算内訳と地域交付を分けて未比較。",
-      "checked_at": "2026-10-09"
+      "note": "電源立地地域対策交付金の事業概要・評価報告・制度入口を追加許可後に再確認。今回はHTTP応答403で原本取得できず、前回のプロキシCONNECT拒否とは分離。検索抽出は令和4〜6年度掲載を示すが、2025/2026年度の非掲載を原本で確認したとは扱わない。経産省2026年度予算概要の候補も403。全国予算と地域交付、当初と実施後評価を混ぜず、地域配分・同期間執行は取得不能／未確認として残す。",
+      "checked_at": "2026-10-09",
+      "retrieval_attempts": [
+        {
+          "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+          "checked_at": "2026-10-09",
+          "status": "blocked_or_failed",
+          "error_type": "URLError",
+          "failure_category": "proxy_connect_denied",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+          "retrieved_at_utc": "2026-10-08T16:15:19Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/index.html",
+          "retrieved_at_utc": "2026-10-08T16:15:19Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin2/",
+          "retrieved_at_utc": "2026-10-08T16:15:20Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/category/electricity_and_gas/rittishien/",
+          "retrieved_at_utc": "2026-10-08T16:15:20Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.enecho.meti.go.jp/",
+          "retrieved_at_utc": "2026-10-08T16:15:20Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        },
+        {
+          "url": "https://www.meti.go.jp/main/yosan/yosan_fy2026/pdf/01.pdf",
+          "retrieved_at_utc": "2026-10-08T16:15:20Z",
+          "status": "blocked_or_failed",
+          "error_type": "HTTPError",
+          "failure_category": "http_error",
+          "http_status": 403
+        }
+      ],
+      "next_steps": [
+        "環境ポリシー適用状態とHTTP 403の発生主体を確認する。プロキシ解除・TLS無効化・別経路での原本取得は行わない。",
+        "原本到達後、2025/2026の交付決定・実績・評価年度を分けて確認し、同じ財源・対象・段階・期間だけを比較する。"
+      ]
     }
   ],
   "retrieval_attempts": [
@@ -22,6 +85,78 @@
       "error_type": "URLError",
       "failure_category": "proxy_connect_denied",
       "http_status": 403
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "retrieved_at_utc": "2026-10-08T16:15:19Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/index.html",
+      "retrieved_at_utc": "2026-10-08T16:15:19Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin2/",
+      "retrieved_at_utc": "2026-10-08T16:15:20Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/category/electricity_and_gas/rittishien/",
+      "retrieved_at_utc": "2026-10-08T16:15:20Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/",
+      "retrieved_at_utc": "2026-10-08T16:15:20Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
+    },
+    {
+      "url": "https://www.meti.go.jp/main/yosan/yosan_fy2026/pdf/01.pdf",
+      "retrieved_at_utc": "2026-10-08T16:15:20Z",
+      "status": "blocked_or_failed",
+      "error_type": "HTTPError",
+      "failure_category": "http_error",
+      "http_status": 403
     }
-  ]
+  ],
+  "network_observation": {
+    "checked_at": "2026-10-09",
+    "runtime_policy_contains_enecho": true,
+    "environment_policy_state": "unknown",
+    "proxy_and_tls_preserved": true,
+    "note": "追加ホストは環境設定・executorポリシーに掲載。適用状態unknownと実測を分離。HTTPErrorの403は前回URLErrorのCONNECT 403と別の失敗種別で、発生主体は未確定。"
+  },
+  "unadopted_discoveries": [
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin1/",
+      "evidence_status": "Exa検索抽出のみ・公式原本未取得",
+      "finding": "令和4〜6年度実施事業の掲載とする検索抽出。2025/2026年度地域原本の掲載状態は未確認。"
+    },
+    {
+      "url": "https://www.enecho.meti.go.jp/committee/disclosure/dengenkoufukin2/",
+      "evidence_status": "Exa検索抽出のみ・公式原本未取得",
+      "finding": "令和4〜6年度実施事業の掲載とする検索抽出。2025/2026年度地域原本の掲載状態は未確認。"
+    }
+  ],
+  "search_provenance": {
+    "provider": "Exa",
+    "sources_reviewed_requested_results": 10,
+    "search_text_is_not_original": true
+  }
 }

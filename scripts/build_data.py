@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 from party_sources import apply_party_rosters, reviewed_expansion
 from original_sources import apply_originals
+from verify_party_followup import registry as reviewed_followup
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / 'data' / 'source-text'
@@ -354,22 +355,69 @@ def main():
             category='general' if r['account']=='一般会計' else 'special'
             r['source_ids'].extend(f'mof-csv-{category}-{year}' for year in (2025,2026))
     research_notes=[]
+    research_observations=[]
+    research_findings=[]
     for name,group in [('reviewed-mof-programs.json','programs'),('reviewed-mext.json','institutions'),
                        ('reviewed-cfa.json','reference'),('reviewed-environment.json','reference'),
                        ('reviewed-reconstruction.json',None),('reviewed-cabinet-regional.json',None),
-                       ('reviewed-meti-regional.json',None)]:
+                       ('reviewed-meti-regional.json',None),('reviewed-regional-followup.json','reference')]:
         report=json.loads((ROOT/'data'/name).read_text())
         SOURCES.extend(report.get('sources',[]))
         for reviewed_row in report.get('rows',[]):
             reviewed_row['view_group']=group
             ROWS.append(reviewed_row)
         research_notes.extend(report.get('research_notes',[]))
+        research_findings.extend(report.get('data_quality_findings', []))
+        for enrichment in report.get('row_enrichments', []):
+            target = next(r for r in ROWS if r['id'] == enrichment['row_id'])
+            target['driver_checks'] = enrichment['driver_checks']
+            target['explanation_source_ids'] = list(dict.fromkeys(
+                target.get('explanation_source_ids', []) + enrichment.get('explanation_source_ids', [])))
+        if name == 'reviewed-cabinet-regional.json':
+            for note in report.get('research_notes', []):
+                if note['ministry'] == '内閣官房':
+                    note['retrieval_attempts'] = report['retrieval_attempts']
+        if name == 'reviewed-reconstruction.json':
+            research_observations.extend(dict(ministry='復興庁', **o) for o in report.get('notification_observations', []))
+            checks = report.get('decision_evidence', {})
+            labels = {'allocation_criteria':'採択基準','decision_stage':'決定段階','application_amount':'申請額',
+                      'interim_remainder':'暫定分と残額','same_period_execution':'同期間執行',
+                      'decision_time_actors':'配分時点の関係者','required_official_host':'原本取得に必要な通信許可'}
+            for note in report.get('research_notes', [])[:1]:
+                note['decision_checks'] = [dict(dimension=labels.get(key, key), status=c['status'],
+                     finding=c.get('details', c.get('reason', '')), source_ids=c.get('source_ids', [])) for key,c in checks.items()]
     expansion=reviewed_expansion(RAW)
+    followup=reviewed_followup(RAW)
     for s in SOURCES:
         if s['id'] in {e['id'] for e in expansion['sources']}:
             s['accessed']=expansion['checked_at']
             s['retrieved_via']='党公式原本から現職ラベル・氏名・院・選挙区を照合'
+        elif s['id'] in {e['id'] for e in followup['sources']}:
+            s['accessed']=followup['checked_at']
+            s['retrieved_via']='党公式原本から現職欄・正式氏名・院・当選選挙区を一意照合'
+    geography=json.loads((ROOT/'data/reviewed-municipality-districts.json').read_text())
+    for s in geography['sources']:
+        SOURCES.append(dict(id=s['id'], title=s['title'], url=s['url'], locator=s['method'],
+            kind='地域対応', accessed=s['checked_at'], published=None, document_date=s['as_of'],
+            retrieved_via='県選管の公式原本から団体名・選挙区・分割境界を確認',
+            sha256_extracted_text=s['sha256'], excerpt=(RAW/s['filename']).read_text()))
+    for r in ROWS:
+        municipality=r['region'].removeprefix(r['prefecture'] or '')
+        matches=[m for m in geography['mappings'] if m['prefecture']==r['prefecture'] and m['municipality']==municipality]
+        assert len(matches)<=1
+        if matches:r['municipality_mapping']=matches[0]
     original_coverage=apply_originals(ROOT,SOURCES,ROWS)
+    for r in ROWS:
+        r['legislator_mapping_status'] = ('全国・広域／地域への割当なし' if r['prefecture'] is None else
+            '都道府県単位・県内選挙区一覧' if r['region'] == r['prefecture'] else
+            '市町村対応未照合・県内選挙区の参考一覧')
+        if r.get('municipality_mapping'):
+            r['legislator_mapping_status']='区割り原本照合・市町村全域' if r['municipality_mapping']['coverage']=='municipality_whole' else '区割り原本照合・市町村内に複数選挙区（配分額は分割しない）'
+        for year in (2025, 2026):
+            field = f'amount{year}'
+            r.setdefault(f'amount_status{year}', r.get(f'amount{year}_status') or ('原本表に非掲載' if r[field] is None and r['comparability'] == '片年度非掲載' else
+                         '未収載' if r[field] is None else
+                         '原本数値照合済み' if field in r.get('original_verified_fields', []) else '値収載・原本照合未完了'))
     for s in SOURCES:
         if s['id']=='care-2026':
             s['published_verification']='6月26日の公式発表頁と掲載PDFは原本確認済み。収載PDFとはURLが異なり47金額・計画数は一致するが、収載PDF自体の版・公表日は未確定。'
@@ -409,6 +457,10 @@ def main():
                                     note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期・月末累計執行額とは別扱い。'),
                     sources=SOURCES, legislators=legislators,party_roster_stats=party_roster_stats,
                     party_expansion_stats=expansion['stats'],research_notes=research_notes,
+                    research_observations=research_observations,
+                    research_findings=research_findings,
+                    party_followup_stats=followup['stats'],party_originals=followup['originals'],
+                    municipality_mappings=geography['mappings'],
                     original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[

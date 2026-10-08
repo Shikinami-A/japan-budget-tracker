@@ -39,6 +39,16 @@ export function membersFor(prefecture, members, includeProportional = false) {
     (m.related_prefectures ?? []).includes(prefecture)));
 }
 
+export function membersForRow(row, members, includeProportional = true) {
+  const candidates = membersFor(row.prefecture, members, includeProportional);
+  const mapping = row.municipality_mapping;
+  if (!mapping) return candidates;
+  // Whole municipal amounts can relate to multiple constituencies. No amount
+  // is divided among districts, and this is not a decision-time roster.
+  return candidates.filter(m => m.chamber !== '衆議院' || m.election_type !== '小選挙区' ||
+    mapping.districts.includes(m.district));
+}
+
 export function safeURL(value) {
   try {
     const u = new URL(value);

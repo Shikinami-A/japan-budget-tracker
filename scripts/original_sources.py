@@ -11,8 +11,18 @@ def apply_originals(root, sources, rows):
                  'mof-structured-verification.json', 'monthly-original-verification.json',
                  'reviewed-mof-programs.json','reviewed-mext.json','reviewed-cfa.json',
                  'reviewed-environment.json','reviewed-reconstruction.json',
-                 'reviewed-cabinet-regional.json','reviewed-party-expansion.json'):
+                 'reviewed-cabinet-regional.json','reviewed-party-expansion.json','reviewed-meti-regional.json',
+                 'reviewed-regional-followup.json','reviewed-party-followup.json','reviewed-municipality-districts.json'):
         report = json.loads((root / 'data' / name).read_text())
+        if name in ('reviewed-party-followup.json','reviewed-municipality-districts.json'):
+            # Public source IDs differ from the fetch receipt IDs. Keep the
+            # original receipts intact and map them only for this snapshot.
+            for receipt in report['originals']:
+                receipt['source_ids'] = [s['id'] for s in report['sources']
+                                        if s['original']['source_id'] == receipt['source_id']]
+                receipt['verification'] = dict(status='downloaded_only', checked_at=report['checked_at'],
+                    method='氏名・院・当選選挙区／市町村・区割りの照合用原本。予算金額の照合は対象外。',
+                    locator='検証JSONのoriginal_locationと照合用本文', row_ids=[], fields=[])
         receipts.extend(report['originals'])
         for check in report.get('comparisons', []):
             row = by_row[check['row_id']]
