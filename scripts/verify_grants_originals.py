@@ -171,6 +171,8 @@ def main():
                                   'locator': 'PDF p.2, prefecture columns' if source_id == 'care-2025' else
                                              ('PDF p.1, prefecture columns' if family == 'care' else 'PDF pp.1-4, prefecture / municipality / amount columns'),
                                   'row_ids': row_ids, 'fields': [field],
+                                  'values': {c['row_id']: {field: c['original']['amount_million_yen'] if c['original'] else None}
+                                             for c in report['checks'] if c['source_id'] == source_id},
                                   'checked_public_rows': len(public_rows),
                                   'printed_numeric_rows': len(extracted),
                                   'not_listed_rows': len(public_rows) - len(extracted)})

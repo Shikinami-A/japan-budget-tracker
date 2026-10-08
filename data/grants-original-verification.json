@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checked_at": "2026-10-09",
-  "generated_at_utc": "2026-10-08T15:19:03.122019+00:00",
+  "generated_at_utc": "2026-10-08T15:24:15.064481+00:00",
   "method": "Poppler pdftotext -bbox-layout; PDF x/y coordinates select table columns; independent of Exa text",
   "download_status_is_separate_from_verification": true,
   "originals": [
@@ -73,6 +73,149 @@
         "fields": [
           "amount2025"
         ],
+        "values": {
+          "care-北海道": {
+            "amount2025": 156.379
+          },
+          "care-青森県": {
+            "amount2025": 22.003
+          },
+          "care-岩手県": {
+            "amount2025": 141.525
+          },
+          "care-宮城県": {
+            "amount2025": 68.559
+          },
+          "care-秋田県": {
+            "amount2025": 14.556
+          },
+          "care-山形県": {
+            "amount2025": 56.452
+          },
+          "care-福島県": {
+            "amount2025": 112.904
+          },
+          "care-茨城県": {
+            "amount2025": 62.616
+          },
+          "care-栃木県": {
+            "amount2025": 35.376
+          },
+          "care-群馬県": {
+            "amount2025": 113.047
+          },
+          "care-埼玉県": {
+            "amount2025": 114.77
+          },
+          "care-千葉県": {
+            "amount2025": 233.194
+          },
+          "care-東京都": {
+            "amount2025": 201.068
+          },
+          "care-神奈川県": {
+            "amount2025": 88.006
+          },
+          "care-新潟県": {
+            "amount2025": 72.525
+          },
+          "care-富山県": {
+            "amount2025": 38.598
+          },
+          "care-石川県": {
+            "amount2025": 66.9
+          },
+          "care-福井県": {
+            "amount2025": 63.785
+          },
+          "care-山梨県": {
+            "amount2025": 54.158
+          },
+          "care-長野県": {
+            "amount2025": 83.729
+          },
+          "care-岐阜県": {
+            "amount2025": 115.084
+          },
+          "care-静岡県": {
+            "amount2025": 94.11
+          },
+          "care-愛知県": {
+            "amount2025": 158.017
+          },
+          "care-三重県": {
+            "amount2025": 33.61
+          },
+          "care-滋賀県": {
+            "amount2025": 160.19
+          },
+          "care-京都府": {
+            "amount2025": 154.145
+          },
+          "care-大阪府": {
+            "amount2025": 147.651
+          },
+          "care-兵庫県": {
+            "amount2025": 74.068
+          },
+          "care-奈良県": {
+            "amount2025": 169.742
+          },
+          "care-和歌山県": {
+            "amount2025": 23.13
+          },
+          "care-鳥取県": {
+            "amount2025": 26.87
+          },
+          "care-島根県": {
+            "amount2025": 80.016
+          },
+          "care-岡山県": {
+            "amount2025": 80.982
+          },
+          "care-広島県": {
+            "amount2025": 88.235
+          },
+          "care-山口県": {
+            "amount2025": 107.85
+          },
+          "care-徳島県": {
+            "amount2025": 37.849
+          },
+          "care-香川県": {
+            "amount2025": 43.875
+          },
+          "care-愛媛県": {
+            "amount2025": 34.991
+          },
+          "care-高知県": {
+            "amount2025": 31.351
+          },
+          "care-福岡県": {
+            "amount2025": 106.745
+          },
+          "care-佐賀県": {
+            "amount2025": 15.46
+          },
+          "care-長崎県": {
+            "amount2025": 35.595
+          },
+          "care-熊本県": {
+            "amount2025": 91.256
+          },
+          "care-大分県": {
+            "amount2025": 22.25
+          },
+          "care-宮崎県": {
+            "amount2025": 73.786
+          },
+          "care-鹿児島県": {
+            "amount2025": 161.564
+          },
+          "care-沖縄県": {
+            "amount2025": 48.707
+          }
+        },
         "checked_public_rows": 47,
         "printed_numeric_rows": 47,
         "not_listed_rows": 0
@@ -146,6 +289,149 @@
         "fields": [
           "amount2026"
         ],
+        "values": {
+          "care-北海道": {
+            "amount2026": 178.295
+          },
+          "care-青森県": {
+            "amount2026": 59.745
+          },
+          "care-岩手県": {
+            "amount2026": 86.843
+          },
+          "care-宮城県": {
+            "amount2026": 82.986
+          },
+          "care-秋田県": {
+            "amount2026": 39.292
+          },
+          "care-山形県": {
+            "amount2026": 87.321
+          },
+          "care-福島県": {
+            "amount2026": 102.428
+          },
+          "care-茨城県": {
+            "amount2026": 62.587
+          },
+          "care-栃木県": {
+            "amount2026": 77.304
+          },
+          "care-群馬県": {
+            "amount2026": 69.894
+          },
+          "care-埼玉県": {
+            "amount2026": 93.036
+          },
+          "care-千葉県": {
+            "amount2026": 129.907
+          },
+          "care-東京都": {
+            "amount2026": 238.136
+          },
+          "care-神奈川県": {
+            "amount2026": 157.93
+          },
+          "care-新潟県": {
+            "amount2026": 42.531
+          },
+          "care-富山県": {
+            "amount2026": 20.946
+          },
+          "care-石川県": {
+            "amount2026": 71.455
+          },
+          "care-福井県": {
+            "amount2026": 83.918
+          },
+          "care-山梨県": {
+            "amount2026": 98.071
+          },
+          "care-長野県": {
+            "amount2026": 63.793
+          },
+          "care-岐阜県": {
+            "amount2026": 109.149
+          },
+          "care-静岡県": {
+            "amount2026": 83.325
+          },
+          "care-愛知県": {
+            "amount2026": 182.244
+          },
+          "care-三重県": {
+            "amount2026": 89.384
+          },
+          "care-滋賀県": {
+            "amount2026": 156.471
+          },
+          "care-京都府": {
+            "amount2026": 10.539
+          },
+          "care-大阪府": {
+            "amount2026": 143.345
+          },
+          "care-兵庫県": {
+            "amount2026": 133.298
+          },
+          "care-奈良県": {
+            "amount2026": 101.753
+          },
+          "care-和歌山県": {
+            "amount2026": 1.528
+          },
+          "care-鳥取県": {
+            "amount2026": 110.657
+          },
+          "care-島根県": {
+            "amount2026": 9.922
+          },
+          "care-岡山県": {
+            "amount2026": 59.635
+          },
+          "care-広島県": {
+            "amount2026": 70.12
+          },
+          "care-山口県": {
+            "amount2026": 95.068
+          },
+          "care-徳島県": {
+            "amount2026": 39.625
+          },
+          "care-香川県": {
+            "amount2026": 20.774
+          },
+          "care-愛媛県": {
+            "amount2026": 12.955
+          },
+          "care-高知県": {
+            "amount2026": 41.631
+          },
+          "care-福岡県": {
+            "amount2026": 68.191
+          },
+          "care-佐賀県": {
+            "amount2026": 65.912
+          },
+          "care-長崎県": {
+            "amount2026": 78.259
+          },
+          "care-熊本県": {
+            "amount2026": 65.944
+          },
+          "care-大分県": {
+            "amount2026": 51.047
+          },
+          "care-宮崎県": {
+            "amount2026": 85.483
+          },
+          "care-鹿児島県": {
+            "amount2026": 164.252
+          },
+          "care-沖縄県": {
+            "amount2026": 68.891
+          }
+        },
         "checked_public_rows": 47,
         "printed_numeric_rows": 47,
         "not_listed_rows": 0
@@ -294,6 +580,374 @@
         "fields": [
           "amount2025"
         ],
+        "values": {
+          "defense-三重県-伊勢市": {
+            "amount2025": null
+          },
+          "defense-京都府-京田辺市": {
+            "amount2025": 33
+          },
+          "defense-京都府-精華町": {
+            "amount2025": 47
+          },
+          "defense-京都府-舞鶴市": {
+            "amount2025": 87
+          },
+          "defense-佐賀県-上峰町": {
+            "amount2025": 27
+          },
+          "defense-佐賀県-吉野ヶ里町": {
+            "amount2025": 28
+          },
+          "defense-北海道-上富良野町": {
+            "amount2025": 65
+          },
+          "defense-北海道-中富良野町": {
+            "amount2025": 34
+          },
+          "defense-北海道-別海町": {
+            "amount2025": 101
+          },
+          "defense-北海道-北広島市": {
+            "amount2025": 75
+          },
+          "defense-北海道-千歳市": {
+            "amount2025": 525
+          },
+          "defense-北海道-厚岸町": {
+            "amount2025": 101
+          },
+          "defense-北海道-富良野市": {
+            "amount2025": 34
+          },
+          "defense-北海道-恵庭市": {
+            "amount2025": 212
+          },
+          "defense-北海道-浜中町": {
+            "amount2025": 52
+          },
+          "defense-北海道-白老町": {
+            "amount2025": 26
+          },
+          "defense-北海道-苫小牧市": {
+            "amount2025": 83
+          },
+          "defense-北海道-鹿追町": {
+            "amount2025": 38
+          },
+          "defense-千葉県-木更津市": {
+            "amount2025": 68
+          },
+          "defense-千葉県-柏市": {
+            "amount2025": 56
+          },
+          "defense-千葉県-鎌ヶ谷市": {
+            "amount2025": 48
+          },
+          "defense-埼玉県-入間市": {
+            "amount2025": 84
+          },
+          "defense-埼玉県-狭山市": {
+            "amount2025": 108
+          },
+          "defense-大分県-九重町": {
+            "amount2025": 45
+          },
+          "defense-大分県-玖珠町": {
+            "amount2025": 114
+          },
+          "defense-大分県-由布市": {
+            "amount2025": 55
+          },
+          "defense-宮城県-大和町": {
+            "amount2025": 73
+          },
+          "defense-宮城県-大衡村": {
+            "amount2025": 72
+          },
+          "defense-宮城県-東松島市": {
+            "amount2025": 90
+          },
+          "defense-宮城県-石巻市": {
+            "amount2025": 53
+          },
+          "defense-宮城県-色麻町": {
+            "amount2025": 69
+          },
+          "defense-宮崎県-えびの市": {
+            "amount2025": 38
+          },
+          "defense-宮崎県-新富町": {
+            "amount2025": 170
+          },
+          "defense-宮崎県-西都市": {
+            "amount2025": 62
+          },
+          "defense-山口県-岩国市": {
+            "amount2025": 443
+          },
+          "defense-山梨県-富士吉田市": {
+            "amount2025": 132
+          },
+          "defense-山梨県-山中湖村": {
+            "amount2025": 41
+          },
+          "defense-山梨県-忍野村": {
+            "amount2025": 36
+          },
+          "defense-岐阜県-各務原市": {
+            "amount2025": 140
+          },
+          "defense-岡山県-奈義町": {
+            "amount2025": 69
+          },
+          "defense-岡山県-津山市": {
+            "amount2025": 39
+          },
+          "defense-岩手県-八幡平市": {
+            "amount2025": 26
+          },
+          "defense-岩手県-滝沢市": {
+            "amount2025": 80
+          },
+          "defense-広島県-呉市": {
+            "amount2025": 115
+          },
+          "defense-広島県-東広島市": {
+            "amount2025": 33
+          },
+          "defense-広島県-江田島市": {
+            "amount2025": 30
+          },
+          "defense-徳島県-松茂町": {
+            "amount2025": 66
+          },
+          "defense-愛知県-小牧市": {
+            "amount2025": 47
+          },
+          "defense-愛知県-春日井市": {
+            "amount2025": 54
+          },
+          "defense-愛知県-豊山町": {
+            "amount2025": 32
+          },
+          "defense-新潟県-上越市": {
+            "amount2025": 44
+          },
+          "defense-新潟県-妙高市": {
+            "amount2025": 48
+          },
+          "defense-東京都-小笠原村": {
+            "amount2025": 41
+          },
+          "defense-東京都-昭島市": {
+            "amount2025": 318
+          },
+          "defense-東京都-武蔵村山市": {
+            "amount2025": 99
+          },
+          "defense-東京都-瑞穂町": {
+            "amount2025": 302
+          },
+          "defense-東京都-福生市": {
+            "amount2025": 170
+          },
+          "defense-東京都-立川市": {
+            "amount2025": 167
+          },
+          "defense-東京都-羽村市": {
+            "amount2025": 95
+          },
+          "defense-栃木県-宇都宮市": {
+            "amount2025": 44
+          },
+          "defense-沖縄県-うるま市": {
+            "amount2025": 67
+          },
+          "defense-沖縄県-久米島町": {
+            "amount2025": 57
+          },
+          "defense-沖縄県-伊江村": {
+            "amount2025": 110
+          },
+          "defense-沖縄県-北中城村": {
+            "amount2025": 44
+          },
+          "defense-沖縄県-北谷町": {
+            "amount2025": 372
+          },
+          "defense-沖縄県-名護市": {
+            "amount2025": 83
+          },
+          "defense-沖縄県-嘉手納町": {
+            "amount2025": 442
+          },
+          "defense-沖縄県-国頭村": {
+            "amount2025": 21
+          },
+          "defense-沖縄県-宜野座村": {
+            "amount2025": 119
+          },
+          "defense-沖縄県-宜野湾市": {
+            "amount2025": 103
+          },
+          "defense-沖縄県-恩納村": {
+            "amount2025": 76
+          },
+          "defense-沖縄県-東村": {
+            "amount2025": 38
+          },
+          "defense-沖縄県-沖縄市": {
+            "amount2025": 436
+          },
+          "defense-沖縄県-浦添市": {
+            "amount2025": 59
+          },
+          "defense-沖縄県-渡名喜村": {
+            "amount2025": 71
+          },
+          "defense-沖縄県-読谷村": {
+            "amount2025": 87
+          },
+          "defense-沖縄県-那覇市": {
+            "amount2025": 53
+          },
+          "defense-沖縄県-金武町": {
+            "amount2025": 137
+          },
+          "defense-滋賀県-高島市": {
+            "amount2025": 76
+          },
+          "defense-熊本県-山都町": {
+            "amount2025": 33
+          },
+          "defense-石川県-加賀市": {
+            "amount2025": 60
+          },
+          "defense-石川県-小松市": {
+            "amount2025": 201
+          },
+          "defense-神奈川県-大和市": {
+            "amount2025": 164
+          },
+          "defense-神奈川県-座間市": {
+            "amount2025": 47
+          },
+          "defense-神奈川県-横須賀市": {
+            "amount2025": 239
+          },
+          "defense-神奈川県-相模原市": {
+            "amount2025": 45
+          },
+          "defense-神奈川県-綾瀬市": {
+            "amount2025": 139
+          },
+          "defense-神奈川県-藤沢市": {
+            "amount2025": 84
+          },
+          "defense-神奈川県-逗子市": {
+            "amount2025": 59
+          },
+          "defense-福岡県-みやこ町": {
+            "amount2025": 48
+          },
+          "defense-福岡県-岡垣町": {
+            "amount2025": 46
+          },
+          "defense-福岡県-水巻町": {
+            "amount2025": 43
+          },
+          "defense-福岡県-築上町": {
+            "amount2025": 123
+          },
+          "defense-福岡県-芦屋町": {
+            "amount2025": 64
+          },
+          "defense-福岡県-行橋市": {
+            "amount2025": 105
+          },
+          "defense-福岡県-遠賀町": {
+            "amount2025": 43
+          },
+          "defense-福島県-天栄村": {
+            "amount2025": 23
+          },
+          "defense-福島県-西郷村": {
+            "amount2025": 50
+          },
+          "defense-群馬県-榛東村": {
+            "amount2025": 69
+          },
+          "defense-群馬県-高崎市": {
+            "amount2025": 45
+          },
+          "defense-茨城県-土浦市": {
+            "amount2025": 32
+          },
+          "defense-茨城県-小美玉市": {
+            "amount2025": 141
+          },
+          "defense-茨城県-行方市": {
+            "amount2025": 63
+          },
+          "defense-茨城県-鉾田市": {
+            "amount2025": 106
+          },
+          "defense-茨城県-阿見町": {
+            "amount2025": 36
+          },
+          "defense-長崎県-佐世保市": {
+            "amount2025": 165
+          },
+          "defense-長崎県-大村市": {
+            "amount2025": null
+          },
+          "defense-長崎県-西海市": {
+            "amount2025": 47
+          },
+          "defense-青森県-むつ市": {
+            "amount2025": 65
+          },
+          "defense-青森県-三沢市": {
+            "amount2025": 372
+          },
+          "defense-青森県-八戸市": {
+            "amount2025": 48
+          },
+          "defense-青森県-六ヶ所村": {
+            "amount2025": 308
+          },
+          "defense-青森県-東北町": {
+            "amount2025": 83
+          },
+          "defense-青森県-東通村": {
+            "amount2025": 30
+          },
+          "defense-静岡県-小山町": {
+            "amount2025": 146
+          },
+          "defense-静岡県-御殿場市": {
+            "amount2025": 260
+          },
+          "defense-静岡県-浜松市": {
+            "amount2025": 95
+          },
+          "defense-静岡県-裾野市": {
+            "amount2025": 129
+          },
+          "defense-鳥取県-境港市": {
+            "amount2025": 61
+          },
+          "defense-鳥取県-米子市": {
+            "amount2025": 46
+          },
+          "defense-鹿児島県-湧水町": {
+            "amount2025": 28
+          },
+          "defense-鹿児島県-鹿屋市": {
+            "amount2025": 68
+          }
+        },
         "checked_public_rows": 122,
         "printed_numeric_rows": 120,
         "not_listed_rows": 2
@@ -442,6 +1096,374 @@
         "fields": [
           "amount2026"
         ],
+        "values": {
+          "defense-三重県-伊勢市": {
+            "amount2026": 30
+          },
+          "defense-京都府-京田辺市": {
+            "amount2026": 32
+          },
+          "defense-京都府-精華町": {
+            "amount2026": 46
+          },
+          "defense-京都府-舞鶴市": {
+            "amount2026": 89
+          },
+          "defense-佐賀県-上峰町": {
+            "amount2026": 27
+          },
+          "defense-佐賀県-吉野ヶ里町": {
+            "amount2026": 27
+          },
+          "defense-北海道-上富良野町": {
+            "amount2026": 60
+          },
+          "defense-北海道-中富良野町": {
+            "amount2026": 30
+          },
+          "defense-北海道-別海町": {
+            "amount2026": 88
+          },
+          "defense-北海道-北広島市": {
+            "amount2026": 74
+          },
+          "defense-北海道-千歳市": {
+            "amount2026": 493
+          },
+          "defense-北海道-厚岸町": {
+            "amount2026": 88
+          },
+          "defense-北海道-富良野市": {
+            "amount2026": 30
+          },
+          "defense-北海道-恵庭市": {
+            "amount2026": 209
+          },
+          "defense-北海道-浜中町": {
+            "amount2026": 44
+          },
+          "defense-北海道-白老町": {
+            "amount2026": 26
+          },
+          "defense-北海道-苫小牧市": {
+            "amount2026": 79
+          },
+          "defense-北海道-鹿追町": {
+            "amount2026": 37
+          },
+          "defense-千葉県-木更津市": {
+            "amount2026": 69
+          },
+          "defense-千葉県-柏市": {
+            "amount2026": 56
+          },
+          "defense-千葉県-鎌ヶ谷市": {
+            "amount2026": 48
+          },
+          "defense-埼玉県-入間市": {
+            "amount2026": 85
+          },
+          "defense-埼玉県-狭山市": {
+            "amount2026": 110
+          },
+          "defense-大分県-九重町": {
+            "amount2026": 46
+          },
+          "defense-大分県-玖珠町": {
+            "amount2026": 113
+          },
+          "defense-大分県-由布市": {
+            "amount2026": 55
+          },
+          "defense-宮城県-大和町": {
+            "amount2026": 77
+          },
+          "defense-宮城県-大衡村": {
+            "amount2026": 75
+          },
+          "defense-宮城県-東松島市": {
+            "amount2026": 81
+          },
+          "defense-宮城県-石巻市": {
+            "amount2026": 48
+          },
+          "defense-宮城県-色麻町": {
+            "amount2026": 73
+          },
+          "defense-宮崎県-えびの市": {
+            "amount2026": 33
+          },
+          "defense-宮崎県-新富町": {
+            "amount2026": 169
+          },
+          "defense-宮崎県-西都市": {
+            "amount2026": 61
+          },
+          "defense-山口県-岩国市": {
+            "amount2026": 429
+          },
+          "defense-山梨県-富士吉田市": {
+            "amount2026": 119
+          },
+          "defense-山梨県-山中湖村": {
+            "amount2026": 37
+          },
+          "defense-山梨県-忍野村": {
+            "amount2026": 32
+          },
+          "defense-岐阜県-各務原市": {
+            "amount2026": 144
+          },
+          "defense-岡山県-奈義町": {
+            "amount2026": 68
+          },
+          "defense-岡山県-津山市": {
+            "amount2026": 38
+          },
+          "defense-岩手県-八幡平市": {
+            "amount2026": 30
+          },
+          "defense-岩手県-滝沢市": {
+            "amount2026": 94
+          },
+          "defense-広島県-呉市": {
+            "amount2026": 118
+          },
+          "defense-広島県-東広島市": {
+            "amount2026": 32
+          },
+          "defense-広島県-江田島市": {
+            "amount2026": 29
+          },
+          "defense-徳島県-松茂町": {
+            "amount2026": 67
+          },
+          "defense-愛知県-小牧市": {
+            "amount2026": 47
+          },
+          "defense-愛知県-春日井市": {
+            "amount2026": 54
+          },
+          "defense-愛知県-豊山町": {
+            "amount2026": 32
+          },
+          "defense-新潟県-上越市": {
+            "amount2026": 39
+          },
+          "defense-新潟県-妙高市": {
+            "amount2026": 41
+          },
+          "defense-東京都-小笠原村": {
+            "amount2026": 41
+          },
+          "defense-東京都-昭島市": {
+            "amount2026": 317
+          },
+          "defense-東京都-武蔵村山市": {
+            "amount2026": 98
+          },
+          "defense-東京都-瑞穂町": {
+            "amount2026": 302
+          },
+          "defense-東京都-福生市": {
+            "amount2026": 207
+          },
+          "defense-東京都-立川市": {
+            "amount2026": 167
+          },
+          "defense-東京都-羽村市": {
+            "amount2026": 94
+          },
+          "defense-栃木県-宇都宮市": {
+            "amount2026": 44
+          },
+          "defense-沖縄県-うるま市": {
+            "amount2026": 68
+          },
+          "defense-沖縄県-久米島町": {
+            "amount2026": 58
+          },
+          "defense-沖縄県-伊江村": {
+            "amount2026": 111
+          },
+          "defense-沖縄県-北中城村": {
+            "amount2026": 43
+          },
+          "defense-沖縄県-北谷町": {
+            "amount2026": 397
+          },
+          "defense-沖縄県-名護市": {
+            "amount2026": 95
+          },
+          "defense-沖縄県-嘉手納町": {
+            "amount2026": 461
+          },
+          "defense-沖縄県-国頭村": {
+            "amount2026": 21
+          },
+          "defense-沖縄県-宜野座村": {
+            "amount2026": 118
+          },
+          "defense-沖縄県-宜野湾市": {
+            "amount2026": 125
+          },
+          "defense-沖縄県-恩納村": {
+            "amount2026": 74
+          },
+          "defense-沖縄県-東村": {
+            "amount2026": 38
+          },
+          "defense-沖縄県-沖縄市": {
+            "amount2026": 468
+          },
+          "defense-沖縄県-浦添市": {
+            "amount2026": 58
+          },
+          "defense-沖縄県-渡名喜村": {
+            "amount2026": 73
+          },
+          "defense-沖縄県-読谷村": {
+            "amount2026": 78
+          },
+          "defense-沖縄県-那覇市": {
+            "amount2026": 53
+          },
+          "defense-沖縄県-金武町": {
+            "amount2026": 136
+          },
+          "defense-滋賀県-高島市": {
+            "amount2026": 89
+          },
+          "defense-熊本県-山都町": {
+            "amount2026": 53
+          },
+          "defense-石川県-加賀市": {
+            "amount2026": 70
+          },
+          "defense-石川県-小松市": {
+            "amount2026": 246
+          },
+          "defense-神奈川県-大和市": {
+            "amount2026": 167
+          },
+          "defense-神奈川県-座間市": {
+            "amount2026": 47
+          },
+          "defense-神奈川県-横須賀市": {
+            "amount2026": 246
+          },
+          "defense-神奈川県-相模原市": {
+            "amount2026": 45
+          },
+          "defense-神奈川県-綾瀬市": {
+            "amount2026": 142
+          },
+          "defense-神奈川県-藤沢市": {
+            "amount2026": 85
+          },
+          "defense-神奈川県-逗子市": {
+            "amount2026": 58
+          },
+          "defense-福岡県-みやこ町": {
+            "amount2026": 45
+          },
+          "defense-福岡県-岡垣町": {
+            "amount2026": 45
+          },
+          "defense-福岡県-水巻町": {
+            "amount2026": 42
+          },
+          "defense-福岡県-築上町": {
+            "amount2026": 112
+          },
+          "defense-福岡県-芦屋町": {
+            "amount2026": 63
+          },
+          "defense-福岡県-行橋市": {
+            "amount2026": 97
+          },
+          "defense-福岡県-遠賀町": {
+            "amount2026": 42
+          },
+          "defense-福島県-天栄村": {
+            "amount2026": 23
+          },
+          "defense-福島県-西郷村": {
+            "amount2026": 50
+          },
+          "defense-群馬県-榛東村": {
+            "amount2026": 64
+          },
+          "defense-群馬県-高崎市": {
+            "amount2026": 39
+          },
+          "defense-茨城県-土浦市": {
+            "amount2026": 31
+          },
+          "defense-茨城県-小美玉市": {
+            "amount2026": 123
+          },
+          "defense-茨城県-行方市": {
+            "amount2026": 56
+          },
+          "defense-茨城県-鉾田市": {
+            "amount2026": 115
+          },
+          "defense-茨城県-阿見町": {
+            "amount2026": 35
+          },
+          "defense-長崎県-佐世保市": {
+            "amount2026": 170
+          },
+          "defense-長崎県-大村市": {
+            "amount2026": 33
+          },
+          "defense-長崎県-西海市": {
+            "amount2026": 47
+          },
+          "defense-青森県-むつ市": {
+            "amount2026": 65
+          },
+          "defense-青森県-三沢市": {
+            "amount2026": 406
+          },
+          "defense-青森県-八戸市": {
+            "amount2026": 58
+          },
+          "defense-青森県-六ヶ所村": {
+            "amount2026": 312
+          },
+          "defense-青森県-東北町": {
+            "amount2026": 93
+          },
+          "defense-青森県-東通村": {
+            "amount2026": 29
+          },
+          "defense-静岡県-小山町": {
+            "amount2026": 130
+          },
+          "defense-静岡県-御殿場市": {
+            "amount2026": 232
+          },
+          "defense-静岡県-浜松市": {
+            "amount2026": 97
+          },
+          "defense-静岡県-裾野市": {
+            "amount2026": 113
+          },
+          "defense-鳥取県-境港市": {
+            "amount2026": 61
+          },
+          "defense-鳥取県-米子市": {
+            "amount2026": 46
+          },
+          "defense-鹿児島県-湧水町": {
+            "amount2026": 26
+          },
+          "defense-鹿児島県-鹿屋市": {
+            "amount2026": 69
+          }
+        },
         "checked_public_rows": 122,
         "printed_numeric_rows": 122,
         "not_listed_rows": 0

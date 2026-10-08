@@ -145,6 +145,34 @@ def main():
                     period2025='2025年4〜6月', period2026='2026年4〜6月',
                     note='前年同期比較。繰越分などを含む。支出時期の違いがあるため、年間配分の減額を意味しない。')
 
+    # The July cumulative column includes Q1; never add these two series.
+    monthly={}; previous={}
+    for year,date,slug in [(2025,'2025-09-19','0707'),(2026,'2026-09-18','0807')]:
+        text=(RAW/f'monthly-{year}.txt').read_text()
+        url=f'https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/fy{year}/{slug}b.html'
+        source(f'mof-july-{year}',f'monthly-{year}.txt',f'{year}年度国庫歳入歳出状況：7月末歳出',url,
+               '一般会計。支出済歳出額の「計」列（4〜7月累計）、千円未満切捨て。',text,date)
+        source(f'mof-july-announcement-{year}',f'monthly-{year}-announcement.txt',f'{year}年度7月末状況の公表日',
+               url.replace('b.html','a.html'),'公表日と対象月の説明。歳入額を歳出比較には使用しない。',published=date)
+        monthly[year]={};previous[year]={}
+        for line in text.splitlines():
+            cells=[c.strip() for c in line.split('|')[1:-1]]
+            if not cells or cells[0] not in names+['合計']:continue
+            name=cells[0]
+            if cells[4]=='-':continue
+            monthly[year][name]=int(cells[4].replace(',',''))/1000
+            previous[year][name]=int(cells[3].replace(',',''))/1000
+        assert len(monthly[year])==19
+    assert monthly[2025]['合計']==42254458.573 and monthly[2026]['合計']==45665915.744
+    for name in sorted((set(monthly[2025])&set(monthly[2026]))-{'合計'}):
+        q=next(r for r in ROWS if r['id']==f'q1-{name}')
+        assert all(abs(previous[y][name]-q[f'amount{y}'])<0.002 for y in [2025,2026])
+        row(f'july-{name}',name,'所管別支出済歳出額（7月末累計）','全国','執行額（4〜7月累計）',
+            monthly[2025][name],monthly[2026][name],
+            ['mof-july-2025','mof-july-2026','mof-july-announcement-2025','mof-july-announcement-2026'],
+            period2025='2025年4〜7月',period2026='2026年4〜7月',
+            note='同じ7月末までの累計を前年同期比較。4〜6月分を含むため四半期表と合算しない。支出時期・繰越等の影響を含み、地域への配分額や年間予算の増減ではない。')
+
     def grant(file, id, year):
         raw = (RAW/file).read_text()
         pos = raw.index('普通交付税 都道府県別決定額')
@@ -178,11 +206,16 @@ def main():
 
     # MAFF filenames are NOT prefectural codes; identify actual names inside each table.
     agricultural = {}
+    for year,date in [(2025,'2025-04-01'),(2026,'2026-04-07')]:
+        source(f'maff-announcement-{year}',f'maff-{year}-announcement.txt',f'{year}年度農水省当初配分の発表',
+               f'https://www.maff.go.jp/j/budget/kasyo/{year-2018}tousyo/index.html',
+               '配分発表の入口。交付金は参考として都道府県別配分予定額を掲載。個別PDFの更新日時ではない。',published=date)
     for f in sorted(RAW.glob('maff-*.txt')):
+        if not re.fullmatch(r'maff-\d{4}-\d+\.txt',f.name):continue
         year = int(f.name.split('-')[1]); t = f.read_text()
         id = f.stem; url = re.search(r'URL: (\S+)',t)[1]
         source(id, f.name, f'{year}年度農林水産公共事業：交付金配分予定額', url,
-               '交付金表（国費、百万円）。配分予定額であり執行額ではない。', t,
+               '交付金表（国費、百万円）。配分予定額であり執行額ではない。公表日は当初配分発表の入口による。', t,
                '2025-04-01' if year==2025 else '2026-04-07')
         clean = re.sub(r'[|\s]+', ' ', t)
         for p in PREFS:
@@ -193,7 +226,7 @@ def main():
     for (p,program), values in sorted(agricultural.items()):
         a, sa=values.get(2025,(None,None)); b,sb=values.get(2026,(None,None))
         row(f'maff-{p}-{program}', '農林水産省', program, p, '当初配分（予定国費）', a,b,
-            [v for v in [sa,sb] if v], scope='都道府県分', precision='百万円に丸めた表示値',
+            [v for v in [sa,sb] if v]+[f'maff-announcement-{year}' for year in values], scope='都道府県分', precision='百万円に丸めた表示値',
             comparability='同範囲' if a is not None and b is not None else '片年度未取得',
             note='配分予定額。直轄・補助の事業費（地方負担を含む）と合算しない。未掲載や抽出不能はゼロとしない。')
 
@@ -203,6 +236,9 @@ def main():
         source(id,file,f'{year}年度地域介護・福祉空間整備等施設整備交付金：一次協議',url,
                '都道府県分、計画数と'+('内示額' if year==2025 else '計画額')+'（千円）。指定都市・中核市は別枠。',t[start:],
                '2025-10-24' if year==2025 else '2026-06-26')
+        source(f'care-announcement-{year}',f'care-{year}-announcement.txt',f'{year}年度一次協議内示の公式発表',
+               f'https://www.mhlw.go.jp/stf/hard{year}-1_0000{3 if year==2025 else 1}.html',
+               '対象PDFの発表ページ、公表日の根拠。',published='2025-10-24' if year==2025 else '2026-06-26')
         out={}
         for l in t[start:].splitlines():
             if not l.startswith('|'):continue
@@ -216,7 +252,7 @@ def main():
     a=care('source-9-2.txt',2025);b=care('source-9-1.txt',2026)
     for p in PREFS:
         row(f'care-{p}','厚生労働省','地域介護・福祉空間整備等施設整備交付金',p,
-            '一次協議内示（公表・更新時点差）',a[p][0],b[p][0],['care-2025','care-2026'],
+            '一次協議内示（公表・更新時点差）',a[p][0],b[p][0],['care-2025','care-2026','care-announcement-2025','care-announcement-2026'],
             scope='都道府県分（指定都市・中核市を除く）',plans2025=a[p][1],plans2026=b[p][1],
             comparability='参考・更新時点差',
             note='2025年10月24日更新の内示額と2026年度一次協議の計画額を参考比較。2025原本は従前内示からの変更箇所を明記。2026原本は国土強靱化対策分を内数として掲載。金額列の名称と更新時点が異なり、当初予算額や執行額として扱わない。計画件数・採択段階・完了の確認が必要。')
@@ -319,7 +355,9 @@ def main():
             r['source_ids'].extend(f'mof-csv-{category}-{year}' for year in (2025,2026))
     original_coverage=apply_originals(ROOT,SOURCES,ROWS)
     for s in SOURCES:
-        if s['id'] in ('care-2026','mlit-inquiry'):
+        if s['id']=='care-2026':
+            s['published_verification']='6月26日の公式発表頁と掲載PDFは原本確認済み。収載PDFとはURLが異なり47金額・計画数は一致するが、収載PDF自体の版・公表日は未確定。'
+        elif s['id']=='mlit-inquiry':
             s['published_verification']='検索抽出時の記録。公表日の掲載頁原本照合は未実施。'
 
     agencies = {
@@ -342,13 +380,13 @@ def main():
                                  status='母省の総額に含む・単独比較未実施',note='所属機関ごとの事業・地域配分を別途照合する必要がある。'))
     snapshot = dict(schema_version=1, as_of=DATE, prefectures=PREFS, rows=ROWS, coverage=coverage,
                     annual2025=dict(spent_million_yen=129466100,source_id='mof-annual-2025',
-                                    note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期執行額とは別扱い。'),
+                                    note='2025年度年間の決算概要。2026年度は年度未終了のため年間決算は存在しない。前年同期の四半期・月末累計執行額とは別扱い。'),
                     sources=SOURCES, legislators=legislators,party_roster_stats=party_roster_stats,
                     original_coverage=original_coverage,
                     party_coverage=dict(verified=party_count,conflicts=party_conflicts,total=len(legislators)),
                     limitations=[
                         '全府省庁の地域別・事業別配分と執行額の網羅調査は継続中。所管総額の確認を地域調査完了とは扱わない。',
-                        '一般会計19所管、特別会計14会計34勘定等、第1四半期支出、一部制度の地域配分を収載。道路の都道府県・地方整備局別事業費を追加。国費と事業費を合算しない。特別会計の府省別・地域別分解は未収載。',
+                        '一般会計19所管、特別会計14会計34勘定等、第1四半期・7月末累計支出、一部制度の地域配分を収載。道路の都道府県・地方整備局別事業費を追加。国費と事業費を合算しない。特別会計の府省別・地域別分解は未収載。',
                         f'原本数値を両年度照合した比較行は{original_coverage["fully_verified_comparison_rows"]}件。原本未掲載の値は欠損のまま残す。抽出本文と原本ファイルのハッシュは別に保存。議員名簿の統一時点での原本照合は未完了。',
                         f'所属党は{party_count}人を一次資料で照合。{party_conflicts}人は資料間不一致。未照合を会派から推定しない。党の一覧は資料日未確認で、取得日を所属の基準日とは扱わない。',
                         '現在の名簿と2025/2026年度の配分決定時点の議員は一致しない。政治的因果関係の検証には当時の名簿が必要。'])

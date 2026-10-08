@@ -60,6 +60,8 @@ www.pref.tochigi.lg.jp
 
 ```text
 www.jimin.jp
+www.jimin-aichi.or.jp
+sanseito-aichi.com
 o-ishin.jp
 new-kokumin.jp
 craj.jp
@@ -80,6 +82,6 @@ www.komei.or.jp
 python3 scripts/fetch_sources.py --limit 1
 ```
 
-成功時は`downloaded`、失敗時は`blocked_or_failed`と表示し、原本はGit対象外の`.cache/originals/`へ保存します。原本の取得だけで数値照合が完了したとは扱いません。党のページはこの取得スクリプトの対象外です。
+成功時は`downloaded`、失敗時は`blocked_or_failed`と表示し、原本はGit対象外の`.cache/originals/`へ保存します。`failure_category: proxy_connect_denied`と`http_status: 403`が出た場合は、プロキシのCONNECT段階で拒否されています。これは接続先サーバーから返る`http_error`とは区別します。診断には認証情報・生のプロキシ例外・ヘッダーを記録しません。原本の取得だけで数値照合が完了したとは扱いません。党のページはこの取得スクリプトの対象外です。
 
 EnterpriseワークスペースのAgent Securityによる制限が表示され、編集できない場合は管理者による設定が必要です。公式手順では、環境の通信許可とワークスペースの制限の両方が適用されます。

@@ -1,5 +1,8 @@
 """Join reviewed party rosters; a caucus label is never a party assignment."""
 import re
+import json
+import hashlib
+from urllib.parse import urlsplit
 import unicodedata
 
 PARTIES = {
@@ -87,6 +90,7 @@ def apply_party_rosters(members, root, source, checked_at):
                     checked_at=checked_at,source_id=source_id,method='党公式の現職国会議員欄',
                     roster_name=entry[0],roster_reading=entry[1]))
         stats[party]=dict(extracted=len(records),matched=len(matched))
+    apply_reviewed_profiles(members, root, source, checked_at)
     for m in members:
         options={e['party'] for e in m['party_evidence']}
         if len(options)>1:
@@ -98,3 +102,34 @@ def apply_party_rosters(members, root, source, checked_at):
         else:
             m.update(party_status='未照合')
     return stats
+
+
+def reviewed_profiles(root):
+    registry=json.loads((root.parent/'party-profile-evidence.json').read_text())
+    for s in registry['sources']:
+        u=urlsplit(s['url'])
+        assert u.scheme=='https' and not u.username and not u.password and u.port in (None,443)
+        assert u.hostname in {'www.jimin.jp','www.jimin-aichi.or.jp','sanseito-aichi.com'}
+        assert re.fullmatch(r'party-[a-z0-9-]+\.txt',s['filename'])
+        assert s['as_of'] is None  # These selected pages do not establish a dated party history.
+        assert hashlib.sha256((root/s['filename']).read_bytes()).hexdigest()==s['sha256']
+    return registry
+
+
+def apply_reviewed_profiles(members, root, source, checked_at):
+    registry=reviewed_profiles(root)
+    sources={s['id']:s for s in registry['sources']}
+    people={m['id']:m for m in members}
+    for s in sources.values():
+        source(s['id'],s['filename'],'所属党：個別プロフィール・県連の現職議員欄',s['url'],
+               s['method']+'。資料日未確認、確認日を党籍の基準日に読み替えない。',
+               (root/s['filename']).read_text(),kind='所属党')
+    for e in registry['entries']:
+        s=sources[e['source_id']]
+        assert e['party_source']==s['url'] and e['party_as_of'] is None
+        m=people.get(e['member_id'])
+        if m is None:continue  # Unit tests can pass a subset of the national roster.
+        assert m['name']==e['member_name'] and m['chamber']==e['chamber']
+        assert m['district']==e['district']
+        m['party_evidence'].append(dict(party=e['party'],url=s['url'],as_of=None,
+            checked_at=checked_at,source_id=s['id'],method=e['method'],roster_name=e['roster_name']))
